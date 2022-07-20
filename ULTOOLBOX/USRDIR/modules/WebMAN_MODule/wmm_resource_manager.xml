@@ -1,0 +1,33 @@
+<XMBML version="1.0">
+	<View id="manage_wmm_hdd_resources">
+		<Attributes>
+			<Table key="wmm_resources">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_web.png</></Pair>
+				<Pair key="title"><>webMAN MOD Resources</></Pair>
+				<Pair key="info"><>Manage wmm specific files in dev_hdd0/tmp/</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_resources" attr="wmm_resources" src="#wmm_resources_items"/>
+		</Items>
+	</View>
+
+	<View id="wmm_resources_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_bootsound_settings" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/Coldboot_Sounds.xml#wmm_bootsound_settings_menu_resources"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_bootsound_remove" src="xmb://localhost/dev_hdd0/tmp/coldboot/wmm_bootsound_remap.xml#remove_bootsound_remap_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wave_settings" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/New_Waves.xml#wmm_wave_settings_items_resources"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wave_remove" src="xmb://localhost/dev_hdd0/tmp/lines/wmm_wave_remap.xml#remove_wave_remap_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_gaia_setting" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/Gaia_Mods.xml#wmm_gaia_settings_items_resources"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_gaia_remove" src="xmb://localhost/dev_hdd0/tmp/earth/wmm_gaia_remap.xml#remove_gaia_remap_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_canyon_setting" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_canyon_settings.xml#wmm_canyon_settings_items_resources"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_canyon_remove" src="xmb://localhost/dev_hdd0/tmp/canyon/wmm_canyon_remap.xml#remove_canyon_remap_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_impose_setting" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_impose_settings.xml#wmm_impose_settings_items_resources"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_impose_remove" src="xmb://localhost/dev_hdd0/tmp/impose/wmm_impose_remap.xml#remove_impose_remap_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_setting" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_wallpaper_settings.xml#wmm_wallpaper_resources"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_remove" src="xmb://localhost/dev_hdd0/tmp/wallpaper/wmm_wallpaper_remap.xml#remove_wallpaper_remap_item"/>
+		</Items>
+	</View>
+</XMBML>

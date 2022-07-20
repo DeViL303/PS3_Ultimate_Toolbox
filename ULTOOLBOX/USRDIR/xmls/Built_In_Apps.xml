@@ -1,0 +1,45 @@
+<XMBML version="1.0">
+	<View id="built_in_apps">
+		<Attributes>
+			<Table key="built_in">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_xmbm.png</></Pair>
+				<Pair key="title"><>Built In Applications</></Pair>
+				<Pair key="info"><>Category HM Applications show here</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="built_in" attr="built_in" src="#seg_built_in_apps_items"/>
+		</Items>
+	</View>
+
+	<View id="seg_built_in_apps_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="built_in_hm" attr="built_in_hm" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=-Game:Common.timeCreated&cond=Ae+Game:Game.category HM" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_built_in_pkgs" src="#seg_built_in_pkgs"/>
+		</Items>
+	</View>
+
+	<View id="seg_built_in_pkgs">
+		<Attributes>
+			<Table key="built_in_pkgs">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package_folder.png</></Pair>
+				<Pair key="title"><>Install Built in Applications</></Pair>
+				<Pair key="info"><>Install pkgs from ULTOOLBOX/USRDIR/packages</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="built_in_pkgs" attr="built_in_pkgs" src="#built_in_pkgs_items"/>
+		</Items>
+	</View>
+
+	<View id="built_in_pkgs_items">
+		<Items>
+			<Query class="type:x-xmb/xmlpackagefolder" key="host_provider_flash" src="host://localhost/q?path=/dev_hdd0/game/ULTOOLBOX/USRDIR/packages&suffix=.pkg&subclass=x-host/package"/>
+		</Items>
+	</View>
+
+</XMBML>

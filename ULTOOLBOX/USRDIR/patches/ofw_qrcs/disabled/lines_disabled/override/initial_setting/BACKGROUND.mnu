@@ -1,0 +1,16 @@
+#MNU_1.0
+1 RED:float:0
+1 GREEN:float:0
+1 BLUE:float:0
+2 RED:float:0
+2 GREEN:float:0
+2 BLUE:float:0
+3 RED:float:0
+3 GREEN:float:0
+3 BLUE:float:0
+4 RED:float:0
+4 GREEN:float:0
+4 BLUE:float:0
+FOVY:float:0
+COLOUR SHADER:int:0
+

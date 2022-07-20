@@ -1,0 +1,206 @@
+<XMBML version="1.0">
+
+	<View id="firmware_switcher_items">
+		<Attributes>
+			<Table key="seg_firmware_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current Firmware State</></Pair>
+				<Pair key="info"><>Save dev_flash in its current state to dev_hdd0 or dev_usb000.</></Pair>
+			</Table>
+			<Table key="seg_firmware_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_flash.png</></Pair>
+				<Pair key="title"><>Restore Firmware State 1</></Pair>
+				<Pair key="info"><>Copy dev_flash from dev_hdd0/tmp/backup/dev_flash01/</></Pair>
+			</Table>
+			<Table key="seg_firmware_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_flash.png</></Pair>
+				<Pair key="title"><>Restore Firmware State 2</></Pair>
+				<Pair key="info"><>Copy dev_flash from dev_hdd0/tmp/backup/dev_flash02/</></Pair>
+			</Table>
+			<Table key="seg_firmware_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_flash.png</></Pair>
+				<Pair key="title"><>Restore Firmware State 3</></Pair>
+				<Pair key="info"><>Copy dev_flash from dev_hdd0/tmp/backup/dev_flash03/</></Pair>
+			</Table>
+			<Table key="seg_firmware_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_flash.png</></Pair>
+				<Pair key="title"><>Restore Firmware State from dev_usb000</></Pair>
+				<Pair key="info"><>Copy dev_flash from dev_usb000/dev_flash/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_firmware_backup" attr="seg_firmware_backup" src="#seg_firmware_backup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_firmware_1" attr="seg_firmware_1" src="#seg_firmware_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_firmware_2" attr="seg_firmware_2" src="#seg_firmware_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_firmware_3" attr="seg_firmware_3" src="#seg_firmware_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_firmware_usb" attr="seg_firmware_usb" src="#seg_firmware_usb_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_firmware_1_item">
+		<Attributes>
+			<Table key="seg_firmware_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current dev_flash will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Wait for auto reboot, Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/dev_flash01#/dev_blind#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_firmware_1_item" attr="seg_firmware_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_firmware_2_item">
+		<Attributes>
+			<Table key="seg_firmware_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current dev_flash will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Wait for auto reboot, Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/dev_flash02#/dev_blind#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_firmware_2_item" attr="seg_firmware_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_firmware_3_item">
+		<Attributes>
+			<Table key="seg_firmware_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current dev_flash will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Wait for auto reboot, Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/dev_flash03#/dev_blind#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_firmware_3_item" attr="seg_firmware_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_firmware_usb_item">
+		<Attributes>
+			<Table key="seg_firmware_usb_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Copy dev_flash from root of USB000 to dev_flash2?</></Pair>
+				<Pair key="info"><>Wait for auto reboot, Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/dev_flash#/dev_blind#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_firmware_usb_item" attr="seg_firmware_usb_item" />
+		</Items>
+	</View>
+
+	<View id="seg_firmware_backup_items">
+		<Attributes>
+			<Table key="seg_backup_firmware_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current dev_flash to Save State Slot 1</></Pair>
+				<Pair key="info"><>Copy dev_flash to dev_hdd/tmp/dev_flash01/</></Pair>
+			</Table>
+			<Table key="seg_backup_firmware_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current dev_flash to Save State Slot 2</></Pair>
+				<Pair key="info"><>Copy dev_flash to dev_hdd/tmp/dev_flash02/</></Pair>
+			</Table>
+			<Table key="seg_backup_firmware_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current dev_flash to Save State Slot 3</></Pair>
+				<Pair key="info"><>Copy dev_flash to dev_hdd/tmp/dev_flash03/</></Pair>
+			</Table>
+			<Table key="seg_backup_firmware_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_usb.png</></Pair>
+				<Pair key="title"><>Backup Current dev_flash to root of dev_usb000</></Pair>
+				<Pair key="info"><>Copy dev_flash to dev_usb000/dev_flash/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_firmware_1" attr="seg_backup_firmware_1" src="#seg_backup_firmware_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_firmware_2" attr="seg_backup_firmware_2" src="#seg_backup_firmware_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_firmware_3" attr="seg_backup_firmware_3" src="#seg_backup_firmware_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_firmware_usb" attr="seg_backup_firmware_usb" src="#seg_backup_firmware_usb_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_backup_firmware_1_item">
+		<Attributes>
+			<Table key="seg_backup_firmware_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Backup in slot 1 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Do NOT switch of your console, Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash#/dev_hdd0/tmp/backup/dev_flash01</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_firmware_1_item" attr="seg_backup_firmware_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_firmware_2_item">
+		<Attributes>
+			<Table key="seg_backup_firmware_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Backup in slot 2 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Do NOT switch of your console, Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash#/dev_hdd0/tmp/backup/dev_flash02</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_firmware_2_item" attr="seg_backup_firmware_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_firmware_3_item">
+		<Attributes>
+			<Table key="seg_backup_firmware_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Backup in slot 3 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Do NOT switch of your console, Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash#/dev_hdd0/tmp/backup/dev_flash03</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_firmware_3_item" attr="seg_backup_firmware_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_firmware_usb_item">
+		<Attributes>
+			<Table key="seg_backup_firmware_usb_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>Backup current dev_flash to root of dev_usb000?</></Pair>
+				<Pair key="info"><>Do NOT switch of your console, Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash#/dev_usb000/dev_flash</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_firmware_usb_item" attr="seg_backup_firmware_usb_item" />
+		</Items>
+	</View>
+</XMBML>

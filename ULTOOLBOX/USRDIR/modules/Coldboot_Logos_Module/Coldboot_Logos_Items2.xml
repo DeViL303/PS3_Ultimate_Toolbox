@@ -1,0 +1,1624 @@
+﻿<XMBML version="1.0">
+
+	<View id="install_coldboots_greyscale_items">
+		<Attributes>
+			<Table key="seg_coldboot_greyscale_001">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/1.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 001</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_002">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/2.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 002</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_003">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/3.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 003</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_004">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/4.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 004</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_005">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/5.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 005</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_006">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/6.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 006</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_007">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/7.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 007</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_008">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/8.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 008</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_009">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/9.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 009</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_010">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/10.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 010</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_011">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/11.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 011</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_012">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/12.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 012</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_013">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/13.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 013</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_014">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/14.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 014</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_015">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/15.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 015</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_016">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/16.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 016</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_017">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/17.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 017</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/18.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 018</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/19.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 019</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/20.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 020</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/21.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 021</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_022">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/22.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 022</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_023">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/23.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 023</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_024">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/24.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 024</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_025">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/25.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 025</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_026">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/26.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 026</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_027">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/27.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 027</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_028">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/28.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 028</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_029">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/29.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 029</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_030">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/30.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 030</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_031">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/31.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 031</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_032">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/32.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 032</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_033">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/33.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 033</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_034">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/34.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 034</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_035">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/35.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 035</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_036">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/36.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 036</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_037">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/37.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 037</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_038">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/38.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 038</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_039">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/39.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 039</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_040">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/40.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 040</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_041">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/41.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 041</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_042">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/42.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 042</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_043">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/43.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 043</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_044">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/44.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 044</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_045">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/45.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 045</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_046">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/46.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 046</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_047">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/47.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 047</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_048">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/48.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 048</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_049">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/49.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 049</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_050">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/50.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 050</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_051">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/51.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 051</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_052">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/52.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 052</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_053">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/53.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 053</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_054">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/54.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 054</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_055">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/55.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 055</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_056">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/56.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 056</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_057">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/57.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 057</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_058">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/58.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 058</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_059">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/59.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 059</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_060">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/60.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 060</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_061">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/61.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 061</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_062">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/62.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 062</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+			<Table key="seg_coldboot_greyscale_063">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_icons/63.jpg</></Pair>
+				<Pair key="title"><>Install Greyscale Coldboot 063</></Pair>
+				<Pair key="info"><>Copy this coldboot logo to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_001" attr="seg_coldboot_greyscale_001" src="#seg_coldboot_greyscale_001_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_002" attr="seg_coldboot_greyscale_002" src="#seg_coldboot_greyscale_002_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_003" attr="seg_coldboot_greyscale_003" src="#seg_coldboot_greyscale_003_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_004" attr="seg_coldboot_greyscale_004" src="#seg_coldboot_greyscale_004_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_005" attr="seg_coldboot_greyscale_005" src="#seg_coldboot_greyscale_005_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_006" attr="seg_coldboot_greyscale_006" src="#seg_coldboot_greyscale_006_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_007" attr="seg_coldboot_greyscale_007" src="#seg_coldboot_greyscale_007_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_008" attr="seg_coldboot_greyscale_008" src="#seg_coldboot_greyscale_008_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_009" attr="seg_coldboot_greyscale_009" src="#seg_coldboot_greyscale_009_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_010" attr="seg_coldboot_greyscale_010" src="#seg_coldboot_greyscale_010_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_011" attr="seg_coldboot_greyscale_011" src="#seg_coldboot_greyscale_011_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_012" attr="seg_coldboot_greyscale_012" src="#seg_coldboot_greyscale_012_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_013" attr="seg_coldboot_greyscale_013" src="#seg_coldboot_greyscale_013_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_014" attr="seg_coldboot_greyscale_014" src="#seg_coldboot_greyscale_014_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_015" attr="seg_coldboot_greyscale_015" src="#seg_coldboot_greyscale_015_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_016" attr="seg_coldboot_greyscale_016" src="#seg_coldboot_greyscale_016_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_017" attr="seg_coldboot_greyscale_017" src="#seg_coldboot_greyscale_017_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_018" attr="seg_coldboot_greyscale_018" src="#seg_coldboot_greyscale_018_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_019" attr="seg_coldboot_greyscale_019" src="#seg_coldboot_greyscale_019_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_020" attr="seg_coldboot_greyscale_020" src="#seg_coldboot_greyscale_020_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_021" attr="seg_coldboot_greyscale_021" src="#seg_coldboot_greyscale_021_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_022" attr="seg_coldboot_greyscale_022" src="#seg_coldboot_greyscale_022_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_023" attr="seg_coldboot_greyscale_023" src="#seg_coldboot_greyscale_023_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_024" attr="seg_coldboot_greyscale_024" src="#seg_coldboot_greyscale_024_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_025" attr="seg_coldboot_greyscale_025" src="#seg_coldboot_greyscale_025_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_026" attr="seg_coldboot_greyscale_026" src="#seg_coldboot_greyscale_026_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_027" attr="seg_coldboot_greyscale_027" src="#seg_coldboot_greyscale_027_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_028" attr="seg_coldboot_greyscale_028" src="#seg_coldboot_greyscale_028_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_029" attr="seg_coldboot_greyscale_029" src="#seg_coldboot_greyscale_029_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_030" attr="seg_coldboot_greyscale_030" src="#seg_coldboot_greyscale_030_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_031" attr="seg_coldboot_greyscale_031" src="#seg_coldboot_greyscale_031_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_032" attr="seg_coldboot_greyscale_032" src="#seg_coldboot_greyscale_032_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_033" attr="seg_coldboot_greyscale_033" src="#seg_coldboot_greyscale_033_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_034" attr="seg_coldboot_greyscale_034" src="#seg_coldboot_greyscale_034_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_035" attr="seg_coldboot_greyscale_035" src="#seg_coldboot_greyscale_035_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_036" attr="seg_coldboot_greyscale_036" src="#seg_coldboot_greyscale_036_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_037" attr="seg_coldboot_greyscale_037" src="#seg_coldboot_greyscale_037_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_038" attr="seg_coldboot_greyscale_038" src="#seg_coldboot_greyscale_038_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_039" attr="seg_coldboot_greyscale_039" src="#seg_coldboot_greyscale_039_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_040" attr="seg_coldboot_greyscale_040" src="#seg_coldboot_greyscale_040_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_041" attr="seg_coldboot_greyscale_041" src="#seg_coldboot_greyscale_041_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_042" attr="seg_coldboot_greyscale_042" src="#seg_coldboot_greyscale_042_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_043" attr="seg_coldboot_greyscale_043" src="#seg_coldboot_greyscale_043_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_044" attr="seg_coldboot_greyscale_044" src="#seg_coldboot_greyscale_044_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_045" attr="seg_coldboot_greyscale_045" src="#seg_coldboot_greyscale_045_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_046" attr="seg_coldboot_greyscale_046" src="#seg_coldboot_greyscale_046_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_047" attr="seg_coldboot_greyscale_047" src="#seg_coldboot_greyscale_047_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_048" attr="seg_coldboot_greyscale_048" src="#seg_coldboot_greyscale_048_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_049" attr="seg_coldboot_greyscale_049" src="#seg_coldboot_greyscale_049_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_050" attr="seg_coldboot_greyscale_050" src="#seg_coldboot_greyscale_050_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_051" attr="seg_coldboot_greyscale_051" src="#seg_coldboot_greyscale_051_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_052" attr="seg_coldboot_greyscale_052" src="#seg_coldboot_greyscale_052_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_053" attr="seg_coldboot_greyscale_053" src="#seg_coldboot_greyscale_053_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_054" attr="seg_coldboot_greyscale_054" src="#seg_coldboot_greyscale_054_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_055" attr="seg_coldboot_greyscale_055" src="#seg_coldboot_greyscale_055_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_056" attr="seg_coldboot_greyscale_056" src="#seg_coldboot_greyscale_056_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_057" attr="seg_coldboot_greyscale_057" src="#seg_coldboot_greyscale_057_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_058" attr="seg_coldboot_greyscale_058" src="#seg_coldboot_greyscale_058_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_059" attr="seg_coldboot_greyscale_059" src="#seg_coldboot_greyscale_059_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_060" attr="seg_coldboot_greyscale_060" src="#seg_coldboot_greyscale_060_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_061" attr="seg_coldboot_greyscale_061" src="#seg_coldboot_greyscale_061_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_062" attr="seg_coldboot_greyscale_062" src="#seg_coldboot_greyscale_062_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="seg_coldboot_greyscale_063" attr="seg_coldboot_greyscale_063" src="#seg_coldboot_greyscale_063_item" />
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_001_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_001_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/1.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_001_item" attr="coldboot_greyscale_001_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_002_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_002_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/2.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_002_item" attr="coldboot_greyscale_002_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_003_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_003_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/3.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_003_item" attr="coldboot_greyscale_003_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_004_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_004_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/4.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_004_item" attr="coldboot_greyscale_004_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_005_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_005_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/5.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_005_item" attr="coldboot_greyscale_005_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_006_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_006_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/6.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_006_item" attr="coldboot_greyscale_006_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_007_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_007_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/7.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_007_item" attr="coldboot_greyscale_007_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_008_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_008_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/8.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_008_item" attr="coldboot_greyscale_008_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_009_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_009_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/9.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_009_item" attr="coldboot_greyscale_009_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_010_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_010_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/10.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_010_item" attr="coldboot_greyscale_010_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_011_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_011_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/11.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_011_item" attr="coldboot_greyscale_011_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_012_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_012_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/12.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_012_item" attr="coldboot_greyscale_012_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_013_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_013_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/13.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_013_item" attr="coldboot_greyscale_013_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_014_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_014_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/14.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_014_item" attr="coldboot_greyscale_014_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_015_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_015_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/15.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_015_item" attr="coldboot_greyscale_015_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_016_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_016_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/16.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_016_item" attr="coldboot_greyscale_016_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_017_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_017_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/17.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_017_item" attr="coldboot_greyscale_017_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_018_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_018_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/18.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_018_item" attr="coldboot_greyscale_018_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_019_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_019_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/19.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_019_item" attr="coldboot_greyscale_019_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_020_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_020_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/20.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_020_item" attr="coldboot_greyscale_020_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_021_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_021_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/21.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_021_item" attr="coldboot_greyscale_021_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_022_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_022_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/22.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_022_item" attr="coldboot_greyscale_022_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_023_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_023_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/23.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_023_item" attr="coldboot_greyscale_023_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_024_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_024_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/24.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_024_item" attr="coldboot_greyscale_024_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_025_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_025_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/25.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_025_item" attr="coldboot_greyscale_025_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_026_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_026_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/26.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_026_item" attr="coldboot_greyscale_026_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_027_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_027_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/27.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_027_item" attr="coldboot_greyscale_027_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_028_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_028_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/28.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_028_item" attr="coldboot_greyscale_028_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_coldboot_greyscale_029_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_029_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/29.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_029_item" attr="coldboot_greyscale_029_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_030_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_030_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/30.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_030_item" attr="coldboot_greyscale_030_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_031_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_031_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/31.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_031_item" attr="coldboot_greyscale_031_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_032_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_032_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/32.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_032_item" attr="coldboot_greyscale_032_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_033_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_033_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/33.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_033_item" attr="coldboot_greyscale_033_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_034_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_034_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/34.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_034_item" attr="coldboot_greyscale_034_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_035_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_035_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/35.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_035_item" attr="coldboot_greyscale_035_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_036_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_036_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/36.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_036_item" attr="coldboot_greyscale_036_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_037_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_037_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/37.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_037_item" attr="coldboot_greyscale_037_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_038_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_038_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/38.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_038_item" attr="coldboot_greyscale_038_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_039_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_039_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/39.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_039_item" attr="coldboot_greyscale_039_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_040_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_040_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/40.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_040_item" attr="coldboot_greyscale_040_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_041_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_041_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/41.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_041_item" attr="coldboot_greyscale_041_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_042_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_042_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/42.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_042_item" attr="coldboot_greyscale_042_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_043_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_043_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/43.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_043_item" attr="coldboot_greyscale_043_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_044_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_044_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/44.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_044_item" attr="coldboot_greyscale_044_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_045_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_045_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/45.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_045_item" attr="coldboot_greyscale_045_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_046_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_046_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/46.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_046_item" attr="coldboot_greyscale_046_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_047_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_047_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/47.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_047_item" attr="coldboot_greyscale_047_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_048_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_048_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/48.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_048_item" attr="coldboot_greyscale_048_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_049_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_049_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/49.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_049_item" attr="coldboot_greyscale_049_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_050_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_050_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/50.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_050_item" attr="coldboot_greyscale_050_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_051_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_051_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/51.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_051_item" attr="coldboot_greyscale_051_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_052_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_052_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/52.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_052_item" attr="coldboot_greyscale_052_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_053_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_053_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/53.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_053_item" attr="coldboot_greyscale_053_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_054_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_054_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/54.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_054_item" attr="coldboot_greyscale_054_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_055_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_055_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/55.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_055_item" attr="coldboot_greyscale_055_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_056_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_056_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/56.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_056_item" attr="coldboot_greyscale_056_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_057_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_057_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/57.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_057_item" attr="coldboot_greyscale_057_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_058_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_058_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/58.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_058_item" attr="coldboot_greyscale_058_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_059_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_059_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/59.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_059_item" attr="coldboot_greyscale_059_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_060_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_060_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/60.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_060_item" attr="coldboot_greyscale_060_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_061_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_061_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/61.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_061_item" attr="coldboot_greyscale_061_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_062_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_062_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/62.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_062_item" attr="coldboot_greyscale_062_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_coldboot_greyscale_063_item">
+		<Attributes>
+			<Table key="coldboot_greyscale_063_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a coldboot.raf file to dev_blind/vsh/resource/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/coldboot_greyscale_logos/63.raf#/dev_blind/vsh/resource/coldboot.raf</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="coldboot_greyscale_063_item" attr="coldboot_greyscale_063_item"/>
+		</Items>
+		</View>
+</XMBML>

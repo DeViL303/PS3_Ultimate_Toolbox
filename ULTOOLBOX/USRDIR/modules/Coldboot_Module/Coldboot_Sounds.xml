@@ -1,0 +1,868 @@
+﻿<XMBML version="1.0">
+
+	<View id="remove_module_item">
+		<Attributes>
+			<Table key="remove_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove this module</></Pair>
+				<Pair key="info"><>Delete these resources from HDD (18MB)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_module"	attr="remove_module" src="#remove_module_action_item"/>
+		</Items>
+	</View>
+
+	<View id="remove_module_action_item">
+		<Attributes>
+			<Table key="remove_module_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Permanently delete these resources, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				Warning: To reverse this action you will need to download the Coldboot Sound Pack again!</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_module_action" attr="remove_module_action"/>
+		</Items>
+	</View>
+
+	<View id="wmm_bootsound_settings_menu">
+		<Attributes>
+			<Table key="seg_bootsound_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Coldboot Sounds to HDD</></Pair>
+				<Pair key="info"><>Copy all available coldboot*.ac3s to dev_hdd0/tmp/coldboot/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_bootsound_hdd" attr="seg_bootsound_hdd" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_bootsound_settings.xml#seg_bootsound_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="wmm_bootsound_settings_menu_resources">
+		<Attributes>
+			<Table key="seg_bootsound_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Coldboot Sounds to HDD</></Pair>
+				<Pair key="info"><>Copy all available coldboot*.ac3s to dev_hdd0/tmp/coldboot/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_bootsound_hdd" attr="seg_bootsound_hdd" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_bootsound_settings.xml#seg_bootsound_hdd_item_setup"/>
+		</Items>
+	</View>
+
+	<View id="install_bootsounds_items">
+		<Attributes>
+			<Table key="seg_boot_sound_001">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/1.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 01: Sony PS1</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_002">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/2.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 02: Sony PS2</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_003">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/3.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 03: Sony PSX boot Sound</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_004">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/4.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 04: Sony PS4</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_005">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/5.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 05: Sony PS5</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_006">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/6.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 06: Sony PSP</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_007">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/7.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 07: Original Xbox</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_008">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/8.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 08: Xbox 360</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_009">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/9.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 09: Xbox One</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_010">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/10.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 10: Xbox Series X</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_011">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/11.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 11: Windows 95</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_012">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/12.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 12: Windows 98</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_013">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/13.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 13: Windows 2000</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_014">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/14.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 14: Windows XP</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_015">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/15.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 15: Windows Vista</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_016">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/16.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 16: Sega Megadrive</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_017">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/17.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 17: Sega Dreamcast</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/18.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 18: Sega Saturn PAL</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/19.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 19: Sega Saturn NTSC</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/20.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 20: Nintendo Gamecube 1</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/21.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 21: Nintendo Gamecube 2</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_022">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/22.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 22: Nintendo Gamecube 3</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_023">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/23.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 23: Nintendo DS</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_024">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/24.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 24: Amiga CD32</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_025">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/25.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 25: MacOS9</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_026">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/26.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 26: PS3 0.90 Coldboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_027">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/27.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 27: PS3 0.95 Coldboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_028">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/28.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 28: PS3 0.95 Gameboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_029">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/29.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 29: PS3 1.00 Gameboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_030">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/30.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 30: PS3 Acapella 1 Coldboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_031">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/31.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 31: PS3 Acapella 2 Coldboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+			<Table key="seg_boot_sound_032">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/32.jpg</></Pair>
+				<Pair key="title"><>Coldboot Sound 32: PS3 Acapella 3 Gameboot</></Pair>
+				<Pair key="info"><>Copy this custom coldboot sound to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_001" attr="seg_boot_sound_001" src="#seg_boot_sound_001_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_002" attr="seg_boot_sound_002" src="#seg_boot_sound_002_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_003" attr="seg_boot_sound_003" src="#seg_boot_sound_003_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_004" attr="seg_boot_sound_004" src="#seg_boot_sound_004_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_005" attr="seg_boot_sound_005" src="#seg_boot_sound_005_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_006" attr="seg_boot_sound_006" src="#seg_boot_sound_006_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_007" attr="seg_boot_sound_007" src="#seg_boot_sound_007_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_008" attr="seg_boot_sound_008" src="#seg_boot_sound_008_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_009" attr="seg_boot_sound_009" src="#seg_boot_sound_009_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_010" attr="seg_boot_sound_010" src="#seg_boot_sound_010_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_011" attr="seg_boot_sound_011" src="#seg_boot_sound_011_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_012" attr="seg_boot_sound_012" src="#seg_boot_sound_012_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_013" attr="seg_boot_sound_013" src="#seg_boot_sound_013_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_014" attr="seg_boot_sound_014" src="#seg_boot_sound_014_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_015" attr="seg_boot_sound_015" src="#seg_boot_sound_015_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_016" attr="seg_boot_sound_016" src="#seg_boot_sound_016_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_017" attr="seg_boot_sound_017" src="#seg_boot_sound_017_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_018" attr="seg_boot_sound_018" src="#seg_boot_sound_018_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_019" attr="seg_boot_sound_019" src="#seg_boot_sound_019_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_020" attr="seg_boot_sound_020" src="#seg_boot_sound_020_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_021" attr="seg_boot_sound_021" src="#seg_boot_sound_021_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_022" attr="seg_boot_sound_022" src="#seg_boot_sound_022_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_023" attr="seg_boot_sound_023" src="#seg_boot_sound_023_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_024" attr="seg_boot_sound_024" src="#seg_boot_sound_024_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_025" attr="seg_boot_sound_025" src="#seg_boot_sound_025_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_026" attr="seg_boot_sound_026" src="#seg_boot_sound_026_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_027" attr="seg_boot_sound_027" src="#seg_boot_sound_027_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_028" attr="seg_boot_sound_028" src="#seg_boot_sound_028_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_029" attr="seg_boot_sound_029" src="#seg_boot_sound_029_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_030" attr="seg_boot_sound_030" src="#seg_boot_sound_030_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_031" attr="seg_boot_sound_031" src="#seg_boot_sound_031_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_sound_032" attr="seg_boot_sound_032" src="#seg_boot_sound_032_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_001_item">
+		<Attributes>
+			<Table key="boot_sound_001_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/1.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/1.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_001_item" attr="boot_sound_001_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_002_item">
+		<Attributes>
+			<Table key="boot_sound_002_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/2.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/2.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_002_item" attr="boot_sound_002_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_003_item">
+		<Attributes>
+			<Table key="boot_sound_003_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/3.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/3.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_003_item" attr="boot_sound_003_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_004_item">
+		<Attributes>
+			<Table key="boot_sound_004_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/4.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/4.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_004_item" attr="boot_sound_004_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_005_item">
+		<Attributes>
+			<Table key="boot_sound_005_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/5.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/5.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_005_item" attr="boot_sound_005_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_006_item">
+		<Attributes>
+			<Table key="boot_sound_006_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/6.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/6.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_006_item" attr="boot_sound_006_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_007_item">
+		<Attributes>
+			<Table key="boot_sound_007_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/7.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/7.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_007_item" attr="boot_sound_007_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_008_item">
+		<Attributes>
+			<Table key="boot_sound_008_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/8.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/8.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_008_item" attr="boot_sound_008_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_009_item">
+		<Attributes>
+			<Table key="boot_sound_009_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/9.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/9.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_009_item" attr="boot_sound_009_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_010_item">
+		<Attributes>
+			<Table key="boot_sound_010_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/10.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/10.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_010_item" attr="boot_sound_010_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_011_item">
+		<Attributes>
+			<Table key="boot_sound_011_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/11.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/11.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_011_item" attr="boot_sound_011_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_012_item">
+		<Attributes>
+			<Table key="boot_sound_012_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/12.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/12.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_012_item" attr="boot_sound_012_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_013_item">
+		<Attributes>
+			<Table key="boot_sound_013_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/13.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/13.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_013_item" attr="boot_sound_013_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_014_item">
+		<Attributes>
+			<Table key="boot_sound_014_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/14.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/14.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_014_item" attr="boot_sound_014_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_015_item">
+		<Attributes>
+			<Table key="boot_sound_015_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/15.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/15.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_015_item" attr="boot_sound_015_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_016_item">
+		<Attributes>
+			<Table key="boot_sound_016_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/16.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/16.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_016_item" attr="boot_sound_016_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_017_item">
+		<Attributes>
+			<Table key="boot_sound_017_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/17.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/17.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_017_item" attr="boot_sound_017_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_018_item">
+		<Attributes>
+			<Table key="boot_sound_018_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/18.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/18.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_018_item" attr="boot_sound_018_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_019_item">
+		<Attributes>
+			<Table key="boot_sound_019_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/19.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/19.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_019_item" attr="boot_sound_019_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_020_item">
+		<Attributes>
+			<Table key="boot_sound_020_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/20.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/20.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_020_item" attr="boot_sound_020_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_021_item">
+		<Attributes>
+			<Table key="boot_sound_021_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/21.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/21.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_021_item" attr="boot_sound_021_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_022_item">
+		<Attributes>
+			<Table key="boot_sound_022_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/22.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/22.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_022_item" attr="boot_sound_022_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_023_item">
+		<Attributes>
+			<Table key="boot_sound_023_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/23.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/23.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_023_item" attr="boot_sound_023_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_024_item">
+		<Attributes>
+			<Table key="boot_sound_024_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/24.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/24.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_024_item" attr="boot_sound_024_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_025_item">
+		<Attributes>
+			<Table key="boot_sound_025_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/25.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/25.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_025_item" attr="boot_sound_025_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_026_item">
+		<Attributes>
+			<Table key="boot_sound_026_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/26.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/26.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_026_item" attr="boot_sound_026_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_027_item">
+		<Attributes>
+			<Table key="boot_sound_027_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/27.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/27.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_027_item" attr="boot_sound_027_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_028_item">
+		<Attributes>
+			<Table key="boot_sound_028_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/28.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/28.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_028_item" attr="boot_sound_028_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_029_item">
+		<Attributes>
+			<Table key="boot_sound_029_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/29.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/29.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_029_item" attr="boot_sound_029_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_030_item">
+		<Attributes>
+			<Table key="boot_sound_030_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/30.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/30.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_030_item" attr="boot_sound_030_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_031_item">
+		<Attributes>
+			<Table key="boot_sound_031_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/31.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/31.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_031_item" attr="boot_sound_031_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_boot_sound_032_item">
+		<Attributes>
+			<Table key="boot_sound_032_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Coldboot Sounds will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy custom coldboot_*.ac3 files to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/32.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/boot_sounds/32.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="boot_sound_032_item" attr="boot_sound_032_item"/>
+		</Items>
+		</View>
+	
+</XMBML>

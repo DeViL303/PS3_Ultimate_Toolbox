@@ -1,0 +1,1316 @@
+<XMBML version="1.0">
+
+	<View id="remove_gaia_remap_item">
+		<Attributes>
+			<Table key="remove_gaia_remap">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove Gaia Resources</></Pair>
+				<Pair key="info"><>Delete these webMAN MOD related resources from HDD</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_gaia_remap"	attr="remove_gaia_remap" src="#remove_gaia_remap_action_item"/>
+		</Items>
+	</View>
+
+	<View id="remove_gaia_remap_action_item">
+		<Attributes>
+			<Table key="remove_gaia_remap_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Delete these wMM Related Resources?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This deletes the dev_hdd0/tmp/earth/ folder that is used by wMM</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/tmp/earth</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_gaia_remap_action" attr="remove_gaia_remap_action"/>
+		</Items>
+	</View>
+
+	<View id="wmm_gaia_remap_items">
+		<Attributes>
+			<Table key="seg_gaia_random">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_gaia.png</></Pair>
+				<Pair key="title"><>Set to Random</></Pair>
+				<Pair key="info"><>Set earth.qrc remap rotation to random</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?0</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="seg_gaia_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_gaia.png</></Pair>
+				<Pair key="title"><>Disable Remap</></Pair>
+				<Pair key="info"><>Remove webMAN MODs earth.qrc remap</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?255</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_001">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/1.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 001</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/1.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_002">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/2.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 002</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/2.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?2</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_003">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/3.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 003</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/3.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_004">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/4.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 004</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/4.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?4</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_005">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/5.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 005</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/5.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?5</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_006">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/6.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 006</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/6.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?6</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_007">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/7.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 007</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/7.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?7</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_008">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/8.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 008</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/8.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?8</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_009">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/9.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 009</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/9.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?9</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_010">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/10.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 010</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/10.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?10</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_011">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/11.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 011</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/11.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?11</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_012">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/12.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 012</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/12.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?12</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_013">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/13.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 013</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/13.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?13</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_014">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/14.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 014</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/14.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?14</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_015">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/15.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 015</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/15.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?15</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_016">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/16.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 016</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/16.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?16</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_017">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/17.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 017</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/17.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?17</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_018">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/18.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 018</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/18.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?18</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_019">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/19.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 019</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/19.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?19</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_020">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/20.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 020</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/20.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?20</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_021">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/21.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 021</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/21.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?21</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_022">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/22.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 022</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/22.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?22</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_023">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/23.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 023</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/23.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?23</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_024">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/24.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 024</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/24.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?24</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_025">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/25.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 025</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/25.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?25</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_026">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/26.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 026</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/26.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?26</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_027">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/27.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 027</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/27.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?27</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_028">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/28.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 028</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/28.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?28</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_029">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/29.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 029</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/29.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?29</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_030">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/30.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 030</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/30.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?30</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_031">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/31.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 031</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/31.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?31</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_032">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/32.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 032</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/32.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?32</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_033">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/33.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 033</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/33.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?33</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_034">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/34.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 034</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/34.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?34</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_035">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/35.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 035</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/35.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?35</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_036">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/36.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 036</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/36.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?36</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_037">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/37.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 037</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/37.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?37</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_038">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/38.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 038</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/38.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?38</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_039">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/39.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 039</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/39.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?39</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_040">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/40.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 040</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/40.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?40</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_041">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/41.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 041</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/41.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?41</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_042">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/42.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 042</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/42.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?42</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_043">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/43.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 043</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/43.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?43</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_044">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/44.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 044</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/44.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?44</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_045">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/45.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 045</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/45.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?45</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_046">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/46.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 046</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/46.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?46</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_047">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/47.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 047</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/47.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?47</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_048">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/48.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 048</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/48.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?48</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_049">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/49.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 049</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/49.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?49</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_050">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/50.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 050</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/50.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?50</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_051">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/51.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 051</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/51.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?51</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_052">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/52.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 052</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/52.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?52</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_053">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/53.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 053</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/53.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?53</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_054">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/54.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 054</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/54.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?54</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_055">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/55.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 055</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/55.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?55</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_056">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/56.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 056</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/56.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?56</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_057">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/57.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 057</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/57.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?57</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_058">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/58.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 058</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/58.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?58</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_059">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/59.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 059</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/59.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?59</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_060">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/60.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 060</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/60.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?60</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_061">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/61.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 061</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/61.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?61</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_062">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/62.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 062</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/62.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?62</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_063">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/63.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 063</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/63.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?63</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_064">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/64.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 064</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/64.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?64</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_065">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/65.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 065</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/65.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?65</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_066">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/66.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 066</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/66.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?66</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_067">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/67.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 067</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/67.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?67</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_068">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/68.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 068</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/68.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?68</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_069">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/69.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 069</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/69.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?69</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_070">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/70.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 070</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/70.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?70</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_071">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/71.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 071</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/71.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?71</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_072">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/72.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 072</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/72.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?72</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_073">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/73.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 073</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/73.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?73</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_074">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/74.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 074</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/74.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?74</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_075">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/75.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 075</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/75.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?75</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_076">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/76.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 076</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/76.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?76</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_077">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/77.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 077</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/77.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?77</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_078">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/78.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 078</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/78.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?78</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_079">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/79.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 079</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/79.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?79</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_080">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/80.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 080</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/80.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?80</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_081">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/81.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 081</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/81.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?81</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_082">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/82.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 082</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/82.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?82</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_083">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/83.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 083</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/83.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?83</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_084">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/84.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 084</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/84.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?84</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_085">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/85.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 085</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/85.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?85</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_086">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/86.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 086</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/86.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?86</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_087">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/87.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 087</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/87.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?87</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_088">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/88.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 088</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/88.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?88</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="gaia_swap_item_089">
+				<Pair key="icon"><>/dev_hdd0/tmp/earth/89.jpg</></Pair>
+				<Pair key="title"><>Remap to gaia 089</></Pair>
+				<Pair key="info"><>Redirect earth.qrc to dev_hdd0/tmp/earth/89.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/earth.ps3?89</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_gaia_random"
+				attr="seg_gaia_random"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_gaia_disable"
+				attr="seg_gaia_disable"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_001"
+				attr="gaia_swap_item_001"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_002"
+				attr="gaia_swap_item_002"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_003"
+				attr="gaia_swap_item_003"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_004"
+				attr="gaia_swap_item_004"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_005"
+				attr="gaia_swap_item_005"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_006"
+				attr="gaia_swap_item_006"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_007"
+				attr="gaia_swap_item_007"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_008"
+				attr="gaia_swap_item_008"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_009"
+				attr="gaia_swap_item_009"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_010"
+				attr="gaia_swap_item_010"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_011"
+				attr="gaia_swap_item_011"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_012"
+				attr="gaia_swap_item_012"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_013"
+				attr="gaia_swap_item_013"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_014"
+				attr="gaia_swap_item_014"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_015"
+				attr="gaia_swap_item_015"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_016"
+				attr="gaia_swap_item_016"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_017"
+				attr="gaia_swap_item_017"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_018"
+				attr="gaia_swap_item_018"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_019"
+				attr="gaia_swap_item_019"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_020"
+				attr="gaia_swap_item_020"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_021"
+				attr="gaia_swap_item_021"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_022"
+				attr="gaia_swap_item_022"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_023"
+				attr="gaia_swap_item_023"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_024"
+				attr="gaia_swap_item_024"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_025"
+				attr="gaia_swap_item_025"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_026"
+				attr="gaia_swap_item_026"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_027"
+				attr="gaia_swap_item_027"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_028"
+				attr="gaia_swap_item_028"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_029"
+				attr="gaia_swap_item_029"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_030"
+				attr="gaia_swap_item_030"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_031"
+				attr="gaia_swap_item_031"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_032"
+				attr="gaia_swap_item_032"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_033"
+				attr="gaia_swap_item_033"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_034"
+				attr="gaia_swap_item_034"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_035"
+				attr="gaia_swap_item_035"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_036"
+				attr="gaia_swap_item_036"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_037"
+				attr="gaia_swap_item_037"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_038"
+				attr="gaia_swap_item_038"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_039"
+				attr="gaia_swap_item_039"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_040"
+				attr="gaia_swap_item_040"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_041"
+				attr="gaia_swap_item_041"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_042"
+				attr="gaia_swap_item_042"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_043"
+				attr="gaia_swap_item_043"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_044"
+				attr="gaia_swap_item_044"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_045"
+				attr="gaia_swap_item_045"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_046"
+				attr="gaia_swap_item_046"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_047"
+				attr="gaia_swap_item_047"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_048"
+				attr="gaia_swap_item_048"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_049"
+				attr="gaia_swap_item_049"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_050"
+				attr="gaia_swap_item_050"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_051"
+				attr="gaia_swap_item_051"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_052"
+				attr="gaia_swap_item_052"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_053"
+				attr="gaia_swap_item_053"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_054"
+				attr="gaia_swap_item_054"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_055"
+				attr="gaia_swap_item_055"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_056"
+				attr="gaia_swap_item_056"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_057"
+				attr="gaia_swap_item_057"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_058"
+				attr="gaia_swap_item_058"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_059"
+				attr="gaia_swap_item_059"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_060"
+				attr="gaia_swap_item_060"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_061"
+				attr="gaia_swap_item_061"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_062"
+				attr="gaia_swap_item_062"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_063"
+				attr="gaia_swap_item_063"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_064"
+				attr="gaia_swap_item_064"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_065"
+				attr="gaia_swap_item_065"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_066"
+				attr="gaia_swap_item_066"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_067"
+				attr="gaia_swap_item_067"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_068"
+				attr="gaia_swap_item_068"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_069"
+				attr="gaia_swap_item_069"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_070"
+				attr="gaia_swap_item_070"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_071"
+				attr="gaia_swap_item_071"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_072"
+				attr="gaia_swap_item_072"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_073"
+				attr="gaia_swap_item_073"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_074"
+				attr="gaia_swap_item_074"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_075"
+				attr="gaia_swap_item_075"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_076"
+				attr="gaia_swap_item_076"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_077"
+				attr="gaia_swap_item_077"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_078"
+				attr="gaia_swap_item_078"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_079"
+				attr="gaia_swap_item_079"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_080"
+				attr="gaia_swap_item_080"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_081"
+				attr="gaia_swap_item_081"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_082"
+				attr="gaia_swap_item_082"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_083"
+				attr="gaia_swap_item_083"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_084"
+				attr="gaia_swap_item_084"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_085"
+				attr="gaia_swap_item_085"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_086"
+				attr="gaia_swap_item_086"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_087"
+				attr="gaia_swap_item_087"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_088"
+				attr="gaia_swap_item_088"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_swap_item_089"
+				attr="gaia_swap_item_089"
+				/>
+		</Items>
+	</View>
+
+</XMBML>

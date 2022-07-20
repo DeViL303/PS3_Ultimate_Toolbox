@@ -1,0 +1,993 @@
+<XMBML version="1.0">
+
+<View id="green_wave_right_items">
+		<Attributes>
+			<Table key="green_blue_wave_right">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Right Side: Blue</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_right">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Right Side: Orange</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="green_purple_wave_right">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Right Side: Purple</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="green_red_wave_right">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Right Side: Red</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="green_yellow_wave_right">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Right Side: Yellow</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_right"	attr="green_blue_wave_right" src="#green_blue_wave_speed_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_right"	attr="green_orange_wave_right" src="#green_orange_wave_speed_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_right"	attr="green_purple_wave_right" src="#green_purple_wave_speed_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_right"	attr="green_red_wave_right" src="#green_red_wave_speed_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_right"	attr="green_yellow_wave_right" src="#green_yellow_wave_speed_items"/>
+		</Items>
+	</View>
+	
+	
+	<View id="green_blue_wave_speed_items">
+		<Attributes>
+			<Table key="green_blue_wave_speed_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 1</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_blue_wave_speed_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 2</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_blue_wave_speed_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 3 (Normal)</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_blue_wave_speed_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 4</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_blue_wave_speed_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 5</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_blue_wave_speed_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 6</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_speed_1"	attr="green_blue_wave_speed_1" src="#green_blue_wave_speed_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_speed_2"	attr="green_blue_wave_speed_2" src="#green_blue_wave_speed_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_speed_3"	attr="green_blue_wave_speed_3" src="#green_blue_wave_speed_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_speed_4"	attr="green_blue_wave_speed_4" src="#green_blue_wave_speed_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_speed_5"	attr="green_blue_wave_speed_5" src="#green_blue_wave_speed_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_blue_wave_speed_6"	attr="green_blue_wave_speed_6" src="#green_blue_wave_speed_6_item"/>
+		</Items>
+	</View>
+	
+	<View id="green_blue_wave_speed_1_item">
+		<Attributes>
+			<Table key="green_blue_wave_speed_1_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_blue_std_black_0.2.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_blue_wave_speed_1_action"
+				attr="green_blue_wave_speed_1_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_blue_wave_speed_2_item">
+		<Attributes>
+			<Table key="green_blue_wave_speed_2_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_blue_std_black_1.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_blue_wave_speed_2_action"
+				attr="green_blue_wave_speed_2_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_blue_wave_speed_3_item">
+		<Attributes>
+			<Table key="green_blue_wave_speed_3_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_blue_std_black_4.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_blue_wave_speed_3_action"
+				attr="green_blue_wave_speed_3_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_blue_wave_speed_4_item">
+		<Attributes>
+			<Table key="green_blue_wave_speed_4_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_blue_std_black_8.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_blue_wave_speed_4_action"
+				attr="green_blue_wave_speed_4_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="green_blue_wave_speed_5_item">
+		<Attributes>
+			<Table key="green_blue_wave_speed_5_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_blue_std_black_12.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_blue_wave_speed_5_action"
+				attr="green_blue_wave_speed_5_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_blue_wave_speed_6_item">
+		<Attributes>
+			<Table key="green_blue_wave_speed_6_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_blue_std_black_18.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_blue_wave_speed_6_action"
+				attr="green_blue_wave_speed_6_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="green_orange_wave_speed_items">
+		<Attributes>
+			<Table key="green_orange_wave_speed_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 1</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 2</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 3 (Normal)</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 4</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 5</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 6</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_1"	attr="green_orange_wave_speed_1" src="#green_orange_wave_speed_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_2"	attr="green_orange_wave_speed_2" src="#green_orange_wave_speed_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_3"	attr="green_orange_wave_speed_3" src="#green_orange_wave_speed_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_4"	attr="green_orange_wave_speed_4" src="#green_orange_wave_speed_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_5"	attr="green_orange_wave_speed_5" src="#green_orange_wave_speed_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_6"	attr="green_orange_wave_speed_6" src="#green_orange_wave_speed_6_item"/>
+		</Items>
+	</View>
+	
+	<View id="green_orange_wave_speed_items">
+		<Attributes>
+			<Table key="green_orange_wave_speed_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 1</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 2</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 3 (Normal)</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 4</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 5</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_orange_wave_speed_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 6</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_1"	attr="green_orange_wave_speed_1" src="#green_orange_wave_speed_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_2"	attr="green_orange_wave_speed_2" src="#green_orange_wave_speed_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_3"	attr="green_orange_wave_speed_3" src="#green_orange_wave_speed_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_4"	attr="green_orange_wave_speed_4" src="#green_orange_wave_speed_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_5"	attr="green_orange_wave_speed_5" src="#green_orange_wave_speed_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_orange_wave_speed_6"	attr="green_orange_wave_speed_6" src="#green_orange_wave_speed_6_item"/>
+		</Items>
+	</View>
+	
+	<View id="green_orange_wave_speed_1_item">
+		<Attributes>
+			<Table key="green_orange_wave_speed_1_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_orange_std_black_0.2.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_orange_wave_speed_1_action"
+				attr="green_orange_wave_speed_1_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_orange_wave_speed_2_item">
+		<Attributes>
+			<Table key="green_orange_wave_speed_2_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_orange_std_black_1.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_orange_wave_speed_2_action"
+				attr="green_orange_wave_speed_2_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_orange_wave_speed_3_item">
+		<Attributes>
+			<Table key="green_orange_wave_speed_3_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_orange_std_black_4.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_orange_wave_speed_3_action"
+				attr="green_orange_wave_speed_3_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_orange_wave_speed_4_item">
+		<Attributes>
+			<Table key="green_orange_wave_speed_4_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_orange_std_black_8.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_orange_wave_speed_4_action"
+				attr="green_orange_wave_speed_4_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="green_orange_wave_speed_5_item">
+		<Attributes>
+			<Table key="green_orange_wave_speed_5_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_orange_std_black_12.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_orange_wave_speed_5_action"
+				attr="green_orange_wave_speed_5_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_orange_wave_speed_6_item">
+		<Attributes>
+			<Table key="green_orange_wave_speed_6_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_orange_std_black_18.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_orange_wave_speed_6_action"
+				attr="green_orange_wave_speed_6_action"
+				/>
+		</Items>
+		</View>
+
+	
+	<View id="green_purple_wave_speed_items">
+		<Attributes>
+			<Table key="green_purple_wave_speed_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 1</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_purple_wave_speed_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 2</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_purple_wave_speed_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 3 (Normal)</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_purple_wave_speed_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 4</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_purple_wave_speed_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 5</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_purple_wave_speed_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 6</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_speed_1"	attr="green_purple_wave_speed_1" src="#green_purple_wave_speed_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_speed_2"	attr="green_purple_wave_speed_2" src="#green_purple_wave_speed_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_speed_3"	attr="green_purple_wave_speed_3" src="#green_purple_wave_speed_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_speed_4"	attr="green_purple_wave_speed_4" src="#green_purple_wave_speed_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_speed_5"	attr="green_purple_wave_speed_5" src="#green_purple_wave_speed_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_purple_wave_speed_6"	attr="green_purple_wave_speed_6" src="#green_purple_wave_speed_6_item"/>
+		</Items>
+	</View>
+	
+	<View id="green_purple_wave_speed_1_item">
+		<Attributes>
+			<Table key="green_purple_wave_speed_1_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_purple_std_black_0.2.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_purple_wave_speed_1_action"
+				attr="green_purple_wave_speed_1_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_purple_wave_speed_2_item">
+		<Attributes>
+			<Table key="green_purple_wave_speed_2_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_purple_std_black_1.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_purple_wave_speed_2_action"
+				attr="green_purple_wave_speed_2_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_purple_wave_speed_3_item">
+		<Attributes>
+			<Table key="green_purple_wave_speed_3_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_purple_std_black_4.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_purple_wave_speed_3_action"
+				attr="green_purple_wave_speed_3_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_purple_wave_speed_4_item">
+		<Attributes>
+			<Table key="green_purple_wave_speed_4_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_purple_std_black_8.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_purple_wave_speed_4_action"
+				attr="green_purple_wave_speed_4_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="green_purple_wave_speed_5_item">
+		<Attributes>
+			<Table key="green_purple_wave_speed_5_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_purple_std_black_12.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_purple_wave_speed_5_action"
+				attr="green_purple_wave_speed_5_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_purple_wave_speed_6_item">
+		<Attributes>
+			<Table key="green_purple_wave_speed_6_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_purple_std_black_18.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_purple_wave_speed_6_action"
+				attr="green_purple_wave_speed_6_action"
+				/>
+		</Items>
+		</View>
+
+	
+	<View id="green_red_wave_speed_items">
+		<Attributes>
+			<Table key="green_red_wave_speed_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 1</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_red_wave_speed_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 2</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_red_wave_speed_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 3 (Normal)</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_red_wave_speed_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 4</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_red_wave_speed_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 5</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_red_wave_speed_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 6</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_speed_1"	attr="green_red_wave_speed_1" src="#green_red_wave_speed_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_speed_2"	attr="green_red_wave_speed_2" src="#green_red_wave_speed_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_speed_3"	attr="green_red_wave_speed_3" src="#green_red_wave_speed_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_speed_4"	attr="green_red_wave_speed_4" src="#green_red_wave_speed_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_speed_5"	attr="green_red_wave_speed_5" src="#green_red_wave_speed_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_red_wave_speed_6"	attr="green_red_wave_speed_6" src="#green_red_wave_speed_6_item"/>
+		</Items>
+	</View>
+	
+	<View id="green_red_wave_speed_1_item">
+		<Attributes>
+			<Table key="green_red_wave_speed_1_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_red_std_black_0.2.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_red_wave_speed_1_action"
+				attr="green_red_wave_speed_1_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_red_wave_speed_2_item">
+		<Attributes>
+			<Table key="green_red_wave_speed_2_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_red_std_black_1.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_red_wave_speed_2_action"
+				attr="green_red_wave_speed_2_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_red_wave_speed_3_item">
+		<Attributes>
+			<Table key="green_red_wave_speed_3_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_red_std_black_4.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_red_wave_speed_3_action"
+				attr="green_red_wave_speed_3_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_red_wave_speed_4_item">
+		<Attributes>
+			<Table key="green_red_wave_speed_4_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_red_std_black_8.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_red_wave_speed_4_action"
+				attr="green_red_wave_speed_4_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="green_red_wave_speed_5_item">
+		<Attributes>
+			<Table key="green_red_wave_speed_5_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_red_std_black_12.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_red_wave_speed_5_action"
+				attr="green_red_wave_speed_5_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_red_wave_speed_6_item">
+		<Attributes>
+			<Table key="green_red_wave_speed_6_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_red_std_black_18.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_red_wave_speed_6_action"
+				attr="green_red_wave_speed_6_action"
+				/>
+		</Items>
+		</View>
+
+	
+	<View id="green_yellow_wave_speed_items">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 1</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_yellow_wave_speed_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 2</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_yellow_wave_speed_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 3 (Normal)</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_yellow_wave_speed_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 4</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_yellow_wave_speed_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 5</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+			<Table key="green_yellow_wave_speed_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Speed: 6</></Pair>
+				<Pair key="info"><>Adjust the speed of this wave   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_speed_1"	attr="green_yellow_wave_speed_1" src="#green_yellow_wave_speed_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_speed_2"	attr="green_yellow_wave_speed_2" src="#green_yellow_wave_speed_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_speed_3"	attr="green_yellow_wave_speed_3" src="#green_yellow_wave_speed_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_speed_4"	attr="green_yellow_wave_speed_4" src="#green_yellow_wave_speed_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_speed_5"	attr="green_yellow_wave_speed_5" src="#green_yellow_wave_speed_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_yellow_wave_speed_6"	attr="green_yellow_wave_speed_6" src="#green_yellow_wave_speed_6_item"/>
+		</Items>
+	</View>
+	
+	<View id="green_yellow_wave_speed_1_item">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_1_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_yellow_std_black_0.2.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_yellow_wave_speed_1_action"
+				attr="green_yellow_wave_speed_1_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_yellow_wave_speed_2_item">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_2_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_yellow_std_black_1.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_yellow_wave_speed_2_action"
+				attr="green_yellow_wave_speed_2_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_yellow_wave_speed_3_item">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_3_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_yellow_std_black_4.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_yellow_wave_speed_3_action"
+				attr="green_yellow_wave_speed_3_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_yellow_wave_speed_4_item">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_4_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_yellow_std_black_8.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_yellow_wave_speed_4_action"
+				attr="green_yellow_wave_speed_4_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="green_yellow_wave_speed_5_item">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_5_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_yellow_std_black_12.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_yellow_wave_speed_5_action"
+				attr="green_yellow_wave_speed_5_action"
+				/>
+		</Items>
+		</View>
+		
+	<View id="green_yellow_wave_speed_6_item">
+		<Attributes>
+			<Table key="green_yellow_wave_speed_6_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/new_waves/dual_color/green_yellow_std_black_18.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="green_yellow_wave_speed_6_action"
+				attr="green_yellow_wave_speed_6_action"
+				/>
+		</Items>
+		</View>
+
+	
+</XMBML>

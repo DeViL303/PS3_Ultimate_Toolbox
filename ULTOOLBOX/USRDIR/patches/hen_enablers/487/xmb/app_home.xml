@@ -1,0 +1,15 @@
+<XMBML version="1.0">
+	<View id="seg_gamedebug">
+		<Attributes>
+			<Table key="game_debug">
+				<Pair key="icon_rsc"><>tex_album_icon</></Pair>
+				<Pair key="title"><>Playstation®</></Pair>
+				<Pair key="info"><>app_home</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xcb/game-debug" key="game_debug" attr="game_debug" />
+		</Items>
+	</View>
+</XMBML>

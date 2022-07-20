@@ -1,0 +1,16 @@
+<XMBML version="1.0">
+
+	<View id="seg_backup_utility">
+		<Attributes>
+			<Table key="seg_backup_utility_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Backup Utility</></Pair>
+				<Pair key="info"><>Dump, Backup and restore</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_utility_main" attr="seg_backup_utility_main" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Backup_Utility_Items.xml#seg_backup_utility_main_items"/>
+		</Items>
+	</View>
+
+</XMBML>

@@ -1,0 +1,854 @@
+<XMBML version="1.0">
+
+	<View id="seg_demo_main">
+		<Attributes>
+			<Table key="demo_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/bubble_download.png</></Pair>
+				<Pair key="title"><>Content Downloader</></Pair>
+				<Pair key="info"><>Demos, Magazines, Podcasts and FW</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="demo_main"
+				attr="demo_main"
+				src="#seg_demo_items"
+				/>
+		</Items>
+	</View>
+
+	<View id="seg_demo_items">
+		<Attributes>
+			<Table key="demo_ps1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_psx.png</></Pair>
+				<Pair key="title"><>PS1 Demo Disc Downloader</></Pair>
+				<Pair key="info"><>Extended download plugin REQUIRED - Download to dev_hdd0/PSXISO/</></Pair>
+			</Table>
+			<Table key="demo_ps2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_ps2.png</></Pair>
+				<Pair key="title"><>PS2 Demo Disc Downloader</></Pair>
+				<Pair key="info"><>Extended download plugin REQUIRED - Download to dev_hdd0/PS2ISO/</></Pair>
+			</Table>
+			<Table key="demo_ps3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_ps3.png</></Pair>
+				<Pair key="title"><>PS3 Demo PKG Downloader</></Pair>
+				<Pair key="info"><>Download PS3 Demos without going to the PS Store</></Pair>
+			</Table>
+			<Table key="magazines">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_xmbm.png</></Pair>
+				<Pair key="title"><>Playstation Magazine Downloader</></Pair>
+				<Pair key="info"><>Extended download plugin REQUIRED - Download to dev_hdd0/DVDISO/</></Pair>
+			</Table>
+			<Table key="podcast">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_play.png</></Pair>
+				<Pair key="title"><>Playstation Blogcast</></Pair>
+				<Pair key="info"><>NOTE: NORMAL download plugin is REQUIRED for downloading media files</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="download_cfw">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_update.png</></Pair>
+				<Pair key="title"><>Download PS3UPDAT.PUP Files</></Pair>
+				<Pair key="info"><>Choice of several PUPs downloadable to USB or HDD</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="demo_ps1" attr="demo_ps1" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/ps1_downloader.xml#ps1_downloader_us_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="demo_ps2" attr="demo_ps2" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/ps2_downloader.xml#ps2_downloader_eu_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="demo_ps3" attr="demo_ps3" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/demo_downloader.xml#demo_downloader_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="magazines" attr="magazines" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/magazines.xml#magazine_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="podcast" attr="podcast" src="#podcast_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="download_cfw" attr="download_cfw" src="#download_cfw_items"/>
+		</Items>
+	</View>
+
+	<View id="podcast_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="official_playstation_blogcast_100" attr="official_playstation_blogcast_100" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Podcast_Module/official_playstation_podcast_100.xml#official_playstation_blogcast_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="official_playstation_blogcast_200" attr="official_playstation_blogcast_200" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Podcast_Module/official_playstation_podcast_200.xml#official_playstation_blogcast_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="official_playstation_blogcast_300" attr="official_playstation_blogcast_300" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Podcast_Module/official_playstation_podcast_300.xml#official_playstation_blogcast_items" />
+			<Query class="type:x-xmb/folder-pixmap" key="official_playstation_blogcast_400" attr="official_playstation_blogcast_400" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Podcast_Module/official_playstation_podcast_400.xml#official_playstation_blogcast_items" />
+		</Items>
+	</View>
+
+	<View id="download_cfw_items">
+		<Attributes>
+			<Table key="download_rebug_rex">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 REX Cobra 8.1</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_rebug_drex">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 D-REX Cobra 8.1</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_rex_mod">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 REX Cobra 8.2</></Pair>
+				<Pair key="info"><>Download this MODIFIED PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_rebug_lite">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download the Rebug 4.86.1 Lite</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_evilnat">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Evilnat 4.87.2 CFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_evilnat2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Evilnat 4.88.1 CFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_ferrox">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Ferrox 4.87 CFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_db_cfw">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Littlebalup Dualboot 4.87</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_db_cfw2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download Littlebalup Dualboot 4.88</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_db_hfw">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download 4.87.1 Dualboot HFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_hfw">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download 4.87.1 HFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_hfw2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download 4.88.1 HFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+			<Table key="download_ofw">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Download 3.55 OFW</></Pair>
+				<Pair key="info"><>Download this PUP file to USB or HDD   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_rex" attr="download_rebug_rex" src="#download_rebug_rex_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_drex" attr="download_rebug_drex" src="#download_rebug_drex_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rex_mod" attr="download_rex_mod" src="#download_rebug_rex_mod_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_lite" attr="download_rebug_lite" src="#download_rebug_lite_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_evilnat" attr="download_evilnat" src="#download_evilnat_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_evilnat2" attr="download_evilnat2" src="#download_evilnat_item2"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ferrox" attr="download_ferrox" src="#download_ferrox_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_cfw" attr="download_db_cfw" src="#download_db_cfw_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_cfw2" attr="download_db_cfw2" src="#download_db_cfw2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_hfw" attr="download_db_hfw" src="#download_db_hfw_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_hfw" attr="download_hfw" src="#download_hfw_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_hfw2" attr="download_hfw2" src="#download_hfw2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ofw" attr="download_ofw" src="#download_ofw_item"/>
+		</Items>
+	</View>
+
+	<View id="download_rebug_rex_item">
+		<Attributes>
+			<Table key="download_rebug_rex_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 REX to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_rebug_rex_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 REX to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_rex_usb" attr="download_rebug_rex_usb" src="#download_rebug_rex_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_rex_hdd" attr="download_rebug_rex_hdd" src="#download_rebug_rex_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_rebug_rex_usb_item">
+		<Attributes>
+			<Table key="rex_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/dzz0t310erqzpcw/REBUG_4.84.2_REX_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/dzz0t310erqzpcw/REBUG_4.84.2_REX_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="rex_usb" attr="rex_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_rex_hdd_item">
+		<Attributes>
+			<Table key="rex_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/6civ5iprwkr0390/REBUG_4.84.2_REX_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/6civ5iprwkr0390/REBUG_4.84.2_REX_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="rex_hdd" attr="rex_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_drex_item">
+		<Attributes>
+			<Table key="download_rebug_drex_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 D-REX to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_rebug_drex_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 D-REX to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_drex_usb" attr="download_rebug_drex_usb" src="#download_rebug_drex_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_drex_hdd" attr="download_rebug_drex_hdd" src="#download_rebug_drex_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_rebug_drex_usb_item">
+		<Attributes>
+			<Table key="drex_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/hqcalksadqv98jy/REBUG_4.84.2_D-REX_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/hqcalksadqv98jy/REBUG_4.84.2_D-REX_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="drex_usb" attr="drex_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_drex_hdd_item">
+		<Attributes>
+			<Table key="drex_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/7sh0v4a48m0iqx9/REBUG_4.84.2_D-REX_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/7sh0v4a48m0iqx9/REBUG_4.84.2_D-REX_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="drex_hdd" attr="drex_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_lite_item">
+		<Attributes>
+			<Table key="download_rebug_lite_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.86.1 Lite to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_rebug_lite_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.86.1 Lite to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_lite_usb" attr="download_rebug_lite_usb" src="#download_rebug_lite_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_lite_hdd" attr="download_rebug_lite_hdd" src="#download_rebug_lite_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_rebug_lite_usb_item">
+		<Attributes>
+			<Table key="lite_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/crf52abkxjmzatb/REBUG_4.86.1_LITE_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/crf52abkxjmzatb/REBUG_4.86.1_LITE_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="lite_usb" attr="lite_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_lite_hdd_item">
+		<Attributes>
+			<Table key="lite_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/9pexzxp8qalv1uj/REBUG_4.86.1_LITE_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/9pexzxp8qalv1uj/REBUG_4.86.1_LITE_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="lite_hdd" attr="lite_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_evilnat_item">
+		<Attributes>
+			<Table key="download_evilnat_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Evilnat 4.87.2 CFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_evilnat_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Evilnat 4.87.2 CFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_evilnat_usb" attr="download_evilnat_usb" src="#download_evilnat_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_evilnat_hdd" attr="download_evilnat_hdd" src="#download_evilnat_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_evilnat_usb_item">
+		<Attributes>
+			<Table key="evilnat_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/muzo5wx0w1e3uh5/EVILNAT_4.87.x_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/muzo5wx0w1e3uh5/EVILNAT_4.87.x_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="evilnat_usb" attr="evilnat_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_evilnat_hdd_item">
+		<Attributes>
+			<Table key="evilnat_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/7pz4vkjeywuxaja/EVILNAT_4.87.x_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/7pz4vkjeywuxaja/EVILNAT_4.87.x_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="evilnat_hdd" attr="evilnat_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_evilnat_item2">
+		<Attributes>
+			<Table key="download_evilnat_usb2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Evilnat 4.88.1 CFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   
+				(Will be available when its out)</></Pair>
+			</Table>
+			<Table key="download_evilnat_hdd2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Evilnat 4.88.1 CFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   
+				(Will be available when its out)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_evilnat_usb2" attr="download_evilnat_usb2" src="#download_evilnat_usb_item2"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_evilnat_hdd2" attr="download_evilnat_hdd2" src="#download_evilnat_hdd_item2"/>
+		</Items>
+	</View>
+
+	<View id="download_evilnat_usb_item2">
+		<Attributes>
+			<Table key="evilnat_usb2">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/1e5v7mv2p5fkup3/EVILNAT_4.88.1_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/1e5v7mv2p5fkup3/EVILNAT_4.88.1_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="evilnat_usb2" attr="evilnat_usb2"/>
+		</Items> 
+	</View>
+
+	<View id="download_evilnat_hdd_item2">
+		<Attributes>
+			<Table key="evilnat_hdd2">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/rce3hcr5ctfsc5a/EVILNAT_4.88.1_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/rce3hcr5ctfsc5a/EVILNAT_4.88.1_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="evilnat_hdd2" attr="evilnat_hdd2"/>
+		</Items> 
+	</View>
+
+	<View id="download_ferrox_item">
+		<Attributes>
+			<Table key="download_ferrox_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Ferrox 4.87 CFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_ferrox_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Ferrox 4.87 CFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ferrox_usb" attr="download_ferrox_usb" src="#download_ferrox_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ferrox_hdd" attr="download_ferrox_hdd" src="#download_ferrox_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_ferrox_usb_item">
+		<Attributes>
+			<Table key="ferrox_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/qoitp4t3496i8as/FERROX_4.87_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/qoitp4t3496i8as/FERROX_4.87_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ferrox_usb" attr="ferrox_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_ferrox_hdd_item">
+		<Attributes>
+			<Table key="ferrox_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/ze1tqser39p9784/FERROX_4.87_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/ze1tqser39p9784/FERROX_4.87_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ferrox_hdd" attr="ferrox_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_db_cfw_item">
+		<Attributes>
+			<Table key="download_db_cfw_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Littlebalup 4.87 Dualboot CFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_db_cfw_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Littlebalup 4.87 Dualboot CFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_cfw_usb"	attr="download_db_cfw_usb" src="#download_db_cfw_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_cfw_hdd" attr="download_db_cfw_hdd" src="#download_db_cfw_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_db_cfw_usb_item">
+		<Attributes>
+			<Table key="db_cfw_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/izbk4fom8961ayd/LITTLEBALUP_DUALBOOT_4.87_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/izbk4fom8961ayd/LITTLEBALUP_DUALBOOT_4.87_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="db_cfw_usb" attr="db_cfw_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_db_cfw_hdd_item">
+		<Attributes>
+			<Table key="db_cfw_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/ouat36hg625ezec/LITTLEBALUP_DUALBOOT_4.87_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/ouat36hg625ezec/LITTLEBALUP_DUALBOOT_4.87_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="db_cfw_hdd" attr="db_cfw_hdd"/>
+		</Items> 
+	</View>
+	
+	<View id="download_db_cfw2_item">
+		<Attributes>
+			<Table key="download_db_cfw2_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Littlebalup 4.88 Dualboot CFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_db_cfw2_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Littlebalup 4.88 Dualboot CFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_cfw2_usb"	attr="download_db_cfw2_usb" src="#download_db_cfw2_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_cfw2_hdd" attr="download_db_cfw2_hdd" src="#download_db_cfw2_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_db_cfw2_usb_item">
+		<Attributes>
+			<Table key="db_cfw2_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/je1kzuncry12d72/LITTLEBALUP_DUALBOOT_4.88_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/je1kzuncry12d72/LITTLEBALUP_DUALBOOT_4.88_CFW_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="db_cfw2_usb" attr="db_cfw2_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_db_cfw2_hdd_item">
+		<Attributes>
+			<Table key="db_cfw2_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/bczk157e7t4v4by/LITTLEBALUP_DUALBOOT_4.88_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/bczk157e7t4v4by/LITTLEBALUP_DUALBOOT_4.88_CFW_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="db_cfw2_hdd" attr="db_cfw2_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_db_hfw_item">
+		<Attributes>
+			<Table key="download_db_hfw_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download 4.87.1 Dualboot HFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   </></Pair>
+			</Table>
+			<Table key="download_db_hfw_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download 4.87.1 Dualboot HFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_hfw_usb"	attr="download_db_hfw_usb" src="#download_db_hfw_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_db_hfw_hdd" attr="download_db_hfw_hdd" src="#download_db_hfw_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_db_hfw_usb_item">
+		<Attributes>
+			<Table key="db_hfw_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/z3vunwrmtop6zfe/DUALBOOT_HFW_4.87.1_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/z3vunwrmtop6zfe/DUALBOOT_HFW_4.87.1_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="db_hfw_usb" attr="db_hfw_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_db_hfw_hdd_item">
+		<Attributes>
+			<Table key="db_hfw_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/tvycy2q3ykwgpqt/DUALBOOT_HFW_4.87.1_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/tvycy2q3ykwgpqt/DUALBOOT_HFW_4.87.1_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="db_hfw_hdd" attr="db_hfw_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_hfw_item">
+		<Attributes>
+			<Table key="download_hfw_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download 4.87.1 HFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   
+				 Warning: You will lose your jailbreak if you install this </></Pair>
+			</Table>
+			<Table key="download_hfw_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download 4.87.1 HFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   
+				 Warning: You will lose your jailbreak if you install this </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_hfw_usb"	attr="download_hfw_usb" src="#download_hfw_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_hfw_hdd" attr="download_hfw_hdd" src="#download_hfw_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_hfw_usb_item">
+		<Attributes>
+			<Table key="hfw_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/h51eoskx6fplvvg/HYBRID_FIRMWARE_4.87.1_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/h51eoskx6fplvvg/HYBRID_FIRMWARE_4.87.1_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hfw_usb" attr="hfw_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_hfw_hdd_item">
+		<Attributes>
+			<Table key="hfw_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/vhpq02pimxqt21x/HYBRID_FIRMWARE_4.87.1_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/vhpq02pimxqt21x/HYBRID_FIRMWARE_4.87.1_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hfw_hdd" attr="hfw_hdd"/>
+		</Items> 
+	</View>
+	
+	<View id="download_hfw2_item">
+		<Attributes>
+			<Table key="download_hfw2_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download 4.88.1 HFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   
+				 Warning: You will lose your jailbreak if you install this </></Pair>
+			</Table>
+			<Table key="download_hfw2_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download 4.88.1 HFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   
+				 Warning: You will lose your jailbreak if you install this </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_hfw2_usb"	attr="download_hfw2_usb" src="#download_hfw2_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_hfw2_hdd" attr="download_hfw2_hdd" src="#download_hfw2_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_hfw2_usb_item">
+		<Attributes>
+			<Table key="hfw2_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/a87w60yyu97x16c/HYBRID_FIRMWARE_4.88.1_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/a87w60yyu97x16c/HYBRID_FIRMWARE_4.88.1_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hfw2_usb" attr="hfw2_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_hfw2_hdd_item">
+		<Attributes>
+			<Table key="hfw2_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/tbsq7l8bnnodyrn/HYBRID_FIRMWARE_4.88.1_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/tbsq7l8bnnodyrn/HYBRID_FIRMWARE_4.88.1_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hfw2_hdd" attr="hfw2_hdd"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_rex_mod_item">
+		<Attributes>
+			<Table key="download_rebug_rex_mod_info">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/info.png</></Pair>
+				<Pair key="title"><>Information</></Pair>
+				<Pair key="info"><>Details about changes to this PUP compared to official Rebug</></Pair>
+			</Table>
+			<Table key="download_rebug_rex_mod_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 REX MOD to USB</></Pair>
+				<Pair key="info"><>Download and then move this modified PUP to dev_usb000/PS3/UPDATE/   
+				 Warning: This is an unofficial MOD of Rebug REX </></Pair>
+			</Table>
+			<Table key="download_rebug_rex_mod_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download Rebug 4.84.2 REX MOD to HDD</></Pair>
+				<Pair key="info"><>Download and then move this modified PUP to dev_hdd0/updater/01/   
+				 Warning: This is an unofficial MOD of Rebug REX </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_rex_mod_info" attr="download_rebug_rex_mod_info" src="#download_rebug_rex_mod_info_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_rex_mod_usb" attr="download_rebug_rex_mod_usb" src="#download_rebug_rex_mod_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_rebug_rex_mod_hdd" attr="download_rebug_rex_mod_hdd" src="#download_rebug_rex_mod_hdd_item"/>
+		</Items>
+	</View>
+	
+	<View id="download_rebug_rex_mod_info_item">
+		<Attributes>
+			<Table key="rebug_rex_mod_info">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/info.png</></Pair>
+				<Pair key="title"><>Changelog:</></Pair>
+				<Pair key="info"><>- Cobra payload failsafe added (Mod by Bguerville)
+				- Cobra upgraded to version 8.2 (Payload by Evilnat)
+				- Ultimate Toolbox Support added out of the box (By DeViL303)
+				- Due to using Cobra 8.2 this supports the multi gameboot mod</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="rebug_rex_mod_info" attr="rebug_rex_mod_info"/>
+		</Items>
+	</View>
+
+	<View id="download_rebug_rex_mod_usb_item">
+		<Attributes>
+			<Table key="rex_mod_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/89r3sdcfylrs2cq/Rebug_4.84.2_Cobra_8.2_MOD_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/89r3sdcfylrs2cq/Rebug_4.84.2_Cobra_8.2_MOD_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="rex_mod_usb" attr="rex_mod_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_rebug_rex_mod_hdd_item">
+		<Attributes>
+			<Table key="rex_mod_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/hoe73w39k03327j/Rebug_4.84.2_Cobra_8.2_MOD_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/hoe73w39k03327j/Rebug_4.84.2_Cobra_8.2_MOD_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="rex_mod_hdd" attr="rex_mod_hdd"/>
+		</Items> 
+	</View>
+	
+	<View id="download_ofw_item">
+		<Attributes>
+			<Table key="download_ofw_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb.png</></Pair>
+				<Pair key="title"><>Download 3.55 OFW to USB</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_usb000/PS3/UPDATE/   
+				 Warning: You will lose your jailbreak if you install this </></Pair>
+			</Table>
+			<Table key="download_ofw_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Download 3.55 OFW to HDD</></Pair>
+				<Pair key="info"><>Download and then move this PUP to dev_hdd0/updater/01/   
+				 Warning: You will lose your jailbreak if you install this </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ofw_usb"	attr="download_ofw_usb" src="#download_ofw_usb_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ofw_hdd" attr="download_ofw_hdd" src="#download_ofw_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="download_ofw_usb_item">
+		<Attributes>
+			<Table key="ofw_usb">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/mpbva6oxzjhxfx3/OFFICAL_FIRMWARE_3.55_UNTOUCHED_dev_usb000.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/mpbva6oxzjhxfx3/OFFICAL_FIRMWARE_3.55_UNTOUCHED_dev_usb000.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ofw_usb" attr="ofw_usb"/>
+		</Items> 
+	</View>
+
+	<View id="download_ofw_hdd_item">
+		<Attributes>
+			<Table key="ofw_hdd">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/kuq8vx2qpct6aes/OFFICAL_FIRMWARE_3.55_UNTOUCHED_dev_hdd0.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/kuq8vx2qpct6aes/OFFICAL_FIRMWARE_3.55_UNTOUCHED_dev_hdd0.pkg</></Pair>
+				<Pair key="content_name"><>xxx</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_firmware.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ofw_hdd" attr="ofw_hdd"/>
+		</Items> 
+	</View>
+
+</XMBML>

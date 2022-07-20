@@ -1,0 +1,18 @@
+<XMBML version="1.0">
+
+	<View id="power_options">
+		<Attributes>
+			<Table key="options">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/shutdown.png</></Pair>
+				<Pair key="title"><>Power Options</></Pair>
+				<Pair key="info"><>Advanced power cycling</></Pair>
+				<Pair key="child"><>segment</></Pair>
+				<Pair key="ingame"><>disable</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="options" attr="options" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Power_Options_Items.xml#items"/>
+		</Items>
+	</View>
+
+</XMBML>

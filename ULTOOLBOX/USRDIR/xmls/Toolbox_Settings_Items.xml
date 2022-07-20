@@ -1,0 +1,919 @@
+<XMBML version="1.0">
+
+	<View id="toolbox_settings_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_components" src="#toggle_components" />
+			<Query class="type:x-xmb/folder-pixmap" key="addons" src="#addon_manager" />
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_specific" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_resource_manager.xml#manage_wmm_hdd_resources"/>
+		<!-- <Query class="type:x-xmb/folder-pixmap" key="language_settings" src="#language_setting" /> REMOVED - TOO MUCH HASSLE --> 
+			<Query class="type:x-xmb/folder-pixmap" key="about_item" src="#about_item" />
+			<Query class="type:x-xmb/folder-pixmap" key="plugin_reinstall" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId ULTOOLBOX"/>
+		</Items>
+	</View>
+
+	<View id="about_item">
+		<Attributes>
+			<Table key="about">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/about.png</></Pair>
+				<Pair key="title"><>About Ultimate Toolbox v2.03</></Pair>
+				<Pair key="info"><>Information, uninstall options and donation links</></Pair>
+			</Table>
+	</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="about"  attr="about" src="#about_items" />
+		</Items>
+	</View>
+
+	<View id="about_items">
+		<Attributes>
+			<Table key="update_toolbox_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/refresh.png</></Pair>
+				<Pair key="title"><>Update Ultimate Toolbox</></Pair>
+				<Pair key="info"><>Download the latest update pkg (Current Version: v2.03)</></Pair>
+ 			</Table>
+			<Table key="reinstall_toolbox_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/refresh.png</></Pair>
+				<Pair key="title"><>Reinstall Ultimate Toolbox</></Pair>
+				<Pair key="info"><>Can be used to upgrade the BASE version to the FULL version</></Pair>
+ 			</Table>
+			<Table key="uninstall_toolbox">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete.png</></Pair>
+				<Pair key="title"><>Uninstall Ultimate Toolbox</></Pair>
+				<Pair key="info"><>Completely remove the Toolbox and all its resources</></Pair>
+			</Table>
+			<Table key="donate">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_xmbm.png</></Pair>
+				<Pair key="title"><>Donate</></Pair>
+				<Pair key="info"><>If you found this app useful, Feel free to make a small donation.
+				Funds are mainly to cover high server costs, Thank you very much!</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="update_toolbox_main" attr="update_toolbox_main" src="#update_toolbox_item"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="reinstall_toolbox_main" attr="reinstall_toolbox_main" src="#reinstall_toolbox_item"/> --> 
+			<Query class="type:x-xmb/folder-pixmap" key="uninstall_toolbox" attr="uninstall_toolbox" src="#uninstall_toolbox_action_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="donate" attr="donate" src="#donate_items"/>
+		</Items>
+	</View>
+
+	<View id="donate_items">
+		<Attributes>
+			<Table key="paypal">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/donate/paypal_logo.png</></Pair>
+				<Pair key="title"><>Make a donation via Paypal</></Pair>
+				<Pair key="info"><>Address: https://paypal.me/ultimatetoolbox (Press  for QR code)</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/donate/paypal.png" height="100%"/\76\74/center\76\74input autofocus type="radio" style="position:fixed;right:0;bottom:0;"/\76\74/body\76\74/html\76\47)');</></Pair>
+ 			</Table>
+			<Table key="bitcoin">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/donate/bitcoin_logo.png</></Pair>
+				<Pair key="title"><>Make a donation via Bitcoin</></Pair>
+				<Pair key="info"><>Address: 3B9sUBBvP7cHmHAHuvt5FJvkXhA5ggLryE (Press  for QR code)</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/donate/bitcoin.png" height="100%"/\76\74/center\76\74input autofocus type="radio" style="position:fixed;right:0;bottom:0;"/\76\74/body\76\74/html\76\47)');</></Pair>
+			</Table>
+			<Table key="bitcoin_cash">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/donate/bitcoin_cash_logo.png</></Pair>
+				<Pair key="title"><>Make a donation via Bitcoin Cash</></Pair>
+				<Pair key="info"><>Address: qrwfu9kt83q77u4us3qa05z52afghraqcvv3adcmkq (Press  for QR code)</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/donate/bitcoin_cash.png" height="100%"/\76\74/center\76\74input autofocus type="radio" style="position:fixed;right:0;bottom:0;"/\76\74/body\76\74/html\76\47)');</></Pair>
+			</Table>
+			<Table key="ethereum">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/donate/ethereum_logo.png</></Pair>
+				<Pair key="title"><>Make a donation via Ethereum</></Pair>
+				<Pair key="info"><>Address: 0xd35965E6780BCFc9F43bB43c9a832C86445a140D (Press  for QR code)</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/donate/ethereum.png" height="100%"/\76\74/center\76\74input autofocus type="radio" style="position:fixed;right:0;bottom:0;"/\76\74/body\76\74/html\76\47)');</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="paypal" attr="paypal"/>
+			<Item class="type:x-xmb/module-action" key="bitcoin" attr="bitcoin"/>
+			<Item class="type:x-xmb/module-action" key="bitcoin_cash" attr="bitcoin_cash"/>
+			<Item class="type:x-xmb/module-action" key="ethereum" attr="ethereum"/>
+		</Items>
+	</View>
+
+	<View id="uninstall_toolbox_action_item">
+		<Attributes>
+			<Table key="uninstall_toolbox_actions">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Completely Remove this Toolbox?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will freeze the XMB temporarily while it deletes all
+				of the files, When it completes, please reboot the console</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/game/ULTOOLBOX#/dev_hdd0/game/XMBMANPLS/USRDIR/game_main.xml</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="uninstall_toolbox_actions" attr="uninstall_toolbox_actions"/>
+		</Items>
+	</View>
+
+	<View id="addon_manager">
+		<Attributes>
+			<Table key="addon_manager_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_xmbm.png</></Pair>
+				<Pair key="title"><>Manage Addon Modules</></Pair>
+				<Pair key="info"><>Download or Remove Optional Resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="addon_manager_main" attr="addon_manager_main" src="#addon_manager_items"/>
+		</Items>
+	</View>
+
+	<View id="addon_manager_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="main" src="#addon_manager_items_main"/>
+		</Items>
+	</View>
+
+	<View id="addon_manager_items_main">
+		<Attributes>
+			<Table key="theme_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_theme.png</></Pair>
+				<Pair key="title"><>Manage Theme Module</></Pair>
+				<Pair key="info"><>Download or remove optional theme and wallpaper resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="coldboot_logo_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_coldboot.png</></Pair>
+				<Pair key="title"><>Manage Coldboot Logo Module</></Pair>
+				<Pair key="info"><>Download or remove optional coldboot logo resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="coldboot_sound_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_audio.png</></Pair>
+				<Pair key="title"><>Manage Coldboot Sound Module</></Pair>
+				<Pair key="info"><>Download or remove optional coldboot sound resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="wave_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Manage Wave Module</></Pair>
+				<Pair key="info"><>Download or remove optional wave resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="demo_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_download.png</></Pair>
+				<Pair key="title"><>Manage Content Downloader Module</></Pair>
+				<Pair key="info"><>Download or remove optional content downloader related resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="font_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_font.png</></Pair>
+				<Pair key="title"><>Manage Font Module</></Pair>
+				<Pair key="info"><>Download or remove optional font resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="gaia_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_gaia.png</></Pair>
+				<Pair key="title"><>Manage Gaia Visualization Module</></Pair>
+				<Pair key="info"><>Download or remove optional Gaia visualization resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+			<Table key="ps2_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_game.png</></Pair>
+				<Pair key="title"><>Manage PS2 Netemu Module</></Pair>
+				<Pair key="info"><>Download or remove optional PS2 Emulator resources</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="theme_module" attr="theme_module" src="#theme_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="coldboot_logo_module" attr="coldboot_logo_module" src="#coldboot_logo_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="coldboot_sound_module" attr="coldboot_sound_module" src="#coldboot_sound_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wave_module" attr="wave_module" src="#wave_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="font_module" attr="font_module" src="#font_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="gaia_module" attr="gaia_module" src="#gaia_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps2_module" attr="ps2_module" src="#ps2_module_item"/>
+		</Items>
+	</View>
+
+	<View id="theme_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_theme_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#download_theme_wallpaper_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_theme_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Theme_Wallpaper_Module/Theme_Downloader.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="coldboot_logo_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_bootlogo_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#download_bootlogo_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_logo_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Logos_Module/Coldboot_Logos.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="coldboot_sound_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_bootsound_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#download_bootsound_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_sound_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Coldboot_Module/Coldboot_Sounds.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="wave_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_wave_module_item" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#download_wave_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_wave_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/New_Waves.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="font_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_font_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#download_font_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_font_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/Fonts.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="gaia_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_gaia_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#download_gaia_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_gaia_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/Gaia_Mods.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="ps2_module_item">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="download_ps2_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings_Items.xml#download_ps2emu_module_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_ps2_module" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/PS2_Emulators.xml#remove_module_item"/>
+		</Items>
+	</View>
+
+	<View id="update_toolbox_item">
+		<Attributes>
+			<Table key="update_toolbox_link">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/q4uo1w79s4pza3p/Latest_Ultimate_Toolbox.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/q4uo1w79s4pza3p/Latest_Ultimate_Toolbox.pkg</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_toolbox_update.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="update_toolbox_link" attr="update_toolbox_link"/>
+		</Items> 
+	</View> 
+
+	<View id="reinstall_toolbox_item">
+		<Attributes>
+			<Table key="reinstall_toolbox_link">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/2mq566oitue0bmm/Ultimate_Toolbox_Reinstall.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/2mq566oitue0bmm/Ultimate_Toolbox_Reinstall.pkg</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_toolbox_update.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="reinstall_toolbox_link" attr="reinstall_toolbox_link"/>
+		</Items> 
+	</View> 
+
+	<View id="toggle_components">
+		<Attributes>
+			<Table key="toggle_component">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_list.png</></Pair>
+				<Pair key="title"><>Toolbox Components</></Pair>
+				<Pair key="info"><>Hide/Show each Ultimate Toolbox section</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_component" attr="toggle_component" src="#toggle_component_items" />
+		</Items>
+	</View>
+
+	<View id="toggle_component_items">
+		<Attributes>
+			<Table key="power_options">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/shutdown.png</></Pair>
+				<Pair key="title"><>Toggle Power Options</></Pair>
+				<Pair key="info"><>Enable/Disable Power Options menu</></Pair>
+			</Table>
+			<Table key="backup_utility">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Toggle Backup Utility</></Pair>
+				<Pair key="info"><>Enable/Disable Backup Utility menu</></Pair>
+			</Table>
+			<Table key="file_manager">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_search.png</></Pair>
+				<Pair key="title"><>Toggle File Explorer</></Pair>
+				<Pair key="info"><>Enable/Disable File Explorer menu</></Pair>
+			</Table>
+			<Table key="firmware_save_states">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash.png</></Pair>
+				<Pair key="title"><>Toggle Firmware Save States</></Pair>
+				<Pair key="info"><>Enable/Disable Firmware Save State menu</></Pair>
+			</Table>
+			<Table key="firmware_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash.png</></Pair>
+				<Pair key="title"><>Toggle Firmware Settings</></Pair>
+				<Pair key="info"><>Enable/Disable Firmware Settings menu</></Pair>
+			</Table>
+			<Table key="content_downloader">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/bubble_download.png</></Pair>
+				<Pair key="title"><>Toggle Content Downloader</></Pair>
+				<Pair key="info"><>Enable/Disable Content Downloader menu</></Pair>
+			</Table>
+			<Table key="package_manager">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package.png</></Pair>
+				<Pair key="title"><>Toggle Package Manager Pro</></Pair>
+				<Pair key="info"><>Enable/Disable Package Manager Pro menu</></Pair>
+			</Table>
+			<Table key="visual_customisation">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_list.png</></Pair>
+				<Pair key="title"><>Toggle Visual Customisation</></Pair>
+				<Pair key="info"><>Enable/Disable Visual Customisation menu</></Pair>
+			</Table>
+			<Table key="webman_mod_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/web.png</></Pair>
+				<Pair key="title"><>Toggle WebMAN MOD Settings</></Pair>
+				<Pair key="info"><>Enable/Disable WebMAN MOD Settings menus</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="power_options" attr="power_options" src="#toggle_power_options_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="backup_utility" attr="backup_utility" src="#toggle_backup_utility_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file_manager" attr="file_manager" src="#toggle_file_manager_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="firmware_save_states" attr="firmware_save_states" src="#toggle_firmware_save_states_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="firmware_settings" attr="firmware_settings" src="#toggle_firmware_settings_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="content_downloader" attr="content_downloader" src="#toggle_content_downloader_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="package_manager" attr="package_manager" src="#toggle_package_manager_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="visual_customisation" attr="visual_customisation" src="#toggle_visual_customisation_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="webman_mod_settings" attr="webman_mod_settings" src="#toggle_webman_mod_settings_items"/>
+		</Items>
+	</View>
+
+	<View id="toggle_backup_utility_items">
+		<Attributes>
+			<Table key="toggle_backup_utility_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Backup Utility</></Pair>
+				<Pair key="info"><>Allow the Backup Utility icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_backup_utility_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Backup Utility</></Pair>
+				<Pair key="info"><>Remove the Backup Utility icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_backup_utility_enable" attr="toggle_backup_utility_enable" src="#toggle_backup_utility_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_backup_utility_disable" attr="toggle_backup_utility_disable" src="#toggle_backup_utility_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_backup_utility_enable_item">
+		<Attributes>
+			<Table key="backup_utility_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Backup Utility?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Backup_Utility_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Backup_Utility.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="backup_utility_enable_item" attr="backup_utility_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_backup_utility_disable_item">
+		<Attributes>
+			<Table key="backup_utility_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Backup Utility?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Backup_Utility.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Backup_Utility_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="backup_utility_disable_item" attr="backup_utility_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_file_manager_items">
+		<Attributes>
+			<Table key="toggle_file_manager_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable File Explorer</></Pair>
+				<Pair key="info"><>Allow the File Explorer icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_file_manager_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable File Explorer</></Pair>
+				<Pair key="info"><>Remove the File Explorer icon from the toolbox</></Pair>
+			</Table>
+			<Table key="promote_to_root">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_xml.png</></Pair>
+				<Pair key="title"><>Promote File Explorer Up To Root</></Pair>
+				<Pair key="info"><>Move File explorer to the root of the game category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_file_manager_enable" attr="toggle_file_manager_enable" src="#toggle_file_manager_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_file_manager_disable" attr="toggle_file_manager_disable" src="#toggle_file_manager_disable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="promote_to_root" attr="promote_to_root" src="#promote_to_root_items"/>
+		</Items>
+	</View>
+
+	<View id="toggle_file_manager_enable_item">
+		<Attributes>
+			<Table key="file_manager_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable File Explorer?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/File_Manager_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/File_Manager.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="file_manager_enable_item" attr="file_manager_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_file_manager_disable_item">
+		<Attributes>
+			<Table key="file_manager_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable File Explorer?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/File_Manager.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/File_Manager_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="file_manager_disable_item" attr="file_manager_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_firmware_save_states_items">
+	<Attributes>
+			<Table key="toggle_firmware_save_states_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Firmware Save States</></Pair>
+				<Pair key="info"><>Allow the Firmware Save States icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_firmware_save_states_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Firmware Save States</></Pair>
+				<Pair key="info"><>Remove the Firmware Save States icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_firmware_save_states_enable" attr="toggle_firmware_save_states_enable" src="#toggle_firmware_save_states_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_firmware_save_states_disable" attr="toggle_firmware_save_states_disable" src="#toggle_firmware_save_states_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_firmware_save_states_enable_item">
+		<Attributes>
+			<Table key="firmware_save_states_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Firmware Save States?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Save_States_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Save_States.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="firmware_save_states_enable_item" attr="firmware_save_states_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_firmware_save_states_disable_item">
+		<Attributes>
+			<Table key="firmware_save_states_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Firmware Save States?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Save_States.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Save_States_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="firmware_save_states_disable_item" attr="firmware_save_states_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_firmware_settings_items">
+		<Attributes>
+			<Table key="toggle_firmware_settings_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Firmware Settings</></Pair>
+				<Pair key="info"><>Allow the Firmware Settings icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_firmware_settings_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Firmware Settings</></Pair>
+				<Pair key="info"><>Remove the Firmware Settings icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_firmware_settings_enable" attr="toggle_firmware_settings_enable" src="#toggle_firmware_settings_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_firmware_settings_disable" attr="toggle_firmware_settings_disable" src="#toggle_firmware_settings_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_firmware_settings_enable_item">
+		<Attributes>
+			<Table key="firmware_settings_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Firmware Settings?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="firmware_settings_enable_item" attr="firmware_settings_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_firmware_settings_disable_item">
+		<Attributes>
+			<Table key="firmware_settings_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Firmware Settings?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="firmware_settings_disable_item" attr="firmware_settings_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_content_downloader_items">
+		<Attributes>
+			<Table key="toggle_content_downloader_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Content Downloader</></Pair>
+				<Pair key="info"><>Allow the Content Downloader icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_content_downloader_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Content Downloader</></Pair>
+				<Pair key="info"><>Remove the Content Downloader icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_content_downloader_enable" attr="toggle_content_downloader_enable" src="#toggle_content_downloader_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_content_downloader_disable" attr="toggle_content_downloader_disable" src="#toggle_content_downloader_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_content_downloader_enable_item">
+		<Attributes>
+			<Table key="content_downloader_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Content Downloader?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/Content_Downloader_disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/Content_Downloader.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="content_downloader_enable_item" attr="content_downloader_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_content_downloader_disable_item">
+		<Attributes>
+			<Table key="content_downloader_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Content Downloader?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/Content_Downloader.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/Content_Downloader_disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="content_downloader_disable_item" attr="content_downloader_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_package_manager_items">
+		<Attributes>
+			<Table key="toggle_package_manager_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Package Manager Pro</></Pair>
+				<Pair key="info"><>Allow the Package Manager icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_package_manager_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Package Manager Pro</></Pair>
+				<Pair key="info"><>Remove the Package Manager icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_package_manager_enable" attr="toggle_package_manager_enable" src="#toggle_package_manager_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_package_manager_disable" attr="toggle_package_manager_disable" src="#toggle_package_manager_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_package_manager_enable_item">
+		<Attributes>
+			<Table key="package_manager_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Package Manager Pro?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Package_Manager_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Package_Manager.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="package_manager_enable_item" attr="package_manager_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_package_manager_disable_item">
+		<Attributes>
+			<Table key="package_manager_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Package Manager Pro?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Package_Manager.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Package_Manager_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="package_manager_disable_item" attr="package_manager_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_items">
+		<Attributes>
+			<Table key="toggle_power_options_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Power Options</></Pair>
+				<Pair key="info"><>Allow the Power Options icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_power_options_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Power Options</></Pair>
+				<Pair key="info"><>Remove the Power Options icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_enable" attr="toggle_power_options_enable" src="#toggle_power_options_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_disable" attr="toggle_power_options_disable" src="#toggle_power_options_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_enable_item">
+		<Attributes>
+			<Table key="power_options_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Power Options?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Power_Options_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Power_Options.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_enable_item" attr="power_options_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_disable_item">
+		<Attributes>
+			<Table key="power_options_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Power Options?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Power_Options.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Power_Options_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_disable_item" attr="power_options_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_toolbox_settings_items">
+		<Attributes>
+			<Table key="toggle_toolbox_settings_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Toolbox Settings</></Pair>
+				<Pair key="info"><>Allow the Toolbox Settings icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_toolbox_settings_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Toolbox Settings</></Pair>
+				<Pair key="info"><>Remove the Toolbox Settings icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_toolbox_settings_enable" attr="toggle_toolbox_settings_enable" src="#toggle_toolbox_settings_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_toolbox_settings_disable" attr="toggle_toolbox_settings_disable" src="#toggle_toolbox_settings_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_visual_customisation_items">
+		<Attributes>
+			<Table key="toggle_visual_customisation_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Visual Customisation</></Pair>
+				<Pair key="info"><>Allow the Visual Customisation icon to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_visual_customisation_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Visual Customisation</></Pair>
+				<Pair key="info"><>Remove the Visual Customisation icon from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_visual_customisation_enable" attr="toggle_visual_customisation_enable" src="#toggle_visual_customisation_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_visual_customisation_disable" attr="toggle_visual_customisation_disable" src="#toggle_visual_customisation_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_visual_customisation_enable_item">
+		<Attributes>
+			<Table key="visual_customisation_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Visual Customisation?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Disabled.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="visual_customisation_enable_item" attr="visual_customisation_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_visual_customisation_disable_item">
+		<Attributes>
+			<Table key="visual_customisation_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Visual Customisation?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="visual_customisation_disable_item" attr="visual_customisation_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_webman_mod_settings_items">
+		<Attributes>
+			<Table key="toggle_webman_mod_settings_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable webMAN MOD Settings</></Pair>
+				<Pair key="info"><>Allow the webMAN Mod specific settings to appear in the toolbox</></Pair>
+			</Table>
+			<Table key="toggle_webman_mod_settings_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable webMAN MOD Settings</></Pair>
+				<Pair key="info"><>Remove the webMAN Mod specific settings from the toolbox</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_webman_mod_settings_enable" attr="toggle_webman_mod_settings_enable" src="#toggle_webman_mod_settings_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_webman_mod_settings_disable" attr="toggle_webman_mod_settings_disable" src="#toggle_webman_mod_settings_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_webman_mod_settings_enable_item">
+		<Attributes>
+			<Table key="webman_mod_settings_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable webMAN MOD Settings?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This allows wMM specific settings to show up in the toolbox menus</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule_disabled#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="webman_mod_settings_enable_item" attr="webman_mod_settings_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_webman_mod_settings_disable_item">
+		<Attributes>
+			<Table key="webman_mod_settings_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable webMAN MOD Settings?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This does not delete anything, it just stops any wMM specific menus from showing</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule_disabled#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="webman_mod_settings_disable_item" attr="webman_mod_settings_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="promote_to_root_items">
+	<Attributes>
+			<Table key="promote_file_explorer">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote File Explorer To Root</></Pair>
+				<Pair key="info"><>Show File Explorer in the root of the game category</></Pair>
+			</Table>
+			<Table key="promote_nothing">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote Nothing</></Pair>
+				<Pair key="info"><>Resets to default the menu structure</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="promote_file_explorer" attr="promote_file_explorer" src="#promote_file_explorer_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="promote_nothing" attr="promote_nothing" src="#promote_nothing_item"/>
+		</Items>
+	</View>
+
+	<View id="promote_file_explorer_item">
+		<Attributes>
+			<Table key="promote_file_explorer_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Promote File Explorer To Root?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified Ultimate_Toolbox.xml to /dev_hdd0/game/ULTOOLBOX/USRDIR/
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/root_promotion/Ultimate_Toolbox_file_explorer.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/Ultimate_Toolbox.xml</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="promote_file_explorer_action" attr="promote_file_explorer_action"/>
+		</Items>
+	</View>
+
+	<View id="promote_nothing_item">
+		<Attributes>
+			<Table key="promote_nothing_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Promote Nothing?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies the default Ultimate_Toolbox.xml to /dev_hdd0/game/ULTOOLBOX/USRDIR/
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/root_promotion/Ultimate_Toolbox_default.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/Ultimate_Toolbox.xml</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="promote_nothing_action" attr="promote_nothing_action"/>
+		</Items>
+	</View>
+</XMBML>

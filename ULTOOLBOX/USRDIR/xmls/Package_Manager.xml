@@ -1,0 +1,17 @@
+<XMBML version="1.0">
+
+	<View id="seg_ultimate_package_manager">
+		<Attributes>
+			<Table key="ultimate_package_manager_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package.png</></Pair>
+				<Pair key="title"><>Package Manager Pro</></Pair>
+				<Pair key="info"><>Advanced package file management</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ultimate_package_manager_main" attr="ultimate_package_manager_main" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Package_Manager_Items.xml#ultimate_package_manager_items"/>
+		</Items>
+	</View>
+
+</XMBML>

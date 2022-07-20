@@ -1,0 +1,224 @@
+<XMBML version="1.0">
+
+	<View id="remove_impose_remap_item">
+		<Attributes>
+			<Table key="remove_impose_remap">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove Impose Resources</></Pair>
+				<Pair key="info"><>Delete these webMAN MOD related resources from HDD</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_impose_remap" attr="remove_impose_remap" src="#remove_impose_remap_action_item"/>
+		</Items>
+	</View>
+
+	<View id="remove_impose_remap_action_item">
+		<Attributes>
+			<Table key="remove_impose_remap_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Delete these wMM Related Resources?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This deletes the dev_hdd0/tmp/impose/ folder that is used by wMM</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/tmp/impose</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_impose_remap_action" attr="remove_impose_remap_action"/>
+		</Items>
+	</View>
+
+	<View id="wmm_impose_remap_items">
+		<Attributes>
+			<Table key="seg_impose_random">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_coldboot.png</></Pair>
+				<Pair key="title"><>Set to Random</></Pair>
+				<Pair key="info"><>Set impose_plugin.rco remap rotation to random</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?0</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="seg_impose_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_coldboot.png</></Pair>
+				<Pair key="title"><>Disable Remap</></Pair>
+				<Pair key="info"><>Remove webMAN MODs impose_plugin.rco remap</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?255</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_001">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/1.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 001</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/1.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_002">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/2.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 002</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/2.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?2</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_003">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/3.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 003</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/3.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_004">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/4.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 004</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/4.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?4</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_005">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/5.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 005</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/5.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?5</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_006">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/6.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 006</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/6.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?6</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_007">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/7.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 007</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/7.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?7</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_008">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/8.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 008</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/8.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?8</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_009">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/9.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 009</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/9.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?9</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_010">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/10.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 010</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/10.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?10</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="impose_swap_item_011">
+				<Pair key="icon"><>/dev_hdd0/tmp/impose/11.jpg</></Pair>
+				<Pair key="title"><>Remap to impose 011</></Pair>
+				<Pair key="info"><>Redirect impose_plugin.rco to dev_hdd0/tmp/impose/11.rco</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/impose.ps3?11</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_impose_random"
+				attr="seg_impose_random"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_impose_disable"
+				attr="seg_impose_disable"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_001"
+				attr="impose_swap_item_001"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_002"
+				attr="impose_swap_item_002"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_003"
+				attr="impose_swap_item_003"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_004"
+				attr="impose_swap_item_004"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_005"
+				attr="impose_swap_item_005"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_006"
+				attr="impose_swap_item_006"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_007"
+				attr="impose_swap_item_007"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_008"
+				attr="impose_swap_item_008"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_009"
+				attr="impose_swap_item_009"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_010"
+				attr="impose_swap_item_010"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_swap_item_011"
+				attr="impose_swap_item_011"
+				/>
+		</Items>
+	</View>
+
+</XMBML>

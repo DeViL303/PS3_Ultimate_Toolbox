@@ -1,0 +1,16 @@
+#MNU_1.0
+brownian:float:0.60
+rshake brw:float:7.4992
+dpad rot max:float:0.000116654
+dpad scale x:float:1
+dpad scale y:float:0
+dshake rot max:float:0.000124431
+dshake rot imp:float:0.513834
+dshake brw imp:float:0.061702
+dshake thresh:float:0.722145
+dshake x coeff:float:0.402735
+dshake g coeff:float:0.444397
+icon wind:float:11.3877
+icon wind scl x:float:0
+icon wind scl y:float:1
+

@@ -1,0 +1,3051 @@
+<XMBML version="1.0">
+
+	<View id="remove_module_item">
+		<Attributes>
+			<Table key="remove_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove this module</></Pair>
+				<Pair key="info"><>Delete these resources from HDD (227MB)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_module"	attr="remove_module" src="#remove_module_action_item"/>
+		</Items>
+	</View>
+	
+	<View id="remove_module_action_item">
+		<Attributes>
+			<Table key="remove_module_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Permanently delete these resources, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				Warning: To reverse this action you will need to download the Gaia Pack again!</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item
+				class="type:x-xmb/module-action"
+				key="remove_module_action"
+				attr="remove_module_action"
+				/>
+		</Items>
+	</View>
+		
+	<View id="wmm_gaia_settings_items">
+		<Attributes>
+			<Table key="seg_gaia_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Gaia Visualizations to HDD</></Pair>
+				<Pair key="info"><>Copy all available earth.qrcs to dev_hdd0/tmp/earth/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_gaia_hdd" attr="seg_gaia_hdd" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_gaia_settings.xml#seg_gaia_hdd_item"/>
+		</Items>
+	</View>
+	
+	<View id="wmm_gaia_settings_items_resources">
+		<Attributes>
+			<Table key="seg_gaia_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Gaia Visualizations to HDD</></Pair>
+				<Pair key="info"><>Copy all available earth.qrcs to dev_hdd0/tmp/earth/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_gaia_hdd" attr="seg_gaia_hdd" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_gaia_settings.xml#seg_gaia_hdd_item_setup"/>
+		</Items>
+	</View>
+	
+	<View id="install_gaia_items">
+		<Attributes>
+			<Table key="seg_gaia_001">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/1.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 001</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_002">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/2.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 002</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_003">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/3.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 003</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_004">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/4.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 004</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_005">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/5.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 005</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_006">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/6.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 006</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_007">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/7.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 007</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_008">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/8.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 008</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_009">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/9.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 009</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_010">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/10.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 010</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_011">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/11.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 011</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_012">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/12.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 012</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_013">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/13.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 013</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_014">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/14.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 014</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_015">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/15.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 015</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_016">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/16.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 016</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_017">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/17.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 017</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/18.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 018</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/19.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 019</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/20.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 020</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/21.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 021</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_022">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/22.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 022</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_023">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/23.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 023</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_024">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/24.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 024</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_025">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/25.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 025</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_026">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/26.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 026</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_027">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/27.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 027</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_028">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/28.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 028</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_029">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/29.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 029</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_030">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/30.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 030</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_031">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/31.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 031</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_032">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/32.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 032</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_033">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/33.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 033</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_034">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/34.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 034</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_035">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/35.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 035</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_036">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/36.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 036</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_037">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/37.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 037</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_038">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/38.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 038</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_039">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/39.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 039</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_040">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/40.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 040</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_041">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/41.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 041</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_042">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/42.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 042</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_043">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/43.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 043</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_044">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/44.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 044</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_045">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/45.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 045</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_046">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/46.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 046</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_047">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/47.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 047</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_048">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/48.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 048</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_049">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/49.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 049</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_050">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/50.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 050</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_051">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/51.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 051</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_052">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/52.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 052</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_053">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/53.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 053</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_054">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/54.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 054</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_055">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/55.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 055</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_056">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/56.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 056</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_057">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/57.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 057</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_058">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/58.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 058</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_059">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/59.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 059</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_060">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/60.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 060</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_061">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/61.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 061</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_062">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/62.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 062</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_063">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/63.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 063</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_064">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/64.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 064</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_065">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/65.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 065</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_066">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/66.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 066</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_067">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/67.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 067</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_068">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/68.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 068</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_069">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/69.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 069</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_070">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/70.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 070</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_071">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/71.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 071</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_072">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/72.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 072</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_073">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/73.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 073</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_074">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/74.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 074</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_075">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/75.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 075</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_076">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/76.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 076</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_077">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/77.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 077</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_078">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/78.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 078</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_079">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/79.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 079</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_080">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/80.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 080</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_081">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/81.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 081</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_082">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/82.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 082</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_083">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/83.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 083</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_084">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/84.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 084</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_085">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/85.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 085</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_086">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/86.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 086</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_087">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/87.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 087</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_088">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/88.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 088</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+			<Table key="seg_gaia_089">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons/89.jpg</></Pair>
+				<Pair key="title"><>Install Gaia Visualization 089</></Pair>
+				v<Pair key="info"><>Copy this visualization to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_001"
+				attr="seg_gaia_001"
+				src="#seg_gaia_001_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_002"
+				attr="seg_gaia_002"
+				src="#seg_gaia_002_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_003"
+				attr="seg_gaia_003"
+				src="#seg_gaia_003_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_004"
+				attr="seg_gaia_004"
+				src="#seg_gaia_004_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_005"
+				attr="seg_gaia_005"
+				src="#seg_gaia_005_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_006"
+				attr="seg_gaia_006"
+				src="#seg_gaia_006_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_007"
+				attr="seg_gaia_007"
+				src="#seg_gaia_007_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_008"
+				attr="seg_gaia_008"
+				src="#seg_gaia_008_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_009"
+				attr="seg_gaia_009"
+				src="#seg_gaia_009_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_010"
+				attr="seg_gaia_010"
+				src="#seg_gaia_010_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_011"
+				attr="seg_gaia_011"
+				src="#seg_gaia_011_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_012"
+				attr="seg_gaia_012"
+				src="#seg_gaia_012_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_013"
+				attr="seg_gaia_013"
+				src="#seg_gaia_013_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_014"
+				attr="seg_gaia_014"
+				src="#seg_gaia_014_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_015"
+				attr="seg_gaia_015"
+				src="#seg_gaia_015_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_016"
+				attr="seg_gaia_016"
+				src="#seg_gaia_016_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_017"
+				attr="seg_gaia_017"
+				src="#seg_gaia_017_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_018"
+				attr="seg_gaia_018"
+				src="#seg_gaia_018_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_019"
+				attr="seg_gaia_019"
+				src="#seg_gaia_019_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_020"
+				attr="seg_gaia_020"
+				src="#seg_gaia_020_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_021"
+				attr="seg_gaia_021"
+				src="#seg_gaia_021_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_022"
+				attr="seg_gaia_022"
+				src="#seg_gaia_022_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_023"
+				attr="seg_gaia_023"
+				src="#seg_gaia_023_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_024"
+				attr="seg_gaia_024"
+				src="#seg_gaia_024_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_025"
+				attr="seg_gaia_025"
+				src="#seg_gaia_025_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_026"
+				attr="seg_gaia_026"
+				src="#seg_gaia_026_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_027"
+				attr="seg_gaia_027"
+				src="#seg_gaia_027_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_028"
+				attr="seg_gaia_028"
+				src="#seg_gaia_028_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_029"
+				attr="seg_gaia_029"
+				src="#seg_gaia_029_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_030"
+				attr="seg_gaia_030"
+				src="#seg_gaia_030_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_031"
+				attr="seg_gaia_031"
+				src="#seg_gaia_031_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_032"
+				attr="seg_gaia_032"
+				src="#seg_gaia_032_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_033"
+				attr="seg_gaia_033"
+				src="#seg_gaia_033_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_034"
+				attr="seg_gaia_034"
+				src="#seg_gaia_034_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_035"
+				attr="seg_gaia_035"
+				src="#seg_gaia_035_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_036"
+				attr="seg_gaia_036"
+				src="#seg_gaia_036_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_037"
+				attr="seg_gaia_037"
+				src="#seg_gaia_037_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_038"
+				attr="seg_gaia_038"
+				src="#seg_gaia_038_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_039"
+				attr="seg_gaia_039"
+				src="#seg_gaia_039_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_040"
+				attr="seg_gaia_040"
+				src="#seg_gaia_040_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_041"
+				attr="seg_gaia_041"
+				src="#seg_gaia_041_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_042"
+				attr="seg_gaia_042"
+				src="#seg_gaia_042_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_043"
+				attr="seg_gaia_043"
+				src="#seg_gaia_043_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_044"
+				attr="seg_gaia_044"
+				src="#seg_gaia_044_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_045"
+				attr="seg_gaia_045"
+				src="#seg_gaia_045_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_046"
+				attr="seg_gaia_046"
+				src="#seg_gaia_046_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_047"
+				attr="seg_gaia_047"
+				src="#seg_gaia_047_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_048"
+				attr="seg_gaia_048"
+				src="#seg_gaia_048_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_049"
+				attr="seg_gaia_049"
+				src="#seg_gaia_049_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_050"
+				attr="seg_gaia_050"
+				src="#seg_gaia_050_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_051"
+				attr="seg_gaia_051"
+				src="#seg_gaia_051_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_052"
+				attr="seg_gaia_052"
+				src="#seg_gaia_052_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_053"
+				attr="seg_gaia_053"
+				src="#seg_gaia_053_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_054"
+				attr="seg_gaia_054"
+				src="#seg_gaia_054_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_055"
+				attr="seg_gaia_055"
+				src="#seg_gaia_055_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_056"
+				attr="seg_gaia_056"
+				src="#seg_gaia_056_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_057"
+				attr="seg_gaia_057"
+				src="#seg_gaia_057_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_058"
+				attr="seg_gaia_058"
+				src="#seg_gaia_058_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_059"
+				attr="seg_gaia_059"
+				src="#seg_gaia_059_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_030"
+				attr="seg_gaia_030"
+				src="#seg_gaia_030_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_061"
+				attr="seg_gaia_061"
+				src="#seg_gaia_061_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_062"
+				attr="seg_gaia_062"
+				src="#seg_gaia_062_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_063"
+				attr="seg_gaia_063"
+				src="#seg_gaia_063_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_064"
+				attr="seg_gaia_064"
+				src="#seg_gaia_064_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_065"
+				attr="seg_gaia_065"
+				src="#seg_gaia_065_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_066"
+				attr="seg_gaia_066"
+				src="#seg_gaia_066_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_067"
+				attr="seg_gaia_067"
+				src="#seg_gaia_067_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_068"
+				attr="seg_gaia_068"
+				src="#seg_gaia_068_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_069"
+				attr="seg_gaia_069"
+				src="#seg_gaia_069_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_070"
+				attr="seg_gaia_070"
+				src="#seg_gaia_070_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_071"
+				attr="seg_gaia_071"
+				src="#seg_gaia_071_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_072"
+				attr="seg_gaia_072"
+				src="#seg_gaia_072_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_073"
+				attr="seg_gaia_073"
+				src="#seg_gaia_073_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_074"
+				attr="seg_gaia_074"
+				src="#seg_gaia_074_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_075"
+				attr="seg_gaia_075"
+				src="#seg_gaia_075_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_076"
+				attr="seg_gaia_076"
+				src="#seg_gaia_076_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_077"
+				attr="seg_gaia_077"
+				src="#seg_gaia_077_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_078"
+				attr="seg_gaia_078"
+				src="#seg_gaia_078_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_079"
+				attr="seg_gaia_079"
+				src="#seg_gaia_079_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_080"
+				attr="seg_gaia_080"
+				src="#seg_gaia_080_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_081"
+				attr="seg_gaia_081"
+				src="#seg_gaia_081_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_082"
+				attr="seg_gaia_082"
+				src="#seg_gaia_082_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_083"
+				attr="seg_gaia_083"
+				src="#seg_gaia_083_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_084"
+				attr="seg_gaia_084"
+				src="#seg_gaia_084_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_085"
+				attr="seg_gaia_085"
+				src="#seg_gaia_085_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_086"
+				attr="seg_gaia_086"
+				src="#seg_gaia_086_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_087"
+				attr="seg_gaia_087"
+				src="#seg_gaia_087_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_088"
+				attr="seg_gaia_088"
+				src="#seg_gaia_088_item"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_gaia_089"
+				attr="seg_gaia_089"
+				src="#seg_gaia_089_item"
+				/>
+		</Items>
+		</View>
+		
+		
+		
+		
+		<View id="seg_gaia_001_item">
+		<Attributes>
+			<Table key="gaia_001_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy the official earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/1.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_001_item"
+				attr="gaia_001_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_002_item">
+		<Attributes>
+			<Table key="gaia_002_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/2.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_002_item"
+				attr="gaia_002_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_003_item">
+		<Attributes>
+			<Table key="gaia_003_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/3.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_003_item"
+				attr="gaia_003_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_004_item">
+		<Attributes>
+			<Table key="gaia_004_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/4.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_004_item"
+				attr="gaia_004_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_005_item">
+		<Attributes>
+			<Table key="gaia_005_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/5.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_005_item"
+				attr="gaia_005_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_006_item">
+		<Attributes>
+			<Table key="gaia_006_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/6.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_006_item"
+				attr="gaia_006_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_007_item">
+		<Attributes>
+			<Table key="gaia_007_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/7.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_007_item"
+				attr="gaia_007_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_008_item">
+		<Attributes>
+			<Table key="gaia_008_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/8.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_008_item"
+				attr="gaia_008_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_009_item">
+		<Attributes>
+			<Table key="gaia_009_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/9.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_009_item"
+				attr="gaia_009_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_010_item">
+		<Attributes>
+			<Table key="gaia_010_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/10.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_010_item"
+				attr="gaia_010_item"
+				/>
+		</Items>
+		</View>
+		
+			
+		<View id="seg_gaia_011_item">
+		<Attributes>
+			<Table key="gaia_011_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/11.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_011_item"
+				attr="gaia_011_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_012_item">
+		<Attributes>
+			<Table key="gaia_012_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/12.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_012_item"
+				attr="gaia_012_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_013_item">
+		<Attributes>
+			<Table key="gaia_013_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/13.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_013_item"
+				attr="gaia_013_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_014_item">
+		<Attributes>
+			<Table key="gaia_014_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/14.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_014_item"
+				attr="gaia_014_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_015_item">
+		<Attributes>
+			<Table key="gaia_015_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/15.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_015_item"
+				attr="gaia_015_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_016_item">
+		<Attributes>
+			<Table key="gaia_016_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/16.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_016_item"
+				attr="gaia_016_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_017_item">
+		<Attributes>
+			<Table key="gaia_017_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/17.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_017_item"
+				attr="gaia_017_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_018_item">
+		<Attributes>
+			<Table key="gaia_018_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/18.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_018_item"
+				attr="gaia_018_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_019_item">
+		<Attributes>
+			<Table key="gaia_019_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/19.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_019_item"
+				attr="gaia_019_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_020_item">
+		<Attributes>
+			<Table key="gaia_020_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/20.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_020_item"
+				attr="gaia_020_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_021_item">
+		<Attributes>
+			<Table key="gaia_021_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/21.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_021_item"
+				attr="gaia_021_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_022_item">
+		<Attributes>
+			<Table key="gaia_022_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/22.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_022_item"
+				attr="gaia_022_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_023_item">
+		<Attributes>
+			<Table key="gaia_023_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/23.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_023_item"
+				attr="gaia_023_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_024_item">
+		<Attributes>
+			<Table key="gaia_024_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/24.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_024_item"
+				attr="gaia_024_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_025_item">
+		<Attributes>
+			<Table key="gaia_025_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/25.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_025_item"
+				attr="gaia_025_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_026_item">
+		<Attributes>
+			<Table key="gaia_026_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/26.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_026_item"
+				attr="gaia_026_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_027_item">
+		<Attributes>
+			<Table key="gaia_027_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/27.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_027_item"
+				attr="gaia_027_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_028_item">
+		<Attributes>
+			<Table key="gaia_028_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/28.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_028_item"
+				attr="gaia_028_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_029_item">
+		<Attributes>
+			<Table key="gaia_029_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/29.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_029_item"
+				attr="gaia_029_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_030_item">
+		<Attributes>
+			<Table key="gaia_030_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/30.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_030_item"
+				attr="gaia_030_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_031_item">
+		<Attributes>
+			<Table key="gaia_031_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy the official earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/31.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_031_item"
+				attr="gaia_031_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_032_item">
+		<Attributes>
+			<Table key="gaia_032_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/32.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_032_item"
+				attr="gaia_032_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_033_item">
+		<Attributes>
+			<Table key="gaia_033_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/33.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_033_item"
+				attr="gaia_033_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_034_item">
+		<Attributes>
+			<Table key="gaia_034_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/34.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_034_item"
+				attr="gaia_034_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_035_item">
+		<Attributes>
+			<Table key="gaia_035_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/35.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_035_item"
+				attr="gaia_035_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_036_item">
+		<Attributes>
+			<Table key="gaia_036_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/36.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_036_item"
+				attr="gaia_036_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_037_item">
+		<Attributes>
+			<Table key="gaia_037_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/37.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_037_item"
+				attr="gaia_037_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_038_item">
+		<Attributes>
+			<Table key="gaia_038_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/38.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_038_item"
+				attr="gaia_038_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_039_item">
+		<Attributes>
+			<Table key="gaia_039_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/39.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_039_item"
+				attr="gaia_039_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_040_item">
+		<Attributes>
+			<Table key="gaia_040_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/40.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_040_item"
+				attr="gaia_040_item"
+				/>
+		</Items>
+		</View>
+		
+			
+		<View id="seg_gaia_041_item">
+		<Attributes>
+			<Table key="gaia_041_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/41.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_041_item"
+				attr="gaia_041_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_042_item">
+		<Attributes>
+			<Table key="gaia_042_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/42.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_042_item"
+				attr="gaia_042_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_043_item">
+		<Attributes>
+			<Table key="gaia_043_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/43.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_043_item"
+				attr="gaia_043_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_044_item">
+		<Attributes>
+			<Table key="gaia_044_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/44.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_044_item"
+				attr="gaia_044_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_045_item">
+		<Attributes>
+			<Table key="gaia_045_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/45.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_045_item"
+				attr="gaia_045_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_046_item">
+		<Attributes>
+			<Table key="gaia_046_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/46.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_046_item"
+				attr="gaia_046_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_047_item">
+		<Attributes>
+			<Table key="gaia_047_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/47.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_047_item"
+				attr="gaia_047_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_048_item">
+		<Attributes>
+			<Table key="gaia_048_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/48.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_048_item"
+				attr="gaia_048_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_049_item">
+		<Attributes>
+			<Table key="gaia_049_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/49.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_049_item"
+				attr="gaia_049_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_050_item">
+		<Attributes>
+			<Table key="gaia_050_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/50.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_050_item"
+				attr="gaia_050_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_051_item">
+		<Attributes>
+			<Table key="gaia_051_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/51.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_051_item"
+				attr="gaia_051_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_052_item">
+		<Attributes>
+			<Table key="gaia_052_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/52.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_052_item"
+				attr="gaia_052_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_053_item">
+		<Attributes>
+			<Table key="gaia_053_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/53.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_053_item"
+				attr="gaia_053_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_054_item">
+		<Attributes>
+			<Table key="gaia_054_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/54.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_054_item"
+				attr="gaia_054_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_055_item">
+		<Attributes>
+			<Table key="gaia_055_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/55.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_055_item"
+				attr="gaia_055_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_056_item">
+		<Attributes>
+			<Table key="gaia_056_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/56.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_056_item"
+				attr="gaia_056_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_057_item">
+		<Attributes>
+			<Table key="gaia_057_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/57.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_057_item"
+				attr="gaia_057_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_058_item">
+		<Attributes>
+			<Table key="gaia_058_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/58.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_058_item"
+				attr="gaia_058_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_059_item">
+		<Attributes>
+			<Table key="gaia_059_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/59.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_059_item"
+				attr="gaia_059_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_060_item">
+		<Attributes>
+			<Table key="gaia_060_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/60.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_060_item"
+				attr="gaia_060_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_061_item">
+		<Attributes>
+			<Table key="gaia_061_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy the official earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/61.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_061_item"
+				attr="gaia_061_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_062_item">
+		<Attributes>
+			<Table key="gaia_062_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/62.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_062_item"
+				attr="gaia_062_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_063_item">
+		<Attributes>
+			<Table key="gaia_063_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/63.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_063_item"
+				attr="gaia_063_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_064_item">
+		<Attributes>
+			<Table key="gaia_064_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/64.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_064_item"
+				attr="gaia_064_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_065_item">
+		<Attributes>
+			<Table key="gaia_065_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/65.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_065_item"
+				attr="gaia_065_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_066_item">
+		<Attributes>
+			<Table key="gaia_066_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/66.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_066_item"
+				attr="gaia_066_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_067_item">
+		<Attributes>
+			<Table key="gaia_067_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/67.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_067_item"
+				attr="gaia_067_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_068_item">
+		<Attributes>
+			<Table key="gaia_068_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/68.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_068_item"
+				attr="gaia_068_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_069_item">
+		<Attributes>
+			<Table key="gaia_069_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/69.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_069_item"
+				attr="gaia_069_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_070_item">
+		<Attributes>
+			<Table key="gaia_070_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/70.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_070_item"
+				attr="gaia_070_item"
+				/>
+		</Items>
+		</View>
+		
+			
+		<View id="seg_gaia_071_item">
+		<Attributes>
+			<Table key="gaia_071_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/71.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_071_item"
+				attr="gaia_071_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_072_item">
+		<Attributes>
+			<Table key="gaia_072_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/72.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_072_item"
+				attr="gaia_072_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_073_item">
+		<Attributes>
+			<Table key="gaia_073_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/73.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_073_item"
+				attr="gaia_073_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_074_item">
+		<Attributes>
+			<Table key="gaia_074_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/74.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_074_item"
+				attr="gaia_074_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_075_item">
+		<Attributes>
+			<Table key="gaia_075_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/75.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_075_item"
+				attr="gaia_075_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_076_item">
+		<Attributes>
+			<Table key="gaia_076_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/76.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_076_item"
+				attr="gaia_076_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_077_item">
+		<Attributes>
+			<Table key="gaia_077_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/77.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_077_item"
+				attr="gaia_077_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_078_item">
+		<Attributes>
+			<Table key="gaia_078_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/78.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_078_item"
+				attr="gaia_078_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_079_item">
+		<Attributes>
+			<Table key="gaia_079_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/79.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_079_item"
+				attr="gaia_079_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_080_item">
+		<Attributes>
+			<Table key="gaia_080_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/80.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_080_item"
+				attr="gaia_080_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_081_item">
+		<Attributes>
+			<Table key="gaia_081_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/81.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_081_item"
+				attr="gaia_081_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_082_item">
+		<Attributes>
+			<Table key="gaia_082_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/82.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_082_item"
+				attr="gaia_082_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_083_item">
+		<Attributes>
+			<Table key="gaia_083_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/83.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_083_item"
+				attr="gaia_083_item"
+				/>
+		</Items>
+		</View>
+	<View id="seg_gaia_084_item">
+		<Attributes>
+			<Table key="gaia_084_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/84.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_084_item"
+				attr="gaia_084_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_085_item">
+		<Attributes>
+			<Table key="gaia_085_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/85.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_085_item"
+				attr="gaia_085_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_086_item">
+		<Attributes>
+			<Table key="gaia_086_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/86.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_086_item"
+				attr="gaia_086_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_087_item">
+		<Attributes>
+			<Table key="gaia_087_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/87.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_087_item"
+				attr="gaia_087_item"
+				/>
+		</Items>
+		</View>
+		
+		<View id="seg_gaia_088_item">
+		<Attributes>
+			<Table key="gaia_088_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/88.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_088_item"
+				attr="gaia_088_item"
+				/>
+		</Items>
+		</View>
+		<View id="seg_gaia_089_item">
+		<Attributes>
+			<Table key="gaia_089_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Gaia visualization will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom earth.qrc file to dev_blind/vsh/resource/qgl/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods/89.qrc#/dev_blind/vsh/resource/qgl/earth.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_089_item"
+				attr="gaia_089_item"
+				/>
+		</Items>
+		</View>
+	
+</XMBML>

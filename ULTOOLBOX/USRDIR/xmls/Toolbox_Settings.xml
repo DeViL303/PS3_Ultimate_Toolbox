@@ -1,0 +1,16 @@
+<XMBML version="1.0">
+
+	<View id="seg_toolbox_settings">
+		<Attributes>
+			<Table key="toolbox_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/Toolbox.png</></Pair>
+				<Pair key="title"><>Ultimate Toolbox Setup</></Pair>
+				<Pair key="info"><>Components, Updates and Information</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+			<Items><Query class="type:x-xmb/folder-pixmap" key="toolbox_settings"  attr="toolbox_settings" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Toolbox_Settings_Items.xml#toolbox_settings_items" />
+		</Items>
+	</View>
+
+</XMBML>

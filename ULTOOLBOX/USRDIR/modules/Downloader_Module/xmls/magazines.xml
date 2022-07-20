@@ -1,0 +1,66 @@
+<XMBML version="1.0">
+
+	<View id="magazine_items">
+		<Attributes>
+			<Table key="2018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text_disc.png</></Pair>
+				<Pair key="title"><>Official UK Playstation Magazines 2018</></Pair>
+				<Pair key="info"><>Download Issue #144 to #156 [Size: 1.41GB]   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/9gowlp6w0dhsups/PlayStation_Official_Magazine_UK-2018.iso</></Pair>
+			</Table>
+			<Table key="2019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text_disc.png</></Pair>
+				<Pair key="title"><>Official UK Playstation Magazines 2019</></Pair>
+				<Pair key="info"><>Download Issue #157 to #169 [Size: 1.48GB]   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/toqaib4aq9cliem/PlayStation_Official_Magazine_UK-2019.iso</></Pair>
+			</Table>
+			<Table key="2020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text_disc.png</></Pair>
+				<Pair key="title"><>Official UK Playstation Magazines 2020</></Pair>
+				<Pair key="info"><>Download Issue #170 to #182 [Size: 1.45GB]   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/hm35pi8iu5lylsz/PlayStation_Official_Magazine_UK-2020.iso</></Pair>
+			</Table>
+			<Table key="2021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text_disc.png</></Pair>
+				<Pair key="title"><>Official UK Playstation Magazines 2021</></Pair>
+				<Pair key="info"><>Download Issue #183 to #186 [Size: 469MB]   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/zflngft5z9gw4n2/PlayStation_Official_Magazine_UK-2021.iso</></Pair>
+			</Table>
+			<Table key="how_to">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>Instructions</></Pair>
+				<Pair key="info"><>How to use these on a PS3</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="2018" attr="2018" src="#2018_items"/>
+			<Item class="type:x-xmb/module-action" key="2019" attr="2019" src="#2019_items"/>
+			<Item class="type:x-xmb/module-action" key="2020" attr="2020" src="#2020_items"/>
+			<Item class="type:x-xmb/module-action" key="2021" attr="2021" src="#2021_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="how_to" attr="how_to" src="#how_to_items"/>
+		</Items>
+	</View>
+
+	<View id="how_to_items">
+		<Attributes>
+			<Table key="2018_iso">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/blank.png</></Pair>
+				<Pair key="title"><>Instructions</></Pair>
+				<Pair key="info"><>1. Extended download plugin required
+				2. Download the ISO 
+				3. Choose dev_hdd0/DVDISO/ as location
+				4. Mount the ISO
+				5. Browse from the photo category
+				6. Enjoy!</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="2018_iso" attr="2018_iso"/>
+		</Items>
+	</View>
+
+</XMBML>

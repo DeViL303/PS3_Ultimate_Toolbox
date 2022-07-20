@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="power_options"
+				src="#power_options"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="user_provider_0"
+				src="user://localhost/create"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="user_provider_1"
+				src="user://localhost/users"
+				/>
+		</Items>
+	</View>
+
+	<View id="root_power_only">
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_poweroff"
+				src="#seg_poweroff"
+				/>
+		</Items>
+	</View>
+	
+	<View id="seg_poweroff">
+		<Items>
+			<Item class="type:x-xmb/xmlpoweroff" key="poweroff" />
+		</Items>
+	</View>
+	
+	<View id="power_options">
+		<Attributes>
+			<Table key="options">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/power.png</></Pair>
+				<Pair key="title"><>Power Options</></Pair>
+				<Pair key="child"><>segment</></Pair>
+				<Pair key="ingame"><>disable</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="options" attr="options" src="#items"
+				/>
+		</Items>
+	</View>
+	<View id="items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_shut_down" attr="shut_down" src="#shut_down" />	
+			<Query class="type:x-xmb/folder-pixmap" key="seg_soft_reboot" attr="soft_reboot" src="#soft_reboot"/>	
+			<Query class="type:x-xmb/folder-pixmap" key="seg_hard_reboot" attr="hard_reboot" src="#hard_reboot"/>
+			<Query class="type:x-xmb/folder-pixmap" key="advanced" attr="advanced" src="#advanced_power_options"/>
+			<Query class="type:x-xmb/folder-pixmap" key="reload" attr="reload" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId RELOADXM1"/>
+		</Items>
+	</View>
+	
+	<View id="advanced_power_options">
+		<Attributes>
+			<Table key="advanced_power_options_main">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/restart_warning.png</></Pair>
+				<Pair key="title"><>Advanced Options</></Pair>
+				<Pair key="info"><>Rebuild database, filesystem check and recovery</></Pair>
+				<Pair key="child"><>segment</></Pair>
+				<Pair key="ingame"><>disable</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="advanced_power_options_main" attr="advanced_power_options_main" src="#advanced_power_options_items"
+				/>
+		</Items>
+	</View>
+	<View id="advanced_power_options_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="screensaver" attr="screensaver" src="#seg_screensaver"/>
+			<Query class="type:x-xmb/folder-pixmap" key="reboot_database" attr="reboot_database" src="#seg_reboot_database"/>
+			<Query class="type:x-xmb/folder-pixmap" key="reboot_fs_check" attr="reboot_fs_check" src="#seg_reboot_fs_check"/>
+			<Query class="type:x-xmb/folder-pixmap" key="reboot_recovery" attr="reboot_recovery" src="#seg_reboot_recovery"/>
+			<Query class="type:x-xmb/folder-pixmap" key="otherOS_cex" attr="otherOS_cex" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId OTHEROSCX"/>
+		</Items>
+	</View>
+	
+	<View id="shut_down">
+		<Attributes>
+			<Table key="shut">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/shutdown.png</></Pair>		
+				<Pair key="title"><>Shut Down</></Pair>
+				<Pair key="info"><></></Pair>				
+				<Pair key="module_name"><>poweroff_plugin</></Pair>
+				<Pair key="module_action"><></></Pair>	
+				</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="shut" attr="shut"/>
+		</Items>
+	</View>
+	
+	<View id="soft_reboot">
+		<Attributes>
+			<Table key="soft">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/restart.png</></Pair>		
+				<Pair key="title"><>Soft Reboot</></Pair>
+				<Pair key="info"><>Reboots LV2 kernel only</></Pair>				
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>soft_reboot_action</></Pair>					
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="soft" attr="soft"/>
+		</Items>
+	</View>		
+	
+	<View id="hard_reboot">
+		<Attributes>
+			<Table key="hard">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/restart.png</></Pair>		
+				<Pair key="title"><>Hard Reboot</></Pair>
+				<Pair key="info"><>Fully reboots the console</></Pair>				
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>hard_reboot_action</></Pair>				
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="hard" attr="hard"/>
+		</Items>
+	</View>		
+	
+	<View id="seg_reboot_database">
+		<Attributes>
+			<Table key="reboot_database">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/restart_warning.png</></Pair>	
+				<Pair key="title"><>Reboot into a Database Rebuild</></Pair>
+				<Pair key="info"><>Sets rebuild database flag and reboots</></Pair>				
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="reboot_database" attr="reboot_database" src="#reboot_database_item"/>
+		</Items>
+	</View>
+	
+	<View id="reboot_database_item">
+		<Attributes>
+			<Table key="reboot_database_item1">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Reboot into a Database Rebuild?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: A database rebuild will remove any custom albums you have set up</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>rebuild_db</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>					
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="reboot_database_item1" attr="reboot_database_item1"/>
+		</Items>
+	</View>
+	
+	
+	<View id="seg_reboot_fs_check">
+		<Attributes>
+			<Table key="fs_check">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/restart_warning.png</></Pair>		
+				<Pair key="title"><>Reboot into a Filesystem Check</></Pair>
+				<Pair key="info"><>Sets filesystem check flag and reboots</></Pair>				
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="fs_check" attr="fs_check" src="#fs_check_item"/>
+		</Items>
+	</View>
+	
+	<View id="fs_check_item">
+		<Attributes>
+			<Table key="fs_check_item1">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Reboot into a Filesystem Check?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: A filesystem check can take some time and might find
+				unrecoverable errors forcing a format</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fs_check</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>					
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="fs_check_item1" attr="fs_check_item1"/>
+		</Items>
+	</View>
+	
+	
+	<View id="seg_reboot_recovery">
+		<Attributes>
+			<Table key="reboot_recovery">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/restart_warning.png</></Pair>		
+				<Pair key="title"><>Reboot into Recovery Mode (NOR)</></Pair>
+				<Pair key="info"><>Sets recovery mode flag and reboots</></Pair>		
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="reboot_recovery" attr="reboot_recovery" src="#reboot_recovery_item" />
+		</Items>
+	</View>	
+	
+	<View id="reboot_recovery_item">
+		<Attributes>
+			<Table key="reboot_recovery_item1">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Reboot into Recovery Mode?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				Warning: This is not the recovery menu aka safe mode, 
+				This option is only useful for installing FW from recovery!</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>recovery_mode</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="reboot_recovery_item1" attr="reboot_recovery_item1"/>
+		</Items>
+	</View>
+	
+
+	<View id="seg_screensaver">
+		<Attributes>
+			<Table key="screensaver_mode">
+				<Pair key="icon"><>/dev_flash/vsh/resource/explore/icon/screensaver.png</></Pair>		
+				<Pair key="title"><>ScreenSaver Mode</></Pair>
+				<Pair key="info"><>View XMB background fullscreen without icons</></Pair>	
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:eval('document.write(\47\74style\76html{left:100%;position:relative;overflow:hidden;}\74/style\76\74input autofocus type="radio" style="position:fixed;right:0;bottom:0;width:20px;height:20px;opacity:0"\76\47)');</></Pair>	
+				</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="screensaver_mode" attr="screensaver_mode"/>
+		</Items>
+	</View>
+	
+</XMBML>

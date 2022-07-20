@@ -1,0 +1,17 @@
+﻿<XMBML version="1.0"><View id="main_menu"><Attributes><Table key="m">
+<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/Toolbox.png</></Pair>
+<Pair key="title"><>Ultimate Toolbox</></Pair>
+<Pair key="info"><>It only does everything!</></Pair>
+<Pair key="child"><>segment</></Pair>
+</Table></Attributes><Items><Query class="type:x-xmb/folder-pixmap" key="m" attr="m" src="#i"/></Items></View>
+<View id="i"><Items>
+<Query class="type:x-xmb/folder-pixmap" key="p" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Power_Options.xml#power_options"/>
+<Query class="type:x-xmb/folder-pixmap" key="b" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Backup_Utility.xml#seg_backup_utility"/>
+<Query class="type:x-xmb/folder-pixmap" key="e" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/File_Manager.xml#seg_file_manager_items"/>
+<Query class="type:x-xmb/folder-pixmap" key="f" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings.xml#seg_firmware_settings"/>
+<Query class="type:x-xmb/folder-pixmap" key="d" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/Content_Downloader.xml#seg_demo_main"/>
+<Query class="type:x-xmb/folder-pixmap" key="pm" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Package_Manager.xml#seg_ultimate_package_manager"/>
+<Query class="type:x-xmb/folder-pixmap" key="v" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation.xml#seg_visual_customisation"/>
+<Query class="type:x-xmb/folder-pixmap" key="a" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Built_In_Apps.xml#built_in_apps"/>
+<Query class="type:x-xmb/folder-pixmap" key="s" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Toolbox_Settings.xml#seg_toolbox_settings"/>
+</Items></View></XMBML>

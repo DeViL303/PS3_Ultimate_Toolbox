@@ -1,0 +1,518 @@
+<XMBML version="1.0">
+
+	<View id="remove_bootsound_remap_item">
+		<Attributes>
+			<Table key="remove_bootsound_remap">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove Coldboot Sound Resources</></Pair>
+				<Pair key="info"><>Delete these webMAN MOD related resources from HDD</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_bootsound_remap"	attr="remove_bootsound_remap" src="#remove_bootsound_remap_action_item"/>
+		</Items>
+	</View>
+
+	<View id="remove_bootsound_remap_action_item">
+		<Attributes>
+			<Table key="remove_bootsound_remap_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Delete these wMM Related Resources?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This deletes the dev_hdd0/tmp/coldboot/ folder that is used by wMM</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/tmp/coldboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_bootsound_remap_action" attr="remove_bootsound_remap_action"/>
+		</Items>
+	</View>
+
+	<View id="wmm_bootsound_remap_items">
+		<Attributes>
+			<Table key="seg_bootsound_random">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_audio.png</></Pair>
+				<Pair key="title"><>Set to Random</></Pair>
+				<Pair key="info"><>Set coldboot*.ac3 remap rotation to random</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?0</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="seg_bootsound_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_audio.png</></Pair>
+				<Pair key="title"><>Disable Remap</></Pair>
+				<Pair key="info"><>Remove webMAN MODs coldboot*.ac3 remap</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?255</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_001">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/1.jpg</></Pair>
+				<Pair key="title"><>Remap to 001: Playstation 1</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/1.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_002">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/2.jpg</></Pair>
+				<Pair key="title"><>Remap to 002: Playstation 2</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/2.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?2</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_003">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/3.jpg</></Pair>
+				<Pair key="title"><>Remap to 003: Playstation PSX</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/3.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_004">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/4.jpg</></Pair>
+				<Pair key="title"><>Remap to 004: Playstation 4</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/4.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?4</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_005">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/5.jpg</></Pair>
+				<Pair key="title"><>Remap to 005: Playstation 5</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/5.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?5</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_006">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/6.jpg</></Pair>
+				<Pair key="title"><>Remap to 006: Playstation Portable</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/6.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?6</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_007">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/7.jpg</></Pair>
+				<Pair key="title"><>Remap to 007: Original Xbox</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/7.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?7</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_008">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/8.jpg</></Pair>
+				<Pair key="title"><>Remap to 008: Xbox 360</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/8.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?8</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_009">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/9.jpg</></Pair>
+				<Pair key="title"><>Remap to 009: Xbox One</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/9.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?9</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_010">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/10.jpg</></Pair>
+				<Pair key="title"><>Remap to 010: Xbox Series X</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/10.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?10</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_011">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/11.jpg</></Pair>
+				<Pair key="title"><>Remap to 011: Windows 95</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/11.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?11</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_012">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/12.jpg</></Pair>
+				<Pair key="title"><>Remap to 012: Windows 98</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/12.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?12</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_013">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/13.jpg</></Pair>
+				<Pair key="title"><>Remap to 013: Windows 2000</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/13.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?13</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_014">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/14.jpg</></Pair>
+				<Pair key="title"><>Remap to 014: Windows XP</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/14.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?14</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_015">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/15.jpg</></Pair>
+				<Pair key="title"><>Remap to 015: Windows Vista</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/15.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?15</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_016">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/16.jpg</></Pair>
+				<Pair key="title"><>Remap to 016: Sega Megadrive</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/16.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?16</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_017">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/17.jpg</></Pair>
+				<Pair key="title"><>Remap to 017: Sega Dreamcast</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/17.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?17</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_018">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/18.jpg</></Pair>
+				<Pair key="title"><>Remap to 018: Sega Saturn PAL</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/18.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?18</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_019">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/19.jpg</></Pair>
+				<Pair key="title"><>Remap to 019: Sega Saturn NTSC</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/19.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?19</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_020">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/20.jpg</></Pair>
+				<Pair key="title"><>Remap to 020: Nintendo Gamecube 1</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/20.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?20</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_021">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/21.jpg</></Pair>
+				<Pair key="title"><>Remap to 021: Nintendo Gamecube 2</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/21.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?21</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_022">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/22.jpg</></Pair>
+				<Pair key="title"><>Remap to 022: Nintendo Gamecube 3</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/22.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?22</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_023">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/23.jpg</></Pair>
+				<Pair key="title"><>Remap to 023: Nintendo DS</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/23.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?23</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_024">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/24.jpg</></Pair>
+				<Pair key="title"><>Remap to 024: Amiga CD32</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/24.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?24</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_025">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/25.jpg</></Pair>
+				<Pair key="title"><>Remap to 025: Mac OS 9</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/25.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?25</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_026">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/26.jpg</></Pair>
+				<Pair key="title"><>Remap to 026: PS3 0.90 Coldboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/26.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?26</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_027">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/27.jpg</></Pair>
+				<Pair key="title"><>Remap to 027: PS3 0.95 Coldboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/27.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?27</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_028">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/28.jpg</></Pair>
+				<Pair key="title"><>Remap to 028: PS3 0.95 Gameboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/28.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?28</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_029">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/29.jpg</></Pair>
+				<Pair key="title"><>Remap to 029: PS3 1.00 Gameboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/29.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?29</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_030">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/30.jpg</></Pair>
+				<Pair key="title"><>Remap to 030: PS3 Acapella 1 Coldboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/30.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?30</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_031">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/31.jpg</></Pair>
+				<Pair key="title"><>Remap to 031: PS3 Acapella 2 Coldboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/31.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?31</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="bootsound_swap_item_032">
+				<Pair key="icon"><>/dev_hdd0/tmp/coldboot/32.jpg</></Pair>
+				<Pair key="title"><>Remap to 032: PS3 Acapella 3 Gameboot</></Pair>
+				<Pair key="info"><>Redirect coldboot*.ac3 to dev_hdd0/tmp/coldboot/32.ac3</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/coldboot.ps3?32</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_bootsound_random"
+				attr="seg_bootsound_random"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_bootsound_disable"
+				attr="seg_bootsound_disable"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_001"
+				attr="bootsound_swap_item_001"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_002"
+				attr="bootsound_swap_item_002"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_003"
+				attr="bootsound_swap_item_003"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_004"
+				attr="bootsound_swap_item_004"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_005"
+				attr="bootsound_swap_item_005"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_006"
+				attr="bootsound_swap_item_006"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_007"
+				attr="bootsound_swap_item_007"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_008"
+				attr="bootsound_swap_item_008"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_009"
+				attr="bootsound_swap_item_009"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_010"
+				attr="bootsound_swap_item_010"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_011"
+				attr="bootsound_swap_item_011"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_012"
+				attr="bootsound_swap_item_012"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_013"
+				attr="bootsound_swap_item_013"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_014"
+				attr="bootsound_swap_item_014"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_015"
+				attr="bootsound_swap_item_015"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_016"
+				attr="bootsound_swap_item_016"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_017"
+				attr="bootsound_swap_item_017"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_018"
+				attr="bootsound_swap_item_018"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_019"
+				attr="bootsound_swap_item_019"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_020"
+				attr="bootsound_swap_item_020"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_021"
+				attr="bootsound_swap_item_021"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_022"
+				attr="bootsound_swap_item_022"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_023"
+				attr="bootsound_swap_item_023"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_024"
+				attr="bootsound_swap_item_024"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_025"
+				attr="bootsound_swap_item_025"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_026"
+				attr="bootsound_swap_item_026"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_027"
+				attr="bootsound_swap_item_027"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_028"
+				attr="bootsound_swap_item_028"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_029"
+				attr="bootsound_swap_item_029"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_030"
+				attr="bootsound_swap_item_030"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_031"
+				attr="bootsound_swap_item_031"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="bootsound_swap_item_032"
+				attr="bootsound_swap_item_032"
+				/>
+		</Items>
+	</View>
+	
+</XMBML>

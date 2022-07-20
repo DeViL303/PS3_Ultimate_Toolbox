@@ -1,0 +1,15 @@
+<XMBML version="1.0">
+	<View id="seg_file_manager_items"> 
+		<Attributes> 
+			<Table key="fileexplorer_xmbm_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_search.png</></Pair>
+				<Pair key="title"><>File Explorer</></Pair>
+				<Pair key="info"><>Browse and delete files</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="fileexplorer_xmbm_main" attr="fileexplorer_xmbm_main" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/File_Manager_Items.xml#seg_fileexplorer_xmbm_items"/>
+		</Items>
+	</View>
+
+</XMBML>

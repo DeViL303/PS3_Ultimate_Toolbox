@@ -1,0 +1,68 @@
+<XMBML version="1.0">
+
+	<View id="wmm_wallpaper_settings_main">
+		<Attributes>
+			<Table key="wmm_wallpaper_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_photo_settings.png</></Pair>
+				<Pair key="title"><>Wallpaper Settings (wMM)</></Pair>
+				<Pair key="info"><>Wallpaper settings that require webMAN MOD
+				Note: You must have a wallpaper set initially for these settings to take effect</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_settings"	attr="wmm_wallpaper_settings" src="#wmm_wallpaper_settings_menu"/>
+		</Items>
+	</View>
+	
+	<View id="wmm_wallpaper_settings_menu">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_downloader"	src="#wmm_wallpaper_download"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_remap" src="xmb://localhost/dev_hdd0/tmp/wallpaper/wmm_wallpaper_remap.xml#wmm_wallpaper_remap_items"/>
+		</Items>
+	</View>
+	
+	<View id="wmm_wallpaper_download">
+		<Attributes>
+			<Table key="wmm_wallpaper_download1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_photo_settings.png</></Pair>
+				<Pair key="title"><>Download Wallpaper Pack (wMM)</></Pair>
+				<Pair key="info"><>Download a pack of wallpapers to dev_hdd0/tmp/wallpaper/ for use with wMM</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_download1"	attr="wmm_wallpaper_download1" src="#seg_wallpaper_hdd_item"/>
+		</Items>
+	</View>
+	
+	<View id="wmm_wallpaper_resources">
+		<Attributes>
+			<Table key="wmm_wallpaper_download2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Wallpapers to HDD</></Pair>
+				<Pair key="info"><>Download wallpaper resources to dev_hdd0/tmp/wallpaper/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_wallpaper_download2"	attr="wmm_wallpaper_download2" src="#seg_wallpaper_hdd_item"/>
+		</Items>
+	</View>
+		
+	<View id="seg_wallpaper_hdd_item">
+		<Attributes>
+			<Table key="wallpaper_options_link">
+				<Pair key="info"><>net_package_install</></Pair>
+				<Pair key="pkg_src"><>https://dl.dropboxusercontent.com/s/d75uojs50hrwrbp/playstation_wallpaper_pack.pkg</></Pair>
+				<Pair key="pkg_src_qa"><>https://dl.dropboxusercontent.com/s/d75uojs50hrwrbp/playstation_wallpaper_pack.pkg</></Pair>
+				<Pair key="content_name"><>msg_install</></Pair>
+				<Pair key="content_id"><>CUSTOM-INSTALLER_00-0000000000000000</></Pair>
+				<Pair key="prod_pict_path"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/download_wallpaper_module.png</></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="wallpaper_options_link" attr="wallpaper_options_link"/>
+		</Items> 
+	</View>
+	
+</XMBML>

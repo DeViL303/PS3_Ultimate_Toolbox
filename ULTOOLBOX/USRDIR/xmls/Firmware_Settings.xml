@@ -1,0 +1,17 @@
+<XMBML version="1.0">
+
+	<View id="seg_firmware_settings">
+	<Attributes>
+			<Table key="firmware_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash.png</></Pair>
+				<Pair key="title"><>Firmware Settings</></Pair>
+				<Pair key="info"><>Toggle OFW/CFW features</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="firmware_settings"	attr="firmware_settings" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Settings_Items.xml#firmware_settings_items"/>
+		</Items>
+	</View>
+
+</XMBML>

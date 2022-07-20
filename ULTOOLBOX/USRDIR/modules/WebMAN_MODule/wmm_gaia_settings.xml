@@ -1,0 +1,73 @@
+<XMBML version="1.0">
+
+<View id="wmm_gaia_settings_main">
+		<Attributes>
+			<Table key="wmm_gaia_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_gaia.png</></Pair>
+				<Pair key="title"><>Gaia Visualization Settings (wMM)</></Pair>
+				<Pair key="info"><>Gaia Visualization settings that require webMAN MOD</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_gaia_settings"	attr="wmm_gaia_settings" src="#wmm_gaia_settings_menu"/>
+		</Items>
+	</View>
+	
+	<View id="wmm_gaia_settings_menu">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_gaia_setting"	src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/Gaia_Mods.xml#wmm_gaia_settings_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_gaia_remap" src="xmb://localhost/dev_hdd0/tmp/earth/wmm_gaia_remap.xml#wmm_gaia_remap_items"/>
+		</Items>
+	</View>
+		
+	<View id="seg_gaia_hdd_item">
+		<Attributes>
+			<Table key="gaia_hdd_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>All Current Gaia Visualizations on HDD will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy all available earth.qrc files to dev_hdd0/tmp/earth/
+				
+				After selecting this option, Back out of the menu then enter it again to see the new webMAN MOD specific options</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods#/dev_hdd0/tmp/earth#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons#/dev_hdd0/tmp/earth</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_hdd_item"
+				attr="gaia_hdd_item"
+				/>
+		</Items>
+	</View>
+	
+	<View id="seg_gaia_hdd_item_setup">
+		<Attributes>
+			<Table key="gaia_hdd_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>All Current Gaia Visualizations on HDD will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy all available earth.qrc files to dev_hdd0/tmp/earth/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_mods#/dev_hdd0/tmp/earth#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Gaia_Module/gaia_icons#/dev_hdd0/tmp/earth</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="gaia_hdd_item"
+				attr="gaia_hdd_item"
+				/>
+		</Items>
+	</View>
+	
+</XMBML>

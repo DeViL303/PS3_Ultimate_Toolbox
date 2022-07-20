@@ -1,0 +1,1354 @@
+<XMBML version="1.0">
+
+	<View id="seg_backup_utility_main_items">
+		<Attributes>
+			<Table key="dump_disc">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_hdd.png</></Pair>
+				<Pair key="title"><>Dump BD Disc</></Pair>
+				<Pair key="info"><>Rip the currently inserted Bluray to HDD or USB (Experimental)</></Pair>
+			</Table>
+			<Table key="full_system_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_hdd.png</></Pair>
+				<Pair key="title"><>System Backup Utility</></Pair>
+				<Pair key="info"><>Backup/Restore complete system snap shot</></Pair>
+			</Table>
+			<Table key="home_backup_folder_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_folder.png</></Pair>
+				<Pair key="title"><>Home Folder Backup</></Pair>
+				<Pair key="info"><>Backup user info and savesdata</></Pair>
+			</Table>
+			<Table key="xreg_switcher">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>xRegistry Save States</></Pair>
+				<Pair key="info"><>Backup/Restore system settings</></Pair>
+			</Table>
+			<Table key="bootplugins_switcher">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text_folder.png</></Pair>
+				<Pair key="title"><>Boot Plugins Backup</></Pair>
+				<Pair key="info"><>Backup/Restore boot_plugins*.txt</></Pair>
+			</Table>
+			<Table key="firmware_save_states">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_hdd.png</></Pair>
+				<Pair key="title"><>Firmware Save States</></Pair>
+				<Pair key="info"><>Switch between dev_flash backups</></Pair>
+			</Table>
+			<Table key="dump_tools">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_hdd.png</></Pair>
+				<Pair key="title"><>Dump Tools</></Pair>
+				<Pair key="info"><>Write system info to log</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+<!--		<Query class="type:x-xmb/folder-pixmap" key="dump_disc"	attr="dump_disc" src="#dump_disc_items"/> -->
+			<Query class="type:x-xmb/folder-pixmap" key="full_system_backup"	attr="full_system_backup" src="#full_system_backup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="home_backup_folder_backup"	attr="home_backup_folder_backup" src="#home_backup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="bootplugins_switcher"	attr="bootplugins_switcher" src="#boot_plugins_switcher_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="xreg_switcher"	attr="xreg_switcher" src="#xreg_switcher_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="firmware_save_states" attr="firmware_save_states" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Firmware_Save_States.xml#firmware_switcher_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="dump_tools"	attr="dump_tools" src="#dump_tools_items"/>
+		</Items>
+	</View>
+
+	<View id="dump_tools_items">
+		<Attributes>
+			<Table key="view_log">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>View Log</></Pair>
+				<Pair key="info"><>View utb_settings.log in the web browser (wMM Required)</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/dev_hdd0/tmp/utb_settings.log</></Pair>
+			</Table>
+			<Table key="clean_log">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/file.png</></Pair>
+				<Pair key="title"><>Clean Log File</></Pair>
+				<Pair key="info"><>Reset utb_settings.log</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>clean_log</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="dump_idps">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/key_text.png</></Pair>
+				<Pair key="title"><>Dump IDPS</></Pair>
+				<Pair key="info"><>Saves this consoles IDPS to log file</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>dump_idps</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="log_klic">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/key_folder.png</></Pair>
+				<Pair key="title"><>Log KLicense usage</></Pair>
+				<Pair key="info"><>Saves filename and klicensee to log file</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>log_klic</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="log_secureid">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/key_hdd.png</></Pair>
+				<Pair key="title"><>Log Secure File ID usage</></Pair>
+				<Pair key="info"><>Writes save data name and file id key to log file</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>log_secureid</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="dump_disc_key">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/key_disc.png</></Pair>
+				<Pair key="title"><>Dump Disc Hash Key</></Pair>
+				<Pair key="info"><>Retrieves disc hash key from an ORIGINAL game disc</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>dump_disc_key</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="applicable_version">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/recovery_display_minver.png</></Pair>
+				<Pair key="title"><>Display Applicable version</></Pair>
+				<Pair key="info"><>Displays Minimum Downgrade Version</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>applicable_version</></Pair>
+				<Pair key="ingame"><>disable</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="view_log" attr="view_log"/>
+			<Item class="type:x-xmb/module-action" key="clean_log" attr="clean_log"/>
+			<Item class="type:x-xmb/module-action" key="dump_idps" attr="dump_idps"/>
+			<Item class="type:x-xmb/module-action" key="log_klic" attr="log_klic"/>
+			<Item class="type:x-xmb/module-action" key="log_secureid" attr="log_secureid"/>
+			<Item class="type:x-xmb/module-action" key="dump_disc_key" attr="dump_disc_key"/>
+			<Item class="type:x-xmb/module-action" key="applicable_version"	attr="applicable_version"/>
+		</Items>
+	</View>
+
+	<View id="dump_disc_items">
+		<Attributes>
+			<Table key="dump_disc_hdd_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_hdd.png</></Pair>
+				<Pair key="title"><>Dump dev_bdvd To dev_hdd0/GAMES/</></Pair>
+				<Pair key="info"><>Rip disc to internal hard drive (JB folder format)</></Pair>
+			</Table>
+			<Table key="dump_disc_hdd_game">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_hdd.png</></Pair>
+				<Pair key="title"><>Dump dev_bdvd To dev_hdd0/game/</></Pair>
+				<Pair key="info"><>Rip disc to internal hard drive (CFW2OFW Style)</></Pair>
+			</Table>
+			<Table key="dump_disc_usb_main">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_usb.png</></Pair>
+				<Pair key="title"><>Dump To dev_usb000/GAMES/</></Pair>
+				<Pair key="info"><>Rip BD disc to external hard drive (JB Folder format)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="dump_disc_hdd_main" attr="dump_disc_hdd_main" src="#dump_disc_hdd"/>
+			<Query class="type:x-xmb/folder-pixmap" key="dump_disc_hdd_game" attr="dump_disc_hdd_game" src="#dump_disc_hdd_game"/>
+			<Query class="type:x-xmb/folder-pixmap" key="dump_disc_usb_main" attr="dump_disc_usb_main" src="#dump_disc_usb"/>
+		</Items>
+	</View>
+
+	<View id="dump_disc_hdd">
+		<Attributes>
+			<Table key="dump_bd_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_hdd.png</></Pair>
+				<Pair key="title"><>Dump dev_bdvd to dev_hdd0/GAMES/GAMEDUMP1?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back, it might take some time...
+				
+				Note: Experimental feature - Dumps Not working [POC]</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_bdvd#/dev_hdd0/GAMES/GAMEDUMP1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="dump_bd_hdd" attr="dump_bd_hdd"/>
+		</Items>
+	</View>
+
+	<View id="dump_disc_hdd_game">
+		<Attributes>
+			<Table key="dump_bd_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_hdd.png</></Pair>
+				<Pair key="title"><>Dump dev_bdvd to dev_hdd0/game/GAMEDUMP1/</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back, it might take some time...
+				
+				Note: Experimental feature - Dumps Not Working [POC]</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_bdvd/PS3_GAME#/dev_hdd0/game/GAMEDUMP1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="dump_bd_hdd" attr="dump_bd_hdd"/>
+		</Items>
+	</View>
+
+	<View id="dump_disc_usb">
+		<Attributes>
+			<Table key="dump_bd_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/disc_usb.png</></Pair>
+				<Pair key="title"><>Dump dev_bdvd to dev_usb000/GAMES/GAMEDUMP1?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back, it might take some time...
+				
+				Note: Experimental feature - Dumps Not Working [POC]</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_bdvd#/dev_usb000/GAMES/GAMEDUMP1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="dump_bd_usb" attr="dump_bd_usb"/>
+		</Items>
+	</View>
+
+	<View id="full_system_backup_items">
+		<Attributes>
+			<Table key="full_system_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_usb.png</></Pair>
+				<Pair key="title"><>Complete Backup to dev_usb000</></Pair>
+				<Pair key="info"><>Dump contents of dev_flash2 and dev_hdd0 partitions to dev_usb000</></Pair>
+			</Table>
+			<Table key="full_system_restore">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_hdd.png</></Pair>
+				<Pair key="title"><>Restore Backup from dev_usb000</></Pair>
+				<Pair key="info"><>Restore contents of dev_flash2 and dev_hdd0 folders from dev_usb000</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="full_system_backup" attr="full_system_backup" src="#full_system_backup_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="full_system_restore" attr="full_system_restore" src="#full_system_restore_item"/>
+		</Items>
+	</View>
+
+	<View id="full_system_backup_item">
+		<Attributes>
+			<Table key="system_backup_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Dump dev_hdd0/ and dev_flash2/ to dev_usb000/?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back, it will take a long time...
+				
+				Note: New experimental feature [POC]
+				Approx 11GB an hour. No 4GB+ support </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0#/dev_usb000/dev_hdd0#/dev_flash2#/dev_usb000/dev_flash2</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="system_backup_item" attr="system_backup_item"/>
+		</Items>
+	</View>
+
+	<View id="full_system_restore_item">
+		<Attributes>
+			<Table key="system_restore_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Restore Backup from dev_usb000/?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back, it will take a long time...
+				
+				Note: New experimental feature [POC]
+				When it's completed the Database will
+				rebuild after automatically rebooting</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/dev_hdd0#/dev_hdd0#/dev_usb000/dev_flash2#/dev_flash2#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/rebuild_database/db.err#/dev_hdd0/mms/db.err#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="system_restore_item" attr="system_restore_item"/>
+		</Items>
+	</View>
+
+	<View id="xreg_switcher_items">
+		<Attributes>
+			<Table key="seg_xreg_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current xRegistry file</></Pair>
+				<Pair key="info"><>Back up xregistry to dev_flash2/etc/xRegistry*.sys</></Pair>
+			</Table>
+			<Table key="seg_xreg_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Enable xRegistry Configuration 1</></Pair>
+				<Pair key="info"><>Restore xregistry from /dev_flash2/etc/xRegistry1.sys</></Pair>
+			</Table>
+			<Table key="seg_xreg_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Enable xRegistry Configuration 2</></Pair>
+				<Pair key="info"><>Restore xregistry from /dev_flash2/etc/xRegistry2.sys</></Pair>
+			</Table>
+			<Table key="seg_xreg_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Enable xRegistry Configuration 3</></Pair>
+				<Pair key="info"><>Restore xregistry from /dev_flash2/etc/xRegistry3.sys</></Pair>
+			</Table>
+			<Table key="seg_xreg_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_usb.png</></Pair>
+				<Pair key="title"><>Copy xRegistry Configuration from USB000</></Pair>
+				<Pair key="info"><>Restore xregistry from /dev_usb000/xRegistry.sys</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_xreg_backup" attr="seg_xreg_backup" src="#seg_xreg_backup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_xreg_1" attr="seg_xreg_1" src="#seg_xreg_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_xreg_2" attr="seg_xreg_2" src="#seg_xreg_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_xreg_3" attr="seg_xreg_3" src="#seg_xreg_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_xreg_usb" attr="seg_xreg_usb" src="#seg_xreg_usb_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_xreg_1_item">
+		<Attributes>
+			<Table key="seg_xreg_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current xRegistry.sys will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry1.sys#/dev_flash2/etc/xRegistry.sys#/dev_flash2/etc/xRegistry1.sys#/dev_flash2/etc/backup/xRegistry.sys#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_xreg_1_item" attr="seg_xreg_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_xreg_2_item">
+		<Attributes>
+			<Table key="seg_xreg_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current xRegistry.sys will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry2.sys#/dev_flash2/etc/xRegistry.sys#/dev_flash2/etc/xRegistry2.sys#/dev_flash2/etc/backup/xRegistry.sys#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_xreg_2_item" attr="seg_xreg_2_item" />
+		</Items>
+	</View>
+		
+	<View id="seg_xreg_3_item">
+		<Attributes>
+			<Table key="seg_xreg_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current xRegistry.sys will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry3.sys#/dev_flash2/etc/xRegistry.sys#/dev_flash2/etc/xRegistry3.sys#/dev_flash2/etc/backup/xRegistry.sys#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_xreg_3_item" attr="seg_xreg_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_xreg_usb_item">
+		<Attributes>
+			<Table key="seg_xreg_usb_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Copy xregistry from root of USB000 to dev_flash2?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/xRegistry.sys#/dev_flash2/etc/xRegistry.sys#/dev_usb000/xRegistry.sys#/dev_flash2/etc/backup/xRegistry.sys#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_xreg_usb_item" attr="seg_xreg_usb_item" />
+		</Items>
+	</View>
+
+	<View id="seg_xreg_backup_items">
+		<Attributes>
+			<Table key="seg_backup_xreg_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current xRegistry.sys to Configuration Slot 1</></Pair>
+				<Pair key="info"><>Backup xRegistry to /dev_flash2/etc/xRegistry1.sys</></Pair>
+			</Table>
+			<Table key="seg_backup_xreg_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current xRegistry.sys to Configuration Slot 2</></Pair>
+				<Pair key="info"><>Backup xRegistry to /dev_flash2/etc/xRegistry2.sys</></Pair>
+			</Table>
+			<Table key="seg_backup_xreg_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup Current xRegistry.sys to Configuration Slot 3</></Pair>
+				<Pair key="info"><>Backup xRegistry to /dev_flash2/etc/xRegistry3.sys</></Pair>
+			</Table>
+			<Table key="seg_backup_xreg_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_usb.png</></Pair>
+				<Pair key="title"><>Backup Current xRegistry.sys to USB000</></Pair>
+				<Pair key="info"><></></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_xreg_1" attr="seg_backup_xreg_1" src="#seg_backup_xreg_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_xreg_2" attr="seg_backup_xreg_2" src="#seg_backup_xreg_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_xreg_3" attr="seg_backup_xreg_3" src="#seg_backup_xreg_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_xreg_usb" attr="seg_backup_xreg_usb" src="#seg_backup_xreg_usb_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_backup_xreg_1_item">
+		<Attributes>
+			<Table key="seg_backup_xreg_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Backup in slot 1 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry.sys#/dev_flash2/etc/xRegistry1.sys</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_xreg_1_item" attr="seg_backup_xreg_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_xreg_2_item">
+		<Attributes>
+			<Table key="seg_backup_xreg_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Backup in slot 2 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry.sys#/dev_flash2/etc/xRegistry2.sys</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_xreg_2_item" attr="seg_backup_xreg_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_xreg_3_item">
+		<Attributes>
+			<Table key="seg_backup_xreg_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Backup in slot 3 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry.sys#/dev_flash2/etc/xRegistry3.sys</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_xreg_3_item" attr="seg_backup_xreg_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_xreg_usb_item">
+		<Attributes>
+			<Table key="seg_backup_xreg_usb_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>Backup current xRegistry.sys to root of USB000?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_flash2/etc/xRegistry.sys#/dev_usb000/xRegistry.sys</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_xreg_usb_item" attr="seg_backup_xreg_usb_item" />
+		</Items>
+	</View>
+
+	<View id="boot_plugins_switcher_items">
+		<Attributes>
+			<Table key="seg_boot_plugins_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text_folder.png</></Pair>
+				<Pair key="title"><>Backup boot_plugins*.txt</></Pair>
+				<Pair key="info"><>Save a copy of dev_hdd0/boot_plugins*.txt to dev_usb000 or dev_hdd0</></Pair>
+			</Table>
+			<Table key="seg_boot_plugins_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>Restore from Slot 1</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/tmp/backup/boot_plugins*1.txt to dev_hdd0/boot_plugins*.txt</></Pair>
+			</Table>
+			<Table key="seg_boot_plugins_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>Restore from Slot 2</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/tmp/backup/boot_plugins*2.txt to dev_hdd0/boot_plugins*.txt</></Pair>
+			</Table>
+			<Table key="seg_boot_plugins_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/text.png</></Pair>
+				<Pair key="title"><>Restore from Slot 3</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/tmp/backup/boot_plugins*3.txt to dev_hdd0/boot_plugins*.txt</></Pair>
+			</Table>
+			<Table key="seg_boot_plugins_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_folder.png</></Pair>
+				<Pair key="title"><>Restore from USB</></Pair>
+				<Pair key="info"><>Copy boot_plugins*.txt from root of dev_usb000</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_plugins_backup" attr="seg_boot_plugins_backup" src="#seg_boot_plugins_backup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_plugins_1" attr="seg_boot_plugins_1" src="#seg_boot_plugins_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_plugins_2" attr="seg_boot_plugins_2" src="#seg_boot_plugins_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_plugins_3" attr="seg_boot_plugins_3" src="#seg_boot_plugins_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_boot_plugins_usb" attr="seg_boot_plugins_usb" src="#seg_boot_plugins_usb_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_boot_plugins_1_item">
+		<Attributes>
+			<Table key="seg_boot_plugins_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Current boot_plugins*.txt will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/boot_plugins1.txt#/dev_hdd0/boot_plugins.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra1.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra_dex1.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_boot_plugins_1_item" attr="seg_boot_plugins_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_boot_plugins_2_item">
+		<Attributes>
+			<Table key="seg_boot_plugins_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Current boot_plugins*.txt will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/boot_plugins2.txt#/dev_hdd0/boot_plugins.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra2.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra_dex2.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_boot_plugins_2_item" attr="seg_boot_plugins_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_boot_plugins_3_item">
+		<Attributes>
+			<Table key="seg_boot_plugins_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Current boot_plugins*.txt will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/boot_plugins3.txt#/dev_hdd0/boot_plugins.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra3.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra_dex3.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_boot_plugins_3_item" attr="seg_boot_plugins_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_boot_plugins_usb_item">
+		<Attributes>
+			<Table key="seg_boot_plugins_usb_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Copy boot_plugins*.txt from root of dev_usb000 to dev_hdd0?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/boot_plugins.txt#/dev_hdd0/boot_plugins.txt#/dev_usb000/boot_plugins_nocobra.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_usb000/boot_plugins_nocobra_dex.txt#/boot_plugins_nocobra_dex.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_boot_plugins_usb_item" attr="seg_boot_plugins_usb_item" />
+		</Items>
+	</View>
+
+	<View id="seg_boot_plugins_backup_items">
+		<Attributes>
+			<Table key="seg_backup_boot_plugins_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup to Slot 1</></Pair>
+				<Pair key="info"><>Copy current boot_plugins*.txt to dev_hdd0/tmp/backup/boot_plugins*1.txt</></Pair>
+			</Table>
+			<Table key="seg_backup_boot_plugins_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup to Slot 2</></Pair>
+				<Pair key="info"><>Copy current boot_plugins*.txt to dev_hdd0/tmp/backup/boot_plugins*2.txt</></Pair>
+			</Table>
+			<Table key="seg_backup_boot_plugins_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup to Slot 3</></Pair>
+				<Pair key="info"><>Copy current boot_plugins*.txt to dev_hdd0/tmp/backup/boot_plugins*3.txt</></Pair>
+			</Table>
+			<Table key="seg_backup_boot_plugins_usb">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_usb.png</></Pair>
+				<Pair key="title"><>Backup to USB</></Pair>
+				<Pair key="info"><>Copy current boot_plugins*.txt to dev_usb000/boot_plugins*.txt</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_boot_plugins_1" attr="seg_backup_boot_plugins_1" src="#seg_backup_boot_plugins_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_boot_plugins_2" attr="seg_backup_boot_plugins_2" src="#seg_backup_boot_plugins_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_boot_plugins_3" attr="seg_backup_boot_plugins_3" src="#seg_backup_boot_plugins_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_backup_boot_plugins_usb" attr="seg_backup_boot_plugins_usb" src="#seg_backup_boot_plugins_usb_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_backup_boot_plugins_1_item">
+		<Attributes>
+			<Table key="seg_backup_boot_plugins_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>boot_plugins*.txt in slot 1 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/boot_plugins.txt#/dev_hdd0/tmp/backup/boot_plugins1.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra1.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra_dex1.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_boot_plugins_1_item" attr="seg_backup_boot_plugins_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_boot_plugins_2_item">
+		<Attributes>
+			<Table key="seg_backup_boot_plugins_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>boot_plugins*.txt in slot 2 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/boot_plugins.txt#/dev_hdd0/tmp/backup/boot_plugins2.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra2.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra_dex2.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_boot_plugins_2_item" attr="seg_backup_boot_plugins_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_boot_plugins_3_item">
+		<Attributes>
+			<Table key="seg_backup_boot_plugins_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>boot_plugins*.txt in slot 3 will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/boot_plugins.txt#/dev_hdd0/tmp/backup/boot_plugins3.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra3.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt#/dev_hdd0/tmp/backup/boot_plugins_nocobra_dex3.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_boot_plugins_3_item" attr="seg_backup_boot_plugins_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_backup_boot_plugins_usb_item">
+		<Attributes>
+			<Table key="seg_backup_boot_plugins_usb_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>Backup current boot_plugins*.txt to root of dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/boot_plugins.txt#/dev_usb000/boot_plugins.txt#/dev_hdd0/boot_plugins_nocobra.txt#/dev_usb000/boot_plugins_nocobra.txt#/dev_hdd0/boot_plugins_nocobra_dex.txt#/dev_usb000/boot_plugins_nocobra_dex.txt</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_backup_boot_plugins_usb_item" attr="seg_backup_boot_plugins_usb_item" />
+		</Items>
+	</View>
+
+	<View id="home_backup_items">
+		<Attributes>
+			<Table key="seg_home_backup">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Backup User Info</></Pair>
+				<Pair key="info"><></></Pair>
+			</Table>
+			<Table key="seg_home_restore">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/faces_hdd.png</></Pair>
+				<Pair key="title"><>Restore User Info</></Pair>
+				<Pair key="info"><></></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup" attr="seg_home_backup" src="#seg_home_backup_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore" attr="seg_home_restore" src="#seg_home_restore_items"/>
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_items">
+		<Attributes>
+			<Table key="seg_home_restore_0">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore Complete Home Folder from USB</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/ to dev_hdd0/home/</></Pair>
+			</Table>
+			<Table key="seg_home_restore_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore Complete Home Folder from HDD</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/tmp/backup/home/ to dev_hdd0/home/</></Pair>
+			</Table>
+			<Table key="seg_home_restore_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000001</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000001 to dev_hdd0/home/00000001</></Pair>
+			</Table>
+			<Table key="seg_home_restore_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000002</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000002 to dev_hdd0/home/00000002</></Pair>
+			</Table>
+			<Table key="seg_home_restore_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000003</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000003 to dev_hdd0/home/00000003</></Pair>
+			</Table>
+			<Table key="seg_home_restore_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000004</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000004 to dev_hdd0/home/00000004</></Pair>
+			</Table>
+			<Table key="seg_home_restore_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000005</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000005 to dev_hdd0/home/00000005</></Pair>
+			</Table>
+			<Table key="seg_home_restore_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000006</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000006 to dev_hdd0/home/00000006</></Pair>
+			</Table>
+			<Table key="seg_home_restore_7">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000007</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000007 to dev_hdd0/home/00000007</></Pair>
+			</Table>
+			<Table key="seg_home_restore_8">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000008</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000008 to dev_hdd0/home/00000008</></Pair>
+			</Table>
+			<Table key="seg_home_restore_9">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000009</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000009 to dev_hdd0/home/00000009</></Pair>
+			</Table>
+			<Table key="seg_home_restore_10">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000010</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000010 to dev_hdd0/home/00000010</></Pair>
+			</Table>
+			<Table key="seg_home_restore_11">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000011</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000011 to dev_hdd0/home/00000011</></Pair>
+			</Table>
+			<Table key="seg_home_restore_12">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Restore User Folder 00000012</></Pair>
+				<Pair key="info"><>Copy dev_usb000/home/00000012 to dev_hdd0/home/00000012</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_0" attr="seg_home_restore_0" src="#seg_home_restore_0_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_hdd" attr="seg_home_restore_hdd" src="#seg_home_restore_hdd_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_1" attr="seg_home_restore_1" src="#seg_home_restore_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_2" attr="seg_home_restore_2" src="#seg_home_restore_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_3" attr="seg_home_restore_3" src="#seg_home_restore_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_4" attr="seg_home_restore_4" src="#seg_home_restore_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_5" attr="seg_home_restore_5" src="#seg_home_restore_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_6" attr="seg_home_restore_6" src="#seg_home_restore_6_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_7" attr="seg_home_restore_7" src="#seg_home_restore_7_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_8" attr="seg_home_restore_8" src="#seg_home_restore_8_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_9" attr="seg_home_restore_9" src="#seg_home_restore_9_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_10" attr="seg_home_restore_10" src="#seg_home_restore_10_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_11" attr="seg_home_restore_11" src="#seg_home_restore_11_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_restore_12" attr="seg_home_restore_12" src="#seg_home_restore_12_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_0_item">
+		<Attributes>
+			<Table key="seg_home_restore_0_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Entire Home Folder will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/home#/dev_hdd0/home#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_0_item" attr="seg_home_restore_0_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_hdd_item">
+		<Attributes>
+			<Table key="seg_home_restore_hdd_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Entire Home Folder will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/tmp/backup/home#/dev_hdd0/home#hard_reboot</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_hdd_action" attr="seg_home_restore_hdd_action" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_1_item">
+		<Attributes>
+			<Table key="seg_home_restore_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000001 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000001#/dev_hdd0/home/00000001</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_1_item" attr="seg_home_restore_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_2_item">
+		<Attributes>
+			<Table key="seg_home_restore_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000002 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000002#/dev_hdd0/home/00000002</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_2_item" attr="seg_home_restore_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_3_item">
+		<Attributes>
+			<Table key="seg_home_restore_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000003 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000003#/dev_hdd0/home/00000003</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_3_item" attr="seg_home_restore_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_4_item">
+		<Attributes>
+			<Table key="seg_home_restore_4_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000001 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000004#/dev_hdd0/home/00000004</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_4_item" attr="seg_home_restore_4_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_5_item">
+		<Attributes>
+			<Table key="seg_home_restore_5_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000005 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000005#/dev_hdd0/home/00000005</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_5_item" attr="seg_home_restore_5_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_6_item">
+		<Attributes>
+			<Table key="seg_home_restore_6_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000006 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000006#/dev_hdd0/home/00000006</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_6_item" attr="seg_home_restore_6_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_7_item">
+		<Attributes>
+			<Table key="seg_home_restore_7_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000007 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000007#/dev_hdd0/home/00000007</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_7_item" attr="seg_home_restore_7_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_8_item">
+		<Attributes>
+			<Table key="seg_home_restore_8_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000008 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000008#/dev_hdd0/home/00000008</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_8_item" attr="seg_home_restore_8_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_9_item">
+		<Attributes>
+			<Table key="seg_home_restore_9_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000009 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000009#/dev_hdd0/home/00000009</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_9_item" attr="seg_home_restore_9_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_10_item">
+		<Attributes>
+			<Table key="seg_home_restore_10_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000010 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000010#/dev_hdd0/home/00000010</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_10_item" attr="seg_home_restore_10_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_11_item">
+		<Attributes>
+			<Table key="seg_home_restore_11_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000011 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000011#/dev_hdd0/home/00000011</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_11_item" attr="seg_home_restore_11_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_restore_12_item">
+		<Attributes>
+			<Table key="seg_home_restore_12_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>User 00000012 folder will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_usb000/00000012#/dev_hdd0/home/00000012</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_restore_12_item" attr="seg_home_restore_12_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_items">
+		<Attributes>
+			<Table key="seg_home_backup_0">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup Complete Home Folder to USB</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/ to dev_usb000/home/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup Complete Home Folder to HDD</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/ to dev_hdd0/tmp/backup/home/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_1">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000001</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000001/ to dev_usb000/00000001/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_2">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000002</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000002/ to dev_usb000/00000002/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_3">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000003</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000003/ to dev_usb000/00000003/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_4">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000004</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000004/ to dev_usb000/00000004/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_5">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000005</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000005/ to dev_usb000/00000005/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_6">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000006</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000006/ to dev_usb000/00000006/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_7">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000007</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000007/ to dev_usb000/00000007/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_8">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000008</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000008/ to dev_usb000/00000008/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_9">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000009</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000009/ to dev_usb000/00000009/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_10">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000010</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000010/ to dev_usb000/00000010/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_11">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000011</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000011/ to dev_usb000/00000011/</></Pair>
+			</Table>
+			<Table key="seg_home_backup_12">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/inj_rco.png</></Pair>
+				<Pair key="title"><>Backup User Folder 00000012</></Pair>
+				<Pair key="info"><>Copy dev_hdd0/home/00000012/ to dev_usb000/00000012/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_0" attr="seg_home_backup_0" src="#seg_home_backup_0_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_hdd" attr="seg_home_backup_hdd" src="#seg_home_backup_hdd_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_1" attr="seg_home_backup_1" src="#seg_home_backup_1_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_2" attr="seg_home_backup_2" src="#seg_home_backup_2_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_3" attr="seg_home_backup_3" src="#seg_home_backup_3_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_4" attr="seg_home_backup_4" src="#seg_home_backup_4_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_5" attr="seg_home_backup_5" src="#seg_home_backup_5_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_6" attr="seg_home_backup_6" src="#seg_home_backup_6_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_7" attr="seg_home_backup_7" src="#seg_home_backup_7_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_8" attr="seg_home_backup_8" src="#seg_home_backup_8_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_9" attr="seg_home_backup_9" src="#seg_home_backup_9_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_10" attr="seg_home_backup_10" src="#seg_home_backup_10_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_11" attr="seg_home_backup_11" src="#seg_home_backup_11_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_home_backup_12" attr="seg_home_backup_12" src="#seg_home_backup_12_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_0_item">
+		<Attributes>
+			<Table key="seg_home_backup_0_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>Entire Home folder will be backed up, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home#/dev_usb000/home</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_0_item" attr="seg_home_backup_0_item" />
+		</Items>
+	</View>
+	
+	<View id="seg_home_backup_hdd_item">
+		<Attributes>
+			<Table key="seg_home_backup_hdd_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>Entire Home folder will be backed up to HDD?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home#/dev_hdd0/tmp/backup/home</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_hdd_action" attr="seg_home_backup_hdd_action" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_1_item">
+		<Attributes>
+			<Table key="seg_home_backup_1_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000001 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000001#/dev_usb000/00000001</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_1_item" attr="seg_home_backup_1_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_2_item">
+		<Attributes>
+			<Table key="seg_home_backup_2_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000002 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000002#/dev_usb000/00000002</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_2_item" attr="seg_home_backup_2_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_3_item">
+		<Attributes>
+			<Table key="seg_home_backup_3_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000003 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000003#/dev_usb000/00000003</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_3_item" attr="seg_home_backup_3_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_4_item">
+		<Attributes>
+			<Table key="seg_home_backup_4_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000001 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000004#/dev_usb000/00000004</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_4_item" attr="seg_home_backup_4_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_5_item">
+		<Attributes>
+			<Table key="seg_home_backup_5_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000005 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000005#/dev_usb000/00000005</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_5_item" attr="seg_home_backup_5_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_6_item">
+		<Attributes>
+			<Table key="seg_home_backup_6_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000006 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000006#/dev_usb000/00000006</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_6_item" attr="seg_home_backup_6_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_7_item">
+		<Attributes>
+			<Table key="seg_home_backup_7_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000007 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000007#/dev_usb000/00000007</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_7_item" attr="seg_home_backup_7_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_8_item">
+		<Attributes>
+			<Table key="seg_home_backup_8_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000008 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000008#/dev_usb000/00000008</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_8_item" attr="seg_home_backup_8_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_9_item">
+		<Attributes>
+			<Table key="seg_home_backup_9_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000009 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000009#/dev_usb000/00000009</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_9_item" attr="seg_home_backup_9_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_10_item">
+		<Attributes>
+			<Table key="seg_home_backup_10_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000010 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000010#/dev_usb000/00000010</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_10_item" attr="seg_home_backup_10_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_11_item">
+		<Attributes>
+			<Table key="seg_home_backup_11_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000011 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000011#/dev_usb000/00000011</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_11_item" attr="seg_home_backup_11_item" />
+		</Items>
+	</View>
+
+	<View id="seg_home_backup_12_item">
+		<Attributes>
+			<Table key="seg_home_backup_12_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/usb_warning.png</></Pair>
+				<Pair key="title"><>User 00000012 folder will be backed up to dev_usb000?</></Pair>
+				<Pair key="info"><>Press  to continue and reboot, Press  to go back.</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/home/00000012#/dev_usb000/00000012</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="seg_home_backup_12_item" attr="seg_home_backup_12_item" />
+		</Items>
+	</View>
+</XMBML>

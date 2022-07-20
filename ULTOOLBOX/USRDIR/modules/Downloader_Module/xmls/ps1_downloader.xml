@@ -1,0 +1,2431 @@
+<XMBML version="1.0">
+
+	<View id="ps1_downloader_items">
+		<Attributes>
+			<Table key="ps1_downloader_eu">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_eu.png</></Pair>
+				<Pair key="title"><>EU PS1 Demo Discs</></Pair>
+				<Pair key="info"><>0 items</></Pair>
+			</Table>
+			<Table key="ps1_downloader_us">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_us.png</></Pair>
+				<Pair key="title"><>US PS1 Demo Discs</></Pair>
+				<Pair key="info"><>31 items</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="ps1_downloader_eu" 
+				attr="ps1_downloader_eu"
+				src="#ps1_downloader_eu_items"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="ps1_downloader_us" 
+				attr="ps1_downloader_us"
+				src="#ps1_downloader_us_items"
+				/>
+		</Items>
+	</View>
+
+	<View id="ps1_downloader_us_items">
+		<Attributes>
+			<Table key="ps1_demo_us_001">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_001.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 01</></Pair>
+				<Pair key="info"><>Download an image of the SCUS-94189 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_002">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_002.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 02</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94198 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_003">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_003.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 03</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94210 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_004">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_004.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 04</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94211 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_005">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_005.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 05</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94212 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_006">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_006.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 06</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94213 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_007">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_007.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 07</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94214 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_008">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_008.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 08</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94215 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_009">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_009.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 09</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94216 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_010">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_010.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 10</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94217 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_011">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_011.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 11</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94218 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_012">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_012.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 12</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94219 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_013">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_013.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 13</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94275 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_014">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_014.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 14</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94276 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_015">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_015.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 15</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94277 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_016">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_016.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 16</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94278 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_017">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_017.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 17</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94279 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_018.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 18</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94280 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_019.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 19</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94281 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_020.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 20</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94282 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_021.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 21</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94429 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_022">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_022.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 22</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94430 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_023">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_023.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 23</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94431 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_024">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_024.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 24</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94432 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_025">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_025.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 25</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94433 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_026">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_026.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 26</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94434 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_027">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_027.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 27</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94435 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_028">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_028.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 28</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94436 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_029">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_029.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 29</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94437 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_030">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_030.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 30</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94438 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_031">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_031.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 31</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94499 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_032">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_032.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 32</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94583 demo disc to HDD   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_033">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_033.jpg</></Pair>
+				<Pair key="title"><>Official US Playstation Magazine Demo Disc 33</></Pair>
+				<Pair key="info"><>Download BIN+Cue of the SCUS-94591 demo disc to HDD   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_001" attr="ps1_demo_us_001" src="#ps1_demo_us_001_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_002" attr="ps1_demo_us_002" src="#ps1_demo_us_002_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_003" attr="ps1_demo_us_003" src="#ps1_demo_us_003_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_004" attr="ps1_demo_us_004" src="#ps1_demo_us_004_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_005" attr="ps1_demo_us_005" src="#ps1_demo_us_005_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_006" attr="ps1_demo_us_006" src="#ps1_demo_us_006_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_007" attr="ps1_demo_us_007" src="#ps1_demo_us_007_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_008" attr="ps1_demo_us_008" src="#ps1_demo_us_008_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_009" attr="ps1_demo_us_009" src="#ps1_demo_us_009_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_010" attr="ps1_demo_us_010" src="#ps1_demo_us_010_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_011" attr="ps1_demo_us_011" src="#ps1_demo_us_011_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_012" attr="ps1_demo_us_012" src="#ps1_demo_us_012_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_013" attr="ps1_demo_us_013" src="#ps1_demo_us_013_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_014" attr="ps1_demo_us_014" src="#ps1_demo_us_014_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_015" attr="ps1_demo_us_015" src="#ps1_demo_us_015_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_016" attr="ps1_demo_us_016" src="#ps1_demo_us_016_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_017" attr="ps1_demo_us_017" src="#ps1_demo_us_017_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_018" attr="ps1_demo_us_018" src="#ps1_demo_us_018_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_019" attr="ps1_demo_us_019" src="#ps1_demo_us_019_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_020" attr="ps1_demo_us_020" src="#ps1_demo_us_020_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_021" attr="ps1_demo_us_021" src="#ps1_demo_us_021_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_022" attr="ps1_demo_us_022" src="#ps1_demo_us_022_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_023" attr="ps1_demo_us_023" src="#ps1_demo_us_023_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_024" attr="ps1_demo_us_024" src="#ps1_demo_us_024_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_025" attr="ps1_demo_us_025" src="#ps1_demo_us_025_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_026" attr="ps1_demo_us_026" src="#ps1_demo_us_026_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_027" attr="ps1_demo_us_027" src="#ps1_demo_us_027_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_028" attr="ps1_demo_us_028" src="#ps1_demo_us_028_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_029" attr="ps1_demo_us_029" src="#ps1_demo_us_029_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_030" attr="ps1_demo_us_030" src="#ps1_demo_us_030_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_031" attr="ps1_demo_us_031" src="#ps1_demo_us_031_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_032" attr="ps1_demo_us_032" src="#ps1_demo_us_032_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_033" attr="ps1_demo_us_033" src="#ps1_demo_us_033_items"/>
+		</Items>
+	</View>
+
+	<View id="ps1_demo_us_001_items">
+		<Attributes>
+			<Table key="ps1_demo_us_001_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_001.png</></Pair>
+				<Pair key="title"><>Download Demo #01</></Pair>
+				<Pair key="info"><>Released: October 1997   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_001_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_001.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94189</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Intelligent Qube
+∙ PaRappa the Rapper
+∙ Ace Combat 2
+∙ Fighting Force
+
+Non-playable:
+∙ Tomb Raider 2
+∙ NFL GameDay '98
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_001_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)');</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_001_download" attr="ps1_demo_us_001_download" src="#ps1_demo_us_001_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_001_information" attr="ps1_demo_us_001_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_001_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_001_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_001.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/8htpp96cgui6v3d/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2001.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_001_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_001.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 01.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_001_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_001.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/w32l443bvel25wi/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2001.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_001_bin_action" attr="ps1_demo_us_001_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_001_cue_action" attr="ps1_demo_us_001_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_001_zip_action" attr="ps1_demo_us_001_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_002_items">
+		<Attributes>
+			<Table key="ps1_demo_us_002_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_002.png</></Pair>
+				<Pair key="title"><>Download Demo #02</></Pair>
+				<Pair key="info"><>Released: November 1997   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_002_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_002.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94198</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Crash Bandicoot 2
+∙ Croc
+∙ Armored Core
+∙ Madden 98
+∙ Cool Boarders 2
+∙ Colony Wars
+
+Non-playable:
+∙ NHL FaceOff 98
+∙ Ghost in the Shell
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_002_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)');</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_002_download" attr="ps1_demo_us_002_download" src="#ps1_demo_us_002_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_002_information" attr="ps1_demo_us_002_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_002_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_002_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_002.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/wnlx4mql809v7g9/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2002.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_002_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_002.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 02.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_002_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_002.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/jv0019blsok7d03/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2002.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_002_bin_action" attr="ps1_demo_us_002_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_002_cue_action" attr="ps1_demo_us_002_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_002_zip_action" attr="ps1_demo_us_002_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_003_items">
+		<Attributes>
+			<Table key="ps1_demo_us_003_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_003.png</></Pair>
+				<Pair key="title"><>Download Demo #03</></Pair>
+				<Pair key="info"><>Released: December 1997   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_003_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_003.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94210</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Bushido Blade
+∙ Vs.
+∙ Star Wars: Masters of Teras Kasi
+∙ Jet Moto 2
+∙ Cardinal Syn
+∙ Ghost in the Shell
+∙ Moto Racer
+∙ Test Drive 4
+
+Non-playable:
+∙ One
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_003_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_003_download" attr="ps1_demo_us_003_download" src="#ps1_demo_us_003_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_003_information" attr="ps1_demo_us_003_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_003_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_003_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_003.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/blmxt2orfhv2va4/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2003.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_003_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_003.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 03.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_003_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_003.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/n98rhnvmnmausl3/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2003.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_003_bin_action" attr="ps1_demo_us_003_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_003_cue_action" attr="ps1_demo_us_003_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_003_zip_action" attr="ps1_demo_us_003_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_004_items">
+		<Attributes>
+			<Table key="ps1_demo_us_004_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_004.png</></Pair>
+				<Pair key="title"><>Download Demo #04</></Pair>
+				<Pair key="info"><>Released: January 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_004_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_004.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94211</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ NFL Gameday 98
+∙ CART World Series
+∙ Frogger
+
+Non-Playable:
+∙ Spawn
+∙ Final Fantasy Tactics
+∙ Pandemonium 2
+∙ Gex 2
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_004_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_004_download" attr="ps1_demo_us_004_download" src="#ps1_demo_us_004_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_004_information" attr="ps1_demo_us_004_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_004_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_004_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_004.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/0wdiyozo1m54thv/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2004.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_004_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_004.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 04.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_004_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_004.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/vxfky4j2exdqa0p/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2004.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_004_bin_action" attr="ps1_demo_us_004_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_004_cue_action" attr="ps1_demo_us_004_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_004_zip_action" attr="ps1_demo_us_004_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_005_items">
+		<Attributes>
+			<Table key="ps1_demo_us_005_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_005.png</></Pair>
+				<Pair key="title"><>Download Demo #05</></Pair>
+				<Pair key="info"><>Released: February 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_005_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_005.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94212</></Pair>
+				<Pair key="info"><>Playable Demos:
+NCAA GameBreaker
+Crime Killer
+Tomb Raider 2
+Command & Conquer
+
+Non-playable:
+Bloody Roar
+Resident Evil 2
+Monster Rancher
+Vigilante 8
+Pitfall 3D
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_005_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_005_download" attr="ps1_demo_us_005_download" src="#ps1_demo_us_005_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_005_information" attr="ps1_demo_us_005_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_005_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_005_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_005.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/s8phozo992ylyaa/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2005.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_005_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_005.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 05.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_005_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_005.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/yh4j8s0124qyvdd/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2005.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_005_bin_action" attr="ps1_demo_us_005_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_005_cue_action" attr="ps1_demo_us_005_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_005_zip_action" attr="ps1_demo_us_005_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_006_items">
+		<Attributes>
+			<Table key="ps1_demo_us_006_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_006.png</></Pair>
+				<Pair key="title"><>Download Demo #06</></Pair>
+				<Pair key="info"><>Released: March 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_006_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_006.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94213</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Bloody Roar
+∙ Shipwreckers
+∙ Monster Rancher
+
+Non-playable:
+∙ NBA ShootOut 98
+∙ Saga Frontier
+∙ Alundra
+∙ Mega Man Neo
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_006_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_006_download" attr="ps1_demo_us_006_download" src="#ps1_demo_us_006_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_006_information" attr="ps1_demo_us_006_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_006_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_006_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_006.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/kh17qld4ph1dzt0/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2006.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_006_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_006.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 06.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_006_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_006.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/hb83mcl02ml6phn/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2006.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_006_bin_action" attr="ps1_demo_us_006_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_006_cue_action" attr="ps1_demo_us_006_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_006_zip_action" attr="ps1_demo_us_006_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_007_items">
+		<Attributes>
+			<Table key="ps1_demo_us_007_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_007.png</></Pair>
+				<Pair key="title"><>Download Demo #07</></Pair>
+				<Pair key="info"><>Released: April 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_007_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_007.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94214</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ WCW Nitro
+∙ Pitfall 3D
+∙ ONE
+∙ Hot Shots Golf
+
+Non-playable:
+∙ Grandstream Saga
+∙ Blasto
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_007_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_007_download" attr="ps1_demo_us_007_download" src="#ps1_demo_us_007_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_007_information" attr="ps1_demo_us_007_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_007_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_007_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_007.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/hru6hllyeeglu5q/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2007.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_007_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_007.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 07.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_007_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_007.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/xuxei9pfw0zskw1/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2007.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_007_bin_action" attr="ps1_demo_us_007_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_007_cue_action" attr="ps1_demo_us_007_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_007_zip_action" attr="ps1_demo_us_007_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_008_items">
+		<Attributes>
+			<Table key="ps1_demo_us_008_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_008.png</></Pair>
+				<Pair key="title"><>Download Demo #08</></Pair>
+				<Pair key="info"><>Released: May 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_008_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_008.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94215</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ One Handed
+∙ Gex: Enter the Gecko
+∙ Klonoa
+
+Non-playable:
+∙ Dead or Alive
+∙ MLB 99
+∙ Gran Turismo
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_008_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_008_download" attr="ps1_demo_us_008_download" src="#ps1_demo_us_008_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_008_information" attr="ps1_demo_us_008_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_008_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_008_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_008.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/uf5alky7cbblxlp/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2008.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_008_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_008.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 08.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_008_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_008.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/4dw4lb3wg3cfzkd/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2008.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_008_bin_action" attr="ps1_demo_us_008_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_008_cue_action" attr="ps1_demo_us_008_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_008_zip_action" attr="ps1_demo_us_008_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_009_items">
+		<Attributes>
+			<Table key="ps1_demo_us_009_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_009.png</></Pair>
+				<Pair key="title"><>Download Demo #09</></Pair>
+				<Pair key="info"><>Released: June 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_009_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_009.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94216</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Cardinal Syn
+∙ Vigilante 8
+∙ Forsaken
+∙ N20
+∙ TOCA (Championship Racing)
+∙ Dead of Alive
+
+Non-playable:
+∙ Tomba
+∙ Jersey Devil
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_009_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_009_download" attr="ps1_demo_us_009_download" src="#ps1_demo_us_009_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_009_information" attr="ps1_demo_us_009_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_009_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_009_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_009.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/loxq9599xzm1v3o/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2009.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_009_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_009.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 09.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_009_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_009.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/r0aj1x291ckdjvz/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2009.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_009_bin_action" attr="ps1_demo_us_009_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_009_cue_action" attr="ps1_demo_us_009_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_009_zip_action" attr="ps1_demo_us_009_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_010_items">
+		<Attributes>
+			<Table key="ps1_demo_us_010_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_010.png</></Pair>
+				<Pair key="title"><>Download Demo #10</></Pair>
+				<Pair key="info"><>Released: July 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_010_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_010.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94217</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Gran Turismo
+∙ Tomba
+∙ Jersey Devil
+∙ Speed Racer
+∙ Blasto
+∙ NBA ShootOut 98
+∙ Grandstream Saga
+
+Non-playable:
+∙ NFL Xtreme
+∙ Tekken 3
+∙ MLB 99
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_010_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_010_download" attr="ps1_demo_us_010_download" src="#ps1_demo_us_010_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_010_information" attr="ps1_demo_us_010_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_010_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_010_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_010.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/x0aq2ctvjunfw8n/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2010.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_010_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_010.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 10.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_010_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_010.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/kb7slmidwvm6mrf/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2010.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_010_bin_action" attr="ps1_demo_us_010_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_010_cue_action" attr="ps1_demo_us_010_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_010_zip_action" attr="ps1_demo_us_010_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_011_items">
+		<Attributes>
+			<Table key="ps1_demo_us_011_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_011.png</></Pair>
+				<Pair key="title"><>Download Demo #11</></Pair>
+				<Pair key="info"><>Released: August 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_011_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_011.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94218</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Tekken 3
+∙ Turbo Prop Racing
+
+Non-playable:
+∙ Metal Gear Solid
+∙ Duke Nukem: A Time to Kill
+∙ Lunar: Silver Star Story
+∙ Ninja
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_011_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_011_download" attr="ps1_demo_us_011_download" src="#ps1_demo_us_011_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_011_information" attr="ps1_demo_us_011_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_011_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_011_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_011.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/l3sz8gvj7cgbr4z/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2011.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_011_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_011.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 11.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_011_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_011.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/uvoefhap72gxv37/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2011.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_011_bin_action" attr="ps1_demo_us_011_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_011_cue_action" attr="ps1_demo_us_011_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_011_zip_action" attr="ps1_demo_us_011_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_012_items">
+		<Attributes>
+			<Table key="ps1_demo_us_012_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_012.png</></Pair>
+				<Pair key="title"><>Download Demo #12</></Pair>
+				<Pair key="info"><>Released: September 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_012_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_012.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94219</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Spyro the Dragon
+∙ S.C.A.R.S.
+∙ The Unholy War
+∙ Duke Nukem: Time to Kill
+∙ WWF War Zone
+
+Non-playable:
+∙ Metal Gear Solid
+∙ Test Drive 5
+∙ Threadz
+∙ Rival Schools
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_012_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_012_download" attr="ps1_demo_us_012_download" src="#ps1_demo_us_012_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_012_information" attr="ps1_demo_us_012_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_012_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_012_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_012.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/ukf4rrl4gtuo36n/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2012.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_012_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_012.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 12.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_012_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_012.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/72mk4aha7jvox0l/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2012.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_012_bin_action" attr="ps1_demo_us_012_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_012_cue_action" attr="ps1_demo_us_012_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_012_zip_action" attr="ps1_demo_us_012_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_013_items">
+		<Attributes>
+			<Table key="ps1_demo_us_013_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_013.png</></Pair>
+				<Pair key="title"><>Download Demo #13</></Pair>
+				<Pair key="info"><>Released: October 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_013_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_013.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94275</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Metal Gear Solid
+∙ Legacy of Kain: Soul Reaver
+∙ Test Drive 5
+∙ NFL Xtreme
+∙ Cool Boarders 3
+∙ Ninja: Shadow of Darkness
+∙ Devil Dice
+∙ Brunswick Circuit Pro Bowling
+
+Non-playable:
+∙ Medievil
+∙ Parasite Eve
+∙ NHL FaceOff 99
+∙ NFL GameDay 99
+∙ Heart of Darkness
+∙ Rival Schools
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_013_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_013_download" attr="ps1_demo_us_013_download" src="#ps1_demo_us_013_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_013_information" attr="ps1_demo_us_013_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_013_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_013_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_013.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/ut2utj76r0t4ru3/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2013.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_013_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_013.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 13.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_013_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_013.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/5x0rp7c70oaevp0/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2013.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_013_bin_action" attr="ps1_demo_us_013_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_013_cue_action" attr="ps1_demo_us_013_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_013_zip_action" attr="ps1_demo_us_013_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_014_items">
+		<Attributes>
+			<Table key="ps1_demo_us_014_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_014.png</></Pair>
+				<Pair key="title"><>Download Demo #14</></Pair>
+				<Pair key="info"><>Released: November 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_014_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_014.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94276</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ MediEvil
+∙ WarGames Defcon 1
+∙ Dragon Seeds
+∙ G-Darius
+∙ Future Cop L.A.P.D.
+∙ Colony Wars: Vengeance
+
+Non-Playable:
+∙ Crash Bandicoot: WARPED
+∙ Tenchu (aka Tenchu: Stealth Assassins)
+∙ Tai-Fu
+∙ Rugrats
+∙ Abe's Exoddus (aka Oddworld: Abe's Exoddus)
+∙ Brave Fencer Masushi (typo on the disc label, should have read "Brave Fencer Musashi")
+∙ You Don't Know Jack
+∙ Threadz
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_014_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_014_download" attr="ps1_demo_us_014_download" src="#ps1_demo_us_014_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_014_information" attr="ps1_demo_us_014_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_014_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_014_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_014.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/vpu3iyq49yme44n/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2014.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_014_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_014.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 14.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_014_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_014.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/znc208pymecc77x/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2014.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_014_bin_action" attr="ps1_demo_us_014_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_014_cue_action" attr="ps1_demo_us_014_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_014_zip_action" attr="ps1_demo_us_014_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_015_items">
+		<Attributes>
+			<Table key="ps1_demo_us_015_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_015.png</></Pair>
+				<Pair key="title"><>Download Demo #15</></Pair>
+				<Pair key="info"><>Released: December 1998   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_015_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_015.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94277</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ A Bug's Life
+∙ Crash Bandicoot: WARPED
+∙ Tomb Raider 3
+∙ Bomberman World
+∙ Invasion from Beyond
+∙ Kagero: Deception II
+∙ Running Wild
+∙ Gran Turismo
+∙ Metal Gear Solid
+
+Non-Playable:
+∙ Silent Hill
+∙ Knockout Kings
+∙ Big Air
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_015_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_015_download" attr="ps1_demo_us_015_download" src="#ps1_demo_us_015_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_015_information" attr="ps1_demo_us_015_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_015_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_015_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_015.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/n23qa0zap5hx3bt/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2015.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_015_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_015.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 15.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_015_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_015.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/44rxwzhz18rqzsj/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2015.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_015_bin_action" attr="ps1_demo_us_015_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_015_cue_action" attr="ps1_demo_us_015_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_015_zip_action" attr="ps1_demo_us_015_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_016_items">
+		<Attributes>
+			<Table key="ps1_demo_us_016_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_016.png</></Pair>
+				<Pair key="title"><>Download Demo #16</></Pair>
+				<Pair key="info"><>Released: January 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_016_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_016.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94278</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Silent Hill
+∙ Brave Fencer: Musashi
+∙ Moto Racer 2
+∙ Apocalypse
+∙ Tai Fu
+
+Non-Playable:
+∙ Syphon Filter
+∙ Rugrats
+∙ Legend of Legaia
+∙ Test Drive Off Road 2
+∙ Threadz
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_016_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_016_download" attr="ps1_demo_us_016_download" src="#ps1_demo_us_016_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_016_information" attr="ps1_demo_us_016_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_016_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_016_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_016.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/327u3wbb2duchus/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2016.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_016_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_016.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 16.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_016_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_016.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/6zou9ufap72l43a/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2016.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_016_bin_action" attr="ps1_demo_us_016_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_016_cue_action" attr="ps1_demo_us_016_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_016_zip_action" attr="ps1_demo_us_016_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_017_items">
+		<Attributes>
+			<Table key="ps1_demo_us_017_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_017.png</></Pair>
+				<Pair key="title"><>Download Demo #17</></Pair>
+				<Pair key="info"><>Released: February 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_017_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_017.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94279</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ NFL GameDay 99
+∙ NHL FaceOff 99
+∙ Twisted Metal III
+∙ Cool Boarders 3
+∙ Oddworld Abe's Exoddus
+∙ Destrega
+∙ Monkey Hero
+∙ ODT
+
+Non-Playable
+∙ NCAA Final Four
+∙ Gex 3
+∙ Shadow Madness
+∙ WCW/NWO
+∙ Jackie Chan's Stuntmaster
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_017_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_017_download" attr="ps1_demo_us_017_download" src="#ps1_demo_us_017_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_017_information" attr="ps1_demo_us_017_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_017_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_017_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_017.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/xg9zfjp0h5kp8ym/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2017.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_017_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_017.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 17.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_017_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_017.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/c1798d67zpz666n/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2017.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_017_bin_action" attr="ps1_demo_us_017_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_017_cue_action" attr="ps1_demo_us_017_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_017_zip_action" attr="ps1_demo_us_017_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_018_items">
+		<Attributes>
+			<Table key="ps1_demo_us_018_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_018.png</></Pair>
+				<Pair key="title"><>Download Demo #18</></Pair>
+				<Pair key="info"><>Released: March 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_018_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_018.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94280</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Syphon Filter
+∙ Bust a Groove
+∙ Shadow Madness
+∙ Street Sk8er
+∙ No One Can Stop Mr. Domino
+∙ Akuji the Heartless
+∙ Fisherman's Bait
+
+Non-playable:
+∙ NCAA Final Four 99
+∙ Guardian Crusade
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_018_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_018_download" attr="ps1_demo_us_018_download" src="#ps1_demo_us_018_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_018_information" attr="ps1_demo_us_018_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_018_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_018_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_018.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/k6siaxo9hjse8x0/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2018.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_018_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_018.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 18.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_018_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_018.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/czh01zwrl4k42kl/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2018.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_018_bin_action" attr="ps1_demo_us_018_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_018_cue_action" attr="ps1_demo_us_018_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_018_zip_action" attr="ps1_demo_us_018_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_019_items">
+		<Attributes>
+			<Table key="ps1_demo_us_019_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_019.png</></Pair>
+				<Pair key="title"><>Download Demo #19</></Pair>
+				<Pair key="info"><>Released: April 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_019_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_019.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94281</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Ridge Racer Type 4
+∙ Rollcage
+∙ Rugrats
+∙ Warzone 2100
+∙ WCW/nWo Thunder
+
+Non-Playable:
+∙ Legend of Legaia
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_019_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_019_download" attr="ps1_demo_us_019_download" src="#ps1_demo_us_019_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_019_information" attr="ps1_demo_us_019_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_019_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_019_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_019.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/weege0kf96onoyq/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2019.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_019_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_019.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 19.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_019_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_019.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/8mei1lg3uzd4rjt/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2019.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_019_bin_action" attr="ps1_demo_us_019_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_019_cue_action" attr="ps1_demo_us_019_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_019_zip_action" attr="ps1_demo_us_019_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_020_items">
+		<Attributes>
+			<Table key="ps1_demo_us_020_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_020.png</></Pair>
+				<Pair key="title"><>Download Demo #20</></Pair>
+				<Pair key="info"><>Released: May 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_020_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_020.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94282</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Legend of Legaia
+∙ Ehrgeiz
+∙ Gex 3: Deep Cover Gecko
+∙ Contender
+
+Non-Playable:
+∙ Centipede
+∙ G Police Weapons of Justice
+∙ Gauntlet Legends
+∙ Driver
+∙ 3Xtreme
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_020_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_020_download" attr="ps1_demo_us_020_download" src="#ps1_demo_us_020_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_020_information" attr="ps1_demo_us_020_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_020_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_020_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_020.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/snr32xsrradfxzc/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2020.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_020_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_020.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 20.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_020_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_020.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/vkiuftpqyrzsktx/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2020.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_020_bin_action" attr="ps1_demo_us_020_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_020_cue_action" attr="ps1_demo_us_020_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_020_zip_action" attr="ps1_demo_us_020_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_021_items">
+		<Attributes>
+			<Table key="ps1_demo_us_021_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_021.png</></Pair>
+				<Pair key="title"><>Download Demo #21</></Pair>
+				<Pair key="info"><>Released: June 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_021_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_021.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94429</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Ridge Racer 4
+∙ Bust-A-Move 4
+∙ Elmo's Letter Adventure
+∙ NFL Blitz
+∙ Abe's Exoddus
+
+Non-playable:
+∙ Bloody Roar 2
+∙ Star Ocean
+∙ MLB 2000
+∙ Jade Cocoon
+∙ Tony Hawk Skateboarding
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_021_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_021_download" attr="ps1_demo_us_021_download" src="#ps1_demo_us_021_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_021_information" attr="ps1_demo_us_021_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_021_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_021_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_021.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/3zlncir3s3y9hcl/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2021.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_021_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_021.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 21.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_021_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_021.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/12i42vni9q5003s/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2021.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_021_bin_action" attr="ps1_demo_us_021_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_021_cue_action" attr="ps1_demo_us_021_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_021_zip_action" attr="ps1_demo_us_021_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_022_items">
+		<Attributes>
+			<Table key="ps1_demo_us_022_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_022.png</></Pair>
+				<Pair key="title"><>Download Demo #22</></Pair>
+				<Pair key="info"><>Released: July 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_022_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_022.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94430</></Pair>
+				<Pair key="info"><>Playable Demos:
+Bloody Roar 2
+Interplay Sports Baseball 2000
+Croc 2
+The Next Tetris
+Ape Escape
+Tony Hawk's Pro Skater
+Soul of the Samurai
+MLB 2000
+
+Non-playable:
+Jet Moto 3
+Xena: Warrior Princess
+Macross VF-X 2
+Street Fighter Alpha 3
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_022_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_022_download" attr="ps1_demo_us_022_download" src="#ps1_demo_us_022_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_022_information" attr="ps1_demo_us_022_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_022_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_022_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_022.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/i6f98st4ernolb3/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2022.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_022_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_022.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 22.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_022_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_022.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/g5yqqkq9s5kzes0/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2022.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_022_bin_action" attr="ps1_demo_us_022_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_022_cue_action" attr="ps1_demo_us_022_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_022_zip_action" attr="ps1_demo_us_022_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_023_items">
+		<Attributes>
+			<Table key="ps1_demo_us_023_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_023.png</></Pair>
+				<Pair key="title"><>Download Demo #23</></Pair>
+				<Pair key="info"><>Released: August 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_023_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_023.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94431</></Pair>
+				<Pair key="info"><>Playable demos:
+Jade Cocoon
+Centipede
+Macross VF-X 2
+Final Fantasy VIII
+3Xtreme
+Ultimate 8 Ball
+Tiny Tank
+You Don't Know Jack
+
+Non-playable:
+Shaolin
+NFL Gameday 2000
+NFL Xtreme 2
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_023_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_023_download" attr="ps1_demo_us_023_download" src="#ps1_demo_us_023_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_023_information" attr="ps1_demo_us_023_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_023_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_023_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_023.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/nd5tj7ueqr0wk64/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2023.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_023_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_023.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 23.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_023_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_023.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/aezu6kqv0aqxhha/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2023.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_023_bin_action" attr="ps1_demo_us_023_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_023_cue_action" attr="ps1_demo_us_023_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_023_zip_action" attr="ps1_demo_us_023_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_024_items">
+		<Attributes>
+			<Table key="ps1_demo_us_024_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_024.png</></Pair>
+				<Pair key="title"><>Download Demo #24</></Pair>
+				<Pair key="info"><>Released: September 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_024_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_024.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94432</></Pair>
+				<Pair key="info"><>Playable demos:
+Um Jammer Lammy
+Sled Storm
+Chocobo Racing
+Pong
+Monaco Grand Prix Racing Simulation 2
+
+Non-playable:
+NFL Gameday 2000
+NCAA Gamebreaker 2000
+Vigilante 8: Second Offense
+Thrasher
+Toy Story 2
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_024_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_024_download" attr="ps1_demo_us_024_download" src="#ps1_demo_us_024_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_024_information" attr="ps1_demo_us_024_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_024_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_024_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_024.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/gtbmadmtcaa5oo7/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2024.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_024_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_024.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 24.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_024_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_024.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/jk1imo1keu8nhnh/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2024.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_024_bin_action" attr="ps1_demo_us_024_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_024_cue_action" attr="ps1_demo_us_024_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_024_zip_action" attr="ps1_demo_us_024_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_025_items">
+		<Attributes>
+			<Table key="ps1_demo_us_025_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_025.png</></Pair>
+				<Pair key="title"><>Download Demo #25</></Pair>
+				<Pair key="info"><>Released: October 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_025_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_025.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94433</></Pair>
+				<Pair key="info"><>Playable Demos:
+Bugs Bunny - Lost in Time
+Championship Motocross Featurning Ricky Carmichael
+Jet Moto 3
+Metal Gear Solid VR Missions
+NFL Xtreme 2
+Omega Boost
+Pac-Man World
+Toy Story 2
+Wipeout 3
+
+Non-Playable:
+Countdown Vampires
+Fighting Force
+Hot Wheels
+NBA Shootout 2000
+NHL Faceoff 2000
+Rugrats 2 (Rugrats Studio Tour)
+Wu-Tang - Shaolin Style
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_025_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_025_download" attr="ps1_demo_us_025_download" src="#ps1_demo_us_025_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_025_information" attr="ps1_demo_us_025_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_025_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_025_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_025.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/wgielf53gj7gok7/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2025.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_025_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_025.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 25.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_025_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_025.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/d3skiufkiwy018v/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2025.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_025_bin_action" attr="ps1_demo_us_025_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_025_cue_action" attr="ps1_demo_us_025_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_025_zip_action" attr="ps1_demo_us_025_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_026_items">
+		<Attributes>
+			<Table key="ps1_demo_us_026_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_026.png</></Pair>
+				<Pair key="title"><>Download Demo #26</></Pair>
+				<Pair key="info"><>Released: November 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_026_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_026.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94434</></Pair>
+				<Pair key="info"><>Playable Demos:
+40 Winks
+Cool Boarders 3
+Crash Bandicoot 3 - Warped
+Grandia
+Legacy of Kain - Soul Reaver
+Mag 3
+NFL Blitz 2000
+
+Non-Playable:
+Demolition Racer
+Fear Factor (Fear Effect)
+G Police - Weapons of Justice
+Kingsley's Quest (Kingsley's Adventure)
+Supercross Circuit
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_026_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_026_download" attr="ps1_demo_us_026_download" src="#ps1_demo_us_026_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_026_information" attr="ps1_demo_us_026_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_026_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_026_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_026.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/e0aowwjv2ybkbut/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2026.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_026_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_026.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 26.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_026_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_026.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/hdo47ixh27292vc/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2026.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_026_bin_action" attr="ps1_demo_us_026_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_026_cue_action" attr="ps1_demo_us_026_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_026_zip_action" attr="ps1_demo_us_026_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_027_items">
+		<Attributes>
+			<Table key="ps1_demo_us_027_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_027.png</></Pair>
+				<Pair key="title"><>Download Demo #27</></Pair>
+				<Pair key="info"><>Released: December 1999   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_027_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_027.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94435</></Pair>
+				<Pair key="info"><>Playable Demos:
+Cool Boarders 4
+Demolition Racer
+Gran Turismo 2
+Madden NFL 2000
+NCAA Gamebreaker 2000
+NFL Gameday 2000
+Test Drive Off-Road 3
+Thrasher - Skate & Destroy
+
+Non-Playable:
+Final Four 2000
+MTV Sports - Snowboarding
+Twisted Metal 4
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_027_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_027_download" attr="ps1_demo_us_027_download" src="#ps1_demo_us_027_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_027_information" attr="ps1_demo_us_027_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_027_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_027_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_027.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/ajulsnus36fyvv7/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2027.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_027_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_027.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 27.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_027_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_027.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/xuqol85ufj8mgkb/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2027.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_027_bin_action" attr="ps1_demo_us_027_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_027_cue_action" attr="ps1_demo_us_027_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_027_zip_action" attr="ps1_demo_us_027_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_028_items">
+		<Attributes>
+			<Table key="ps1_demo_us_028_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_028.png</></Pair>
+				<Pair key="title"><>Download Demo #28</></Pair>
+				<Pair key="info"><>Released: January 2000   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_028_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_028.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94436</></Pair>
+				<Pair key="info"><>Playable Demos:
+Army Men - Air Attack
+Dino Crisis
+NBA Basketball 2000
+NHL Faceoff 2000
+Tarzan
+WCW Mayhem
+
+Non-Playable:
+International Track & Field 2000
+Tomb Raider - The Last Revelation
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_028_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_028_download" attr="ps1_demo_us_028_download" src="#ps1_demo_us_028_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_028_information" attr="ps1_demo_us_028_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_028_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_028_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_028.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/8s1nhqdsw8cnv1p/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2028.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_028_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_028.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 28.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_028_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_028.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/6wdp9m5m4y7o0v8/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2028.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_028_bin_action" attr="ps1_demo_us_028_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_028_cue_action" attr="ps1_demo_us_028_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_028_zip_action" attr="ps1_demo_us_028_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_029_items">
+		<Attributes>
+			<Table key="ps1_demo_us_029_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_029.png</></Pair>
+				<Pair key="title"><>Download Demo #29</></Pair>
+				<Pair key="info"><>Released: February 2000   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_029_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_029.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94437</></Pair>
+				<Pair key="info"><>Playable Demos:
+∙ Tomba 2
+∙ Super Cross Circuit
+∙ Ballistic
+∙ MTV Sports: Snowboarding
+∙ Tomb Raider: The Last Revelation
+∙ International Track & Field 2000
+
+Non-Playable:
+∙ Hot Shots Golf 2
+∙ Medal of Honor
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_029_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_029_download" attr="ps1_demo_us_029_download" src="#ps1_demo_us_029_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_029_information" attr="ps1_demo_us_029_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_029_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_029_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_029.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/tkyb0sxilq77z2g/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2029.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_029_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_029.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 29.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_029_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_029.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/c7u75gxh199cpms/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2029.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_029_bin_action" attr="ps1_demo_us_029_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_029_cue_action" attr="ps1_demo_us_029_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_029_zip_action" attr="ps1_demo_us_029_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_030_items">
+		<Attributes>
+			<Table key="ps1_demo_us_030_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_030.png</></Pair>
+				<Pair key="title"><>Download Demo #30</></Pair>
+				<Pair key="info"><>Released: March 2000   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_030_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_030.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94438</></Pair>
+				<Pair key="info"><>Playable Demos:
+Ace Combat 3 - Electrosphere
+Crash Team Racing
+MTV Music Generator
+NCAA Final Four 2000
+Silent Bomber
+Spyro 2 - Ripto's Rage
+Syphon Filter 2
+Twisted Metal 4
+
+Non-Playable:
+Alundra 2
+Test Drive Cycles
+Vigilante 8 - 2nd Offense
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_030_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_030_download" attr="ps1_demo_us_030_download" src="#ps1_demo_us_030_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_030_information" attr="ps1_demo_us_030_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_030_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_030_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_030.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/j05jafy2cc793vr/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2030.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_030_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_030.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 30.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_030_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_030.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/jz4brk8fahvdyo1/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2030.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_030_bin_action" attr="ps1_demo_us_030_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_030_cue_action" attr="ps1_demo_us_030_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_030_zip_action" attr="ps1_demo_us_030_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_031_items">
+		<Attributes>
+			<Table key="ps1_demo_us_031_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_031.png</></Pair>
+				<Pair key="title"><>Download Demo #31</></Pair>
+				<Pair key="info"><>Released: April 2000   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_031_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_031.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94499</></Pair>
+				<Pair key="info"><>Playable Demos:
+Colony Wars - Red Sun
+Eagle One - Harrier Attack
+Gekido
+Hot Shots Golf 2
+Rollcage Stage II
+Spider-Man
+
+Non-Playable:
+Galerians
+WWF Smackdown!
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_031_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_031_download" attr="ps1_demo_us_031_download" src="#ps1_demo_us_031_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_031_information" attr="ps1_demo_us_031_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_031_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_031_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_031.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/p8xdxew3iu21s5r/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2031.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_031_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_031.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 31.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_031_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_031.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/2t0y7r00pelk4te/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2031.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_031_bin_action" attr="ps1_demo_us_031_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_031_cue_action" attr="ps1_demo_us_031_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_031_zip_action" attr="ps1_demo_us_031_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_032_items">
+		<Attributes>
+			<Table key="ps1_demo_us_032_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_032.png</></Pair>
+				<Pair key="title"><>Download Demo #32</></Pair>
+				<Pair key="info"><>Released: May 2000   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_032_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_032.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94583</></Pair>
+				<Pair key="info"><>Playable Demos:
+MediEvil II
+NASCAR Rumble
+NCAA March Madness 2000
+Rugrats - Studio Tour
+Speed Punks
+
+Non-Playable:
+Army Men - Sarge's Heroes
+Front Mission 3
+MLB 2001
+Road Rash Jailbreak
+Vagrant Story
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_032_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_032_download" attr="ps1_demo_us_032_download" src="#ps1_demo_us_032_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_032_information" attr="ps1_demo_us_032_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_032_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_032_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_032.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/aaifs1bw0btche0/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2032.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_032_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_032.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 32.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_032_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_032.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/z70puj5h2phzrdk/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2032.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_032_bin_action" attr="ps1_demo_us_032_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_032_cue_action" attr="ps1_demo_us_032_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_032_zip_action" attr="ps1_demo_us_032_zip_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_033_items">
+		<Attributes>
+			<Table key="ps1_demo_us_033_download">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_033.png</></Pair>
+				<Pair key="title"><>Download Demo #33</></Pair>
+				<Pair key="info"><>Released: June 2000   </></Pair>
+			</Table>
+			<Table key="ps1_demo_us_033_information">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_033.png</></Pair>
+				<Pair key="title"><>Info: SCUS-94591</></Pair>
+				<Pair key="info"><>Playable Demos:
+Deception III - Dark Delusion
+Gauntlet Legends
+Grind Session
+Threads of Fate
+WWF Smackdown!
+X-Men - Mutant Academy
+
+Non-Playable:
+Legend of Dragoon
+Vanishing Point
+
+				Press  to view magazine cover fullscreen   </></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>javascript:window.resizeTo(1920,1080);eval('document.write(\47\74html\76\74body\76\74style\76html{left:100%;position:relative;overflow:hidden;}img{left:-100%;position: relative;}\74/style\76\74center\76\74img src="http://devil303.com/Ultimate_Toolbox/ps1_demo_covers/ps1_demo_us_033_full.jpg" height="100%"/\76\74/center\76\74/body\76\74/html\76\47)')</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps1_demo_us_033_download" attr="ps1_demo_us_033_download" src="#ps1_demo_us_033_download_items"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_033_information" attr="ps1_demo_us_033_information"/>
+		</Items>
+	</View>
+	
+	<View id="ps1_demo_us_033_download_items">
+		<Attributes>
+			<Table key="ps1_demo_us_033_bin_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_033.png</></Pair>
+				<Pair key="title"><>Download BIN File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/fb9h7g01pqras1n/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2033.bin</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_033_cue_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_033.png</></Pair>
+				<Pair key="title"><>Download CUE File</></Pair>
+				<Pair key="info"><>Note: Download to dev_hdd0/PSXISO/   </></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>http://devil303.com/Ultimate_Toolbox/ps1_cue_files/files.php?file=Official U.S. PlayStation Magazine Demo Disc 33.cue</></Pair>
+			</Table>
+			<Table key="ps1_demo_us_033_zip_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/ps1_icons/ps1_demo_us_033.png</></Pair>
+				<Pair key="title"><>Download ZIP File</></Pair>
+				<Pair key="info"><>Note 1: Download to dev_hdd0/PSXISO/   
+</></Pair>
+				<Pair key="module_name"><>webbrowser_plugin</></Pair>
+				<Pair key="module_action"><>https://dl.dropboxusercontent.com/s/9peblaso1vvk0jy/Official%20U.S.%20PlayStation%20Magazine%20Demo%20Disc%2033.zip</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_033_bin_action" attr="ps1_demo_us_033_bin_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_033_cue_action" attr="ps1_demo_us_033_cue_action"/>
+			<Item class="type:x-xmb/module-action" key="ps1_demo_us_033_zip_action" attr="ps1_demo_us_033_zip_action"/>
+		</Items>
+	</View>
+
+</XMBML>

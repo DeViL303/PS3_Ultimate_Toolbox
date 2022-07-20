@@ -1,0 +1,141 @@
+<XMBML version="1.0">
+
+	<View id="remove_module_item">
+		<Attributes>
+			<Table key="remove_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove this module</></Pair>
+				<Pair key="info"><>Delete these resources from HDD (60MB)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_module"	attr="remove_module" src="#remove_module_action_item"/>
+		</Items>
+	</View>
+
+	<View id="remove_module_action_item">
+		<Attributes>
+			<Table key="remove_module_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Permanently delete these resources, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				Warning: To reverse this action you will need to download the Wave Pack again!</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_module_action" attr="remove_module_action"/>
+		</Items>
+	</View>
+
+	<View id="wave_options_items">
+		<Attributes>
+			<Table key="install_single_waves">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Single Color Waves</></Pair>
+				<Pair key="info"><>Selection of single color waves with speed options</></Pair>
+			</Table>
+			<Table key="install_dual_waves">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Dual Color Waves</></Pair>
+				<Pair key="info"><>Selection of dual color waves with speed options</></Pair>
+			</Table>
+			<Table key="background_color">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Force Background Color</></Pair>
+				<Pair key="info"><>Choose from different background colors</></Pair>
+			</Table>
+			<Table key="install_lines">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Force Official Wave Presets</></Pair>
+				<Pair key="info"><>Force official wave presets to show always OR only in the music player</></Pair>
+			</Table>
+			<Table key="install_wave">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Legacy Waves</></Pair>
+				<Pair key="info"><>Selection of older waves</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="install_single_waves" attr="install_single_waves" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/New_Waves_Items4.xml#install_single_wave_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="install_dual_waves" attr="install_dual_waves" src="#install_dual_waves_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="background_color" attr="background_color" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/New_Waves_Items3.xml#background_color_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="install_lines" attr="install_lines" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/New_Waves_Items2.xml#install_lines_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="install_wave" attr="install_wave" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/New_Waves_Items1.xml#install_waves_items"/>
+		</Items>
+	</View>
+
+	<View id="wmm_wave_settings_items">
+		<Attributes>
+			<Table key="seg_wave_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Waves to HDD</></Pair>
+				<Pair key="info"><>Copy all available lines.qrcs to dev_hdd0/tmp/lines/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_wave_hdd" attr="seg_wave_hdd" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_wave_settings.xml#seg_wave_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="wmm_wave_settings_items_resources">
+		<Attributes>
+			<Table key="seg_wave_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Waves to HDD</></Pair>
+				<Pair key="info"><>Copy all available lines.qrcs to dev_hdd0/tmp/lines/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_wave_hdd" attr="seg_wave_hdd" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/WebMAN_MODule/wmm_wave_settings.xml#seg_wave_hdd_item_setup"/>
+		</Items>
+	</View>
+
+		<View id="install_dual_waves_items">
+		<Attributes>
+			<Table key="blue_wave_dual_left">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Left Side: Blue</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="green_wave_dual_left">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Left Side: Green</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="orange_wave_dual_left">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Left Side: Orange</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="purple_wave_dual_left">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Left Side: Purple</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="red_wave_dual_left">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Left Side: Red</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+			<Table key="yellow_wave_dual_left">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_wave.png</></Pair>
+				<Pair key="title"><>Left Side: Yellow</></Pair>
+				<Pair key="info"><>Dual color wave options   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="blue_wave_dual_left"	attr="blue_wave_dual_left" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/Left_Blue.xml#blue_wave_right_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="green_wave_dual_left"	attr="green_wave_dual_left" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/Left_Green.xml#green_wave_right_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="orange_wave_dual_left"	attr="orange_wave_dual_left" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/Left_Orange.xml#orange_wave_right_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="purple_wave_dual_left"	attr="purple_wave_dual_left" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/Left_Purple.xml#purple_wave_right_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="red_wave_dual_left"	attr="red_wave_dual_left" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/Left_Red.xml#red_wave_right_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="yellow_wave_dual_left"	attr="yellow_wave_dual_left" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/Left_Yellow.xml#yellow_wave_right_items"/>
+		</Items>
+	</View>
+
+</XMBML>

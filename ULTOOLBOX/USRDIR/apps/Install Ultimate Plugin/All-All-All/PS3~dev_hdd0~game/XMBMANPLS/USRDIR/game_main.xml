@@ -1,0 +1,24 @@
+﻿<XMBML version="1.0">
+	
+	<View id="seg_xmb_hdd0_app">
+		<Attributes>
+			<Table key="toolbox_disabled">
+				<Pair key="icon"><String>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/Toolbox.png</String></Pair>
+				<Pair key="title"><String>Ultimate Toolbox Disabled</String></Pair>
+				<Pair key="info"><String>Click here to reinstall the Ultimate Toolbox support files</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toolbox_disabled" attr="toolbox_disabled" src="#toolbox_disabled_items"/>
+		</Items>
+	</View>
+
+	<View id="toolbox_disabled_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="run_once" attr="run_once" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId ULTOOLBOX"/>
+		</Items>
+	</View>
+	
+</XMBML>

@@ -1,0 +1,1153 @@
+<XMBML version="1.0">
+
+	<View id="background_color_items">
+		<Attributes>
+			<Table key="seg_lines_colour_black">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/black_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Black/White</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_grey">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/grey_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Grey</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_yellow">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/yellow_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Yellow</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lgreen">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lgreen_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Light Green</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_pink">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/pink_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Pink</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_dgreen">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dgreen_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Dark Green</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lavender">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lavender_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Lavender</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lblue">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lblue_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Light Blue</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_dblue">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dblue_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Dark Blue</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_purple">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/purple_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Purple</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_orange">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/orange_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Orange</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_brown">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/brown_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Brown</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_red">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/red_enhanced.jpg</></Pair>
+				<Pair key="title"><>Force Wave Background: Red</></Pair>
+				<Pair key="info"><>Choose from 3 background options   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_black" attr="seg_lines_colour_black" src="#seg_lines_colour_black_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_grey" attr="seg_lines_colour_grey" src="#seg_lines_colour_grey_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_yellow" attr="seg_lines_colour_yellow" src="#seg_lines_colour_yellow_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lgreen" attr="seg_lines_colour_lgreen" src="#seg_lines_colour_lgreen_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_pink" attr="seg_lines_colour_pink" src="#seg_lines_colour_pink_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dgreen" attr="seg_lines_colour_dgreen" src="#seg_lines_colour_dgreen_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lavender" attr="seg_lines_colour_lavender" src="#seg_lines_colour_lavender_items"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lblue" attr="seg_lines_colour_lblue" src="#seg_lines_colour_lblue_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dblue" attr="seg_lines_colour_dblue" src="#seg_lines_colour_dblue_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_purple" attr="seg_lines_colour_purple" src="#seg_lines_colour_purple_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_orange" attr="seg_lines_colour_orange" src="#seg_lines_colour_orange_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_brown" attr="seg_lines_colour_brown" src="#seg_lines_colour_brown_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_red" attr="seg_lines_colour_red" src="#seg_lines_colour_red_items"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_black_items">
+		<Attributes>
+			<Table key="seg_lines_colour_black_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/black.jpg</></Pair>
+				<Pair key="title"><>Black</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_black_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/black_enhanced.jpg</></Pair>
+				<Pair key="title"><>Black Enhanced</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_black_white">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/black_white.jpg</></Pair>
+				<Pair key="title"><>White</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_black_day" attr="seg_lines_colour_black_day" src="#seg_lines_colour_black_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_black_enhanced" attr="seg_lines_colour_black_enhanced" src="#seg_lines_colour_black_enhanced_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_black_white" attr="seg_lines_colour_black_white" src="#seg_lines_colour_black_white_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_grey_items">
+		<Attributes>
+			<Table key="seg_lines_colour_grey_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/grey_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Grey</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_grey_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/grey_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Grey</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_grey_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/grey_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Grey</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_grey_day" attr="seg_lines_colour_grey_day" src="#seg_lines_colour_grey_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_grey_night" attr="seg_lines_colour_grey_night" src="#seg_lines_colour_grey_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_grey_enhanced" attr="seg_lines_colour_grey_enhanced" src="#seg_lines_colour_grey_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_yellow_items">
+		<Attributes>
+			<Table key="seg_lines_colour_yellow_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/yellow_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Yellow</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_yellow_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/yellow_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Yellow</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_yellow_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/yellow_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Yellow</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_yellow_day" attr="seg_lines_colour_yellow_day" src="#seg_lines_colour_yellow_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_yellow_night" attr="seg_lines_colour_yellow_night" src="#seg_lines_colour_yellow_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_yellow_enhanced" attr="seg_lines_colour_yellow_enhanced" src="#seg_lines_colour_yellow_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_lgreen_items">
+		<Attributes>
+			<Table key="seg_lines_colour_lgreen_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lgreen_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Light Green</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lgreen_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lgreen_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Light Green</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lgreen_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lgreen_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Light Green</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lgreen_day" attr="seg_lines_colour_lgreen_day" src="#seg_lines_colour_lgreen_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lgreen_night" attr="seg_lines_colour_lgreen_night" src="#seg_lines_colour_lgreen_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lgreen_enhanced" attr="seg_lines_colour_lgreen_enhanced" src="#seg_lines_colour_lgreen_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_pink_items">
+		<Attributes>
+			<Table key="seg_lines_colour_pink_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/pink_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Pink</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_pink_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/pink_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Pink</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_pink_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/pink_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Pink</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_pink_day" attr="seg_lines_colour_pink_day" src="#seg_lines_colour_pink_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_pink_night" attr="seg_lines_colour_pink_night" src="#seg_lines_colour_pink_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_pink_enhanced" attr="seg_lines_colour_pink_enhanced" src="#seg_lines_colour_pink_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_dgreen_items">
+		<Attributes>
+			<Table key="seg_lines_colour_dgreen_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dgreen_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Dark Green</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_dgreen_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dgreen_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Dark Green</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_dgreen_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dgreen_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Dark Green</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dgreen_day" attr="seg_lines_colour_dgreen_day" src="#seg_lines_colour_dgreen_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dgreen_night" attr="seg_lines_colour_dgreen_night" src="#seg_lines_colour_dgreen_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dgreen_enhanced" attr="seg_lines_colour_dgreen_enhanced" src="#seg_lines_colour_dgreen_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_lavender_items">
+		<Attributes>
+			<Table key="seg_lines_colour_lavender_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lavender_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Lavender</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lavender_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lavender_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Lavender</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lavender_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lavender_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Lavender</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lavender_day" attr="seg_lines_colour_lavender_day" src="#seg_lines_colour_lavender_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lavender_night" attr="seg_lines_colour_lavender_night" src="#seg_lines_colour_lavender_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lavender_enhanced" attr="seg_lines_colour_lavender_enhanced" src="#seg_lines_colour_lavender_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_lblue_items">
+		<Attributes>
+			<Table key="seg_lines_colour_lblue_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lblue_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Light Blue</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lblue_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lblue_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Light Blue</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_lblue_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/lblue_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Light Blue</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lblue_day" attr="seg_lines_colour_lblue_day" src="#seg_lines_colour_lblue_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lblue_night" attr="seg_lines_colour_lblue_night" src="#seg_lines_colour_lblue_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_lblue_enhanced" attr="seg_lines_colour_lblue_enhanced" src="#seg_lines_colour_lblue_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_dblue_items">
+		<Attributes>
+			<Table key="seg_lines_colour_dblue_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dblue_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Dark Blue</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_dblue_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dblue_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Dark Blue</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_dblue_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/dblue_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Dark Blue</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dblue_day" attr="seg_lines_colour_dblue_day" src="#seg_lines_colour_dblue_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dblue_night" attr="seg_lines_colour_dblue_night" src="#seg_lines_colour_dblue_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_dblue_enhanced" attr="seg_lines_colour_dblue_enhanced" src="#seg_lines_colour_dblue_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_purple_items">
+		<Attributes>
+			<Table key="seg_lines_colour_purple_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/purple_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Purple</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_purple_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/purple_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Purple</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_purple_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/purple_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Purple</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_purple_day" attr="seg_lines_colour_purple_day" src="#seg_lines_colour_purple_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_purple_night" attr="seg_lines_colour_purple_night" src="#seg_lines_colour_purple_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_purple_enhanced" attr="seg_lines_colour_purple_enhanced" src="#seg_lines_colour_purple_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_orange_items">
+		<Attributes>
+			<Table key="seg_lines_colour_orange_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/orange_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Orange</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_orange_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/orange_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Orange</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_orange_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/orange_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Orange</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_orange_day" attr="seg_lines_colour_orange_day" src="#seg_lines_colour_orange_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_orange_night" attr="seg_lines_colour_orange_night" src="#seg_lines_colour_orange_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_orange_enhanced" attr="seg_lines_colour_orange_enhanced" src="#seg_lines_colour_orange_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_brown_items">
+		<Attributes>
+			<Table key="seg_lines_colour_brown_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/brown_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Brown</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_brown_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/brown_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Brown</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_brown_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/brown_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Brown</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_brown_day" attr="seg_lines_colour_brown_day" src="#seg_lines_colour_brown_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_brown_night" attr="seg_lines_colour_brown_night" src="#seg_lines_colour_brown_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_brown_enhanced" attr="seg_lines_colour_brown_enhanced" src="#seg_lines_colour_brown_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_red_items">
+		<Attributes>
+			<Table key="seg_lines_colour_red_day">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/red_day.jpg</></Pair>
+				<Pair key="title"><>Daytime Red</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_red_night">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/red_night.jpg</></Pair>
+				<Pair key="title"><>Nighttime Red</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_colour_red_enhanced">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_icons/red_enhanced.jpg</></Pair>
+				<Pair key="title"><>Enhanced Red</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_red_day" attr="seg_lines_colour_red_day" src="#seg_lines_colour_red_day_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_red_night" attr="seg_lines_colour_red_night" src="#seg_lines_colour_red_night_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_colour_red_enhanced" attr="seg_lines_colour_red_enhanced" src="#seg_lines_colour_red_enhanced_item"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_black_day_item">
+		<Attributes>
+			<Table key="black_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/black.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="black_action" attr="black_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_black_enhanced_item">
+		<Attributes>
+			<Table key="black_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/black_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="black_enhanced_action" attr="black_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_black_white_item">
+		<Attributes>
+			<Table key="black_white_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/black_white.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="black_white_action" attr="black_white_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_grey_day_item">
+		<Attributes>
+			<Table key="grey_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/grey_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="grey_day_action" attr="grey_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_grey_night_item">
+		<Attributes>
+			<Table key="grey_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/grey_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="grey_night_action" attr="grey_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_grey_enhanced_item">
+		<Attributes>
+			<Table key="grey_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/grey_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="grey_enhanced_action" attr="grey_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_yellow_day_item">
+		<Attributes>
+			<Table key="yellow_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/yellow_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="yellow_day_action" attr="yellow_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_yellow_night_item">
+		<Attributes>
+			<Table key="yellow_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/yellow_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="yellow_night_action" attr="yellow_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_yellow_enhanced_item">
+		<Attributes>
+			<Table key="yellow_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/yellow_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="yellow_enhanced_action" attr="yellow_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_lgreen_day_item">
+		<Attributes>
+			<Table key="lgreen_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lgreen_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lgreen_day_action" attr="lgreen_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_lgreen_night_item">
+		<Attributes>
+			<Table key="lgreen_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lgreen_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lgreen_night_action" attr="lgreen_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_lgreen_enhanced_item">
+		<Attributes>
+			<Table key="lgreen_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lgreen_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lgreen_enhanced_action" attr="lgreen_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_pink_day_item">
+		<Attributes>
+			<Table key="pink_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/pink_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="pink_day_action" attr="pink_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_pink_night_item">
+		<Attributes>
+			<Table key="pink_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/pink_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="pink_night_action" attr="pink_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_pink_enhanced_item">
+		<Attributes>
+			<Table key="pink_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/pink_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="pink_enhanced_action" attr="pink_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_dgreen_day_item">
+		<Attributes>
+			<Table key="dgreen_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/dgreen_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="dgreen_day_action" attr="dgreen_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_dgreen_night_item">
+		<Attributes>
+			<Table key="dgreen_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/dgreen_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="dgreen_night_action" attr="dgreen_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_dgreen_enhanced_item">
+		<Attributes>
+			<Table key="dgreen_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/dgreen_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="dgreen_enhanced_action" attr="dgreen_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_lavender_day_item">
+		<Attributes>
+			<Table key="lavender_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lavender_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lavender_day_action" attr="lavender_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_lavender_night_item">
+		<Attributes>
+			<Table key="lavender_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lavender_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lavender_night_action" attr="lavender_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_lavender_enhanced_item">
+		<Attributes>
+			<Table key="lavender_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lavender_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lavender_enhanced_action" attr="lavender_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_lblue_day_item">
+		<Attributes>
+			<Table key="lblue_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lblue_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lblue_day_action" attr="lblue_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_lblue_night_item">
+		<Attributes>
+			<Table key="lblue_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lblue_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lblue_night_action" attr="lblue_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_lblue_enhanced_item">
+		<Attributes>
+			<Table key="lblue_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/lblue_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lblue_enhanced_action" attr="lblue_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_dblue_day_item">
+		<Attributes>
+			<Table key="dblue_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/dblue_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="dblue_day_action" attr="dblue_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_dblue_night_item">
+		<Attributes>
+			<Table key="dblue_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/dblue_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="dblue_night_action" attr="dblue_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_dblue_enhanced_item">
+		<Attributes>
+			<Table key="dblue_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/dblue_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="dblue_enhanced_action" attr="dblue_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_purple_day_item">
+		<Attributes>
+			<Table key="purple_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/purple_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="purple_day_action" attr="purple_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_purple_night_item">
+		<Attributes>
+			<Table key="purple_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/purple_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="purple_night_action" attr="purple_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_purple_enhanced_item">
+		<Attributes>
+			<Table key="purple_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/purple_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="purple_enhanced_action" attr="purple_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_orange_day_item">
+		<Attributes>
+			<Table key="orange_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/orange_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="orange_day_action" attr="orange_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_orange_night_item">
+		<Attributes>
+			<Table key="orange_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/orange_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="orange_night_action" attr="orange_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_orange_enhanced_item">
+		<Attributes>
+			<Table key="orange_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/orange_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="orange_enhanced_action" attr="orange_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_brown_day_item">
+		<Attributes>
+			<Table key="brown_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/brown_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="brown_day_action" attr="brown_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_brown_night_item">
+		<Attributes>
+			<Table key="brown_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/brown_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="brown_night_action" attr="brown_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_brown_enhanced_item">
+		<Attributes>
+			<Table key="brown_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/brown_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="brown_enhanced_action" attr="brown_enhanced_action"/>
+		</Items>
+	</View>
+	
+	<View id="seg_lines_colour_red_day_item">
+		<Attributes>
+			<Table key="red_day_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/red_day.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="red_day_action" attr="red_day_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_red_night_item">
+		<Attributes>
+			<Table key="red_night_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/red_night.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="red_night_action" attr="red_night_action"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_colour_red_enhanced_item">
+		<Attributes>
+			<Table key="red_enhanced_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_colour_mods/red_enhanced.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="red_enhanced_action" attr="red_enhanced_action"/>
+		</Items>
+	</View>
+</XMBML>

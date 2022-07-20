@@ -1,0 +1,98 @@
+<XMBML version="1.0">
+
+	<View id="wmm_impose_settings_main">
+		<Attributes>
+			<Table key="wmm_impose_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_coldboot.png</></Pair>
+				<Pair key="title"><>Impose Mod Settings (wMM)</></Pair>
+				<Pair key="info"><>Impose Mod settings that require webMAN MOD</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_impose_settings" attr="wmm_impose_settings" src="#wmm_impose_settings_menu"/>
+		</Items>
+	</View>
+
+	<View id="wmm_impose_settings_menu">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_impose_settings" src="#wmm_impose_settings_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_impose_remap" src="xmb://localhost/dev_hdd0/tmp/impose/wmm_impose_remap.xml#wmm_impose_remap_items"/>
+		</Items>
+	</View>
+
+	<View id="wmm_impose_settings_items">
+		<Attributes>
+			<Table key="seg_impose_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install Impose Mods to HDD</></Pair>
+				<Pair key="info"><>Copy available impose_plugin.rco files to dev_hdd0/tmp/impose/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_impose_hdd" attr="seg_impose_hdd" src="#seg_impose_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_impose_hdd_item">
+		<Attributes>
+			<Table key="impose_hdd_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>Impose Mods Currently on HDD will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This will copy available impose_plugin.rco files to dev_hdd0/tmp/impose/
+
+				After selecting this option, Back out of the menu then enter it again to see the new webMAN MOD specific options</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/impose_mod/impose#/dev_hdd0/tmp/impose#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/impose/impose#/dev_hdd0/tmp/impose</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_hdd_item"
+				attr="impose_hdd_item"
+				/>
+		</Items>
+	</View>
+	
+	<View id="wmm_impose_settings_items_resources">
+		<Attributes>
+			<Table key="seg_impose_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install Impose Mods to HDD</></Pair>
+				<Pair key="info"><>Copy available impose_plugin.rco files to dev_hdd0/tmp/impose/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_impose_hdd" attr="seg_impose_hdd" src="#seg_impose_hdd_item_setup"/>
+		</Items>
+	</View>
+	
+	<View id="seg_impose_hdd_item_setup">
+		<Attributes>
+			<Table key="impose_hdd_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>All Impose Mods Currently on HDD will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This will copy available impose_plugin.rcos files to dev_hdd0/tmp/impose/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/impose_mod/impose#/dev_hdd0/tmp/impose#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/impose/impose#/dev_hdd0/tmp/impose</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="impose_hdd_item"
+				attr="impose_hdd_item"
+				/>
+		</Items>
+	</View>
+</XMBML>

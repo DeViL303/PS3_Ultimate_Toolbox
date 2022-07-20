@@ -1,0 +1,256 @@
+<XMBML version="1.0">
+
+	<View id="remove_module_item">
+		<Attributes>
+			<Table key="remove_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove this module</></Pair>
+				<Pair key="info"><>Delete these resources from HDD (21MB)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_module"	attr="remove_module" src="#remove_module_action_item"/>
+		</Items>
+	</View>
+	
+	<View id="remove_module_action_item">
+		<Attributes>
+			<Table key="remove_module_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Permanently delete these resources, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				Warning: To reverse this action you will need to download the PS2 Emulator Module again!</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_module_action" attr="remove_module_action"/>
+		</Items>
+	</View>
+	
+	<View id="ps2_main_items">
+		<Attributes>
+			<Table key="toggle_ps2_net_emu">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_game.png</></Pair>
+				<Pair key="title"><>PS2 Netemu Selector</></Pair>
+				<Pair key="info"><>Choose from several ps2_netemu files</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_net_emu"	attr="toggle_ps2_net_emu" src="#ps2emu_module_options"/>
+		</Items>
+	</View>
+	
+	<View id="install_ps2emus_items">
+	<Attributes>
+			<Table key="toggle_ps2_netemu_default">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Default</></Pair>
+				<Pair key="info"><>Revert to official ps2_netemu.self</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_default_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Default With Debug Menu</></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_tempmod">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Temperature Mod</></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_tempmod_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Temperature Mod With Debug Menu</></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_hddbrowser">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install HDD Browser Mod</></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_hddbrowser_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install HDD Browser Mod With Debug Menu</></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_memorydump">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Memory Dumper Mod </></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+			<Table key="toggle_ps2_netemu_memorydump_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/step.png</></Pair>
+				<Pair key="title"><>Install Memory Dumper Mod With Debug Menu</></Pair>
+				<Pair key="info"><>Copy modified ps2_netemu.self to flash</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_default" attr="toggle_ps2_netemu_default" src="#toggle_ps2_netemu_default_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_default_dbg" attr="toggle_ps2_netemu_default_dbg" src="#toggle_ps2_netemu_default_item_dbg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_tempmod"	attr="toggle_ps2_netemu_tempmod" src="#toggle_ps2_netemu_tempmod_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_tempmod_dbg"	attr="toggle_ps2_netemu_tempmod_dbg" src="#toggle_ps2_netemu_tempmod_item_dbg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_hddbrowser"	attr="toggle_ps2_netemu_hddbrowser" src="#toggle_ps2_netemu_hddbrowser_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_hddbrowser_dbg"	attr="toggle_ps2_netemu_hddbrowser_dbg" src="#toggle_ps2_netemu_hddbrowser_item_dbg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_memorydump"	attr="toggle_ps2_netemu_memorydump" src="#toggle_ps2_netemu_memorydump_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="toggle_ps2_netemu_memorydump_dbg"	attr="toggle_ps2_netemu_memorydump_dbg" src="#toggle_ps2_netemu_memorydump_item_dbg"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_default_item">
+		<Attributes>
+			<Table key="ps2_netemu_default">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Default, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy the official ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_default.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_default" attr="ps2_netemu_default"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_default_item_dbg">
+		<Attributes>
+			<Table key="ps2_netemu_default_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Default, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_default_dbg.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_default_dbg" attr="ps2_netemu_default_dbg"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_tempmod_item">
+		<Attributes>
+			<Table key="ps2_netemu_tempmod">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Temperature Mod, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_temp.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_tempmod" attr="ps2_netemu_tempmod"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_tempmod_item_dbg">
+		<Attributes>
+			<Table key="ps2_netemu_tempmod_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Temperature Mod, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_temp_dbg.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_tempmod_dbg" attr="ps2_netemu_tempmod_dbg"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_hddbrowser_item">
+		<Attributes>
+			<Table key="ps2_netemu_hddbrowser">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install HDD Browser Mod, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_hdd.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_hddbrowser" attr="ps2_netemu_hddbrowser"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_hddbrowser_item_dbg">
+		<Attributes>
+			<Table key="ps2_netemu_hddbrowser_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install HDD Browser Mod, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_hdd_dbg.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_hddbrowser_dbg" attr="ps2_netemu_hddbrowser_dbg"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_memorydump_item">
+		<Attributes>
+			<Table key="ps2_netemu_memorydump">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Memory Dumper Mod, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_memory.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_memorydump" attr="ps2_netemu_memorydump"/>
+		</Items>
+	</View>
+	
+	<View id="toggle_ps2_netemu_memorydump_item_dbg">
+		<Attributes>
+			<Table key="ps2_netemu_memorydump_dbg">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Install Memory Dumper Mod, Are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back
+				
+				This will copy a modified ps2_netemu.self to dev_blind/ps2emu/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/PS2_Emu_Module/ps2_netemu/ps2_netemu_memory_dbg.self#/dev_blind/ps2emu/ps2_netemu.self</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="ps2_netemu_memorydump_dbg" attr="ps2_netemu_memorydump_dbg"/>
+		</Items>
+	</View>
+	
+</XMBML>

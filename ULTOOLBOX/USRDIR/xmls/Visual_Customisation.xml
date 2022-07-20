@@ -1,0 +1,17 @@
+<XMBML version="1.0">
+
+	<View id="seg_visual_customisation">
+		<Attributes>
+			<Table key="visual_customisation">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/folder_list.png</></Pair>
+				<Pair key="title"><>Visual Customization</></Pair>
+				<Pair key="info"><>Change visual aspects of your XMB</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="visual_customisation" attr="visual_customisation" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/xmls/Visual_Customisation_Items.xml#visual_customisation_main"/>
+		</Items>
+	</View>
+
+</XMBML>

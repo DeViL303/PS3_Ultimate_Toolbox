@@ -1,0 +1,2624 @@
+<XMBML version="1.0">
+
+	<View id="remove_module_item">
+		<Attributes>
+			<Table key="remove_module">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove this module</></Pair>
+				<Pair key="info"><>Delete these resources from HDD (11MB)</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_module"	attr="remove_module" src="#remove_module_action_item"/>
+		</Items>
+	</View>
+	
+	<View id="remove_module_action_item">
+		<Attributes>
+			<Table key="remove_module_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Permanently delete these resources, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				Warning: To reverse this action you will need to download the Font Pack again!</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item
+				class="type:x-xmb/module-action"
+				key="remove_module_action"
+				attr="remove_module_action"
+				/>
+		</Items>
+		</View>
+	
+	<View id="install_fonts_items">
+		<Attributes>
+			<Table key="seg_fonts_001">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/1.jpg</></Pair>
+				<Pair key="title"><>Install Font 001</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_002">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/2.jpg</></Pair>
+				<Pair key="title"><>Install Font 002</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_003">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/3.jpg</></Pair>
+				<Pair key="title"><>Install Font 003</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_004">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/4.jpg</></Pair>
+				<Pair key="title"><>Install Font 004</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_005">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/5.jpg</></Pair>
+				<Pair key="title"><>Install Font 005</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_006">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/6.jpg</></Pair>
+				<Pair key="title"><>Install Font 006</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_007">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/7.jpg</></Pair>
+				<Pair key="title"><>Install Font 007</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_008">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/8.jpg</></Pair>
+				<Pair key="title"><>Install Font 008</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_009">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/9.jpg</></Pair>
+				<Pair key="title"><>Install Font 009</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_010">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/10.jpg</></Pair>
+				<Pair key="title"><>Install Font 010</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_011">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/11.jpg</></Pair>
+				<Pair key="title"><>Install Font 011</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_012">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/12.jpg</></Pair>
+				<Pair key="title"><>Install Font 012</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_013">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/13.jpg</></Pair>
+				<Pair key="title"><>Install Font 013</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_014">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/14.jpg</></Pair>
+				<Pair key="title"><>Install Font 014</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_015">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/15.jpg</></Pair>
+				<Pair key="title"><>Install Font 015</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_016">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/16.jpg</></Pair>
+				<Pair key="title"><>Install Font 016</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_017">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/17.jpg</></Pair>
+				<Pair key="title"><>Install Font 017</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/18.jpg</></Pair>
+				<Pair key="title"><>Install Font 018</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/19.jpg</></Pair>
+				<Pair key="title"><>Install Font 019</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/20.jpg</></Pair>
+				<Pair key="title"><>Install Font 020</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/21.jpg</></Pair>
+				<Pair key="title"><>Install Font 021</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_022">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/22.jpg</></Pair>
+				<Pair key="title"><>Install Font 022</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_023">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/23.jpg</></Pair>
+				<Pair key="title"><>Install Font 023</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_024">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/24.jpg</></Pair>
+				<Pair key="title"><>Install Font 024</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_025">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/25.jpg</></Pair>
+				<Pair key="title"><>Install Font 025</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_026">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/26.jpg</></Pair>
+				<Pair key="title"><>Install Font 026</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_027">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/27.jpg</></Pair>
+				<Pair key="title"><>Install Font 27</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_028">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/28.jpg</></Pair>
+				<Pair key="title"><>Install Font 028</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_029">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/29.jpg</></Pair>
+				<Pair key="title"><>Install Font 029</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_030">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/30.jpg</></Pair>
+				<Pair key="title"><>Install Font 030</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_031">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/31.jpg</></Pair>
+				<Pair key="title"><>Install Font 031</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_032">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/32.jpg</></Pair>
+				<Pair key="title"><>Install Font 032</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_033">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/33.jpg</></Pair>
+				<Pair key="title"><>Install Font 033</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_034">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/34.jpg</></Pair>
+				<Pair key="title"><>Install Font 034</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_035">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/35.jpg</></Pair>
+				<Pair key="title"><>Install Font 035</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_036">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/36.jpg</></Pair>
+				<Pair key="title"><>Install Font 036</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_037">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/37.jpg</></Pair>
+				<Pair key="title"><>Install Font 037</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_038">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/38.jpg</></Pair>
+				<Pair key="title"><>Install Font 038</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_039">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/39.jpg</></Pair>
+				<Pair key="title"><>Install Font 039</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_040">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/40.jpg</></Pair>
+				<Pair key="title"><>Install Font 040</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_041">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/41.jpg</></Pair>
+				<Pair key="title"><>Install Font 041</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_042">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/42.jpg</></Pair>
+				<Pair key="title"><>Install Font 042</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_043">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/43.jpg</></Pair>
+				<Pair key="title"><>Install Font 043</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_044">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/44.jpg</></Pair>
+				<Pair key="title"><>Install Font 044</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_045">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/45.jpg</></Pair>
+				<Pair key="title"><>Install Font 045</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_046">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/46.jpg</></Pair>
+				<Pair key="title"><>Install Font 046</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_047">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/47.jpg</></Pair>
+				<Pair key="title"><>Install Font 047</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_048">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/48.jpg</></Pair>
+				<Pair key="title"><>Install Font 048</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_049">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/49.jpg</></Pair>
+				<Pair key="title"><>Install Font 049</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_050">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/50.jpg</></Pair>
+				<Pair key="title"><>Install Font 050</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_051">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/51.jpg</></Pair>
+				<Pair key="title"><>Install Font 051</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_052">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/52.jpg</></Pair>
+				<Pair key="title"><>Install Font 052</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_053">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/53.jpg</></Pair>
+				<Pair key="title"><>Install Font 053</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_054">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/54.jpg</></Pair>
+				<Pair key="title"><>Install Font 054</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_055">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/55.jpg</></Pair>
+				<Pair key="title"><>Install Font 055</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_056">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/56.jpg</></Pair>
+				<Pair key="title"><>Install Font 056</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_057">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/57.jpg</></Pair>
+				<Pair key="title"><>Install Font 057</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_058">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/58.jpg</></Pair>
+				<Pair key="title"><>Install Font 058</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_059">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/59.jpg</></Pair>
+				<Pair key="title"><>Install Font 059</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_060">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/60.jpg</></Pair>
+				<Pair key="title"><>Install Font 060</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_061">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/61.jpg</></Pair>
+				<Pair key="title"><>Install Font 061</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_062">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/62.jpg</></Pair>
+				<Pair key="title"><>Install Font 062</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_063">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/63.jpg</></Pair>
+				<Pair key="title"><>Install Font 063</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_064">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/64.jpg</></Pair>
+				<Pair key="title"><>Install Font 064</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_065">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/65.jpg</></Pair>
+				<Pair key="title"><>Install Font 065</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_066">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/66.jpg</></Pair>
+				<Pair key="title"><>Install Font 066</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_067">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/67.jpg</></Pair>
+				<Pair key="title"><>Install Font 067</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_068">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/68.jpg</></Pair>
+				<Pair key="title"><>Install Font 068</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_069">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/69.jpg</></Pair>
+				<Pair key="title"><>Install Font 069</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_070">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/70.jpg</></Pair>
+				<Pair key="title"><>Install Font 070</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_071">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/71.jpg</></Pair>
+				<Pair key="title"><>Install Font 071</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_072">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/72.jpg</></Pair>
+				<Pair key="title"><>Install Font 072</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_073">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/73.jpg</></Pair>
+				<Pair key="title"><>Install Font 073</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_074">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/74.jpg</></Pair>
+				<Pair key="title"><>Install Font 074</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_075">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/75.jpg</></Pair>
+				<Pair key="title"><>Install Font 075</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_076">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/76.jpg</></Pair>
+				<Pair key="title"><>Install Font 076</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_077">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/77.jpg</></Pair>
+				<Pair key="title"><>Install Font 077</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_078">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/78.jpg</></Pair>
+				<Pair key="title"><>Install Font 078</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_079">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/79.jpg</></Pair>
+				<Pair key="title"><>Install Font 079</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_080">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/80.jpg</></Pair>
+				<Pair key="title"><>Install Font 080</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_081">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/81.jpg</></Pair>
+				<Pair key="title"><>Install Font 081</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_082">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/82.jpg</></Pair>
+				<Pair key="title"><>Install Font 082</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_083">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/83.jpg</></Pair>
+				<Pair key="title"><>Install Font 083</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_084">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/84.jpg</></Pair>
+				<Pair key="title"><>Install Font 084</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_085">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/85.jpg</></Pair>
+				<Pair key="title"><>Install Font 085</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_086">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/86.jpg</></Pair>
+				<Pair key="title"><>Install Font 086</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_087">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/87.jpg</></Pair>
+				<Pair key="title"><>Install Font 087</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_088">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/88.jpg</></Pair>
+				<Pair key="title"><>Install Font 088</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_089">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/89.jpg</></Pair>
+				<Pair key="title"><>Install Font 089</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_090">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/90.jpg</></Pair>
+				<Pair key="title"><>Install Font 090</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_091">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/91.jpg</></Pair>
+				<Pair key="title"><>Install Font 091</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_092">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/92.jpg</></Pair>
+				<Pair key="title"><>Install Font 092</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_093">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/93.jpg</></Pair>
+				<Pair key="title"><>Install Font 093</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_094">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/94.jpg</></Pair>
+				<Pair key="title"><>Install Font 094</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_095">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/95.jpg</></Pair>
+				<Pair key="title"><>Install Font 095</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_096">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/96.jpg</></Pair>
+				<Pair key="title"><>Install Font 096</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_097">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/97.jpg</></Pair>
+				<Pair key="title"><>Install Font 097</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_098">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/98.jpg</></Pair>
+				<Pair key="title"><>Install Font 098</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_099">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/99.jpg</></Pair>
+				<Pair key="title"><>Install Font 099</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_100">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/100.jpg</></Pair>
+				<Pair key="title"><>Install Font 100</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_101">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/101.jpg</></Pair>
+				<Pair key="title"><>Install Font 101</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+			<Table key="seg_fonts_102">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts_icons/102.jpg</></Pair>
+				<Pair key="title"><>Install Font 102</></Pair>
+				<Pair key="info"><>Copy this font to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_001" attr="seg_fonts_001" src="#seg_fonts_001_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_002" attr="seg_fonts_002" src="#seg_fonts_002_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_003" attr="seg_fonts_003" src="#seg_fonts_003_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_004" attr="seg_fonts_004" src="#seg_fonts_004_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_005" attr="seg_fonts_005" src="#seg_fonts_005_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_006" attr="seg_fonts_006" src="#seg_fonts_006_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_007" attr="seg_fonts_007" src="#seg_fonts_007_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_008" attr="seg_fonts_008" src="#seg_fonts_008_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_009" attr="seg_fonts_009" src="#seg_fonts_009_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_010" attr="seg_fonts_010" src="#seg_fonts_010_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_011" attr="seg_fonts_011" src="#seg_fonts_011_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_012" attr="seg_fonts_012" src="#seg_fonts_012_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_013" attr="seg_fonts_013" src="#seg_fonts_013_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_014" attr="seg_fonts_014" src="#seg_fonts_014_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_015" attr="seg_fonts_015" src="#seg_fonts_015_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_016" attr="seg_fonts_016" src="#seg_fonts_016_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_017" attr="seg_fonts_017" src="#seg_fonts_017_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_018" attr="seg_fonts_018" src="#seg_fonts_018_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_019" attr="seg_fonts_019" src="#seg_fonts_019_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_020" attr="seg_fonts_020" src="#seg_fonts_020_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_021" attr="seg_fonts_021" src="#seg_fonts_021_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_022" attr="seg_fonts_022" src="#seg_fonts_022_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_023" attr="seg_fonts_023" src="#seg_fonts_023_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_024" attr="seg_fonts_024" src="#seg_fonts_024_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_025" attr="seg_fonts_025" src="#seg_fonts_025_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_026" attr="seg_fonts_026" src="#seg_fonts_026_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_027" attr="seg_fonts_027" src="#seg_fonts_027_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_028" attr="seg_fonts_028" src="#seg_fonts_028_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_029" attr="seg_fonts_029" src="#seg_fonts_029_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_030" attr="seg_fonts_030" src="#seg_fonts_030_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_031" attr="seg_fonts_031" src="#seg_fonts_031_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_032" attr="seg_fonts_032" src="#seg_fonts_032_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_033" attr="seg_fonts_033" src="#seg_fonts_033_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_034" attr="seg_fonts_034" src="#seg_fonts_034_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_035" attr="seg_fonts_035" src="#seg_fonts_035_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_036" attr="seg_fonts_036" src="#seg_fonts_036_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_037" attr="seg_fonts_037" src="#seg_fonts_037_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_038" attr="seg_fonts_038" src="#seg_fonts_038_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_039" attr="seg_fonts_039" src="#seg_fonts_039_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_040" attr="seg_fonts_040" src="#seg_fonts_040_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_041" attr="seg_fonts_041" src="#seg_fonts_041_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_042" attr="seg_fonts_042" src="#seg_fonts_042_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_043" attr="seg_fonts_043" src="#seg_fonts_043_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_044" attr="seg_fonts_044" src="#seg_fonts_044_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_045" attr="seg_fonts_045" src="#seg_fonts_045_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_046" attr="seg_fonts_046" src="#seg_fonts_046_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_047" attr="seg_fonts_047" src="#seg_fonts_047_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_048" attr="seg_fonts_048" src="#seg_fonts_048_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_049" attr="seg_fonts_049" src="#seg_fonts_049_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_050" attr="seg_fonts_050" src="#seg_fonts_050_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_051" attr="seg_fonts_051" src="#seg_fonts_051_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_052" attr="seg_fonts_052" src="#seg_fonts_052_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_053" attr="seg_fonts_053" src="#seg_fonts_053_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_054" attr="seg_fonts_054" src="#seg_fonts_054_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_055" attr="seg_fonts_055" src="#seg_fonts_055_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_056" attr="seg_fonts_056" src="#seg_fonts_056_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_057" attr="seg_fonts_057" src="#seg_fonts_057_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_058" attr="seg_fonts_058" src="#seg_fonts_058_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_059" attr="seg_fonts_059" src="#seg_fonts_059_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_060" attr="seg_fonts_060" src="#seg_fonts_060_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_061" attr="seg_fonts_061" src="#seg_fonts_061_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_062" attr="seg_fonts_062" src="#seg_fonts_062_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_063" attr="seg_fonts_063" src="#seg_fonts_063_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_064" attr="seg_fonts_064" src="#seg_fonts_064_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_065" attr="seg_fonts_065" src="#seg_fonts_065_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_066" attr="seg_fonts_066" src="#seg_fonts_066_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_067" attr="seg_fonts_067" src="#seg_fonts_067_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_068" attr="seg_fonts_068" src="#seg_fonts_068_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_069" attr="seg_fonts_069" src="#seg_fonts_069_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_070" attr="seg_fonts_070" src="#seg_fonts_070_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_071" attr="seg_fonts_071" src="#seg_fonts_071_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_072" attr="seg_fonts_072" src="#seg_fonts_072_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_073" attr="seg_fonts_073" src="#seg_fonts_073_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_074" attr="seg_fonts_074" src="#seg_fonts_074_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_075" attr="seg_fonts_075" src="#seg_fonts_075_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_076" attr="seg_fonts_076" src="#seg_fonts_076_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_077" attr="seg_fonts_077" src="#seg_fonts_077_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_078" attr="seg_fonts_078" src="#seg_fonts_078_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_079" attr="seg_fonts_079" src="#seg_fonts_079_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_080" attr="seg_fonts_080" src="#seg_fonts_080_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_081" attr="seg_fonts_081" src="#seg_fonts_081_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_082" attr="seg_fonts_082" src="#seg_fonts_082_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_083" attr="seg_fonts_083" src="#seg_fonts_083_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_084" attr="seg_fonts_084" src="#seg_fonts_084_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_085" attr="seg_fonts_085" src="#seg_fonts_085_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_086" attr="seg_fonts_086" src="#seg_fonts_086_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_087" attr="seg_fonts_087" src="#seg_fonts_087_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_088" attr="seg_fonts_088" src="#seg_fonts_088_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_089" attr="seg_fonts_089" src="#seg_fonts_089_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_090" attr="seg_fonts_090" src="#seg_fonts_090_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_091" attr="seg_fonts_091" src="#seg_fonts_091_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_092" attr="seg_fonts_092" src="#seg_fonts_092_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_093" attr="seg_fonts_093" src="#seg_fonts_093_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_094" attr="seg_fonts_094" src="#seg_fonts_094_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_095" attr="seg_fonts_095" src="#seg_fonts_095_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_096" attr="seg_fonts_096" src="#seg_fonts_096_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_097" attr="seg_fonts_097" src="#seg_fonts_097_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_098" attr="seg_fonts_098" src="#seg_fonts_098_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_099" attr="seg_fonts_099" src="#seg_fonts_099_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_100" attr="seg_fonts_100" src="#seg_fonts_100_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_101" attr="seg_fonts_101" src="#seg_fonts_101_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_fonts_102" attr="seg_fonts_102" src="#seg_fonts_102_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_001_item">
+		<Attributes>
+			<Table key="fonts_001_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/1.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_001_item" attr="fonts_001_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_002_item">
+		<Attributes>
+			<Table key="fonts_002_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/2.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_002_item" attr="fonts_002_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_003_item">
+		<Attributes>
+			<Table key="fonts_003_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/3.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_003_item" attr="fonts_003_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_004_item">
+		<Attributes>
+			<Table key="fonts_004_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/4.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_004_item" attr="fonts_004_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_005_item">
+		<Attributes>
+			<Table key="fonts_005_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/5.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_005_item" attr="fonts_005_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_006_item">
+		<Attributes>
+			<Table key="fonts_006_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/6.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_006_item" attr="fonts_006_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_007_item">
+		<Attributes>
+			<Table key="fonts_007_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/7.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_007_item" attr="fonts_007_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_008_item">
+		<Attributes>
+			<Table key="fonts_008_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/8.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_008_item" attr="fonts_008_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_009_item">
+		<Attributes>
+			<Table key="fonts_009_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/9.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_009_item" attr="fonts_009_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_010_item">
+		<Attributes>
+			<Table key="fonts_010_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/10.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_010_item" attr="fonts_010_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_011_item">
+		<Attributes>
+			<Table key="fonts_011_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/11.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_011_item" attr="fonts_011_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_012_item">
+		<Attributes>
+			<Table key="fonts_012_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/12.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_012_item" attr="fonts_012_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_013_item">
+		<Attributes>
+			<Table key="fonts_013_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/13.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_013_item" attr="fonts_013_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_014_item">
+		<Attributes>
+			<Table key="fonts_014_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/14.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_014_item" attr="fonts_014_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_015_item">
+		<Attributes>
+			<Table key="fonts_015_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/15.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_015_item" attr="fonts_015_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_016_item">
+		<Attributes>
+			<Table key="fonts_016_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/16.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_016_item" attr="fonts_016_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_017_item">
+		<Attributes>
+			<Table key="fonts_017_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/17.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_017_item" attr="fonts_017_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_018_item">
+		<Attributes>
+			<Table key="fonts_018_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/18.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_018_item" attr="fonts_018_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_019_item">
+		<Attributes>
+			<Table key="fonts_019_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/19.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_019_item" attr="fonts_019_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_020_item">
+		<Attributes>
+			<Table key="fonts_020_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/20.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_020_item" attr="fonts_020_item"/>
+		</Items>
+		</View>
+		
+			<View id="seg_fonts_021_item">
+		<Attributes>
+			<Table key="fonts_021_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/21.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_021_item" attr="fonts_021_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_022_item">
+		<Attributes>
+			<Table key="fonts_022_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/22.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_022_item" attr="fonts_022_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_023_item">
+		<Attributes>
+			<Table key="fonts_023_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/23.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_023_item" attr="fonts_023_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_024_item">
+		<Attributes>
+			<Table key="fonts_024_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/24.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_024_item" attr="fonts_024_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_025_item">
+		<Attributes>
+			<Table key="fonts_025_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/25.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_025_item" attr="fonts_025_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_026_item">
+		<Attributes>
+			<Table key="fonts_026_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/26.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_026_item" attr="fonts_026_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_027_item">
+		<Attributes>
+			<Table key="fonts_027_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/27.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_027_item" attr="fonts_027_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_028_item">
+		<Attributes>
+			<Table key="fonts_028_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/28.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_028_item" attr="fonts_028_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_029_item">
+		<Attributes>
+			<Table key="fonts_029_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/29.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_029_item" attr="fonts_029_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_030_item">
+		<Attributes>
+			<Table key="fonts_030_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/30.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_030_item" attr="fonts_030_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_031_item">
+		<Attributes>
+			<Table key="fonts_031_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/31.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_031_item" attr="fonts_031_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_032_item">
+		<Attributes>
+			<Table key="fonts_032_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/32.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_032_item" attr="fonts_032_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_033_item">
+		<Attributes>
+			<Table key="fonts_033_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/33.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_033_item" attr="fonts_033_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_034_item">
+		<Attributes>
+			<Table key="fonts_034_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/34.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_034_item" attr="fonts_034_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_035_item">
+		<Attributes>
+			<Table key="fonts_035_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/35.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_035_item" attr="fonts_035_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_036_item">
+		<Attributes>
+			<Table key="fonts_036_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/36.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_036_item" attr="fonts_036_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_037_item">
+		<Attributes>
+			<Table key="fonts_037_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/37.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_037_item" attr="fonts_037_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_038_item">
+		<Attributes>
+			<Table key="fonts_038_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/38.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_038_item" attr="fonts_038_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_039_item">
+		<Attributes>
+			<Table key="fonts_039_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/39.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_039_item" attr="fonts_039_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_040_item">
+		<Attributes>
+			<Table key="fonts_040_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/40.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_040_item" attr="fonts_040_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_041_item">
+		<Attributes>
+			<Table key="fonts_041_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/41.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_041_item" attr="fonts_041_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_042_item">
+		<Attributes>
+			<Table key="fonts_042_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/42.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_042_item" attr="fonts_042_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_043_item">
+		<Attributes>
+			<Table key="fonts_043_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/43.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_043_item" attr="fonts_043_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_044_item">
+		<Attributes>
+			<Table key="fonts_044_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/44.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_044_item" attr="fonts_044_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_045_item">
+		<Attributes>
+			<Table key="fonts_045_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/45.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_045_item" attr="fonts_045_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_046_item">
+		<Attributes>
+			<Table key="fonts_046_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/46.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_046_item" attr="fonts_046_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_047_item">
+		<Attributes>
+			<Table key="fonts_047_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/47.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_047_item" attr="fonts_047_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_048_item">
+		<Attributes>
+			<Table key="fonts_048_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/48.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_048_item" attr="fonts_048_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_049_item">
+		<Attributes>
+			<Table key="fonts_049_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/49.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_049_item" attr="fonts_049_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_050_item">
+		<Attributes>
+			<Table key="fonts_050_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/50.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_050_item" attr="fonts_050_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_051_item">
+		<Attributes>
+			<Table key="fonts_051_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/51.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_051_item" attr="fonts_051_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_052_item">
+		<Attributes>
+			<Table key="fonts_052_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/52.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_052_item" attr="fonts_052_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_053_item">
+		<Attributes>
+			<Table key="fonts_053_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/53.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_053_item" attr="fonts_053_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_054_item">
+		<Attributes>
+			<Table key="fonts_054_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/54.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_054_item" attr="fonts_054_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_055_item">
+		<Attributes>
+			<Table key="fonts_055_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/55.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_055_item" attr="fonts_055_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_056_item">
+		<Attributes>
+			<Table key="fonts_056_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/56.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_056_item" attr="fonts_056_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_057_item">
+		<Attributes>
+			<Table key="fonts_057_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/57.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_057_item" attr="fonts_057_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_058_item">
+		<Attributes>
+			<Table key="fonts_058_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/58.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_058_item" attr="fonts_058_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_059_item">
+		<Attributes>
+			<Table key="fonts_059_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/59.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_059_item" attr="fonts_059_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_060_item">
+		<Attributes>
+			<Table key="fonts_060_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/60.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_060_item" attr="fonts_060_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_061_item">
+		<Attributes>
+			<Table key="fonts_061_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/61.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_061_item" attr="fonts_061_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_062_item">
+		<Attributes>
+			<Table key="fonts_062_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/62.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_062_item" attr="fonts_062_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_063_item">
+		<Attributes>
+			<Table key="fonts_063_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/63.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_063_item" attr="fonts_063_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_064_item">
+		<Attributes>
+			<Table key="fonts_064_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/64.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_064_item" attr="fonts_064_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_065_item">
+		<Attributes>
+			<Table key="fonts_065_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/65.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_065_item" attr="fonts_065_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_066_item">
+		<Attributes>
+			<Table key="fonts_066_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/66.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_066_item" attr="fonts_066_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_067_item">
+		<Attributes>
+			<Table key="fonts_067_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/67.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_067_item" attr="fonts_067_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_068_item">
+		<Attributes>
+			<Table key="fonts_068_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/68.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_068_item" attr="fonts_068_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_069_item">
+		<Attributes>
+			<Table key="fonts_069_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/69.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_069_item" attr="fonts_069_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_070_item">
+		<Attributes>
+			<Table key="fonts_070_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/70.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_070_item" attr="fonts_070_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_071_item">
+		<Attributes>
+			<Table key="fonts_071_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/71.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_071_item" attr="fonts_071_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_072_item">
+		<Attributes>
+			<Table key="fonts_072_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/72.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_072_item" attr="fonts_072_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_073_item">
+		<Attributes>
+			<Table key="fonts_073_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/73.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_073_item" attr="fonts_073_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_074_item">
+		<Attributes>
+			<Table key="fonts_074_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/74.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_074_item" attr="fonts_074_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_075_item">
+		<Attributes>
+			<Table key="fonts_075_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/75.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_075_item" attr="fonts_075_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_076_item">
+		<Attributes>
+			<Table key="fonts_076_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/76.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_076_item" attr="fonts_076_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_077_item">
+		<Attributes>
+			<Table key="fonts_077_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/77.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_077_item" attr="fonts_077_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_078_item">
+		<Attributes>
+			<Table key="fonts_078_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/78.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_078_item" attr="fonts_078_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_079_item">
+		<Attributes>
+			<Table key="fonts_079_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/79.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_079_item" attr="fonts_079_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_080_item">
+		<Attributes>
+			<Table key="fonts_080_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/80.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_080_item" attr="fonts_080_item"/>
+		</Items>
+		</View>
+		
+			<View id="seg_fonts_081_item">
+		<Attributes>
+			<Table key="fonts_081_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/81.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_081_item" attr="fonts_081_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_082_item">
+		<Attributes>
+			<Table key="fonts_082_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/82.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_082_item" attr="fonts_082_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_083_item">
+		<Attributes>
+			<Table key="fonts_083_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/83.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_083_item" attr="fonts_083_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_084_item">
+		<Attributes>
+			<Table key="fonts_084_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/84.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_084_item" attr="fonts_084_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_085_item">
+		<Attributes>
+			<Table key="fonts_085_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/85.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_085_item" attr="fonts_085_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_086_item">
+		<Attributes>
+			<Table key="fonts_086_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/86.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_086_item" attr="fonts_086_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_087_item">
+		<Attributes>
+			<Table key="fonts_087_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/87.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_087_item" attr="fonts_087_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_088_item">
+		<Attributes>
+			<Table key="fonts_088_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/88.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_088_item" attr="fonts_088_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_089_item">
+		<Attributes>
+			<Table key="fonts_089_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/89.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_089_item" attr="fonts_089_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_090_item">
+		<Attributes>
+			<Table key="fonts_090_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/90.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_090_item" attr="fonts_090_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_091_item">
+		<Attributes>
+			<Table key="fonts_091_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/91.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_091_item" attr="fonts_091_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_092_item">
+		<Attributes>
+			<Table key="fonts_092_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/92.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_092_item" attr="fonts_092_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_093_item">
+		<Attributes>
+			<Table key="fonts_093_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/93.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_093_item" attr="fonts_093_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_094_item">
+		<Attributes>
+			<Table key="fonts_094_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/94.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_094_item" attr="fonts_094_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_095_item">
+		<Attributes>
+			<Table key="fonts_095_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/95.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_095_item" attr="fonts_095_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_096_item">
+		<Attributes>
+			<Table key="fonts_096_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/96.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_096_item" attr="fonts_096_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_097_item">
+		<Attributes>
+			<Table key="fonts_097_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   
+				</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/97.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_097_item" attr="fonts_097_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_098_item">
+		<Attributes>
+			<Table key="fonts_098_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/98.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_098_item" attr="fonts_098_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_099_item">
+		<Attributes>
+			<Table key="fonts_099_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/99.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_099_item" attr="fonts_099_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_100_item">
+		<Attributes>
+			<Table key="fonts_100_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/100.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_100_item" attr="fonts_100_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_101_item">
+		<Attributes>
+			<Table key="fonts_101_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/101.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_101_item" attr="fonts_101_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_fonts_102_item">
+		<Attributes>
+			<Table key="fonts_102_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Font will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue (XMB Refresh Required), Press  to go back.
+				
+				This will copy a SCE-PS3-RD-R-LATIN2.TTF file to dev_blind/data/font/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Font_Module/fonts/102.TTF#/dev_blind/data/font/SCE-PS3-RD-R-LATIN2.TTF</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="fonts_102_item" attr="fonts_102_item"/>
+		</Items>
+		</View>
+	
+</XMBML>

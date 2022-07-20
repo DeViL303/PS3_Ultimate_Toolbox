@@ -1,0 +1,868 @@
+<XMBML version="1.0">
+
+	<View id="remove_canyon_remap_item">
+		<Attributes>
+			<Table key="remove_canyon_remap">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/delete_hdd.png</></Pair>
+				<Pair key="title"><>Remove Canyon Resources</></Pair>
+				<Pair key="info"><>Delete these webMAN MOD related resources from HDD</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="remove_canyon_remap"	attr="remove_canyon_remap" src="#remove_canyon_remap_action_item"/>
+		</Items>
+	</View>
+
+	<View id="remove_canyon_remap_action_item">
+		<Attributes>
+			<Table key="remove_canyon_remap_action">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/warning_folder.png</></Pair>
+				<Pair key="title"><>Delete these wMM Related Resources?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This deletes the dev_hdd0/tmp/canyon/ folder that is used by wMM</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fdelete#/dev_hdd0/tmp/canyon</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="remove_canyon_remap_action" attr="remove_canyon_remap_action"/>
+		</Items>
+	</View>
+
+	<View id="wmm_canyon_remap_items">
+		<Attributes>
+			<Table key="seg_canyon_random">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_canyon.png</></Pair>
+				<Pair key="title"><>Set to Random</></Pair>
+				<Pair key="info"><>Set canyon.qrc remap rotation to random</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?0</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="seg_canyon_disable">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_canyon.png</></Pair>
+				<Pair key="title"><>Disable Remap</></Pair>
+				<Pair key="info"><>Remove webMAN MODs canyon.qrc remap</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?255</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_001">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/1.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 001</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/1.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?1</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_002">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/2.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 002</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/2.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?2</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_003">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/3.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 003</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/3.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?3</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_004">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/4.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 004</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/4.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?4</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_005">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/5.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 005</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/5.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?5</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_006">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/6.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 006</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/6.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?6</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_007">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/7.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 007</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/7.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?7</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_008">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/8.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 008</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/8.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?8</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_009">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/9.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 009</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/9.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?9</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_010">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/10.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 010</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/10.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?10</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_011">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/11.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 011</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/11.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?11</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_012">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/12.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 012</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/12.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?12</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_013">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/13.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 013</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/13.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?13</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_014">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/14.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 014</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/14.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?14</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_015">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/15.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 015</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/15.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?15</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_016">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/16.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 016</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/16.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?16</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_017">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/17.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 017</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/17.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?17</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_018">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/18.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 018</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/18.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?18</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_019">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/19.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 019</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/19.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?19</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_020">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/20.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 020</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/20.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?20</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_021">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/21.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 021</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/21.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?21</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_022">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/22.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 022</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/22.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?22</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_023">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/23.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 023</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/23.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?23</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_024">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/24.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 024</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/24.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?24</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_025">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/25.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 025</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/25.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?25</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_026">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/26.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 026</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/26.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?26</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_027">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/27.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 027</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/27.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?27</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_028">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/28.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 028</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/28.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?28</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_029">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/29.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 029</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/29.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?29</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_030">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/30.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 030</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/30.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?30</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_031">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/31.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 031</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/31.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?31</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_032">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/32.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 032</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/32.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?32</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_033">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/33.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 033</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/33.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?33</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_034">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/34.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 034</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/34.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?34</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_035">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/35.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 035</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/35.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?35</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_036">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/36.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 036</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/36.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?36</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_037">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/37.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 037</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/37.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?37</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_038">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/38.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 038</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/38.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?38</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_039">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/39.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 039</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/39.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?39</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_040">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/40.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 040</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/40.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?40</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_041">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/41.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 041</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/41.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?41</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_042">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/42.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 042</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/42.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?42</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_043">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/43.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 043</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/43.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?43</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_044">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/44.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 044</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/44.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?44</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_045">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/45.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 045</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/45.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?45</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_046">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/46.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 046</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/46.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?46</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_047">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/47.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 047</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/47.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?47</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_048">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/48.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 048</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/48.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?48</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_049">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/49.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 049</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/49.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?49</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_050">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/50.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 050</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/50.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?50</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_051">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/51.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 051</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/51.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?51</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_052">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/52.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 052</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/52.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?52</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_053">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/53.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 053</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/53.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?53</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_054">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/54.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 054</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/54.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?54</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_055">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/55.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 055</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/55.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?55</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_056">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/56.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 056</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/56.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?56</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+			<Table key="canyon_swap_item_057">
+				<Pair key="icon"><>/dev_hdd0/tmp/canyon/57.jpg</></Pair>
+				<Pair key="title"><>Remap to canyon 057</></Pair>
+				<Pair key="info"><>Redirect canyon.qrc to dev_hdd0/tmp/canyon/57.qrc</></Pair>
+				<Pair key="module_name"><>webrender_plugin</></Pair>
+				<Pair key="module_action"><>http://localhost/canyon.ps3?57</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_canyon_random"
+				attr="seg_canyon_random"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="seg_canyon_disable"
+				attr="seg_canyon_disable"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_001"
+				attr="canyon_swap_item_001"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_002"
+				attr="canyon_swap_item_002"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_003"
+				attr="canyon_swap_item_003"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_004"
+				attr="canyon_swap_item_004"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_005"
+				attr="canyon_swap_item_005"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_006"
+				attr="canyon_swap_item_006"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_007"
+				attr="canyon_swap_item_007"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_008"
+				attr="canyon_swap_item_008"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_009"
+				attr="canyon_swap_item_009"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_010"
+				attr="canyon_swap_item_010"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_011"
+				attr="canyon_swap_item_011"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_012"
+				attr="canyon_swap_item_012"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_013"
+				attr="canyon_swap_item_013"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_014"
+				attr="canyon_swap_item_014"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_015"
+				attr="canyon_swap_item_015"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_016"
+				attr="canyon_swap_item_016"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_017"
+				attr="canyon_swap_item_017"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_018"
+				attr="canyon_swap_item_018"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_019"
+				attr="canyon_swap_item_019"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_020"
+				attr="canyon_swap_item_020"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_021"
+				attr="canyon_swap_item_021"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_022"
+				attr="canyon_swap_item_022"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_023"
+				attr="canyon_swap_item_023"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_024"
+				attr="canyon_swap_item_024"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_025"
+				attr="canyon_swap_item_025"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_026"
+				attr="canyon_swap_item_026"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_027"
+				attr="canyon_swap_item_027"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_028"
+				attr="canyon_swap_item_028"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_029"
+				attr="canyon_swap_item_029"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_030"
+				attr="canyon_swap_item_030"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_031"
+				attr="canyon_swap_item_031"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_032"
+				attr="canyon_swap_item_032"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_033"
+				attr="canyon_swap_item_033"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_034"
+				attr="canyon_swap_item_034"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_035"
+				attr="canyon_swap_item_035"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_036"
+				attr="canyon_swap_item_036"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_037"
+				attr="canyon_swap_item_037"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_038"
+				attr="canyon_swap_item_038"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_039"
+				attr="canyon_swap_item_039"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_040"
+				attr="canyon_swap_item_040"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_041"
+				attr="canyon_swap_item_041"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_042"
+				attr="canyon_swap_item_042"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_043"
+				attr="canyon_swap_item_043"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_044"
+				attr="canyon_swap_item_044"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_045"
+				attr="canyon_swap_item_045"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_046"
+				attr="canyon_swap_item_046"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_047"
+				attr="canyon_swap_item_047"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_048"
+				attr="canyon_swap_item_048"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_049"
+				attr="canyon_swap_item_049"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_050"
+				attr="canyon_swap_item_050"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_051"
+				attr="canyon_swap_item_051"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_052"
+				attr="canyon_swap_item_052"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_053"
+				attr="canyon_swap_item_053"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_054"
+				attr="canyon_swap_item_054"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_055"
+				attr="canyon_swap_item_055"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_056"
+				attr="canyon_swap_item_056"
+				/>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_swap_item_057"
+				attr="canyon_swap_item_057"
+				/>
+		</Items>
+	</View>
+	
+</XMBML>

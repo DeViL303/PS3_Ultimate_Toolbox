@@ -1,0 +1,860 @@
+<XMBML version="1.0">
+
+	<View id="install_lines_items">
+		<Attributes>
+			<Table key="seg_lines_001">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/1.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Black (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_002">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/1.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Black (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_003">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/2.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Bright (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_004">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/2.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Bright (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_005">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/3.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Coldboot1 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_006">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/3.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Coldboot1 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_007">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/4.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Coldboot2 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_008">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/4.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Coldboot2 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_009">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/5.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Day (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_010">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/5.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Day (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_011">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/6.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot1 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_012">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/6.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot1 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_013">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/7.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot2 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_014">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/7.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot2 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_015">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/8.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot3 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_016">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/8.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot3 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_017">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/9.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot4 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_018">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/9.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot4 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_019">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/10.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot5 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_020">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/10.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Gameboot5 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_021">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/11.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Higure (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_022">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/11.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Higure (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_023">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/12.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Initial_setting (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_024">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/12.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Initial_setting (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_025">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/13.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Music_1 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_026">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/13.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Music_1 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_027">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/14.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Night  (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_028">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/14.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Night (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_029">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/15.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Welcome_1 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_030">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/15.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Welcome_1 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_031">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/16.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Welcome_2 (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_032">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/16.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Welcome_2 (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_033">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/17.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Yoake (Always)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+			<Table key="seg_lines_034">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_icons/17.jpg</></Pair>
+				<Pair key="title"><>Force Wave Preset: Yoake (Music Player Only)</></Pair>
+				<Pair key="info"><>Copy this custom wave file to flash   </></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_001" attr="seg_lines_001" src="#seg_lines_001_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_002" attr="seg_lines_002" src="#seg_lines_002_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_003" attr="seg_lines_003" src="#seg_lines_003_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_004" attr="seg_lines_004" src="#seg_lines_004_item"/>
+		<!--<Query class="type:x-xmb/folder-pixmap" key="seg_lines_005" attr="seg_lines_005" src="#seg_lines_005_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_006" attr="seg_lines_006" src="#seg_lines_006_item"/> -->
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_007" attr="seg_lines_007" src="#seg_lines_007_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_008" attr="seg_lines_008" src="#seg_lines_008_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_009" attr="seg_lines_009" src="#seg_lines_009_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_010" attr="seg_lines_010" src="#seg_lines_010_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_011" attr="seg_lines_011" src="#seg_lines_011_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_012" attr="seg_lines_012" src="#seg_lines_012_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_013" attr="seg_lines_013" src="#seg_lines_013_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_014" attr="seg_lines_014" src="#seg_lines_014_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_015" attr="seg_lines_015" src="#seg_lines_015_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_016" attr="seg_lines_016" src="#seg_lines_016_item"/>
+		<!--<Query class="type:x-xmb/folder-pixmap" key="seg_lines_017" attr="seg_lines_017" src="#seg_lines_017_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_018" attr="seg_lines_018" src="#seg_lines_018_item"/> -->
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_019" attr="seg_lines_019" src="#seg_lines_019_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_020" attr="seg_lines_020" src="#seg_lines_020_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_021" attr="seg_lines_021" src="#seg_lines_021_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_022" attr="seg_lines_022" src="#seg_lines_022_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_023" attr="seg_lines_023" src="#seg_lines_023_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_024" attr="seg_lines_024" src="#seg_lines_024_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_025" attr="seg_lines_025" src="#seg_lines_025_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_026" attr="seg_lines_026" src="#seg_lines_026_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_027" attr="seg_lines_027" src="#seg_lines_027_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_028" attr="seg_lines_028" src="#seg_lines_028_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_029" attr="seg_lines_029" src="#seg_lines_029_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_030" attr="seg_lines_030" src="#seg_lines_030_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_031" attr="seg_lines_031" src="#seg_lines_031_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_032" attr="seg_lines_032" src="#seg_lines_032_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_033" attr="seg_lines_033" src="#seg_lines_033_item"/>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_lines_034" attr="seg_lines_034" src="#seg_lines_034_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_001_item">
+		<Attributes>
+			<Table key="lines_001_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/1a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_001_item" attr="lines_001_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_002_item">
+		<Attributes>
+			<Table key="lines_002_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/1.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_002_item" attr="lines_002_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_003_item">
+		<Attributes>
+			<Table key="lines_003_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/2a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_003_item" attr="lines_003_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_004_item">
+		<Attributes>
+			<Table key="lines_004_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/2.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_004_item" attr="lines_004_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_005_item">
+		<Attributes>
+			<Table key="lines_005_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/3.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_005_item" attr="lines_005_item"/>
+		</Items>
+		</View>
+
+		<View id="seg_lines_006_item">
+		<Attributes>
+			<Table key="lines_006_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/3a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_006_item" attr="lines_006_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_007_item">
+		<Attributes>
+			<Table key="lines_007_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/4a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_007_item" attr="lines_007_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_008_item">
+		<Attributes>
+			<Table key="lines_008_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/4.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_008_item" attr="lines_008_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_009_item">
+		<Attributes>
+			<Table key="lines_009_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/5a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_009_item" attr="lines_009_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_010_item">
+		<Attributes>
+			<Table key="lines_010_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/5.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_010_item" attr="lines_010_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_011_item">
+		<Attributes>
+			<Table key="lines_011_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/6a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_011_item" attr="lines_011_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_012_item">
+		<Attributes>
+			<Table key="lines_012_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/6.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_012_item" attr="lines_012_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_013_item">
+		<Attributes>
+			<Table key="lines_013_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/7a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_013_item" attr="lines_013_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_014_item">
+		<Attributes>
+			<Table key="lines_014_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/7.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_014_item" attr="lines_014_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_015_item">
+		<Attributes>
+			<Table key="lines_015_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/8a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_015_item" attr="lines_015_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_016_item">
+		<Attributes>
+			<Table key="lines_016_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/8.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_016_item" attr="lines_016_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_017_item">
+		<Attributes>
+			<Table key="lines_017_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/9a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_017_item" attr="lines_017_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_018_item">
+		<Attributes>
+			<Table key="lines_018_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/9.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_018_item" attr="lines_018_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_019_item">
+		<Attributes>
+			<Table key="lines_019_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/10a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_019_item" attr="lines_019_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_020_item">
+		<Attributes>
+			<Table key="lines_020_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/10.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_020_item" attr="lines_020_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_021_item">
+		<Attributes>
+			<Table key="lines_021_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/11a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_021_item" attr="lines_021_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_022_item">
+		<Attributes>
+			<Table key="lines_022_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/11.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_022_item" attr="lines_022_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_023_item">
+		<Attributes>
+			<Table key="lines_023_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/12a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_023_item" attr="lines_023_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_024_item">
+		<Attributes>
+			<Table key="lines_024_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/12.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_024_item" attr="lines_024_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_025_item">
+		<Attributes>
+			<Table key="lines_025_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/13a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_025_item" attr="lines_025_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_026_item">
+		<Attributes>
+			<Table key="lines_026_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/13.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_026_item" attr="lines_026_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_027_item">
+		<Attributes>
+			<Table key="lines_027_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/14a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_027_item" attr="lines_027_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_028_item">
+		<Attributes>
+			<Table key="lines_028_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/14.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_028_item" attr="lines_028_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_029_item">
+		<Attributes>
+			<Table key="lines_029_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/15a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_029_item" attr="lines_029_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_030_item">
+		<Attributes>
+			<Table key="lines_030_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/15.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_030_item" attr="lines_030_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_031_item">
+		<Attributes>
+			<Table key="lines_031_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/16a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_031_item" attr="lines_031_item"/>
+		</Items>
+		</View>
+		
+		<View id="seg_lines_032_item">
+		<Attributes>
+			<Table key="lines_032_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/16.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_032_item" attr="lines_032_item"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_033_item">
+		<Attributes>
+			<Table key="lines_033_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/17a.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_033_item" attr="lines_033_item"/>
+		</Items>
+	</View>
+		
+	<View id="seg_lines_034_item">
+		<Attributes>
+			<Table key="lines_034_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/flash_warning.png</></Pair>
+				<Pair key="title"><>Current Wave will be overwritten, are you sure?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+				
+				This will copy a custom lines.qrc file to dev_blind/vsh/resource/qgl/   </></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Wave_Module/lines_mods/17.qrc#/dev_blind/vsh/resource/qgl/lines.qrc</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/module-action" key="lines_034_item" attr="lines_034_item"/>
+		</Items>
+	</View>
+
+</XMBML>

@@ -1,0 +1,482 @@
+<XMBML version="1.0">
+
+	<!-- C00 JP demos genre sorted items -->
+
+	<View id="C00_JP_genre_action_items">
+		<Attributes>
+			<Table key="item_NPJB00568"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Brothers_-_A_Tale_of_Two_Sons.jpg</></Pair> 
+				<Pair key="title"><>Brothers: A Tale of Two Sons</></Pair> 
+				<Pair key="info"><>Action-Adventure - 85/100 - 625 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00569"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/How_to_survive.jpg</></Pair> 
+				<Pair key="title"><>How to Survive</></Pair> 
+				<Pair key="info"><>Action-Adventure - TBD - 2177 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00789"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Life_Is_Strange_-_Episode_1_Chrysalis.jpg</></Pair> 
+				<Pair key="title"><>Life Is Strange: Episode 1 - Chrysalis</></Pair> 
+				<Pair key="info"><>Action-Adventure - TBD - 1150 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00537"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Pacific_Rim.jpg</></Pair> 
+				<Pair key="title"><>Pacific Rim</></Pair> 
+				<Pair key="info"><>Action-Adventure - TBD - 425 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00351"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Realms_of_the_ancient_War.jpg</></Pair> 
+				<Pair key="title"><>Realms of the Ancient War</></Pair> 
+				<Pair key="info"><>Action-Adventure - TBD - 846 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00373"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Rock_of_Ages.jpg</></Pair> 
+				<Pair key="title"><>Rock of Ages</></Pair> 
+				<Pair key="info"><>Action-Adventure - 68/100 - 568 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB90228"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Tank_Battles.jpg</></Pair> 
+				<Pair key="title"><>Tank Battles</></Pair> 
+				<Pair key="info"><>Action-Adventure - TBD - 103 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJA00087"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/The_Unfinished_Swan.jpg</></Pair> 
+				<Pair key="title"><>The Unfinished Swan</></Pair> 
+				<Pair key="info"><>Action-Adventure - 79/100 - 1440 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJA00091"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/When_Vikings_Attack.jpg</></Pair> 
+				<Pair key="title"><>When Vikings Attack!</></Pair> 
+				<Pair key="info"><>Action-Adventure - 73/100 - 747 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00176"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Zombie_Driver_HD.jpg</></Pair> 
+				<Pair key="title"><>Zombie Driver HD</></Pair> 
+				<Pair key="info"><>Action-Adventure - TBD - 1037 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00568" attr="item_NPJB00568" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00568_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00569" attr="item_NPJB00569" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00569_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00789" attr="item_NPJB00789" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00789_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00537" attr="item_NPJB00537" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00537_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00351" attr="item_NPJB00351" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00351_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00373" attr="item_NPJB00373" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00373_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB90228" attr="item_NPJB90228" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB90228_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJA00087" attr="item_NPJA00087" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJA00087_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJA00091" attr="item_NPJA00091" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJA00091_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00176" attr="item_NPJB00176" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00176_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_driving_items">
+		<Attributes>
+			<Table key="item_NPJB00139"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Burnout_CRASH.jpg</></Pair> 
+				<Pair key="title"><>Burnout Crash!</></Pair> 
+				<Pair key="info"><>Driving (Arcade) - 69/100 - 1057 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00153"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Joe_Danger.jpg</></Pair> 
+				<Pair key="title"><>Joe Danger</></Pair> 
+				<Pair key="info"><>Driving (Arcade) - 86/100 - 307 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00655"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Toybox_Turbos.jpg</></Pair> 
+				<Pair key="title"><>Toybox Turbos</></Pair> 
+				<Pair key="info"><>Driving (Arcade) - 78/100 - 232 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00139" attr="item_NPJB00139" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00139_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00153" attr="item_NPJB00153" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00153_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00655" attr="item_NPJB00655" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00655_main" />		
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_fighting_items">
+		<Attributes>
+			<Table key="item_NPJB00207"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/JoJo's_Bizarre_Adventure_HD_Version.jpg</></Pair> 
+				<Pair key="title"><>JoJo's Bizarre Adventure HD ver.</></Pair> 
+				<Pair key="info"><>Fighting (2D) - 64/100 - 650 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00025"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Marvel_VS_Capcom_2.jpg</></Pair> 
+				<Pair key="title"><>Marvel vs. Capcom 2</></Pair> 
+				<Pair key="info"><>Fighting (2D) - 85/100 - 200 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00628"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Skullgirls_Encore.jpg</></Pair> 
+				<Pair key="title"><>Skullgirls: Encore</></Pair> 
+				<Pair key="info"><>Fighting (2D) - TBD - 931 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00146"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Street_Fighter_III_3rd_Strike_Online_Edition.jpg</></Pair> 
+				<Pair key="title"><>Street Fighter III: Third Strike Online Edition</></Pair> 
+				<Pair key="info"><>Fighting (2D) - 86/100 - 623 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00169"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Real_Steel.jpg</></Pair> 
+				<Pair key="title"><>Real Steel</></Pair> 
+				<Pair key="info"><>Fighting (3D) - 41/100 - 343 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00546"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Final_Exam.jpg</></Pair> 
+				<Pair key="title"><>Final Exam</></Pair> 
+				<Pair key="info"><>Fighting (Beat'-Em-Up) - 60/100 - 727 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00068"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Scott_Pilgrim.jpg</></Pair> 
+				<Pair key="title"><>Scott Pilgrim Vs. The World: The Game</></Pair> 
+				<Pair key="info"><>Fighting (Beat'-Em-Up) - 77/100 - 178 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00207" attr="item_NPJB00207" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00207_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00025" attr="item_NPJB00025" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00025_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00628" attr="item_NPJB00628" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00628_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00146" attr="item_NPJB00146" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00146_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00169" attr="item_NPJB00169" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00169_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00546" attr="item_NPJB00546" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00546_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00068" attr="item_NPJB00068" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00068_main" />		
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_misc_items">
+		<Attributes>
+			<Table key="item_NPJB90226"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Brain_Challenge.jpg</></Pair> 
+				<Pair key="title"><>Brain Challenge</></Pair> 
+				<Pair key="info"><>Misc - TBD - 218 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00079"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/PAC-MAN_Championship_Edition_DX.jpg</></Pair> 
+				<Pair key="title"><>Pac-Man Championship Edition DX</></Pair> 
+				<Pair key="info"><>Misc - 91/100 - 248 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00536"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/PAC-MAN_Museum.jpg</></Pair> 
+				<Pair key="title"><>Pac-Man Museum</></Pair> 
+				<Pair key="info"><>Misc - 66/100 - 214 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00191"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/PixelJunk_4AM.jpg</></Pair> 
+				<Pair key="title"><>PixelJunk 4am</></Pair> 
+				<Pair key="info"><>Misc - 63/100 - 275 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00120"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Swarm.jpg</></Pair> 
+				<Pair key="title"><>Swarm</></Pair> 
+				<Pair key="info"><>Misc - 71/100 - 456 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB90218"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/TV_Show_King.jpg</></Pair> 
+				<Pair key="title"><>TV Show King</></Pair> 
+				<Pair key="info"><>Misc - TBD - 242 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00103"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Blokus.jpg</></Pair> 
+				<Pair key="title"><>Blokus</></Pair> 
+				<Pair key="info"><>Misc (Card game) - 76/100 - 252 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB90227"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/UNO.jpg</></Pair> 
+				<Pair key="title"><>UNO</></Pair> 
+				<Pair key="info"><>Misc (Card game) - TBD - 256 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB90226" attr="item_NPJB90226" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB90226_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00079" attr="item_NPJB00079" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00079_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00536" attr="item_NPJB00536" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00536_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00191" attr="item_NPJB00191" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00191_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00120" attr="item_NPJB00120" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00120_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB90218" attr="item_NPJB90218" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB90218_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00103" attr="item_NPJB00103" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00103_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB90227" attr="item_NPJB90227" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB90227_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_plateformer_items">
+		<Attributes>
+			<Table key="item_NPJB00154"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Black_Knight_Sword.jpg</></Pair> 
+				<Pair key="title"><>Black Knight Sword</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 66/100 - 763 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00445"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Castle_of_Illusion_Starring_Mickey_Mouse.jpg</></Pair> 
+				<Pair key="title"><>Castle Of Illusion Starring Mickey Mouse</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 72/100 - 448 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00115"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Earthworm_Jim_HD.jpg</></Pair> 
+				<Pair key="title"><>Earthworm Jim HD</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 70/100 - 226 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00476"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Giana_Sisters_Twisted_Dreams.jpg</></Pair> 
+				<Pair key="title"><>Giana Sisters: Twisted Dreams</></Pair> 
+				<Pair key="info"><>Platformer (2D) - TBD - 1695 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00612"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Guacamelee.jpg</></Pair> 
+				<Pair key="title"><>Guacamelee!</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 84/100 - 579 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00218"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Hell_Yeah_-_Wrath_of_the_Dead_Rabbit.jpg</></Pair> 
+				<Pair key="title"><>Hell Yeah! Wrath of the Dead Rabbit</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 68/100 - 2851 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00155"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Limbo.jpg</></Pair> 
+				<Pair key="title"><>LIMBO</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 90/100 - 94 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00168"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Rocketbirds_-_Hard_Boiled_Chicken.jpg</></Pair> 
+				<Pair key="title"><>Rocketbirds: Hardboiled Chicken</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 74/100 - 437 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00035"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Sonic_The_Hedgehog_4_Episode_1.jpg</></Pair> 
+				<Pair key="title"><>Sonic The Hedgehog 4: Episode I</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 74/100 - 199 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00164"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Sonic_The_Hedgehog_4_Episode_2.jpg</></Pair> 
+				<Pair key="title"><>Sonic The Hedgehog 4: Episode II</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 63/100 - 422 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00383"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Terraria.jpg</></Pair> 
+				<Pair key="title"><>Terraria</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 81/100 - 49 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00317"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/The_Cave.jpg</></Pair> 
+				<Pair key="title"><>The Cave</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 72/100 - 1026 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00113"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/The_Fancy_Pants_Adventures.jpg</></Pair> 
+				<Pair key="title"><>The Fancy Pants Adventures</></Pair> 
+				<Pair key="info"><>Platformer (2D) - 71/100 - 329 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00225"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Jet_Set_Radio.jpg</></Pair> 
+				<Pair key="title"><>Jet Set Radio</></Pair> 
+				<Pair key="info"><>Platformer (3D) - 75/100 - 1145 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJA00089"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Ratchet_and_Clank_-_Q_Force.jpg</></Pair> 
+				<Pair key="title"><>Ratchet & Clank: Full Frontal Assault</></Pair> 
+				<Pair key="info"><>Platformer (3D) - 64/100 - 3684 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00188"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Sonic_Adventure_2.jpg</></Pair> 
+				<Pair key="title"><>Sonic Adventure 2</></Pair> 
+				<Pair key="info"><>Platformer (3D) - 65/100 - 3137 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00154" attr="item_NPJB00154" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00154_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00445" attr="item_NPJB00445" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00445_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00115" attr="item_NPJB00115" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00115_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00476" attr="item_NPJB00476" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00476_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00612" attr="item_NPJB00612" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00612_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00218" attr="item_NPJB00218" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00218_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00155" attr="item_NPJB00155" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00155_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00168" attr="item_NPJB00168" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00168_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00035" attr="item_NPJB00035" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00035_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00164" attr="item_NPJB00164" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00164_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00383" attr="item_NPJB00383" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00383_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00317" attr="item_NPJB00317" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00317_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00113" attr="item_NPJB00113" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00113_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00225" attr="item_NPJB00225" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00225_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJA00089" attr="item_NPJA00089" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJA00089_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00188" attr="item_NPJB00188" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00188_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_puzzle_items">
+		<Attributes>
+			<Table key="item_NPJB00208"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Quantum_Conundrum.jpg</></Pair> 
+				<Pair key="title"><>Quantum Conundrum</></Pair> 
+				<Pair key="info"><>Puzzle - 79/100 - 1650 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00136"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Tetris.jpg</></Pair> 
+				<Pair key="title"><>Tetris</></Pair> 
+				<Pair key="info"><>Puzzle - 80/100 - 75 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00069"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Voodoo_Dice.jpg</></Pair> 
+				<Pair key="title"><>Voodoo Dice</></Pair> 
+				<Pair key="info"><>Puzzle - TBD - 131 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00208" attr="item_NPJB00208" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00208_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00136" attr="item_NPJB00136" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00136_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00069" attr="item_NPJB00069" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00069_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_rpg_items">
+		<Attributes>
+			<Table key="item_NPJB00305"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Battle_of_Titles_EX.jpg</></Pair> 
+				<Pair key="title"><>Battle of Tiles EX</></Pair> 
+				<Pair key="info"><>RPG - TBD - 61 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00561"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Child_of_Light.jpg</></Pair> 
+				<Pair key="title"><>Child of Light</></Pair> 
+				<Pair key="info"><>RPG - 89/100 - 2009 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00101"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Dungeon_Hunter_Alliance.jpg</></Pair> 
+				<Pair key="title"><>Dark Quest: Alliance</></Pair> 
+				<Pair key="info"><>RPG - TBD - 1021 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00099"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Wizardry_Torawareshi_Bourei_no_Machi.jpg</></Pair> 
+				<Pair key="title"><>Wizardry: Torawareshi Bourei no Machi</></Pair> 
+				<Pair key="info"><>RPG - TBD - 839 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00039"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Wizardry_Torawareshi_Tamashii_No_Meikyu.jpg</></Pair> 
+				<Pair key="title"><>Wizardry: Torawareshi Tamashii No Meikyu</></Pair> 
+				<Pair key="info"><>RPG - TBD - 623 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00305" attr="item_NPJB00305" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00305_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00561" attr="item_NPJB00561" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00561_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00101" attr="item_NPJB00101" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00101_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00099" attr="item_NPJB00099" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00099_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00039" attr="item_NPJB00039" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00039_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_shooter_items">
+		<Attributes>
+			<Table key="item_NPJB00575"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Alien_Rage.jpg</></Pair> 
+				<Pair key="title"><>Alien Rage</></Pair> 
+				<Pair key="info"><>Shooter (FPS) - TBD - 2681 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00027"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Battlefield_1943.jpg</></Pair> 
+				<Pair key="title"><>Battlefield 1943</></Pair> 
+				<Pair key="info"><>Shooter (FPS) - 84/100 - 565 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00394"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Call_of_Juarez_-_Gunslinger.jpg</></Pair> 
+				<Pair key="title"><>Call Of Juarez: Gunslinger</></Pair> 
+				<Pair key="info"><>Shooter (FPS) - 75/100 - 1962 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJA00071"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Killzone_3_Multiplayer.jpg</></Pair> 
+				<Pair key="title"><>Killzone 3: Multiplayer</></Pair> 
+				<Pair key="info"><>Shooter (FPS) - TBD - 4068 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJA90165"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/MAG.jpg</></Pair> 
+				<Pair key="title"><>MAG</></Pair> 
+				<Pair key="info"><>Shooter (FPS) - 76/100 - 4769 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00102"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Modern_Combat_Domination.jpg</></Pair> 
+				<Pair key="title"><>Modern Combat: Domination</></Pair> 
+				<Pair key="info"><>Shooter (FPS) - 67/100 - 698 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00080"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Galaga_Legions_DX.jpg</></Pair> 
+				<Pair key="title"><>Galaga Legions DX</></Pair> 
+				<Pair key="info"><>Shooter (Shoot-'Em-Up) - TBD - 134 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00614"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Gatling_Gears.jpg</></Pair> 
+				<Pair key="title"><>Gatling Gears</></Pair> 
+				<Pair key="info"><>Shooter (Shoot-'Em-Up) - 76/100 - 1453 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJA00047"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Gravity_Crash.jpg</></Pair> 
+				<Pair key="title"><>Gravity Crash</></Pair> 
+				<Pair key="info"><>Shooter (Shoot-'Em-Up) - 73/100 - 180 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00081"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Hard_Corps_Uprising.jpg</></Pair> 
+				<Pair key="title"><>Hard Corps: Uprising</></Pair> 
+				<Pair key="info"><>Shooter (Shoot-'Em-Up) - 76/100 - 1354 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00097"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/MicroBot.jpg</></Pair> 
+				<Pair key="title"><>MicroBot</></Pair> 
+				<Pair key="info"><>Shooter (Shoot-'Em-Up) - 62/100 - 148 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00297"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/R-Type_Dimensions.jpg</></Pair> 
+				<Pair key="title"><>R-Type Dimensions</></Pair> 
+				<Pair key="info"><>Shooter (Shoot-'Em-Up) - 82/100 - 274 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00609"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Bloodrayne_-_Crimson_Slayer.jpg</></Pair> 
+				<Pair key="title"><>Bloodrayne: Crimson Slayer</></Pair> 
+				<Pair key="info"><>Shooter (TPS) - 69/100 - 975 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00575" attr="item_NPJB00575" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00575_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00027" attr="item_NPJB00027" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00027_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00394" attr="item_NPJB00394" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00394_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJA00071" attr="item_NPJA00071" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJA00071_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJA90165" attr="item_NPJA90165" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJA90165_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00102" attr="item_NPJB00102" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00102_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00080" attr="item_NPJB00080" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00080_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00614" attr="item_NPJB00614" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00614_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJA00047" attr="item_NPJA00047" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJA00047_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00081" attr="item_NPJB00081" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00081_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00097" attr="item_NPJB00097" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00097_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00297" attr="item_NPJB00297" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00297_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00609" attr="item_NPJB00609" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00609_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_sports_items">
+		<Attributes>
+			<Table key="item_NPJB00019"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/3_on_3_NHL_Arcade.jpg</></Pair> 
+				<Pair key="title"><>3 on 3 NHL Arcade</></Pair> 
+				<Pair key="info"><>Sports - 66/100 - 190 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00019" attr="item_NPJB00019" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00019_main" />
+		</Items>
+		</View>
+
+	<View id="C00_JP_genre_strategy_items">
+		<Attributes>
+			<Table key="item_NPJB00723"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Castlestorm.jpg</></Pair> 
+				<Pair key="title"><>CastleStorm</></Pair> 
+				<Pair key="info"><>Strategy - TBD - 429 MB   </></Pair> 
+			</Table>
+			<Table key="item_NPJB00142"> 
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/demo_icons/Magic_the_Gathering_-_Duels_of_the_Planeswalkers.jpg</></Pair> 
+				<Pair key="title"><>Magic: The Gathering - Duels of the Planeswalkers 2012</></Pair> 
+				<Pair key="info"><>Strategy - 74/100 - 490 MB   </></Pair> 
+			</Table>
+		</Attributes>
+		<Items>
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00723" attr="item_NPJB00723" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00723_main" />
+			<Query  class="type:x-xmb/folder-pixmap" key="item_NPJB00142" attr="item_NPJB00142" src="xmb://localhost/dev_hdd0/game/ULTOOLBOX/USRDIR/modules/Downloader_Module/xmls/C00_ALL_download_links.xml#item_NPJB00142_main" />
+		</Items>
+		</View>	
+</XMBML>

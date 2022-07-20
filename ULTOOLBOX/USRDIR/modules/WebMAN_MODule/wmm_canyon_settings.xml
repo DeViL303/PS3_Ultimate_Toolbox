@@ -1,0 +1,98 @@
+<XMBML version="1.0">
+
+	<View id="wmm_canyon_settings_main">
+		<Attributes>
+			<Table key="wmm_canyon_settings">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/toggle_canyon.png</></Pair>
+				<Pair key="title"><>Canyon Settings (wMM)</></Pair>
+				<Pair key="info"><>Canyon settings that require webMAN MOD</></Pair>
+				<Pair key="str_noitem"><>msg_error_no_content</></Pair>
+				<Pair key="child"><>segment</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_canyon_settings"	attr="wmm_canyon_settings" src="#wmm_canyon_settings_menu"/>
+		</Items>
+	</View>
+
+	<View id="wmm_canyon_settings_menu">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_canyon_settings" src="#wmm_canyon_settings_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="wmm_canyon_remap" src="xmb://localhost/dev_hdd0/tmp/canyon/wmm_canyon_remap.xml#wmm_canyon_remap_items"/>
+		</Items>
+	</View>
+
+	<View id="wmm_canyon_settings_items">
+		<Attributes>
+			<Table key="seg_canyon_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Canyon Visualizations to HDD</></Pair>
+				<Pair key="info"><>Copy all available canyon.qrcs to dev_hdd0/tmp/canyon/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_canyon_hdd" attr="seg_canyon_hdd" src="#seg_canyon_hdd_item"/>
+		</Items>
+	</View>
+
+	<View id="seg_canyon_hdd_item">
+		<Attributes>
+			<Table key="canyon_hdd_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>All Visualizations Currently on HDD will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This will copy all available canyon.qrc files to dev_hdd0/tmp/canyon/
+
+				After selecting this option, Back out of the menu then enter it again to see the new webMAN MOD specific options</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/canyon_mods#/dev_hdd0/tmp/canyon#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/canyon_icons#/dev_hdd0/tmp/canyon</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_hdd_item"
+				attr="canyon_hdd_item"
+				/>
+		</Items>
+	</View>
+	
+	<View id="wmm_canyon_settings_items_resources">
+		<Attributes>
+			<Table key="seg_canyon_hdd">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd.png</></Pair>
+				<Pair key="title"><>Install All Canyon Visualizations to HDD</></Pair>
+				<Pair key="info"><>Copy all available canyon.qrcs to dev_hdd0/tmp/canyon/</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="seg_canyon_hdd" attr="seg_canyon_hdd" src="#seg_canyon_hdd_item_setup"/>
+		</Items>
+	</View>
+	
+	<View id="seg_canyon_hdd_item_setup">
+		<Attributes>
+			<Table key="canyon_hdd_item">
+				<Pair key="icon"><>/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/hdd_warning.png</></Pair>
+				<Pair key="title"><>All Visualizations Currently on HDD will be overwritten?</></Pair>
+				<Pair key="info"><>Press  to continue, Press  to go back.
+
+				This will copy all available canyon.qrc files to dev_hdd0/tmp/canyon/</></Pair>
+				<Pair key="module_name"><>videodownloader_plugin</></Pair>
+				<Pair key="module_action"><>fcopy#/dev_hdd0/game/ULTOOLBOX/USRDIR/patches/canyon_mods#/dev_hdd0/tmp/canyon#/dev_hdd0/game/ULTOOLBOX/USRDIR/icon/canyon_icons#/dev_hdd0/tmp/canyon</></Pair>
+				<Pair key="bar_action"><>none</></Pair>
+				<Pair key="lbl_half"><>1</></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/module-action"
+				key="canyon_hdd_item"
+				attr="canyon_hdd_item"
+				/>
+		</Items>
+	</View>
+</XMBML>

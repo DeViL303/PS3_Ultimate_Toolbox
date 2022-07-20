@@ -1,0 +1,54 @@
+#MNU_1.0
+emit vel min:float:0.15064
+emit vel mul:float:0.19
+emit vel var:float:0.282567
+emit cone angle:float:51.8695
+emit neg prob:float:0.173899
+emit vel zscale:float:0
+emit per frame:float:16.6539
+emit prob:float:0.479115
+aging speed:float:0.00285223
+aging variance:float:0.493003
+friction:float:0.030551
+spin time scale:float:2.74
+delta time:float:0.0088883
+gravity:float:-6.8e-05
+wind dir x:float:0.340188
+wind dir y:float:0
+wind dir z:float:0.35
+wind scale:float:0
+wind scale 10:float:0
+brownian scale:float:0.225311
+spot pos x:float:4.16
+spot pos y:float:2.63
+spot pos z:float:-7.6
+spot attn x:float:1
+spot attn y:float:0
+spot attn z:float:0
+specular power:float:35.2904
+specular coeff:float:74.74
+lambert coeff:float:8
+exposure:float:0.0390458
+fresnel:float:1.33319
+color_control:float:1
+iridescent exp:float:1
+global alpha:float:0
+size middle:float:0.0536233
+size near:float:0.0772033
+size far:float:0.874062
+near focus:float:6.12435
+near focus_dist:float:1.3193
+near focus_pow:float:2.47206
+near darkness:float:6.24028
+near fuzziness:float:3.79
+far focus:float:12.8327
+far focus_dist:float:3.54129
+far focus_pow:float:1.83324
+far darkness:float:13.9
+near align:float:0.722
+size align:float:13.19
+glare:float:0.159705
+glare scale:float:5.44386
+glare p1:float:0.99
+glare p2:float:4.44
+
